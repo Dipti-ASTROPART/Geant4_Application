@@ -19,6 +19,10 @@ MyDetectorConstruction::MyDetectorConstruction()
 MyDetectorConstruction::~MyDetectorConstruction()
 {
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 671b135 (Minor update to the detector construction class)
     delete   matNaI;
     delete   matAir;
     delete   matG3SC;
@@ -99,13 +103,18 @@ void    MyDetectorConstruction::BuildCylindricalDetector()
 
     // Set visualization attributes (optional)
     G4VisAttributes* scVisAttr = new G4VisAttributes();
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 671b135 (Minor update to the detector construction class)
     scVisAttr->SetColor(G4Colour(176,196,222, 0.5));
     scVisAttr->SetVisibility(true);
     scVisAttr->SetForceSolid(true);
     logicDet->SetVisAttributes(scVisAttr);
 
     physDet = new G4PVPlacement(0,                      // no rotation
+<<<<<<< HEAD
             G4ThreeVector(0, 0, detHeight/2.0),       // shifted position for detector
             logicDet,               // logical volume for detector
             "CylindricalSolid",     // name
@@ -113,6 +122,15 @@ void    MyDetectorConstruction::BuildCylindricalDetector()
             false,                  // no boolean operations
             0,                      // copy number
             checkOverlaps);         // checking overlaps
+=======
+                          G4ThreeVector(0, 0, detHeight/2.0),       // shifted position for detector
+                          logicDet,               // logical volume for detector
+                          "CylindricalSolid",     // name
+                          logicWorld,             // mother volume
+                          false,                  // no boolean operations
+                          0,                      // copy number
+                          checkOverlaps);         // checking overlaps
+>>>>>>> 671b135 (Minor update to the detector construction class)
 
 }   //  ::BuildCylindricalDetector()
 
@@ -138,22 +156,30 @@ void    MyDetectorConstruction::BuildCylindricalDetectorWithTyvek()
     // Set visualization attributes (optional)
     G4VisAttributes* scVisAttr = new G4VisAttributes();
     G4VisAttributes* tyvekVisAttr = new G4VisAttributes();
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 671b135 (Minor update to the detector construction class)
     scVisAttr->SetColor(G4Colour(176,196,222, 0.5));
     scVisAttr->SetVisibility(true);
     scVisAttr->SetForceSolid(true);
     logicDet->SetVisAttributes(scVisAttr);
 
+<<<<<<< HEAD
     const G4int num = 2;
 
     G4double photonEnergy[num] = {2.0*eV, 3.0*eV};  //  visible photon energy range
     G4double reflectivity[num] = {0.90, 0.90};      //  Reflectiity of the tyvek surface
     G4double refIndex[num] = {1.0003, 1.0003};      //  Reflectiity of the tyvek surface
 
+=======
+>>>>>>> 671b135 (Minor update to the detector construction class)
     // Initiate an optical surface
     G4OpticalSurface *tyvekSurface = new G4OpticalSurface("TyvekSurface");
     tyvekSurface->SetType(dielectric_metal);       //  Dielectric 
     tyvekSurface->SetModel(unified);
+<<<<<<< HEAD
     tyvekSurface->SetFinish(polished);                  //  Surface finishing type
 
     // Initiate material properties table
@@ -171,12 +197,30 @@ void    MyDetectorConstruction::BuildCylindricalDetectorWithTyvek()
         0,                      // copy number
         checkOverlaps);         // checking overlaps
         */
+=======
+    tyvekSurface->SetFinish(ground);                  //  Surface finishing type
+
+    // Initiate material properties table
+    G4MaterialPropertiesTable *tyvekMPT = new G4MaterialPropertiesTable();
+    const G4int num = 2;
+
+    G4double photonEnergy[num] = {2.0*eV, 3.0*eV};  //  visible photon energy range
+    G4double reflectivity[num] = {0.90, 0.90};      //  Reflectiity of the tyvek surface
+
+    tyvekMPT->AddProperty("REFLECTIVITY", photonEnergy, reflectivity, num);
+    tyvekSurface->SetMaterialPropertiesTable(tyvekMPT);
+
+>>>>>>> 671b135 (Minor update to the detector construction class)
     for (int i = 0; i < 5; ++i) 
     {
         // Calculate z position for each detector
         G4double zPositionDetector = i*detHeight + detHeight/2.0;
         G4ThreeVector positionDetector = G4ThreeVector(0, 0, zPositionDetector);
+<<<<<<< HEAD
         G4VPhysicalVolume *physDet = new G4PVPlacement(0,                      // no rotation
+=======
+        new G4PVPlacement(0,                      // no rotation
+>>>>>>> 671b135 (Minor update to the detector construction class)
                 positionDetector,       // shifted position for detector
                 logicDet,               // logical volume for detector
                 "CylindricalSolid",     // name
@@ -184,7 +228,10 @@ void    MyDetectorConstruction::BuildCylindricalDetectorWithTyvek()
                 false,                  // no boolean operations
                 i,                      // copy number
                 checkOverlaps);         // checking overlaps
+<<<<<<< HEAD
 
+=======
+>>>>>>> 671b135 (Minor update to the detector construction class)
     }
 
     //new G4LogicalSkinSurface("TyvekSurface", logicDet, tyvekSurface);
@@ -368,8 +415,14 @@ void    MyDetectorConstruction::DefineMaterial()
 
     ///< Define Tyvek material made up of polyethylene
 
+<<<<<<< HEAD
     // Instanciate the G4NistManager
     G4NistManager *nist   =   G4NistManager::Instance();
+=======
+    // Define the elements for the materials
+    G4NistManager* nist = G4NistManager::Instance();
+
+>>>>>>> 671b135 (Minor update to the detector construction class)
 
     matAir  = nist->FindOrBuildMaterial("G4_AIR");
 
@@ -382,7 +435,11 @@ void    MyDetectorConstruction::DefineMaterial()
     G4MaterialPropertiesTable *airMPT = new G4MaterialPropertiesTable();
     airMPT->AddProperty("RINDEX", photonEnergy, refractiveIndex, nEntries);
     matAir->SetMaterialPropertiesTable(airMPT);
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 671b135 (Minor update to the detector construction class)
     matTyvek = new G4Material("matTyvek", 0.92 * g/cm3, 2);
     matTyvek->AddElement(nist->FindOrBuildElement("C"), 2);
     matTyvek->AddElement(nist->FindOrBuildElement("H"), 4);
@@ -433,7 +490,11 @@ G4Material  *MyDetectorConstruction::G3ScintillatorMaterial()
     polystyrene->AddElement(C, 9);
     polystyrene->AddElement(H, 10);
 
+<<<<<<< HEAD
     // Define para-Terphenyl (c18H14)
+=======
+   // Define para-Terphenyl (c18H14)
+>>>>>>> 671b135 (Minor update to the detector construction class)
     G4Material* ppo = new G4Material("PPO", 1.24 * g / cm3, 2);
     ppo->AddElement(C, 18);
     ppo->AddElement(H, 14);
@@ -458,6 +519,7 @@ G4Material  *MyDetectorConstruction::G3ScintillatorMaterial()
                                                   //scintillator->AddMaterial(cds, 0.02);        // 0.2% CdS
 
     std::vector<G4double> wls_Energy = { 2.00 * eV, 2.87 * eV, 2.90 * eV, 3.47 * eV };
+<<<<<<< HEAD
     std::vector<G4double> rIndexPstyrene = { 0.1, 0.1, 0.1, 0.1 };
     std::vector<G4double> reflectivityPstyrene = { 0.90, 0.90, 0.90, 0.90 };
     std::vector<G4double> absorption1    = { 2. * cm, 2. * cm, 2. * cm, 2. * cm };
@@ -466,6 +528,14 @@ G4Material  *MyDetectorConstruction::G3ScintillatorMaterial()
     auto mptG3SC = new G4MaterialPropertiesTable();
     mptG3SC->AddProperty("RINDEX", wls_Energy, rIndexPstyrene);
     //mptG3SC->AddProperty("REFLECTIVITY", wls_Energy, reflectivityPstyrene);
+=======
+    std::vector<G4double> rIndexPstyrene = { 1.5, 1.5, 1.5, 1.5 };
+    std::vector<G4double> absorption1    = { 2. * cm, 2. * cm, 2. * cm, 2. * cm };
+    std::vector<G4double> scintilFast    = { 0.0, 0.0, 1.0, 1.0 };
+    
+    auto mptG3SC = new G4MaterialPropertiesTable();
+    mptG3SC->AddProperty("RINDEX", wls_Energy, rIndexPstyrene);
+>>>>>>> 671b135 (Minor update to the detector construction class)
     mptG3SC->AddProperty("ABSLENGTH", wls_Energy, absorption1);
     mptG3SC->AddProperty("SCINTILLATIONCOMPONENT1", wls_Energy, scintilFast);
     mptG3SC->AddConstProperty("SCINTILLATIONYIELD", 10. / keV);

@@ -53,10 +53,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/grapes/Programs/G4Sim
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/grapes/Programs/G4Sim/build
+=======
+CMAKE_SOURCE_DIR = /home/dipti/Programs/G4Sim
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/dipti/Programs/G4Sim/build
+>>>>>>> 671b135 (Minor update to the detector construction class)
 
 # Utility rule file for G4Sim.
 
@@ -81,6 +88,10 @@ CMakeFiles/G4Sim.dir/clean:
 .PHONY : CMakeFiles/G4Sim.dir/clean
 
 CMakeFiles/G4Sim.dir/depend:
+<<<<<<< HEAD
 	cd /home/grapes/Programs/G4Sim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/grapes/Programs/G4Sim /home/grapes/Programs/G4Sim /home/grapes/Programs/G4Sim/build /home/grapes/Programs/G4Sim/build /home/grapes/Programs/G4Sim/build/CMakeFiles/G4Sim.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/dipti/Programs/G4Sim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dipti/Programs/G4Sim /home/dipti/Programs/G4Sim /home/dipti/Programs/G4Sim/build /home/dipti/Programs/G4Sim/build /home/dipti/Programs/G4Sim/build/CMakeFiles/G4Sim.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> 671b135 (Minor update to the detector construction class)
 .PHONY : CMakeFiles/G4Sim.dir/depend
 

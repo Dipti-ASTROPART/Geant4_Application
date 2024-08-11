@@ -54,10 +54,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/grapes/Programs/G4Sim
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/grapes/Programs/G4Sim/build
+=======
+CMAKE_SOURCE_DIR = /home/dipti/Programs/G4Sim
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/dipti/Programs/G4Sim/build
+>>>>>>> 671b135 (Minor update to the detector construction class)
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -84,14 +91,24 @@ clean: CMakeFiles/success.dir/clean
 CMakeFiles/g4sim.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/g4sim.dir/build.make CMakeFiles/g4sim.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/g4sim.dir/build.make CMakeFiles/g4sim.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/grapes/Programs/G4Sim/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target g4sim"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dipti/Programs/G4Sim/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target g4sim"
+>>>>>>> 671b135 (Minor update to the detector construction class)
 .PHONY : CMakeFiles/g4sim.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/g4sim.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/grapes/Programs/G4Sim/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/g4sim.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/grapes/Programs/G4Sim/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dipti/Programs/G4Sim/build/CMakeFiles 11
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/g4sim.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dipti/Programs/G4Sim/build/CMakeFiles 0
+>>>>>>> 671b135 (Minor update to the detector construction class)
 .PHONY : CMakeFiles/g4sim.dir/rule
 
 # Convenience name for target.
@@ -111,14 +128,24 @@ CMakeFiles/G4Sim.dir/all: CMakeFiles/g4sim.dir/all
 CMakeFiles/G4Sim.dir/all: CMakeFiles/success.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/G4Sim.dir/build.make CMakeFiles/G4Sim.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/G4Sim.dir/build.make CMakeFiles/G4Sim.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/grapes/Programs/G4Sim/build/CMakeFiles --progress-num= "Built target G4Sim"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dipti/Programs/G4Sim/build/CMakeFiles --progress-num= "Built target G4Sim"
+>>>>>>> 671b135 (Minor update to the detector construction class)
 .PHONY : CMakeFiles/G4Sim.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/G4Sim.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/grapes/Programs/G4Sim/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/G4Sim.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/grapes/Programs/G4Sim/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dipti/Programs/G4Sim/build/CMakeFiles 11
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/G4Sim.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dipti/Programs/G4Sim/build/CMakeFiles 0
+>>>>>>> 671b135 (Minor update to the detector construction class)
 .PHONY : CMakeFiles/G4Sim.dir/rule
 
 # Convenience name for target.
@@ -137,14 +164,24 @@ CMakeFiles/G4Sim.dir/clean:
 CMakeFiles/success.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/success.dir/build.make CMakeFiles/success.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/success.dir/build.make CMakeFiles/success.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/grapes/Programs/G4Sim/build/CMakeFiles --progress-num= "Built target success"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dipti/Programs/G4Sim/build/CMakeFiles --progress-num= "Built target success"
+>>>>>>> 671b135 (Minor update to the detector construction class)
 .PHONY : CMakeFiles/success.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/success.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/grapes/Programs/G4Sim/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/success.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/grapes/Programs/G4Sim/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dipti/Programs/G4Sim/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/success.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dipti/Programs/G4Sim/build/CMakeFiles 0
+>>>>>>> 671b135 (Minor update to the detector construction class)
 .PHONY : CMakeFiles/success.dir/rule
 
 # Convenience name for target.

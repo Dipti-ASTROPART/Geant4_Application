@@ -1,4 +1,5 @@
 CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: \
+<<<<<<< HEAD
  /home/grapes/Programs/G4Sim/src/g4PhysicsList.cc \
  /usr/include/stdc-predef.h \
  /home/grapes/Programs/G4Sim/inc/g4PhysicsList.hh \
@@ -12,6 +13,13 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: \
  /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Types.hh \
  /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4GlobalConfig.hh \
  /usr/include/c++/11/complex \
+=======
+ /home/dipti/Programs/G4Sim/src/g4PhysicsList.cc \
+ /usr/include/stdc-predef.h \
+ /home/dipti/Programs/G4Sim/inc/g4PhysicsList.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VModularPhysicsList.hh \
+ /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -23,8 +31,45 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
  /usr/include/c++/11/pstl/pstl_config.h \
+<<<<<<< HEAD
  /usr/include/c++/11/bits/cpp_type_traits.h \
  /usr/include/c++/11/ext/type_traits.h /usr/include/c++/11/cmath \
+=======
+ /usr/include/c++/11/bits/functexcept.h \
+ /usr/include/c++/11/bits/exception_defines.h \
+ /usr/include/c++/11/bits/cpp_type_traits.h \
+ /usr/include/c++/11/ext/type_traits.h \
+ /usr/include/c++/11/ext/numeric_traits.h \
+ /usr/include/c++/11/bits/stl_pair.h /usr/include/c++/11/bits/move.h \
+ /usr/include/c++/11/type_traits \
+ /usr/include/c++/11/bits/stl_iterator_base_types.h \
+ /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/11/bits/concept_check.h \
+ /usr/include/c++/11/debug/assertions.h \
+ /usr/include/c++/11/bits/stl_iterator.h \
+ /usr/include/c++/11/bits/ptr_traits.h /usr/include/c++/11/debug/debug.h \
+ /usr/include/c++/11/bits/predefined_ops.h \
+ /usr/include/c++/11/bits/allocator.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+ /usr/include/c++/11/ext/new_allocator.h /usr/include/c++/11/new \
+ /usr/include/c++/11/bits/exception.h \
+ /usr/include/c++/11/bits/memoryfwd.h \
+ /usr/include/c++/11/bits/stl_construct.h \
+ /usr/include/c++/11/bits/stl_uninitialized.h \
+ /usr/include/c++/11/ext/alloc_traits.h \
+ /usr/include/c++/11/bits/alloc_traits.h \
+ /usr/include/c++/11/bits/stl_vector.h \
+ /usr/include/c++/11/initializer_list \
+ /usr/include/c++/11/bits/stl_bvector.h \
+ /usr/include/c++/11/bits/functional_hash.h \
+ /usr/include/c++/11/bits/hash_bytes.h \
+ /usr/include/c++/11/bits/range_access.h \
+ /usr/include/c++/11/bits/vector.tcc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ios.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GlobalConfig.hh \
+ /usr/include/c++/11/complex /usr/include/c++/11/cmath \
+>>>>>>> 671b135 (Minor update to the detector construction class)
  /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
@@ -63,12 +108,17 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+<<<<<<< HEAD
+=======
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
+<<<<<<< HEAD
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/11/bits/specfun.h \
  /usr/include/c++/11/bits/stl_algobase.h \
@@ -84,6 +134,12 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: \
  /usr/include/c++/11/bits/stl_iterator.h \
  /usr/include/c++/11/bits/ptr_traits.h /usr/include/c++/11/debug/debug.h \
  /usr/include/c++/11/bits/predefined_ops.h /usr/include/c++/11/limits \
+=======
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+ /usr/include/c++/11/bits/specfun.h /usr/include/c++/11/limits \
+>>>>>>> 671b135 (Minor update to the detector construction class)
  /usr/include/c++/11/tr1/gamma.tcc \
  /usr/include/c++/11/tr1/special_function_util.h \
  /usr/include/c++/11/tr1/bessel_function.tcc \
@@ -98,20 +154,32 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: \
  /usr/include/c++/11/tr1/riemann_zeta.tcc /usr/include/c++/11/sstream \
  /usr/include/c++/11/istream /usr/include/c++/11/ios \
  /usr/include/c++/11/iosfwd /usr/include/c++/11/bits/stringfwd.h \
+<<<<<<< HEAD
  /usr/include/c++/11/bits/memoryfwd.h /usr/include/c++/11/bits/postypes.h \
  /usr/include/c++/11/cwchar /usr/include/wchar.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+=======
+ /usr/include/c++/11/bits/postypes.h /usr/include/c++/11/cwchar \
+ /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+<<<<<<< HEAD
  /usr/include/c++/11/exception /usr/include/c++/11/bits/exception.h \
  /usr/include/c++/11/bits/exception_ptr.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
  /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/hash_bytes.h \
  /usr/include/c++/11/new /usr/include/c++/11/bits/nested_exception.h \
+=======
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h \
+ /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
+ /usr/include/c++/11/bits/cxxabi_init_exception.h \
+ /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/nested_exception.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
  /usr/include/c++/11/bits/char_traits.h /usr/include/c++/11/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
@@ -137,13 +205,17 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: \
  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
  /usr/include/c++/11/bits/locale_classes.h /usr/include/c++/11/string \
+<<<<<<< HEAD
  /usr/include/c++/11/bits/allocator.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
  /usr/include/c++/11/ext/new_allocator.h \
+=======
+>>>>>>> 671b135 (Minor update to the detector construction class)
  /usr/include/c++/11/bits/ostream_insert.h \
  /usr/include/c++/11/bits/cxxabi_forced.h \
  /usr/include/c++/11/bits/stl_function.h \
  /usr/include/c++/11/backward/binders.h \
+<<<<<<< HEAD
  /usr/include/c++/11/bits/range_access.h \
  /usr/include/c++/11/initializer_list \
  /usr/include/c++/11/bits/basic_string.h \
@@ -151,6 +223,9 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: \
  /usr/include/c++/11/bits/alloc_traits.h \
  /usr/include/c++/11/bits/stl_construct.h /usr/include/c++/11/string_view \
  /usr/include/c++/11/bits/functional_hash.h \
+=======
+ /usr/include/c++/11/bits/basic_string.h /usr/include/c++/11/string_view \
+>>>>>>> 671b135 (Minor update to the detector construction class)
  /usr/include/c++/11/bits/string_view.tcc \
  /usr/include/c++/11/ext/string_conversions.h /usr/include/c++/11/cstdlib \
  /usr/include/c++/11/cstdio /usr/include/stdio.h \
@@ -159,9 +234,16 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+<<<<<<< HEAD
  /usr/include/c++/11/cerrno /usr/include/errno.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/x86_64-linux-gnu/asm/errno.h \
+=======
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/c++/11/cerrno \
+ /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
@@ -182,11 +264,19 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: \
  /usr/include/c++/11/bits/ostream.tcc \
  /usr/include/c++/11/bits/istream.tcc \
  /usr/include/c++/11/bits/sstream.tcc \
+<<<<<<< HEAD
  /home/grapes/Packages/geant4/geant4-install/include/Geant4/tls.hh \
  /home/grapes/Packages/geant4/geant4-install/include/Geant4/globals.hh \
  /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ios.hh \
  /usr/include/c++/11/iostream /usr/include/c++/11/algorithm \
  /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
+=======
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/tls.hh \
+ /usr/include/c++/11/iostream \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/globals.hh \
+ /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
+ /usr/include/c++/11/bits/stl_relops.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
  /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \
@@ -204,6 +294,7 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: \
  /usr/include/c++/11/bits/enable_special_members.h \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/unordered_map.h \
+<<<<<<< HEAD
  /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/vector \
  /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
@@ -214,6 +305,16 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: \
  /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
  /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4String.icc \
  /home/grapes/Packages/geant4/geant4-install/include/Geant4/templates.hh \
+=======
+ /usr/include/c++/11/bits/erase_if.h \
+ /usr/include/c++/11/pstl/execution_defs.h \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.hh \
+ /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/templates.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
  /usr/include/c++/11/climits \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -223,9 +324,16 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+<<<<<<< HEAD
  /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Exception.hh \
  /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
  /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
+=======
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Exception.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VExceptionHandler.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
  /usr/include/c++/11/iomanip /usr/include/c++/11/locale \
  /usr/include/c++/11/bits/locale_facets_nonio.h /usr/include/c++/11/ctime \
  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
@@ -241,6 +349,13 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: \
  /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
+<<<<<<< HEAD
+=======
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/rundefs.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicsConstructor.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleTable.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Threading.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
  /usr/include/c++/11/condition_variable \
  /usr/include/c++/11/bits/shared_ptr.h \
  /usr/include/c++/11/bits/shared_ptr_base.h \
@@ -251,6 +366,7 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: \
  /usr/include/c++/11/bits/atomic_futex.h \
  /usr/include/c++/11/bits/std_thread.h /usr/include/c++/11/thread \
  /usr/include/c++/11/bits/this_thread_sleep.h \
+<<<<<<< HEAD
  /home/grapes/Packages/geant4/geant4-install/include/Geant4/pwdefs.hh \
  /usr/include/c++/11/stdlib.h \
  /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Units/PhysicalConstants.h \
@@ -265,6 +381,25 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: \
  /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Cache.hh \
  /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4CacheDetails.hh \
  /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Backtrace.hh \
+=======
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleDefinition.hh \
+ /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/PhysicalConstants.h \
+ /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/defs.h \
+ /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/SystemOfUnits.h \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PDefManager.hh \
+ /usr/include/c++/11/stdlib.h \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/pwdefs.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AutoLock.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleDefinition.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleTableIterator.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleTable.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsListHelper.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsListOrderingParameter.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ThreadLocalSingleton.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Cache.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4CacheDetails.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Backtrace.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
  /usr/include/c++/11/cxxabi.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
  /usr/include/execinfo.h /usr/include/unistd.h \
@@ -273,6 +408,10 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+<<<<<<< HEAD
+=======
+ /usr/include/x86_64-linux-gnu/bits/unistd.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h /usr/include/c++/11/cfenv \
  /usr/include/c++/11/fenv.h /usr/include/fenv.h \
@@ -323,6 +462,7 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: \
  /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h /usr/include/c++/11/list \
  /usr/include/c++/11/bits/stl_list.h /usr/include/c++/11/bits/list.tcc \
+<<<<<<< HEAD
  /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VUPLSplitter.hh \
  /home/grapes/Packages/geant4/geant4-install/include/Geant4/rundefs.hh \
  /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VUserPhysicsList.hh \
@@ -342,3 +482,23 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: \
  /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Vector/ThreeVector.h \
  /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Vector/defs.h \
  /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Vector/ThreeVector.icc
+=======
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUPLSplitter.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserPhysicsList.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProductionCutsTable.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialCutsCouple.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProductionCuts.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MCCIndexConversionTable.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomSplitter.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomwdefs.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsModelCatalog.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EmStandardPhysics.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalPhysics.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalParameters.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ThreeVector.hh \
+ /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.h \
+ /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/defs.h \
+ /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.icc
+>>>>>>> 671b135 (Minor update to the detector construction class)

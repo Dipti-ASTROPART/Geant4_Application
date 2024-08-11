@@ -4,6 +4,7 @@
 CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: ../src/g4ActionInitialize.cc \
   /usr/include/stdc-predef.h \
   ../inc/g4ActionInitialize.hh \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VUserActionInitialization.hh \
   ../inc/g4PrimaryGenerator.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
@@ -15,6 +16,19 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: ../src/g4ActionInitialize.cc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ios.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Types.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4GlobalConfig.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserActionInitialization.hh \
+  ../inc/g4PrimaryGenerator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SystemOfUnits.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/SystemOfUnits.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/defs.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleGun.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/globals.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ios.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GlobalConfig.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/complex \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -71,6 +85,10 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: ../src/g4ActionInitialize.cc \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+<<<<<<< HEAD
+=======
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -78,7 +96,13 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: ../src/g4ActionInitialize.cc \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+<<<<<<< HEAD
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+=======
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -124,6 +148,10 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: ../src/g4ActionInitialize.cc \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+<<<<<<< HEAD
+=======
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -190,6 +218,11 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: ../src/g4ActionInitialize.cc \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+<<<<<<< HEAD
+=======
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -220,7 +253,11 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: ../src/g4ActionInitialize.cc \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/bits/istream.tcc \
   /usr/include/c++/11/bits/sstream.tcc \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/tls.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tls.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/utility \
@@ -252,12 +289,23 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: ../src/g4ActionInitialize.cc \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
   /usr/include/c++/11/pstl/execution_defs.h \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4String.hh \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4String.icc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/templates.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.hh \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/templates.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -268,9 +316,16 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: ../src/g4ActionInitialize.cc \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Exception.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Exception.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VExceptionHandler.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/iomanip \
   /usr/include/c++/11/locale \
   /usr/include/c++/11/bits/locale_facets_nonio.h \
@@ -293,6 +348,7 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: ../src/g4ActionInitialize.cc \
   /usr/include/c++/11/bits/parse_numbers.h \
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VPrimaryGenerator.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ThreeVector.hh \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Vector/ThreeVector.h \
@@ -302,6 +358,20 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: ../src/g4ActionInitialize.cc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4PDefManager.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4AutoLock.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Threading.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPrimaryGenerator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ThreeVector.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleDefinition.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/PhysicalConstants.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PDefManager.hh \
+  /usr/include/c++/11/stdlib.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/pwdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AutoLock.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Threading.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/condition_variable \
   /usr/include/c++/11/bits/shared_ptr.h \
   /usr/include/c++/11/bits/shared_ptr_base.h \
@@ -315,6 +385,7 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: ../src/g4ActionInitialize.cc \
   /usr/include/c++/11/bits/std_thread.h \
   /usr/include/c++/11/thread \
   /usr/include/c++/11/bits/this_thread_sleep.h \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/pwdefs.hh \
   /usr/include/c++/11/stdlib.h \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Units/PhysicalConstants.h \
@@ -333,10 +404,28 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: ../src/g4ActionInitialize.cc \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/defs.h \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/DRand48Engine.h \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandomEngine.h \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleDefinition.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryVertex.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Allocator.hh \
+  /usr/include/c++/11/cstddef \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AllocatorPool.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryParticle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleMomentum.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleTableIterator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleTable.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/Randomize.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Randomize.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/DRand48Engine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandomEngine.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/fstream \
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
+<<<<<<< HEAD
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandomEngine.icc \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Utility/noncopyable.h \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Utility/defs.h \
@@ -357,6 +446,28 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: ../src/g4ActionInitialize.cc \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/Random.h \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/Random.icc \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Utility/memory.h \
+=======
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandomEngine.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/noncopyable.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/DualRand.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Hurd160Engine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Hurd288Engine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/JamesRandom.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/MixMaxRng.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/MTwistEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RanecuEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RanluxEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Ranlux64Engine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RanluxppEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RanshiEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/TripleRand.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBinomial.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Random.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Random.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/memory.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_raw_storage_iter.h \
   /usr/include/c++/11/bits/align.h \
@@ -364,6 +475,7 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: ../src/g4ActionInitialize.cc \
   /usr/include/c++/11/bits/shared_ptr_atomic.h \
   /usr/include/c++/11/backward/auto_ptr.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
+<<<<<<< HEAD
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandBinomial.icc \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandBreitWigner.h \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandFlat.h \
@@ -414,12 +526,66 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: ../src/g4ActionInitialize.cc \
   /home/grapes/root/include/DllImport.h \
   /home/grapes/root/include/strtok.h \
   /home/grapes/root/include/strlcpy.h \
+=======
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBinomial.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBreitWigner.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandFlat.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/thread_local.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandFlat.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBreitWigner.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandChiSquare.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandChiSquare.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandExponential.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandExponential.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandExpZiggurat.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBit.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBit.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGamma.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGamma.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGauss.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGauss.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussQ.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussQ.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussT.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Stat.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussT.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussZiggurat.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGeneral.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGeneral.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandLandau.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandLandau.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoissonQ.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoisson.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoisson.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoissonQ.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoissonT.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoissonT.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandSkewNormal.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandSkewNormal.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandStudentT.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandStudentT.icc \
+  /home/dipti/root/include/TRandom3.h \
+  /home/dipti/root/include/TRandom.h \
+  /home/dipti/root/include/Math/TRandomEngine.h \
+  /home/dipti/root/include/TNamed.h \
+  /home/dipti/root/include/TObject.h \
+  /home/dipti/root/include/Rtypes.h \
+  /home/dipti/root/include/RtypesCore.h \
+  /home/dipti/root/include/ROOT/RConfig.hxx \
+  /home/dipti/root/include/RVersion.h \
+  /home/dipti/root/include/ROOT/RVersion.hxx \
+  /home/dipti/root/include/RConfigure.h \
+  /home/dipti/root/include/DllImport.h \
+  /home/dipti/root/include/strtok.h \
+  /home/dipti/root/include/strlcpy.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+<<<<<<< HEAD
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /home/grapes/root/include/snprintf.h \
@@ -523,6 +689,112 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: ../src/g4ActionInitialize.cc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/PTL/Globals.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/PTL/Types.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/PTL/Utility.hh \
+=======
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
+  /home/dipti/root/include/snprintf.h \
+  /home/dipti/root/include/TGenericClassInfo.h \
+  /home/dipti/root/include/TSchemaHelper.h \
+  /home/dipti/root/include/TIsAProxy.h \
+  /home/dipti/root/include/TVirtualIsAProxy.h \
+  /home/dipti/root/include/TStorage.h \
+  /home/dipti/root/include/TVersionCheck.h \
+  /home/dipti/root/include/RVersion.h \
+  /home/dipti/root/include/TString.h \
+  /home/dipti/root/include/TMathBase.h \
+  /home/dipti/root/include/ROOT/RStringView.hxx \
+  /home/dipti/root/include/ROOT/TypeTraits.hxx \
+  /usr/include/c++/11/cstdarg \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IonTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Ions.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Proton.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Alpha.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Electron.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Positron.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MuonPlus.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MuonMinus.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Gamma.hh \
+  ../inc/g4Structures.hh \
+  ../inc/g4RunAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserRunAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericAnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ToolsAnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VAnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisManagerState.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisVerbose.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VAnalysisManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HnManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BaseAnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Fcn.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BinScheme.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HnInformation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisUtilities.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NtupleBookingManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/ntuple_booking \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cids \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cid \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/typedefs \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/forit \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NtupleBookingManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VH1Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VH2Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VH3Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VP1Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VP2Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VNtupleManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VFileManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BaseFileManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTHnFileManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ToolsAnalysisMessenger.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UImessenger.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIdirectory.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIcommand.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIparameter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UItokenNum.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ApplicationState.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4THnManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4THnManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h1d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h1 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/b1 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/base_histo \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/histo_data \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/axes \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/axis \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/eqT \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h2d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h2 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/b2 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h3d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h3 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/b3 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p1d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p1 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/profile_data \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p2d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p2 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ToolsAnalysisManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4H1ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4H2ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4H3ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4P1ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4P2ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericAnalysisManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericFileManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericFileManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Run.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Profiler.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Profiler.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/PTL/Globals.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/PTL/Types.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/PTL/Utility.hh \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   ../inc/g4CPP_ROOT_Headers.hh \
   /usr/include/c++/11/math.h \
   /usr/include/dirent.h \
@@ -549,6 +821,7 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: ../src/g4ActionInitialize.cc \
   /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
+<<<<<<< HEAD
   /home/grapes/root/include/TFile.h \
   /home/grapes/root/include/Compression.h \
   /home/grapes/root/include/TDirectoryFile.h \
@@ -565,12 +838,31 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: ../src/g4ActionInitialize.cc \
   /home/grapes/root/include/ROOT/RRangeCast.hxx \
   /home/grapes/root/include/ROOT/RSpan.hxx \
   /home/grapes/root/include/ROOT/span.hxx \
+=======
+  /home/dipti/root/include/TFile.h \
+  /home/dipti/root/include/Compression.h \
+  /home/dipti/root/include/TDirectoryFile.h \
+  /home/dipti/root/include/TDirectory.h \
+  /home/dipti/root/include/TClass.h \
+  /home/dipti/root/include/TDictionary.h \
+  /home/dipti/root/include/ESTLType.h \
+  /home/dipti/root/include/TObjArray.h \
+  /home/dipti/root/include/TSeqCollection.h \
+  /home/dipti/root/include/TCollection.h \
+  /home/dipti/root/include/TIterator.h \
+  /home/dipti/root/include/TVirtualRWMutex.h \
+  /home/dipti/root/include/TVirtualMutex.h \
+  /home/dipti/root/include/ROOT/RRangeCast.hxx \
+  /home/dipti/root/include/ROOT/RSpan.hxx \
+  /home/dipti/root/include/ROOT/span.hxx \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/iterator \
   /usr/include/c++/11/bits/stream_iterator.h \
   /usr/include/c++/11/cassert \
   /usr/include/assert.h \
   /usr/include/c++/11/unordered_set \
   /usr/include/c++/11/bits/unordered_set.h \
+<<<<<<< HEAD
   /home/grapes/root/include/TUUID.h \
   /home/grapes/root/include/TList.h \
   /home/grapes/root/include/TBuffer.h \
@@ -598,11 +890,41 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: ../src/g4ActionInitialize.cc \
   /home/grapes/root/include/TAttBBox2D.h \
   /home/grapes/root/include/TAttCanvas.h \
   /home/grapes/root/include/TSystem.h \
+=======
+  /home/dipti/root/include/TUUID.h \
+  /home/dipti/root/include/TList.h \
+  /home/dipti/root/include/TBuffer.h \
+  /home/dipti/root/include/TDataType.h \
+  /home/dipti/root/include/Bytes.h \
+  /home/dipti/root/include/Byteswap.h \
+  /home/dipti/root/include/TDatime.h \
+  /home/dipti/root/include/TUrl.h \
+  /home/dipti/root/include/ROOT/RConcurrentHashColl.hxx \
+  /home/dipti/root/include/Rtypes.h \
+  /home/dipti/root/include/ROOT/TRWSpinLock.hxx \
+  /home/dipti/root/include/ROOT/TSpinMutex.hxx \
+  /home/dipti/root/include/TCanvas.h \
+  /home/dipti/root/include/TPad.h \
+  /home/dipti/root/include/TVirtualPad.h \
+  /home/dipti/root/include/TAttLine.h \
+  /home/dipti/root/include/TAttFill.h \
+  /home/dipti/root/include/TAttPad.h \
+  /home/dipti/root/include/TQObject.h \
+  /home/dipti/root/include/TVirtualQConnection.h \
+  /home/dipti/root/include/TInterpreter.h \
+  /home/dipti/root/include/TInterpreterValue.h \
+  /home/dipti/root/include/GuiTypes.h \
+  /home/dipti/root/include/Buttons.h \
+  /home/dipti/root/include/TAttBBox2D.h \
+  /home/dipti/root/include/TAttCanvas.h \
+  /home/dipti/root/include/TSystem.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/fcntl.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
   /usr/include/linux/falloc.h \
+<<<<<<< HEAD
   /home/grapes/root/include/TInetAddress.h \
   /home/grapes/root/include/TTimer.h \
   /home/grapes/root/include/TSysEvtHandler.h \
@@ -1346,6 +1668,436 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: ../src/g4ActionInitialize.cc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4LogicalSkinSurface.icc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4LogicalBorderSurface.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4LogicalBorderSurface.icc
+=======
+  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
+  /home/dipti/root/include/TInetAddress.h \
+  /home/dipti/root/include/TTimer.h \
+  /home/dipti/root/include/TSysEvtHandler.h \
+  /home/dipti/root/include/TTime.h \
+  /home/dipti/root/include/TROOT.h \
+  /home/dipti/root/include/TStyle.h \
+  /home/dipti/root/include/TAttMarker.h \
+  /home/dipti/root/include/TAttText.h \
+  /home/dipti/root/include/TAttAxis.h \
+  /home/dipti/root/include/TColor.h \
+  /home/dipti/root/include/TArrayI.h \
+  /home/dipti/root/include/TArray.h \
+  /home/dipti/root/include/TPostScript.h \
+  /home/dipti/root/include/TVirtualPS.h \
+  /home/dipti/root/include/TH3.h \
+  /home/dipti/root/include/TH1.h \
+  /home/dipti/root/include/TAxis.h \
+  /home/dipti/root/include/TArrayD.h \
+  /home/dipti/root/include/TArrayC.h \
+  /home/dipti/root/include/TArrayS.h \
+  /home/dipti/root/include/TArrayF.h \
+  /home/dipti/root/include/Foption.h \
+  /home/dipti/root/include/ROOT/EExecutionPolicy.hxx \
+  /home/dipti/root/include/TVectorFfwd.h \
+  /home/dipti/root/include/TVectorDfwd.h \
+  /home/dipti/root/include/TFitResultPtr.h \
+  /home/dipti/root/include/TAtt3D.h \
+  /home/dipti/root/include/TH2.h \
+  /home/dipti/root/include/TMatrixFBasefwd.h \
+  /home/dipti/root/include/TMatrixDBasefwd.h \
+  /home/dipti/root/include/TH1.h \
+  /home/dipti/root/include/TF1.h \
+  /home/dipti/root/include/RConfigure.h \
+  /home/dipti/root/include/TFormula.h \
+  /home/dipti/root/include/TBits.h \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /home/dipti/root/include/Math/Types.h \
+  /home/dipti/root/include/RtypesCore.h \
+  /home/dipti/root/include/TMethodCall.h \
+  /home/dipti/root/include/TF1AbsComposition.h \
+  /home/dipti/root/include/TMath.h \
+  /home/dipti/root/include/TError.h \
+  /home/dipti/root/include/DllImport.h \
+  /home/dipti/root/include/Math/Types.h \
+  /home/dipti/root/include/Math/ParamFunctor.h \
+  /home/dipti/root/include/TProfile.h \
+  /home/dipti/root/include/TGraph.h \
+  /home/dipti/root/include/TMultiGraph.h \
+  /home/dipti/root/include/TTree.h \
+  /home/dipti/root/include/ROOT/TIOFeatures.hxx \
+  /home/dipti/root/include/TVirtualTreePlayer.h \
+  /home/dipti/root/include/TBranch.h \
+  /home/dipti/root/include/TBranchCacheInfo.h \
+  /home/dipti/root/include/TTreeIndex.h \
+  /home/dipti/root/include/TVirtualIndex.h \
+  /home/dipti/root/include/TTreePlayer.h \
+  /home/dipti/root/include/TSelectorDraw.h \
+  /home/dipti/root/include/TSelector.h \
+  /home/dipti/root/include/TSelectorList.h \
+  /home/dipti/root/include/THashList.h \
+  /home/dipti/root/include/TTree.h \
+  /home/dipti/root/include/TBranch.h \
+  /home/dipti/root/include/TLeafI.h \
+  /home/dipti/root/include/TLeaf.h \
+  /home/dipti/root/include/TLeafS.h \
+  /home/dipti/root/include/TLeafB.h \
+  /home/dipti/root/include/TLeafF.h \
+  /home/dipti/root/include/TLeafD.h \
+  /home/dipti/root/include/TLeafC.h \
+  /home/dipti/root/include/TLeafL.h \
+  /home/dipti/root/include/TLeafO.h \
+  /home/dipti/root/include/TStopwatch.h \
+  /home/dipti/root/include/TNtuple.h \
+  /home/dipti/root/include/TMath.h \
+  /home/dipti/root/include/TMathBase.h \
+  /home/dipti/root/include/TRandom.h \
+  /home/dipti/root/include/TRandom1.h \
+  /home/dipti/root/include/TRandom2.h \
+  /home/dipti/root/include/TMatrix.h \
+  /home/dipti/root/include/TMatrixF.h \
+  /home/dipti/root/include/TMatrixT.h \
+  /home/dipti/root/include/TMatrixTBase.h \
+  /home/dipti/root/include/TMatrixTUtils.h \
+  /home/dipti/root/include/TMatrixFfwd.h \
+  /home/dipti/root/include/TMatrixFUtils.h \
+  /home/dipti/root/include/TMatrixFUtilsfwd.h \
+  /home/dipti/root/include/TLegend.h \
+  /home/dipti/root/include/TPave.h \
+  /home/dipti/root/include/TBox.h \
+  /home/dipti/root/include/TGraphErrors.h \
+  /home/dipti/root/include/TGraph.h \
+  /home/dipti/root/include/TVirtualFFT.h \
+  /home/dipti/root/include/TLatex.h \
+  /home/dipti/root/include/TText.h \
+  /home/dipti/root/include/TPaletteAxis.h \
+  /home/dipti/root/include/TGaxis.h \
+  /home/dipti/root/include/TLine.h \
+  /home/dipti/root/include/TChain.h \
+  /home/dipti/root/include/TMinuit.h \
+  /home/dipti/root/include/TPaveText.h \
+  /home/dipti/root/include/TArrow.h \
+  /home/dipti/root/include/TTimeStamp.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeneralParticleSource.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Event.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/evtdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HCofThisEvent.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VHitsCollection.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DCofThisEvent.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VDigiCollection.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrajectoryContainer.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTrajectory.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserEventInformation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SingleParticleSource.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSPosDistribution.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Navigator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AffineTransform.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RotationMatrix.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ZMxpv.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Transform3D.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Transform3D.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Transform3D.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Point3D.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/BasicVector3D.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Vector3D.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Normal3D.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AffineTransform.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomSplitter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomwdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTouchable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTouchable.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSVolume.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSSolid.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHandle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ReferenceCountedHandle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHistoryHandle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHistory.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationHistory.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevel.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevelRep.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevelRep.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevel.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationHistoryPool.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationHistory.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHistory.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NormalNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSolid.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AuxiliaryNavServices.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AuxiliaryNavServices.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NormalNavigation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VoxelNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLogger.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BlockingList.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BlockingList.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelProxy.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelProxy.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelNode.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelNode.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelHeader.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelHeader.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VoxelNavigation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParameterisedNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPVParameterisation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VVolumeMaterialScanner.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParameterisedNavigation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ReplicaNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ReplicaNavigation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RegularNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VExternalNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Navigator.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSRandomGenerator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsFreeVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Log.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsVectorType.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DataInterpolation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Cache.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4CacheDetails.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSAngDistribution.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSEneDistribution.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeneralParticleSourceMessenger.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeneralParticleSourceData.hh \
+  ../inc/g4EventAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserEventAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Event.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/g4root_defs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/ntuple \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/tree \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/itree \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/typedefs \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/iobject \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/idir \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/seek \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/branch_element \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/branch \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/leaf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/base_leaf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/named \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/buffer \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/wbuf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/long_out \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/snpf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/charp_out \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/stype \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/ibo \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/realloc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/mnmx \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/forit \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vmanip \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/cids \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cid \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/scast \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/safe_cast \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rcmp \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cids \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vdata \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/basket \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/key \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/date \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/ifile \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/press_func \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/sout \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/imutex \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/branch_object \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/icol \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vfind \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/touplow \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/ntuple_booking \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/mpi_create_basket \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/impi \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/columns.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/ntuple \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rntuple \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/scast \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/mnmx \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/tree \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/ifac \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/branch_element \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/branch \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/base_leaf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/named \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/object \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/buffer \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/rbuf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/stype \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/long_out \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/charp_out \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/iro \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cid \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/sout \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/mapmanip \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/scast \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vdata \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/cids \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/basket \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/key \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/seek \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/typedefs \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/date \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/ifile \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/press_func \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/obj_array \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vmanip \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/mnmx \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/forit \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/sprintf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/dummy \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/stl_vector \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cids \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/info \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/obj_list \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/iobject \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/leaf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vfind \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/ntuple_binding \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/get_lines \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cstr \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/g4hntools_defs.hh \
+  ../inc/g4SteppingAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserSteppingAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Step.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StepPoint.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SteppingControl.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StepStatus.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Material.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Element.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Isotope.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IonisParamElm.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IsotopeVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ElementTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ElementVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialPropertiesTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialPropertiesIndex.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialPropertyVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IonisParamMat.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Exp.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SandiaTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OrderedTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DataVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DataVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StepPoint.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Step.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Track.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/trkdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DynamicParticle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LorentzVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ElectronOccupancy.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DynamicParticle.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackStatus.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserTrackInformation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsModelCatalog.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Track.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Step.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RunManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/rundefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EventManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StackManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserStackingAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ClassificationOfNewTrack.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StackedTrack.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackStack.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartTrackStack.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryTransformer.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackingManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SteppingManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/Randomize.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VProcess.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsTable.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VParticleChange.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackFastVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4FastVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VParticleChange.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ForceCondition.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GPILSelection.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleChange.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleChange.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessType.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NoProcess.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserSteppingAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSteppingVerbose.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/trkgdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackingMessenger.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserTrackingAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RunManagerKernel.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Scintillation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EmSaturation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalPhoton.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VRestDiscreteProcess.hh \
+  ../inc/g4DetectorConstruction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NistManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NistElementBuilder.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NistMaterialBuilder.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ICRU90StoppingData.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Pow.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Material.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PVPlacement.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Box.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomTypes.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomConfig.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4CSGSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Polyhedron.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/HepPolyhedron.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TwoVector.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/TwoVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/TwoVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Point3D.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Normal3D.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Visible.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Visible.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Box.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trap.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trap.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Tubs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Tubs.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Colour.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisAttributes.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/graphics_reps_defs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Colour.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Color.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisAttributes.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalSurface.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Physics2DVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Physics2DVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SurfaceProperty.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.icc
+>>>>>>> 671b135 (Minor update to the detector construction class)
 
 CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: ../src/g4ControlFileHandler.cc \
   /usr/include/stdc-predef.h \
@@ -1384,6 +2136,10 @@ CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: ../src/g4ControlFileHandler.
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+<<<<<<< HEAD
+=======
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -1489,8 +2245,16 @@ CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: ../src/g4ControlFileHandler.
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+<<<<<<< HEAD
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+=======
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -1499,6 +2263,11 @@ CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: ../src/g4ControlFileHandler.
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+<<<<<<< HEAD
+=======
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -1554,6 +2323,11 @@ CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: ../src/g4ControlFileHandler.
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+<<<<<<< HEAD
+=======
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/fstream \
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
@@ -1612,6 +2386,7 @@ CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: ../src/g4ControlFileHandler.
   /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
+<<<<<<< HEAD
   /home/grapes/root/include/TFile.h \
   /usr/include/c++/11/atomic \
   /usr/include/c++/11/bits/atomic_base.h \
@@ -1630,22 +2405,53 @@ CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: ../src/g4ControlFileHandler.
   /home/grapes/root/include/Rtypes.h \
   /home/grapes/root/include/strtok.h \
   /home/grapes/root/include/strlcpy.h \
+=======
+  /home/dipti/root/include/TFile.h \
+  /usr/include/c++/11/atomic \
+  /usr/include/c++/11/bits/atomic_base.h \
+  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+  /home/dipti/root/include/Compression.h \
+  /home/dipti/root/include/RtypesCore.h \
+  /home/dipti/root/include/ROOT/RConfig.hxx \
+  /home/dipti/root/include/RVersion.h \
+  /home/dipti/root/include/ROOT/RVersion.hxx \
+  /home/dipti/root/include/RConfigure.h \
+  /home/dipti/root/include/DllImport.h \
+  /usr/include/c++/11/cstddef \
+  /home/dipti/root/include/TDirectoryFile.h \
+  /home/dipti/root/include/TDirectory.h \
+  /home/dipti/root/include/TNamed.h \
+  /home/dipti/root/include/TObject.h \
+  /home/dipti/root/include/Rtypes.h \
+  /home/dipti/root/include/strtok.h \
+  /home/dipti/root/include/strlcpy.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+<<<<<<< HEAD
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /home/grapes/root/include/snprintf.h \
   /home/grapes/root/include/TGenericClassInfo.h \
   /home/grapes/root/include/TSchemaHelper.h \
+=======
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
+  /home/dipti/root/include/snprintf.h \
+  /home/dipti/root/include/TGenericClassInfo.h \
+  /home/dipti/root/include/TSchemaHelper.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/stl_uninitialized.h \
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
+<<<<<<< HEAD
   /home/grapes/root/include/TIsAProxy.h \
   /home/grapes/root/include/TVirtualIsAProxy.h \
   /home/grapes/root/include/TStorage.h \
@@ -1653,6 +2459,15 @@ CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: ../src/g4ControlFileHandler.
   /home/grapes/root/include/RVersion.h \
   /home/grapes/root/include/TString.h \
   /home/grapes/root/include/TMathBase.h \
+=======
+  /home/dipti/root/include/TIsAProxy.h \
+  /home/dipti/root/include/TVirtualIsAProxy.h \
+  /home/dipti/root/include/TStorage.h \
+  /home/dipti/root/include/TVersionCheck.h \
+  /home/dipti/root/include/RVersion.h \
+  /home/dipti/root/include/TString.h \
+  /home/dipti/root/include/TMathBase.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
@@ -1672,8 +2487,13 @@ CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: ../src/g4ControlFileHandler.
   /usr/include/c++/11/bits/unordered_map.h \
   /usr/include/c++/11/bits/erase_if.h \
   /usr/include/c++/11/pstl/execution_defs.h \
+<<<<<<< HEAD
   /home/grapes/root/include/ROOT/RStringView.hxx \
   /home/grapes/root/include/ROOT/TypeTraits.hxx \
+=======
+  /home/dipti/root/include/ROOT/RStringView.hxx \
+  /home/dipti/root/include/ROOT/TypeTraits.hxx \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_raw_storage_iter.h \
   /usr/include/c++/11/bits/align.h \
@@ -1686,6 +2506,7 @@ CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: ../src/g4ControlFileHandler.
   /usr/include/c++/11/backward/auto_ptr.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/cstdarg \
+<<<<<<< HEAD
   /home/grapes/root/include/TClass.h \
   /home/grapes/root/include/TDictionary.h \
   /home/grapes/root/include/ESTLType.h \
@@ -1698,6 +2519,20 @@ CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: ../src/g4ControlFileHandler.
   /home/grapes/root/include/ROOT/RRangeCast.hxx \
   /home/grapes/root/include/ROOT/RSpan.hxx \
   /home/grapes/root/include/ROOT/span.hxx \
+=======
+  /home/dipti/root/include/TClass.h \
+  /home/dipti/root/include/TDictionary.h \
+  /home/dipti/root/include/ESTLType.h \
+  /home/dipti/root/include/TObjArray.h \
+  /home/dipti/root/include/TSeqCollection.h \
+  /home/dipti/root/include/TCollection.h \
+  /home/dipti/root/include/TIterator.h \
+  /home/dipti/root/include/TVirtualRWMutex.h \
+  /home/dipti/root/include/TVirtualMutex.h \
+  /home/dipti/root/include/ROOT/RRangeCast.hxx \
+  /home/dipti/root/include/ROOT/RSpan.hxx \
+  /home/dipti/root/include/ROOT/span.hxx \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/iterator \
   /usr/include/c++/11/bits/stream_iterator.h \
   /usr/include/c++/11/cassert \
@@ -1708,6 +2543,7 @@ CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: ../src/g4ControlFileHandler.
   /usr/include/c++/11/bits/stl_multimap.h \
   /usr/include/c++/11/unordered_set \
   /usr/include/c++/11/bits/unordered_set.h \
+<<<<<<< HEAD
   /home/grapes/root/include/TUUID.h \
   /home/grapes/root/include/TList.h \
   /home/grapes/root/include/TBuffer.h \
@@ -1720,6 +2556,20 @@ CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: ../src/g4ControlFileHandler.
   /home/grapes/root/include/Rtypes.h \
   /home/grapes/root/include/ROOT/TRWSpinLock.hxx \
   /home/grapes/root/include/ROOT/TSpinMutex.hxx \
+=======
+  /home/dipti/root/include/TUUID.h \
+  /home/dipti/root/include/TList.h \
+  /home/dipti/root/include/TBuffer.h \
+  /home/dipti/root/include/TDataType.h \
+  /home/dipti/root/include/Bytes.h \
+  /home/dipti/root/include/Byteswap.h \
+  /home/dipti/root/include/TDatime.h \
+  /home/dipti/root/include/TUrl.h \
+  /home/dipti/root/include/ROOT/RConcurrentHashColl.hxx \
+  /home/dipti/root/include/Rtypes.h \
+  /home/dipti/root/include/ROOT/TRWSpinLock.hxx \
+  /home/dipti/root/include/ROOT/TSpinMutex.hxx \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/condition_variable \
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
@@ -1727,6 +2577,7 @@ CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: ../src/g4ControlFileHandler.
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h \
   /usr/include/c++/11/mutex \
+<<<<<<< HEAD
   /home/grapes/root/include/TCanvas.h \
   /home/grapes/root/include/TPad.h \
   /home/grapes/root/include/TVirtualPad.h \
@@ -1738,6 +2589,19 @@ CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: ../src/g4ControlFileHandler.
   /home/grapes/root/include/TInterpreter.h \
   /home/grapes/root/include/TInterpreterValue.h \
   /home/grapes/root/include/GuiTypes.h \
+=======
+  /home/dipti/root/include/TCanvas.h \
+  /home/dipti/root/include/TPad.h \
+  /home/dipti/root/include/TVirtualPad.h \
+  /home/dipti/root/include/TAttLine.h \
+  /home/dipti/root/include/TAttFill.h \
+  /home/dipti/root/include/TAttPad.h \
+  /home/dipti/root/include/TQObject.h \
+  /home/dipti/root/include/TVirtualQConnection.h \
+  /home/dipti/root/include/TInterpreter.h \
+  /home/dipti/root/include/TInterpreterValue.h \
+  /home/dipti/root/include/GuiTypes.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -1745,15 +2609,23 @@ CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: ../src/g4ControlFileHandler.
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+<<<<<<< HEAD
   /home/grapes/root/include/Buttons.h \
   /home/grapes/root/include/TAttBBox2D.h \
   /home/grapes/root/include/TAttCanvas.h \
   /home/grapes/root/include/TSystem.h \
+=======
+  /home/dipti/root/include/Buttons.h \
+  /home/dipti/root/include/TAttBBox2D.h \
+  /home/dipti/root/include/TAttCanvas.h \
+  /home/dipti/root/include/TSystem.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/fcntl.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
   /usr/include/linux/falloc.h \
+<<<<<<< HEAD
   /home/grapes/root/include/TInetAddress.h \
   /home/grapes/root/include/TTimer.h \
   /home/grapes/root/include/TSysEvtHandler.h \
@@ -2179,16 +3051,132 @@ CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: ../src/g4ControlFileHandler.
   /home/grapes/root/include/TPaveText.h \
   /home/grapes/root/include/TArrow.h \
   /home/grapes/root/include/TTimeStamp.h
+=======
+  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
+  /home/dipti/root/include/TInetAddress.h \
+  /home/dipti/root/include/TTimer.h \
+  /home/dipti/root/include/TSysEvtHandler.h \
+  /home/dipti/root/include/TTime.h \
+  /home/dipti/root/include/TROOT.h \
+  /home/dipti/root/include/TStyle.h \
+  /home/dipti/root/include/TAttMarker.h \
+  /home/dipti/root/include/TAttText.h \
+  /home/dipti/root/include/TAttAxis.h \
+  /home/dipti/root/include/TColor.h \
+  /home/dipti/root/include/TArrayI.h \
+  /home/dipti/root/include/TArray.h \
+  /home/dipti/root/include/TPostScript.h \
+  /home/dipti/root/include/TVirtualPS.h \
+  /home/dipti/root/include/TH3.h \
+  /home/dipti/root/include/TH1.h \
+  /home/dipti/root/include/TAxis.h \
+  /home/dipti/root/include/TArrayD.h \
+  /home/dipti/root/include/TArrayC.h \
+  /home/dipti/root/include/TArrayS.h \
+  /home/dipti/root/include/TArrayF.h \
+  /home/dipti/root/include/Foption.h \
+  /home/dipti/root/include/ROOT/EExecutionPolicy.hxx \
+  /home/dipti/root/include/TVectorFfwd.h \
+  /home/dipti/root/include/TVectorDfwd.h \
+  /home/dipti/root/include/TFitResultPtr.h \
+  /home/dipti/root/include/TAtt3D.h \
+  /home/dipti/root/include/TH2.h \
+  /home/dipti/root/include/TMatrixFBasefwd.h \
+  /home/dipti/root/include/TMatrixDBasefwd.h \
+  /home/dipti/root/include/TH1.h \
+  /home/dipti/root/include/TF1.h \
+  /home/dipti/root/include/RConfigure.h \
+  /home/dipti/root/include/TFormula.h \
+  /home/dipti/root/include/TBits.h \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /home/dipti/root/include/Math/Types.h \
+  /home/dipti/root/include/RtypesCore.h \
+  /home/dipti/root/include/TMethodCall.h \
+  /home/dipti/root/include/TF1AbsComposition.h \
+  /home/dipti/root/include/TMath.h \
+  /home/dipti/root/include/TError.h \
+  /home/dipti/root/include/DllImport.h \
+  /home/dipti/root/include/Math/Types.h \
+  /home/dipti/root/include/Math/ParamFunctor.h \
+  /home/dipti/root/include/TProfile.h \
+  /home/dipti/root/include/TGraph.h \
+  /home/dipti/root/include/TMultiGraph.h \
+  /home/dipti/root/include/TTree.h \
+  /home/dipti/root/include/ROOT/TIOFeatures.hxx \
+  /home/dipti/root/include/TVirtualTreePlayer.h \
+  /home/dipti/root/include/TBranch.h \
+  /home/dipti/root/include/TBranchCacheInfo.h \
+  /home/dipti/root/include/TTreeIndex.h \
+  /home/dipti/root/include/TVirtualIndex.h \
+  /home/dipti/root/include/TTreePlayer.h \
+  /home/dipti/root/include/TSelectorDraw.h \
+  /home/dipti/root/include/TSelector.h \
+  /home/dipti/root/include/TSelectorList.h \
+  /home/dipti/root/include/THashList.h \
+  /home/dipti/root/include/TTree.h \
+  /home/dipti/root/include/TBranch.h \
+  /home/dipti/root/include/TLeafI.h \
+  /home/dipti/root/include/TLeaf.h \
+  /home/dipti/root/include/TLeafS.h \
+  /home/dipti/root/include/TLeafB.h \
+  /home/dipti/root/include/TLeafF.h \
+  /home/dipti/root/include/TLeafD.h \
+  /home/dipti/root/include/TLeafC.h \
+  /home/dipti/root/include/TLeafL.h \
+  /home/dipti/root/include/TLeafO.h \
+  /home/dipti/root/include/TStopwatch.h \
+  /home/dipti/root/include/TNtuple.h \
+  /home/dipti/root/include/TMath.h \
+  /home/dipti/root/include/TMathBase.h \
+  /home/dipti/root/include/TRandom.h \
+  /home/dipti/root/include/Math/TRandomEngine.h \
+  /home/dipti/root/include/TRandom1.h \
+  /home/dipti/root/include/TRandom.h \
+  /home/dipti/root/include/TRandom2.h \
+  /home/dipti/root/include/TRandom3.h \
+  /home/dipti/root/include/TMatrix.h \
+  /home/dipti/root/include/TMatrixF.h \
+  /home/dipti/root/include/TMatrixT.h \
+  /home/dipti/root/include/TMatrixTBase.h \
+  /home/dipti/root/include/TMatrixTUtils.h \
+  /home/dipti/root/include/TMatrixFfwd.h \
+  /home/dipti/root/include/TMatrixFUtils.h \
+  /home/dipti/root/include/TMatrixFUtilsfwd.h \
+  /home/dipti/root/include/TLegend.h \
+  /home/dipti/root/include/TPave.h \
+  /home/dipti/root/include/TBox.h \
+  /home/dipti/root/include/TGraphErrors.h \
+  /home/dipti/root/include/TGraph.h \
+  /home/dipti/root/include/TVirtualFFT.h \
+  /home/dipti/root/include/TLatex.h \
+  /home/dipti/root/include/TText.h \
+  /home/dipti/root/include/TPaletteAxis.h \
+  /home/dipti/root/include/TGaxis.h \
+  /home/dipti/root/include/TLine.h \
+  /home/dipti/root/include/TChain.h \
+  /home/dipti/root/include/TMinuit.h \
+  /home/dipti/root/include/TPaveText.h \
+  /home/dipti/root/include/TArrow.h \
+  /home/dipti/root/include/TTimeStamp.h
+>>>>>>> 671b135 (Minor update to the detector construction class)
 
 CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o: ../src/g4DetectorConstruction.cc \
   /usr/include/stdc-predef.h \
   ../inc/g4DetectorConstruction.hh \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/globals.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ios.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Types.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4GlobalConfig.hh \
   /usr/include/c++/11/complex \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_algobase.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
@@ -2201,8 +3189,49 @@ CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o: ../src/g4DetectorConstruct
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
+<<<<<<< HEAD
   /usr/include/c++/11/bits/cpp_type_traits.h \
   /usr/include/c++/11/ext/type_traits.h \
+=======
+  /usr/include/c++/11/bits/functexcept.h \
+  /usr/include/c++/11/bits/exception_defines.h \
+  /usr/include/c++/11/bits/cpp_type_traits.h \
+  /usr/include/c++/11/ext/type_traits.h \
+  /usr/include/c++/11/ext/numeric_traits.h \
+  /usr/include/c++/11/bits/stl_pair.h \
+  /usr/include/c++/11/bits/move.h \
+  /usr/include/c++/11/type_traits \
+  /usr/include/c++/11/bits/stl_iterator_base_types.h \
+  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/11/bits/concept_check.h \
+  /usr/include/c++/11/debug/assertions.h \
+  /usr/include/c++/11/bits/stl_iterator.h \
+  /usr/include/c++/11/bits/ptr_traits.h \
+  /usr/include/c++/11/debug/debug.h \
+  /usr/include/c++/11/bits/predefined_ops.h \
+  /usr/include/c++/11/bits/allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/c++/11/ext/new_allocator.h \
+  /usr/include/c++/11/new \
+  /usr/include/c++/11/bits/exception.h \
+  /usr/include/c++/11/bits/memoryfwd.h \
+  /usr/include/c++/11/bits/stl_construct.h \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/ext/alloc_traits.h \
+  /usr/include/c++/11/bits/alloc_traits.h \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/initializer_list \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/functional_hash.h \
+  /usr/include/c++/11/bits/hash_bytes.h \
+  /usr/include/c++/11/bits/range_access.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/globals.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ios.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GlobalConfig.hh \
+  /usr/include/c++/11/complex \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -2244,6 +3273,10 @@ CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o: ../src/g4DetectorConstruct
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+<<<<<<< HEAD
+=======
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -2251,6 +3284,7 @@ CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o: ../src/g4DetectorConstruct
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+<<<<<<< HEAD
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -2268,6 +3302,12 @@ CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o: ../src/g4DetectorConstruct
   /usr/include/c++/11/bits/ptr_traits.h \
   /usr/include/c++/11/debug/debug.h \
   /usr/include/c++/11/bits/predefined_ops.h \
+=======
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/c++/11/bits/specfun.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/limits \
   /usr/include/c++/11/tr1/gamma.tcc \
   /usr/include/c++/11/tr1/special_function_util.h \
@@ -2286,7 +3326,10 @@ CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o: ../src/g4DetectorConstruct
   /usr/include/c++/11/ios \
   /usr/include/c++/11/iosfwd \
   /usr/include/c++/11/bits/stringfwd.h \
+<<<<<<< HEAD
   /usr/include/c++/11/bits/memoryfwd.h \
+=======
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/cwchar \
   /usr/include/wchar.h \
@@ -2297,6 +3340,7 @@ CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o: ../src/g4DetectorConstruct
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+<<<<<<< HEAD
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -2304,6 +3348,13 @@ CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o: ../src/g4DetectorConstruct
   /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/bits/hash_bytes.h \
   /usr/include/c++/11/new \
+=======
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
+  /usr/include/c++/11/exception \
+  /usr/include/c++/11/bits/exception_ptr.h \
+  /usr/include/c++/11/bits/cxxabi_init_exception.h \
+  /usr/include/c++/11/typeinfo \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/bits/nested_exception.h \
   /usr/include/c++/11/bits/char_traits.h \
   /usr/include/c++/11/cstdint \
@@ -2338,13 +3389,17 @@ CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o: ../src/g4DetectorConstruct
   /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
   /usr/include/c++/11/bits/locale_classes.h \
   /usr/include/c++/11/string \
+<<<<<<< HEAD
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
+=======
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/bits/ostream_insert.h \
   /usr/include/c++/11/bits/cxxabi_forced.h \
   /usr/include/c++/11/bits/stl_function.h \
   /usr/include/c++/11/backward/binders.h \
+<<<<<<< HEAD
   /usr/include/c++/11/bits/range_access.h \
   /usr/include/c++/11/initializer_list \
   /usr/include/c++/11/bits/basic_string.h \
@@ -2353,6 +3408,10 @@ CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o: ../src/g4DetectorConstruct
   /usr/include/c++/11/bits/stl_construct.h \
   /usr/include/c++/11/string_view \
   /usr/include/c++/11/bits/functional_hash.h \
+=======
+  /usr/include/c++/11/bits/basic_string.h \
+  /usr/include/c++/11/string_view \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/bits/string_view.tcc \
   /usr/include/c++/11/ext/string_conversions.h \
   /usr/include/c++/11/cstdlib \
@@ -2363,6 +3422,11 @@ CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o: ../src/g4DetectorConstruct
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+<<<<<<< HEAD
+=======
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -2393,7 +3457,11 @@ CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o: ../src/g4DetectorConstruct
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/bits/istream.tcc \
   /usr/include/c++/11/bits/sstream.tcc \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/tls.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tls.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/utility \
@@ -2419,6 +3487,7 @@ CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o: ../src/g4DetectorConstruct
   /usr/include/c++/11/bits/node_handle.h \
   /usr/include/c++/11/bits/unordered_map.h \
   /usr/include/c++/11/bits/erase_if.h \
+<<<<<<< HEAD
   /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/stl_uninitialized.h \
   /usr/include/c++/11/bits/stl_vector.h \
@@ -2431,6 +3500,17 @@ CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o: ../src/g4DetectorConstruct
   /usr/include/strings.h \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4String.icc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/templates.hh \
+=======
+  /usr/include/c++/11/pstl/execution_defs.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.hh \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/templates.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -2441,9 +3521,16 @@ CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o: ../src/g4DetectorConstruct
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Exception.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Exception.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VExceptionHandler.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/iomanip \
   /usr/include/c++/11/locale \
   /usr/include/c++/11/bits/locale_facets_nonio.h \
@@ -2466,6 +3553,7 @@ CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o: ../src/g4DetectorConstruct
   /usr/include/c++/11/bits/parse_numbers.h \
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/geomdefs.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4RotationMatrix.hh \
@@ -2495,6 +3583,37 @@ CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o: ../src/g4DetectorConstruct
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/geomwdefs.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4AutoLock.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Threading.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RotationMatrix.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ThreeVector.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ZMxpv.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/PhysicalConstants.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/SystemOfUnits.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomSplitter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomwdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AutoLock.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Threading.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/condition_variable \
   /usr/include/c++/11/bits/shared_ptr.h \
   /usr/include/c++/11/bits/shared_ptr_base.h \
@@ -2508,6 +3627,7 @@ CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o: ../src/g4DetectorConstruct
   /usr/include/c++/11/bits/std_thread.h \
   /usr/include/c++/11/thread \
   /usr/include/c++/11/bits/this_thread_sleep.h \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4NistManager.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ICRU90StoppingData.hh \
@@ -2525,10 +3645,27 @@ CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o: ../src/g4DetectorConstruct
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4MaterialPropertyVector.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4PhysicsFreeVector.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4PhysicsVector.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NistManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Material.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Element.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Isotope.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IonisParamElm.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IsotopeVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ElementTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ElementVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialPropertiesTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialPropertiesIndex.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialPropertyVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsFreeVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsVector.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/fstream \
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Log.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4PhysicsVectorType.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4PhysicsVector.icc \
@@ -2601,15 +3738,92 @@ CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o: ../src/g4DetectorConstruct
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4LogicalSkinSurface.icc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4LogicalBorderSurface.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4LogicalBorderSurface.icc
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Log.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsVectorType.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IonisParamMat.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Exp.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SandiaTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OrderedTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DataVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DataVector.icc \
+  /usr/include/assert.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NistElementBuilder.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NistMaterialBuilder.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ICRU90StoppingData.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Pow.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Material.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PVPlacement.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Transform3D.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Transform3D.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Transform3D.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Point3D.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/BasicVector3D.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Vector3D.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Normal3D.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SystemOfUnits.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Box.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomTypes.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomConfig.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4CSGSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSolid.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Polyhedron.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/HepPolyhedron.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TwoVector.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/TwoVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/TwoVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Point3D.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Normal3D.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Visible.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Visible.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Box.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trap.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trap.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Tubs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Tubs.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Colour.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisAttributes.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/graphics_reps_defs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Colour.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Color.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisAttributes.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalSurface.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Physics2DVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Physics2DVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SurfaceProperty.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.icc
+>>>>>>> 671b135 (Minor update to the detector construction class)
 
 CMakeFiles/g4sim.dir/src/g4EventAction.cc.o: ../src/g4EventAction.cc \
   /usr/include/stdc-predef.h \
   ../inc/g4EventAction.hh \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4UserEventAction.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Event.hh \
   /usr/include/c++/11/set \
   /usr/include/c++/11/bits/stl_tree.h \
   /usr/include/c++/11/bits/stl_algobase.h \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserEventAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Event.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/globals.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ios.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GlobalConfig.hh \
+  /usr/include/c++/11/complex \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
@@ -2622,6 +3836,7 @@ CMakeFiles/g4sim.dir/src/g4EventAction.cc.o: ../src/g4EventAction.cc \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
+<<<<<<< HEAD
   /usr/include/c++/11/bits/functexcept.h \
   /usr/include/c++/11/bits/exception_defines.h \
   /usr/include/c++/11/bits/cpp_type_traits.h \
@@ -2670,6 +3885,10 @@ CMakeFiles/g4sim.dir/src/g4EventAction.cc.o: ../src/g4EventAction.cc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Types.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4GlobalConfig.hh \
   /usr/include/c++/11/complex \
+=======
+  /usr/include/c++/11/bits/cpp_type_traits.h \
+  /usr/include/c++/11/ext/type_traits.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -2711,6 +3930,10 @@ CMakeFiles/g4sim.dir/src/g4EventAction.cc.o: ../src/g4EventAction.cc \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+<<<<<<< HEAD
+=======
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -2718,8 +3941,30 @@ CMakeFiles/g4sim.dir/src/g4EventAction.cc.o: ../src/g4EventAction.cc \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+<<<<<<< HEAD
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/11/bits/specfun.h \
+=======
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/c++/11/bits/specfun.h \
+  /usr/include/c++/11/bits/stl_algobase.h \
+  /usr/include/c++/11/bits/functexcept.h \
+  /usr/include/c++/11/bits/exception_defines.h \
+  /usr/include/c++/11/ext/numeric_traits.h \
+  /usr/include/c++/11/bits/stl_pair.h \
+  /usr/include/c++/11/bits/move.h \
+  /usr/include/c++/11/type_traits \
+  /usr/include/c++/11/bits/stl_iterator_base_types.h \
+  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/11/bits/concept_check.h \
+  /usr/include/c++/11/debug/assertions.h \
+  /usr/include/c++/11/bits/stl_iterator.h \
+  /usr/include/c++/11/bits/ptr_traits.h \
+  /usr/include/c++/11/debug/debug.h \
+  /usr/include/c++/11/bits/predefined_ops.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/limits \
   /usr/include/c++/11/tr1/gamma.tcc \
   /usr/include/c++/11/tr1/special_function_util.h \
@@ -2738,6 +3983,10 @@ CMakeFiles/g4sim.dir/src/g4EventAction.cc.o: ../src/g4EventAction.cc \
   /usr/include/c++/11/ios \
   /usr/include/c++/11/iosfwd \
   /usr/include/c++/11/bits/stringfwd.h \
+<<<<<<< HEAD
+=======
+  /usr/include/c++/11/bits/memoryfwd.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/cwchar \
   /usr/include/wchar.h \
@@ -2748,11 +3997,21 @@ CMakeFiles/g4sim.dir/src/g4EventAction.cc.o: ../src/g4EventAction.cc \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+<<<<<<< HEAD
   /usr/include/c++/11/exception \
+=======
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
+  /usr/include/c++/11/exception \
+  /usr/include/c++/11/bits/exception.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/bits/exception_ptr.h \
   /usr/include/c++/11/bits/cxxabi_init_exception.h \
   /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/bits/hash_bytes.h \
+<<<<<<< HEAD
+=======
+  /usr/include/c++/11/new \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/bits/nested_exception.h \
   /usr/include/c++/11/bits/char_traits.h \
   /usr/include/c++/11/cstdint \
@@ -2787,9 +4046,25 @@ CMakeFiles/g4sim.dir/src/g4EventAction.cc.o: ../src/g4EventAction.cc \
   /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
   /usr/include/c++/11/bits/locale_classes.h \
   /usr/include/c++/11/string \
+<<<<<<< HEAD
   /usr/include/c++/11/bits/ostream_insert.h \
   /usr/include/c++/11/bits/cxxabi_forced.h \
   /usr/include/c++/11/bits/basic_string.h \
+=======
+  /usr/include/c++/11/bits/allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/c++/11/ext/new_allocator.h \
+  /usr/include/c++/11/bits/ostream_insert.h \
+  /usr/include/c++/11/bits/cxxabi_forced.h \
+  /usr/include/c++/11/bits/stl_function.h \
+  /usr/include/c++/11/backward/binders.h \
+  /usr/include/c++/11/bits/range_access.h \
+  /usr/include/c++/11/initializer_list \
+  /usr/include/c++/11/bits/basic_string.h \
+  /usr/include/c++/11/ext/alloc_traits.h \
+  /usr/include/c++/11/bits/alloc_traits.h \
+  /usr/include/c++/11/bits/stl_construct.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/string_view \
   /usr/include/c++/11/bits/functional_hash.h \
   /usr/include/c++/11/bits/string_view.tcc \
@@ -2802,6 +4077,11 @@ CMakeFiles/g4sim.dir/src/g4EventAction.cc.o: ../src/g4EventAction.cc \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+<<<<<<< HEAD
+=======
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -2832,9 +4112,17 @@ CMakeFiles/g4sim.dir/src/g4EventAction.cc.o: ../src/g4EventAction.cc \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/bits/istream.tcc \
   /usr/include/c++/11/bits/sstream.tcc \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/tls.hh \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/algorithm \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tls.hh \
+  /usr/include/c++/11/iostream \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -2842,6 +4130,7 @@ CMakeFiles/g4sim.dir/src/g4EventAction.cc.o: ../src/g4EventAction.cc \
   /usr/include/c++/11/bits/uniform_int_dist.h \
   /usr/include/c++/11/pstl/glue_algorithm_defs.h \
   /usr/include/c++/11/functional \
+<<<<<<< HEAD
   /usr/include/c++/11/bits/refwrap.h \
   /usr/include/c++/11/bits/std_function.h \
   /usr/include/c++/11/unordered_map \
@@ -2849,18 +4138,45 @@ CMakeFiles/g4sim.dir/src/g4EventAction.cc.o: ../src/g4EventAction.cc \
   /usr/include/c++/11/bits/hashtable_policy.h \
   /usr/include/c++/11/bits/enable_special_members.h \
   /usr/include/c++/11/bits/unordered_map.h \
+=======
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/bits/erase_if.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/stl_uninitialized.h \
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
   /usr/include/c++/11/pstl/execution_defs.h \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4String.hh \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4String.icc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/templates.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.hh \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/templates.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -2871,9 +4187,16 @@ CMakeFiles/g4sim.dir/src/g4EventAction.cc.o: ../src/g4EventAction.cc \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Exception.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Exception.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VExceptionHandler.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/iomanip \
   /usr/include/c++/11/locale \
   /usr/include/c++/11/bits/locale_facets_nonio.h \
@@ -2886,12 +4209,20 @@ CMakeFiles/g4sim.dir/src/g4EventAction.cc.o: ../src/g4EventAction.cc \
   /usr/include/c++/11/bits/locale_conv.h \
   /usr/include/c++/11/bits/unique_ptr.h \
   /usr/include/c++/11/bits/quoted_string.h \
+<<<<<<< HEAD
+=======
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/mutex \
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
   /usr/include/c++/11/bits/parse_numbers.h \
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/evtdefs.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Allocator.hh \
   /usr/include/c++/11/cstddef \
@@ -3055,17 +4386,184 @@ CMakeFiles/g4sim.dir/src/g4EventAction.cc.o: ../src/g4EventAction.cc \
   /usr/include/c++/11/thread \
   /usr/include/c++/11/bits/this_thread_sleep.h \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4AnalysisUtilities.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/evtdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Allocator.hh \
+  /usr/include/c++/11/cstddef \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AllocatorPool.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryVertex.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/pwdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ThreeVector.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryParticle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HCofThisEvent.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VHitsCollection.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DCofThisEvent.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VDigiCollection.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrajectoryContainer.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTrajectory.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserEventInformation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Profiler.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Profiler.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/PTL/Globals.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/PTL/Types.hh \
+  /usr/include/c++/11/atomic \
+  /usr/include/c++/11/bits/atomic_base.h \
+  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_raw_storage_iter.h \
   /usr/include/c++/11/bits/align.h \
   /usr/include/c++/11/bit \
+<<<<<<< HEAD
   /usr/include/c++/11/bits/shared_ptr_atomic.h \
   /usr/include/c++/11/backward/auto_ptr.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
+=======
+  /usr/include/c++/11/bits/shared_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr_base.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/ext/concurrence.h \
+  /usr/include/c++/11/bits/shared_ptr_atomic.h \
+  /usr/include/c++/11/backward/auto_ptr.h \
+  /usr/include/c++/11/pstl/glue_memory_defs.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/PTL/Utility.hh \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/g4root_defs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/ntuple \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/tree \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/itree \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/typedefs \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/iobject \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/idir \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/seek \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/branch_element \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/branch \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/leaf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/base_leaf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/named \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/buffer \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/wbuf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/long_out \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/snpf \
+  /usr/include/c++/11/cstdarg \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/charp_out \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/stype \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/typedefs \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/ibo \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/realloc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/mnmx \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/forit \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vmanip \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/cids \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cid \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/scast \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/safe_cast \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cid \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rcmp \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cids \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vdata \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/basket \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/key \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/date \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/ifile \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/press_func \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/sout \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/imutex \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/branch_object \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/icol \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vfind \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/touplow \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/ntuple_booking \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cids \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/forit \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/mpi_create_basket \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/impi \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/columns.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/ntuple \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rntuple \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/scast \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/mnmx \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/tree \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/ifac \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/branch_element \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/branch \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/base_leaf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/named \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/object \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/buffer \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/rbuf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/stype \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/long_out \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/charp_out \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/iro \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cid \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/sout \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/mapmanip \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/scast \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vdata \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/cids \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/basket \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/key \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/seek \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/typedefs \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/date \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/ifile \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/press_func \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/obj_array \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vmanip \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/mnmx \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/forit \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/sprintf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/dummy \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/stl_vector \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cids \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/info \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/obj_list \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/iobject \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/leaf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vfind \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/ntuple_binding \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/get_lines \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cstr \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/g4hntools_defs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h1d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h1 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/b1 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/base_histo \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/histo_data \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/axes \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/axis \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/eqT \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h2d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h2 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/b2 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h3d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h3 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/b3 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p1d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p1 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/profile_data \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p2d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p2 \
+  ../inc/g4RunAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserRunAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericAnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ToolsAnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VAnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisManagerState.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisVerbose.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/fstream \
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VTBaseHnManager.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4HnInformation.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4BinScheme.hh \
@@ -3104,6 +4602,54 @@ CMakeFiles/g4sim.dir/src/g4EventAction.cc.o: ../src/g4EventAction.cc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4GenericFileManager.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4GenericFileManager.icc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Run.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VAnalysisManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HnManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BaseAnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Fcn.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BinScheme.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HnInformation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisUtilities.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NtupleBookingManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/ntuple_booking \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NtupleBookingManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VH1Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VH2Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VH3Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VP1Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VP2Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VNtupleManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VFileManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BaseFileManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTHnFileManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ToolsAnalysisMessenger.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UImessenger.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIdirectory.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIcommand.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIparameter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UItokenNum.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ApplicationState.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4THnManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Threading.hh \
+  /usr/include/c++/11/condition_variable \
+  /usr/include/c++/11/future \
+  /usr/include/c++/11/bits/atomic_futex.h \
+  /usr/include/c++/11/bits/std_thread.h \
+  /usr/include/c++/11/thread \
+  /usr/include/c++/11/bits/this_thread_sleep.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4THnManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AutoLock.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ToolsAnalysisManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4H1ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4H2ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4H3ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4P1ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4P2ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericAnalysisManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericFileManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericFileManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Run.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   ../inc/g4Structures.hh \
   ../inc/g4CPP_ROOT_Headers.hh \
   /usr/include/c++/11/stdlib.h \
@@ -3132,6 +4678,7 @@ CMakeFiles/g4sim.dir/src/g4EventAction.cc.o: ../src/g4EventAction.cc \
   /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
+<<<<<<< HEAD
   /home/grapes/root/include/TFile.h \
   /home/grapes/root/include/Compression.h \
   /home/grapes/root/include/RtypesCore.h \
@@ -3146,12 +4693,30 @@ CMakeFiles/g4sim.dir/src/g4EventAction.cc.o: ../src/g4EventAction.cc \
   /home/grapes/root/include/Rtypes.h \
   /home/grapes/root/include/strtok.h \
   /home/grapes/root/include/strlcpy.h \
+=======
+  /home/dipti/root/include/TFile.h \
+  /home/dipti/root/include/Compression.h \
+  /home/dipti/root/include/RtypesCore.h \
+  /home/dipti/root/include/ROOT/RConfig.hxx \
+  /home/dipti/root/include/RVersion.h \
+  /home/dipti/root/include/ROOT/RVersion.hxx \
+  /home/dipti/root/include/RConfigure.h \
+  /home/dipti/root/include/DllImport.h \
+  /home/dipti/root/include/TDirectoryFile.h \
+  /home/dipti/root/include/TDirectory.h \
+  /home/dipti/root/include/TNamed.h \
+  /home/dipti/root/include/TObject.h \
+  /home/dipti/root/include/Rtypes.h \
+  /home/dipti/root/include/strtok.h \
+  /home/dipti/root/include/strlcpy.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+<<<<<<< HEAD
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /home/grapes/root/include/snprintf.h \
@@ -3178,12 +4743,42 @@ CMakeFiles/g4sim.dir/src/g4EventAction.cc.o: ../src/g4EventAction.cc \
   /home/grapes/root/include/ROOT/RRangeCast.hxx \
   /home/grapes/root/include/ROOT/RSpan.hxx \
   /home/grapes/root/include/ROOT/span.hxx \
+=======
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
+  /home/dipti/root/include/snprintf.h \
+  /home/dipti/root/include/TGenericClassInfo.h \
+  /home/dipti/root/include/TSchemaHelper.h \
+  /home/dipti/root/include/TIsAProxy.h \
+  /home/dipti/root/include/TVirtualIsAProxy.h \
+  /home/dipti/root/include/TStorage.h \
+  /home/dipti/root/include/TVersionCheck.h \
+  /home/dipti/root/include/RVersion.h \
+  /home/dipti/root/include/TString.h \
+  /home/dipti/root/include/TMathBase.h \
+  /home/dipti/root/include/ROOT/RStringView.hxx \
+  /home/dipti/root/include/ROOT/TypeTraits.hxx \
+  /home/dipti/root/include/TClass.h \
+  /home/dipti/root/include/TDictionary.h \
+  /home/dipti/root/include/ESTLType.h \
+  /home/dipti/root/include/TObjArray.h \
+  /home/dipti/root/include/TSeqCollection.h \
+  /home/dipti/root/include/TCollection.h \
+  /home/dipti/root/include/TIterator.h \
+  /home/dipti/root/include/TVirtualRWMutex.h \
+  /home/dipti/root/include/TVirtualMutex.h \
+  /home/dipti/root/include/ROOT/RRangeCast.hxx \
+  /home/dipti/root/include/ROOT/RSpan.hxx \
+  /home/dipti/root/include/ROOT/span.hxx \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/iterator \
   /usr/include/c++/11/bits/stream_iterator.h \
   /usr/include/c++/11/cassert \
   /usr/include/assert.h \
   /usr/include/c++/11/unordered_set \
   /usr/include/c++/11/bits/unordered_set.h \
+<<<<<<< HEAD
   /home/grapes/root/include/TUUID.h \
   /home/grapes/root/include/TList.h \
   /home/grapes/root/include/TBuffer.h \
@@ -3211,11 +4806,41 @@ CMakeFiles/g4sim.dir/src/g4EventAction.cc.o: ../src/g4EventAction.cc \
   /home/grapes/root/include/TAttBBox2D.h \
   /home/grapes/root/include/TAttCanvas.h \
   /home/grapes/root/include/TSystem.h \
+=======
+  /home/dipti/root/include/TUUID.h \
+  /home/dipti/root/include/TList.h \
+  /home/dipti/root/include/TBuffer.h \
+  /home/dipti/root/include/TDataType.h \
+  /home/dipti/root/include/Bytes.h \
+  /home/dipti/root/include/Byteswap.h \
+  /home/dipti/root/include/TDatime.h \
+  /home/dipti/root/include/TUrl.h \
+  /home/dipti/root/include/ROOT/RConcurrentHashColl.hxx \
+  /home/dipti/root/include/Rtypes.h \
+  /home/dipti/root/include/ROOT/TRWSpinLock.hxx \
+  /home/dipti/root/include/ROOT/TSpinMutex.hxx \
+  /home/dipti/root/include/TCanvas.h \
+  /home/dipti/root/include/TPad.h \
+  /home/dipti/root/include/TVirtualPad.h \
+  /home/dipti/root/include/TAttLine.h \
+  /home/dipti/root/include/TAttFill.h \
+  /home/dipti/root/include/TAttPad.h \
+  /home/dipti/root/include/TQObject.h \
+  /home/dipti/root/include/TVirtualQConnection.h \
+  /home/dipti/root/include/TInterpreter.h \
+  /home/dipti/root/include/TInterpreterValue.h \
+  /home/dipti/root/include/GuiTypes.h \
+  /home/dipti/root/include/Buttons.h \
+  /home/dipti/root/include/TAttBBox2D.h \
+  /home/dipti/root/include/TAttCanvas.h \
+  /home/dipti/root/include/TSystem.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/fcntl.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
   /usr/include/linux/falloc.h \
+<<<<<<< HEAD
   /home/grapes/root/include/TInetAddress.h \
   /home/grapes/root/include/TTimer.h \
   /home/grapes/root/include/TSysEvtHandler.h \
@@ -3742,10 +5367,227 @@ CMakeFiles/g4sim.dir/src/g4EventAction.cc.o: ../src/g4EventAction.cc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4GeneralParticleSourceMessenger.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4GeneralParticleSourceData.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4SystemOfUnits.hh
+=======
+  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
+  /home/dipti/root/include/TInetAddress.h \
+  /home/dipti/root/include/TTimer.h \
+  /home/dipti/root/include/TSysEvtHandler.h \
+  /home/dipti/root/include/TTime.h \
+  /home/dipti/root/include/TROOT.h \
+  /home/dipti/root/include/TStyle.h \
+  /home/dipti/root/include/TAttMarker.h \
+  /home/dipti/root/include/TAttText.h \
+  /home/dipti/root/include/TAttAxis.h \
+  /home/dipti/root/include/TColor.h \
+  /home/dipti/root/include/TArrayI.h \
+  /home/dipti/root/include/TArray.h \
+  /home/dipti/root/include/TPostScript.h \
+  /home/dipti/root/include/TVirtualPS.h \
+  /home/dipti/root/include/TH3.h \
+  /home/dipti/root/include/TH1.h \
+  /home/dipti/root/include/TAxis.h \
+  /home/dipti/root/include/TArrayD.h \
+  /home/dipti/root/include/TArrayC.h \
+  /home/dipti/root/include/TArrayS.h \
+  /home/dipti/root/include/TArrayF.h \
+  /home/dipti/root/include/Foption.h \
+  /home/dipti/root/include/ROOT/EExecutionPolicy.hxx \
+  /home/dipti/root/include/TVectorFfwd.h \
+  /home/dipti/root/include/TVectorDfwd.h \
+  /home/dipti/root/include/TFitResultPtr.h \
+  /home/dipti/root/include/TAtt3D.h \
+  /home/dipti/root/include/TH2.h \
+  /home/dipti/root/include/TMatrixFBasefwd.h \
+  /home/dipti/root/include/TMatrixDBasefwd.h \
+  /home/dipti/root/include/TH1.h \
+  /home/dipti/root/include/TF1.h \
+  /home/dipti/root/include/RConfigure.h \
+  /home/dipti/root/include/TFormula.h \
+  /home/dipti/root/include/TBits.h \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /home/dipti/root/include/Math/Types.h \
+  /home/dipti/root/include/RtypesCore.h \
+  /home/dipti/root/include/TMethodCall.h \
+  /home/dipti/root/include/TF1AbsComposition.h \
+  /home/dipti/root/include/TMath.h \
+  /home/dipti/root/include/TError.h \
+  /home/dipti/root/include/DllImport.h \
+  /home/dipti/root/include/Math/Types.h \
+  /home/dipti/root/include/Math/ParamFunctor.h \
+  /home/dipti/root/include/TProfile.h \
+  /home/dipti/root/include/TGraph.h \
+  /home/dipti/root/include/TMultiGraph.h \
+  /home/dipti/root/include/TTree.h \
+  /home/dipti/root/include/ROOT/TIOFeatures.hxx \
+  /home/dipti/root/include/TVirtualTreePlayer.h \
+  /home/dipti/root/include/TBranch.h \
+  /home/dipti/root/include/TBranchCacheInfo.h \
+  /home/dipti/root/include/TTreeIndex.h \
+  /home/dipti/root/include/TVirtualIndex.h \
+  /home/dipti/root/include/TTreePlayer.h \
+  /home/dipti/root/include/TSelectorDraw.h \
+  /home/dipti/root/include/TSelector.h \
+  /home/dipti/root/include/TSelectorList.h \
+  /home/dipti/root/include/THashList.h \
+  /home/dipti/root/include/TTree.h \
+  /home/dipti/root/include/TBranch.h \
+  /home/dipti/root/include/TLeafI.h \
+  /home/dipti/root/include/TLeaf.h \
+  /home/dipti/root/include/TLeafS.h \
+  /home/dipti/root/include/TLeafB.h \
+  /home/dipti/root/include/TLeafF.h \
+  /home/dipti/root/include/TLeafD.h \
+  /home/dipti/root/include/TLeafC.h \
+  /home/dipti/root/include/TLeafL.h \
+  /home/dipti/root/include/TLeafO.h \
+  /home/dipti/root/include/TStopwatch.h \
+  /home/dipti/root/include/TNtuple.h \
+  /home/dipti/root/include/TMath.h \
+  /home/dipti/root/include/TMathBase.h \
+  /home/dipti/root/include/TRandom.h \
+  /home/dipti/root/include/Math/TRandomEngine.h \
+  /home/dipti/root/include/TRandom1.h \
+  /home/dipti/root/include/TRandom.h \
+  /home/dipti/root/include/TRandom2.h \
+  /home/dipti/root/include/TRandom3.h \
+  /home/dipti/root/include/TMatrix.h \
+  /home/dipti/root/include/TMatrixF.h \
+  /home/dipti/root/include/TMatrixT.h \
+  /home/dipti/root/include/TMatrixTBase.h \
+  /home/dipti/root/include/TMatrixTUtils.h \
+  /home/dipti/root/include/TMatrixFfwd.h \
+  /home/dipti/root/include/TMatrixFUtils.h \
+  /home/dipti/root/include/TMatrixFUtilsfwd.h \
+  /home/dipti/root/include/TLegend.h \
+  /home/dipti/root/include/TPave.h \
+  /home/dipti/root/include/TBox.h \
+  /home/dipti/root/include/TGraphErrors.h \
+  /home/dipti/root/include/TGraph.h \
+  /home/dipti/root/include/TVirtualFFT.h \
+  /home/dipti/root/include/TLatex.h \
+  /home/dipti/root/include/TText.h \
+  /home/dipti/root/include/TPaletteAxis.h \
+  /home/dipti/root/include/TGaxis.h \
+  /home/dipti/root/include/TLine.h \
+  /home/dipti/root/include/TChain.h \
+  /home/dipti/root/include/TMinuit.h \
+  /home/dipti/root/include/TPaveText.h \
+  /home/dipti/root/include/TArrow.h \
+  /home/dipti/root/include/TTimeStamp.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeneralParticleSource.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Event.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SingleParticleSource.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPrimaryGenerator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleMomentum.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleDefinition.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/PhysicalConstants.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/SystemOfUnits.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PDefManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleDefinition.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSPosDistribution.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Navigator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AffineTransform.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RotationMatrix.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ZMxpv.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Transform3D.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Transform3D.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Transform3D.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Point3D.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/BasicVector3D.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Vector3D.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Normal3D.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AffineTransform.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomSplitter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomwdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTouchable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTouchable.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSVolume.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSSolid.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHandle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ReferenceCountedHandle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHistoryHandle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHistory.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationHistory.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevel.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevelRep.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevelRep.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevel.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationHistoryPool.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationHistory.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHistory.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NormalNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSolid.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AuxiliaryNavServices.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AuxiliaryNavServices.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NormalNavigation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VoxelNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLogger.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BlockingList.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BlockingList.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelProxy.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelProxy.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelNode.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelNode.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelHeader.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelHeader.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VoxelNavigation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParameterisedNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPVParameterisation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VVolumeMaterialScanner.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParameterisedNavigation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ReplicaNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ReplicaNavigation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RegularNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VExternalNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Navigator.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSRandomGenerator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsFreeVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Log.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsVectorType.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DataInterpolation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Cache.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4CacheDetails.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSAngDistribution.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSEneDistribution.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeneralParticleSourceMessenger.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeneralParticleSourceData.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SystemOfUnits.hh
+>>>>>>> 671b135 (Minor update to the detector construction class)
 
 CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: ../src/g4PhysicsList.cc \
   /usr/include/stdc-predef.h \
   ../inc/g4PhysicsList.hh \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VModularPhysicsList.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VPhysicsConstructor.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ParticleTable.hh \
@@ -3756,6 +5598,11 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: ../src/g4PhysicsList.cc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Types.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4GlobalConfig.hh \
   /usr/include/c++/11/complex \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VModularPhysicsList.hh \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_algobase.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
@@ -3768,8 +5615,48 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: ../src/g4PhysicsList.cc \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
+<<<<<<< HEAD
   /usr/include/c++/11/bits/cpp_type_traits.h \
   /usr/include/c++/11/ext/type_traits.h \
+=======
+  /usr/include/c++/11/bits/functexcept.h \
+  /usr/include/c++/11/bits/exception_defines.h \
+  /usr/include/c++/11/bits/cpp_type_traits.h \
+  /usr/include/c++/11/ext/type_traits.h \
+  /usr/include/c++/11/ext/numeric_traits.h \
+  /usr/include/c++/11/bits/stl_pair.h \
+  /usr/include/c++/11/bits/move.h \
+  /usr/include/c++/11/type_traits \
+  /usr/include/c++/11/bits/stl_iterator_base_types.h \
+  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/11/bits/concept_check.h \
+  /usr/include/c++/11/debug/assertions.h \
+  /usr/include/c++/11/bits/stl_iterator.h \
+  /usr/include/c++/11/bits/ptr_traits.h \
+  /usr/include/c++/11/debug/debug.h \
+  /usr/include/c++/11/bits/predefined_ops.h \
+  /usr/include/c++/11/bits/allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/c++/11/ext/new_allocator.h \
+  /usr/include/c++/11/new \
+  /usr/include/c++/11/bits/exception.h \
+  /usr/include/c++/11/bits/memoryfwd.h \
+  /usr/include/c++/11/bits/stl_construct.h \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/ext/alloc_traits.h \
+  /usr/include/c++/11/bits/alloc_traits.h \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/initializer_list \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/functional_hash.h \
+  /usr/include/c++/11/bits/hash_bytes.h \
+  /usr/include/c++/11/bits/range_access.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ios.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GlobalConfig.hh \
+  /usr/include/c++/11/complex \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -3811,6 +5698,10 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: ../src/g4PhysicsList.cc \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+<<<<<<< HEAD
+=======
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -3818,6 +5709,7 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: ../src/g4PhysicsList.cc \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+<<<<<<< HEAD
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -3835,6 +5727,12 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: ../src/g4PhysicsList.cc \
   /usr/include/c++/11/bits/ptr_traits.h \
   /usr/include/c++/11/debug/debug.h \
   /usr/include/c++/11/bits/predefined_ops.h \
+=======
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/c++/11/bits/specfun.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/limits \
   /usr/include/c++/11/tr1/gamma.tcc \
   /usr/include/c++/11/tr1/special_function_util.h \
@@ -3853,7 +5751,10 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: ../src/g4PhysicsList.cc \
   /usr/include/c++/11/ios \
   /usr/include/c++/11/iosfwd \
   /usr/include/c++/11/bits/stringfwd.h \
+<<<<<<< HEAD
   /usr/include/c++/11/bits/memoryfwd.h \
+=======
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/cwchar \
   /usr/include/wchar.h \
@@ -3864,6 +5765,7 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: ../src/g4PhysicsList.cc \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+<<<<<<< HEAD
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -3871,6 +5773,13 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: ../src/g4PhysicsList.cc \
   /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/bits/hash_bytes.h \
   /usr/include/c++/11/new \
+=======
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
+  /usr/include/c++/11/exception \
+  /usr/include/c++/11/bits/exception_ptr.h \
+  /usr/include/c++/11/bits/cxxabi_init_exception.h \
+  /usr/include/c++/11/typeinfo \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/bits/nested_exception.h \
   /usr/include/c++/11/bits/char_traits.h \
   /usr/include/c++/11/cstdint \
@@ -3905,13 +5814,17 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: ../src/g4PhysicsList.cc \
   /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
   /usr/include/c++/11/bits/locale_classes.h \
   /usr/include/c++/11/string \
+<<<<<<< HEAD
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
+=======
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/bits/ostream_insert.h \
   /usr/include/c++/11/bits/cxxabi_forced.h \
   /usr/include/c++/11/bits/stl_function.h \
   /usr/include/c++/11/backward/binders.h \
+<<<<<<< HEAD
   /usr/include/c++/11/bits/range_access.h \
   /usr/include/c++/11/initializer_list \
   /usr/include/c++/11/bits/basic_string.h \
@@ -3920,6 +5833,10 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: ../src/g4PhysicsList.cc \
   /usr/include/c++/11/bits/stl_construct.h \
   /usr/include/c++/11/string_view \
   /usr/include/c++/11/bits/functional_hash.h \
+=======
+  /usr/include/c++/11/bits/basic_string.h \
+  /usr/include/c++/11/string_view \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/bits/string_view.tcc \
   /usr/include/c++/11/ext/string_conversions.h \
   /usr/include/c++/11/cstdlib \
@@ -3930,6 +5847,11 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: ../src/g4PhysicsList.cc \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+<<<<<<< HEAD
+=======
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -3960,10 +5882,16 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: ../src/g4PhysicsList.cc \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/bits/istream.tcc \
   /usr/include/c++/11/bits/sstream.tcc \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/tls.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/globals.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ios.hh \
   /usr/include/c++/11/iostream \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tls.hh \
+  /usr/include/c++/11/iostream \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/globals.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/utility \
   /usr/include/c++/11/bits/stl_relops.h \
@@ -3988,6 +5916,7 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: ../src/g4PhysicsList.cc \
   /usr/include/c++/11/bits/node_handle.h \
   /usr/include/c++/11/bits/unordered_map.h \
   /usr/include/c++/11/bits/erase_if.h \
+<<<<<<< HEAD
   /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/stl_uninitialized.h \
   /usr/include/c++/11/bits/stl_vector.h \
@@ -4000,6 +5929,17 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: ../src/g4PhysicsList.cc \
   /usr/include/strings.h \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4String.icc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/templates.hh \
+=======
+  /usr/include/c++/11/pstl/execution_defs.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.hh \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/templates.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -4010,9 +5950,16 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: ../src/g4PhysicsList.cc \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Exception.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Exception.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VExceptionHandler.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/iomanip \
   /usr/include/c++/11/locale \
   /usr/include/c++/11/bits/locale_facets_nonio.h \
@@ -4035,6 +5982,13 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: ../src/g4PhysicsList.cc \
   /usr/include/c++/11/bits/parse_numbers.h \
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h \
+<<<<<<< HEAD
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/rundefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicsConstructor.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Threading.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/condition_variable \
   /usr/include/c++/11/bits/shared_ptr.h \
   /usr/include/c++/11/bits/shared_ptr_base.h \
@@ -4048,6 +6002,7 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: ../src/g4PhysicsList.cc \
   /usr/include/c++/11/bits/std_thread.h \
   /usr/include/c++/11/thread \
   /usr/include/c++/11/bits/this_thread_sleep.h \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/pwdefs.hh \
   /usr/include/c++/11/stdlib.h \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Units/PhysicalConstants.h \
@@ -4062,6 +6017,25 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: ../src/g4PhysicsList.cc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Cache.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4CacheDetails.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Backtrace.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleDefinition.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/PhysicalConstants.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/SystemOfUnits.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PDefManager.hh \
+  /usr/include/c++/11/stdlib.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/pwdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AutoLock.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleDefinition.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleTableIterator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleTable.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsListHelper.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsListOrderingParameter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ThreadLocalSingleton.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Cache.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4CacheDetails.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Backtrace.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/cxxabi.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
   /usr/include/execinfo.h \
@@ -4071,6 +6045,10 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: ../src/g4PhysicsList.cc \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+<<<<<<< HEAD
+=======
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/c++/11/cfenv \
@@ -4134,6 +6112,7 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: ../src/g4PhysicsList.cc \
   /usr/include/c++/11/list \
   /usr/include/c++/11/bits/stl_list.h \
   /usr/include/c++/11/bits/list.tcc \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VUPLSplitter.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/rundefs.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VUserPhysicsList.hh \
@@ -4153,10 +6132,31 @@ CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: ../src/g4PhysicsList.cc \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Vector/ThreeVector.h \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Vector/defs.h \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Vector/ThreeVector.icc
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUPLSplitter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserPhysicsList.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProductionCutsTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialCutsCouple.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProductionCuts.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MCCIndexConversionTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomSplitter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomwdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsModelCatalog.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EmStandardPhysics.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalPhysics.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalParameters.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ThreeVector.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.icc
+>>>>>>> 671b135 (Minor update to the detector construction class)
 
 CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: ../src/g4PrimaryGenerator.cc \
   /usr/include/stdc-predef.h \
   ../inc/g4PrimaryGenerator.hh \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4SystemOfUnits.hh \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Units/SystemOfUnits.h \
@@ -4166,6 +6166,17 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: ../src/g4PrimaryGenerator.cc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ios.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Types.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4GlobalConfig.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SystemOfUnits.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/SystemOfUnits.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/defs.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleGun.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/globals.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ios.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GlobalConfig.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/complex \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -4222,6 +6233,10 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: ../src/g4PrimaryGenerator.cc \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+<<<<<<< HEAD
+=======
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -4229,7 +6244,13 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: ../src/g4PrimaryGenerator.cc \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+<<<<<<< HEAD
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+=======
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -4275,6 +6296,10 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: ../src/g4PrimaryGenerator.cc \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+<<<<<<< HEAD
+=======
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -4341,6 +6366,11 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: ../src/g4PrimaryGenerator.cc \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+<<<<<<< HEAD
+=======
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -4371,7 +6401,11 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: ../src/g4PrimaryGenerator.cc \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/bits/istream.tcc \
   /usr/include/c++/11/bits/sstream.tcc \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/tls.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tls.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/utility \
@@ -4403,12 +6437,23 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: ../src/g4PrimaryGenerator.cc \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
   /usr/include/c++/11/pstl/execution_defs.h \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4String.hh \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4String.icc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/templates.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.hh \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/templates.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -4419,9 +6464,16 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: ../src/g4PrimaryGenerator.cc \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Exception.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Exception.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VExceptionHandler.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/iomanip \
   /usr/include/c++/11/locale \
   /usr/include/c++/11/bits/locale_facets_nonio.h \
@@ -4444,6 +6496,7 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: ../src/g4PrimaryGenerator.cc \
   /usr/include/c++/11/bits/parse_numbers.h \
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VPrimaryGenerator.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ThreeVector.hh \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Vector/ThreeVector.h \
@@ -4453,6 +6506,20 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: ../src/g4PrimaryGenerator.cc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4PDefManager.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4AutoLock.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Threading.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPrimaryGenerator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ThreeVector.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleDefinition.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/PhysicalConstants.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PDefManager.hh \
+  /usr/include/c++/11/stdlib.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/pwdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AutoLock.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Threading.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/condition_variable \
   /usr/include/c++/11/bits/shared_ptr.h \
   /usr/include/c++/11/bits/shared_ptr_base.h \
@@ -4466,6 +6533,7 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: ../src/g4PrimaryGenerator.cc \
   /usr/include/c++/11/bits/std_thread.h \
   /usr/include/c++/11/thread \
   /usr/include/c++/11/bits/this_thread_sleep.h \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/pwdefs.hh \
   /usr/include/c++/11/stdlib.h \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Units/PhysicalConstants.h \
@@ -4484,10 +6552,28 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: ../src/g4PrimaryGenerator.cc \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/defs.h \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/DRand48Engine.h \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandomEngine.h \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleDefinition.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryVertex.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Allocator.hh \
+  /usr/include/c++/11/cstddef \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AllocatorPool.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryParticle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleMomentum.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleTableIterator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleTable.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/Randomize.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Randomize.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/DRand48Engine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandomEngine.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/fstream \
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
+<<<<<<< HEAD
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandomEngine.icc \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Utility/noncopyable.h \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Utility/defs.h \
@@ -4508,6 +6594,28 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: ../src/g4PrimaryGenerator.cc \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/Random.h \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/Random.icc \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Utility/memory.h \
+=======
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandomEngine.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/noncopyable.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/DualRand.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Hurd160Engine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Hurd288Engine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/JamesRandom.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/MixMaxRng.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/MTwistEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RanecuEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RanluxEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Ranlux64Engine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RanluxppEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RanshiEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/TripleRand.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBinomial.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Random.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Random.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/memory.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_raw_storage_iter.h \
   /usr/include/c++/11/bits/align.h \
@@ -4515,6 +6623,7 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: ../src/g4PrimaryGenerator.cc \
   /usr/include/c++/11/bits/shared_ptr_atomic.h \
   /usr/include/c++/11/backward/auto_ptr.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
+<<<<<<< HEAD
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandBinomial.icc \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandBreitWigner.h \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandFlat.h \
@@ -4565,12 +6674,66 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: ../src/g4PrimaryGenerator.cc \
   /home/grapes/root/include/DllImport.h \
   /home/grapes/root/include/strtok.h \
   /home/grapes/root/include/strlcpy.h \
+=======
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBinomial.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBreitWigner.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandFlat.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/thread_local.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandFlat.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBreitWigner.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandChiSquare.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandChiSquare.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandExponential.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandExponential.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandExpZiggurat.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBit.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBit.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGamma.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGamma.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGauss.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGauss.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussQ.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussQ.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussT.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Stat.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussT.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussZiggurat.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGeneral.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGeneral.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandLandau.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandLandau.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoissonQ.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoisson.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoisson.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoissonQ.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoissonT.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoissonT.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandSkewNormal.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandSkewNormal.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandStudentT.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandStudentT.icc \
+  /home/dipti/root/include/TRandom3.h \
+  /home/dipti/root/include/TRandom.h \
+  /home/dipti/root/include/Math/TRandomEngine.h \
+  /home/dipti/root/include/TNamed.h \
+  /home/dipti/root/include/TObject.h \
+  /home/dipti/root/include/Rtypes.h \
+  /home/dipti/root/include/RtypesCore.h \
+  /home/dipti/root/include/ROOT/RConfig.hxx \
+  /home/dipti/root/include/RVersion.h \
+  /home/dipti/root/include/ROOT/RVersion.hxx \
+  /home/dipti/root/include/RConfigure.h \
+  /home/dipti/root/include/DllImport.h \
+  /home/dipti/root/include/strtok.h \
+  /home/dipti/root/include/strlcpy.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+<<<<<<< HEAD
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /home/grapes/root/include/snprintf.h \
@@ -4596,14 +6759,48 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: ../src/g4PrimaryGenerator.cc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4MuonPlus.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4MuonMinus.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Gamma.hh \
+=======
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
+  /home/dipti/root/include/snprintf.h \
+  /home/dipti/root/include/TGenericClassInfo.h \
+  /home/dipti/root/include/TSchemaHelper.h \
+  /home/dipti/root/include/TIsAProxy.h \
+  /home/dipti/root/include/TVirtualIsAProxy.h \
+  /home/dipti/root/include/TStorage.h \
+  /home/dipti/root/include/TVersionCheck.h \
+  /home/dipti/root/include/RVersion.h \
+  /home/dipti/root/include/TString.h \
+  /home/dipti/root/include/TMathBase.h \
+  /home/dipti/root/include/ROOT/RStringView.hxx \
+  /home/dipti/root/include/ROOT/TypeTraits.hxx \
+  /usr/include/c++/11/cstdarg \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IonTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Ions.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Proton.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Alpha.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Electron.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Positron.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MuonPlus.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MuonMinus.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Gamma.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   ../inc/g4Structures.hh
 
 CMakeFiles/g4sim.dir/src/g4RunAction.cc.o: ../src/g4RunAction.cc \
   /usr/include/stdc-predef.h \
   ../inc/g4RunAction.hh \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4UserRunAction.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Types.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4GlobalConfig.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserRunAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GlobalConfig.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/complex \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -4660,6 +6857,10 @@ CMakeFiles/g4sim.dir/src/g4RunAction.cc.o: ../src/g4RunAction.cc \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+<<<<<<< HEAD
+=======
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -4667,7 +6868,13 @@ CMakeFiles/g4sim.dir/src/g4RunAction.cc.o: ../src/g4RunAction.cc \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+<<<<<<< HEAD
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+=======
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -4713,6 +6920,10 @@ CMakeFiles/g4sim.dir/src/g4RunAction.cc.o: ../src/g4RunAction.cc \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+<<<<<<< HEAD
+=======
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -4779,6 +6990,11 @@ CMakeFiles/g4sim.dir/src/g4RunAction.cc.o: ../src/g4RunAction.cc \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+<<<<<<< HEAD
+=======
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -4809,6 +7025,7 @@ CMakeFiles/g4sim.dir/src/g4RunAction.cc.o: ../src/g4RunAction.cc \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/bits/istream.tcc \
   /usr/include/c++/11/bits/sstream.tcc \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/tls.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4AnalysisManager.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4GenericAnalysisManager.hh \
@@ -4818,6 +7035,17 @@ CMakeFiles/g4sim.dir/src/g4RunAction.cc.o: ../src/g4RunAction.cc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4AnalysisVerbose.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/globals.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ios.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tls.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericAnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ToolsAnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VAnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisManagerState.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisVerbose.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/globals.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ios.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/utility \
@@ -4849,12 +7077,23 @@ CMakeFiles/g4sim.dir/src/g4RunAction.cc.o: ../src/g4RunAction.cc \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
   /usr/include/c++/11/pstl/execution_defs.h \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4String.hh \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4String.icc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/templates.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.hh \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/templates.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -4865,9 +7104,16 @@ CMakeFiles/g4sim.dir/src/g4RunAction.cc.o: ../src/g4RunAction.cc \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Exception.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Exception.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VExceptionHandler.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/iomanip \
   /usr/include/c++/11/locale \
   /usr/include/c++/11/bits/locale_facets_nonio.h \
@@ -4890,6 +7136,7 @@ CMakeFiles/g4sim.dir/src/g4RunAction.cc.o: ../src/g4RunAction.cc \
   /usr/include/c++/11/bits/parse_numbers.h \
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Threading.hh \
   /usr/include/c++/11/condition_variable \
   /usr/include/c++/11/bits/shared_ptr.h \
@@ -4912,10 +7159,13 @@ CMakeFiles/g4sim.dir/src/g4RunAction.cc.o: ../src/g4RunAction.cc \
   /usr/include/c++/11/bits/shared_ptr_atomic.h \
   /usr/include/c++/11/backward/auto_ptr.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
+=======
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/fstream \
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VTBaseHnManager.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4HnInformation.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4BinScheme.hh \
@@ -4989,6 +7239,103 @@ CMakeFiles/g4sim.dir/src/g4RunAction.cc.o: ../src/g4RunAction.cc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/PTL/Globals.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/PTL/Types.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/PTL/Utility.hh \
+=======
+  /usr/include/c++/11/memory \
+  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/11/bits/align.h \
+  /usr/include/c++/11/bit \
+  /usr/include/c++/11/bits/shared_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr_base.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/ext/concurrence.h \
+  /usr/include/c++/11/bits/shared_ptr_atomic.h \
+  /usr/include/c++/11/bits/atomic_base.h \
+  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/11/backward/auto_ptr.h \
+  /usr/include/c++/11/pstl/glue_memory_defs.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VAnalysisManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HnManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BaseAnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Fcn.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BinScheme.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HnInformation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisUtilities.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NtupleBookingManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/ntuple_booking \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cids \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cid \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/typedefs \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/forit \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NtupleBookingManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VH1Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VH2Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VH3Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VP1Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VP2Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VNtupleManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VFileManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BaseFileManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTHnFileManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ToolsAnalysisMessenger.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UImessenger.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIdirectory.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIcommand.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIparameter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UItokenNum.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ApplicationState.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ThreeVector.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4THnManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Threading.hh \
+  /usr/include/c++/11/condition_variable \
+  /usr/include/c++/11/future \
+  /usr/include/c++/11/atomic \
+  /usr/include/c++/11/bits/atomic_futex.h \
+  /usr/include/c++/11/bits/std_thread.h \
+  /usr/include/c++/11/thread \
+  /usr/include/c++/11/bits/this_thread_sleep.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4THnManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AutoLock.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h1d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h1 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/b1 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/base_histo \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/histo_data \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/axes \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/axis \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/eqT \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h2d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h2 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/b2 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h3d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h3 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/b3 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p1d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p1 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/profile_data \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p2d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p2 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ToolsAnalysisManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4H1ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4H2ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4H3ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4P1ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4P2ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericAnalysisManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericFileManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericFileManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Run.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Profiler.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Profiler.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/PTL/Globals.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/PTL/Types.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/PTL/Utility.hh \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/cstddef \
   ../inc/g4Structures.hh \
   ../inc/g4CPP_ROOT_Headers.hh \
@@ -5018,6 +7365,7 @@ CMakeFiles/g4sim.dir/src/g4RunAction.cc.o: ../src/g4RunAction.cc \
   /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
+<<<<<<< HEAD
   /home/grapes/root/include/TFile.h \
   /home/grapes/root/include/Compression.h \
   /home/grapes/root/include/RtypesCore.h \
@@ -5032,12 +7380,30 @@ CMakeFiles/g4sim.dir/src/g4RunAction.cc.o: ../src/g4RunAction.cc \
   /home/grapes/root/include/Rtypes.h \
   /home/grapes/root/include/strtok.h \
   /home/grapes/root/include/strlcpy.h \
+=======
+  /home/dipti/root/include/TFile.h \
+  /home/dipti/root/include/Compression.h \
+  /home/dipti/root/include/RtypesCore.h \
+  /home/dipti/root/include/ROOT/RConfig.hxx \
+  /home/dipti/root/include/RVersion.h \
+  /home/dipti/root/include/ROOT/RVersion.hxx \
+  /home/dipti/root/include/RConfigure.h \
+  /home/dipti/root/include/DllImport.h \
+  /home/dipti/root/include/TDirectoryFile.h \
+  /home/dipti/root/include/TDirectory.h \
+  /home/dipti/root/include/TNamed.h \
+  /home/dipti/root/include/TObject.h \
+  /home/dipti/root/include/Rtypes.h \
+  /home/dipti/root/include/strtok.h \
+  /home/dipti/root/include/strlcpy.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+<<<<<<< HEAD
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /home/grapes/root/include/snprintf.h \
@@ -5065,12 +7431,43 @@ CMakeFiles/g4sim.dir/src/g4RunAction.cc.o: ../src/g4RunAction.cc \
   /home/grapes/root/include/ROOT/RRangeCast.hxx \
   /home/grapes/root/include/ROOT/RSpan.hxx \
   /home/grapes/root/include/ROOT/span.hxx \
+=======
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
+  /home/dipti/root/include/snprintf.h \
+  /home/dipti/root/include/TGenericClassInfo.h \
+  /home/dipti/root/include/TSchemaHelper.h \
+  /home/dipti/root/include/TIsAProxy.h \
+  /home/dipti/root/include/TVirtualIsAProxy.h \
+  /home/dipti/root/include/TStorage.h \
+  /home/dipti/root/include/TVersionCheck.h \
+  /home/dipti/root/include/RVersion.h \
+  /home/dipti/root/include/TString.h \
+  /home/dipti/root/include/TMathBase.h \
+  /home/dipti/root/include/ROOT/RStringView.hxx \
+  /home/dipti/root/include/ROOT/TypeTraits.hxx \
+  /usr/include/c++/11/cstdarg \
+  /home/dipti/root/include/TClass.h \
+  /home/dipti/root/include/TDictionary.h \
+  /home/dipti/root/include/ESTLType.h \
+  /home/dipti/root/include/TObjArray.h \
+  /home/dipti/root/include/TSeqCollection.h \
+  /home/dipti/root/include/TCollection.h \
+  /home/dipti/root/include/TIterator.h \
+  /home/dipti/root/include/TVirtualRWMutex.h \
+  /home/dipti/root/include/TVirtualMutex.h \
+  /home/dipti/root/include/ROOT/RRangeCast.hxx \
+  /home/dipti/root/include/ROOT/RSpan.hxx \
+  /home/dipti/root/include/ROOT/span.hxx \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/iterator \
   /usr/include/c++/11/bits/stream_iterator.h \
   /usr/include/c++/11/cassert \
   /usr/include/assert.h \
   /usr/include/c++/11/unordered_set \
   /usr/include/c++/11/bits/unordered_set.h \
+<<<<<<< HEAD
   /home/grapes/root/include/TUUID.h \
   /home/grapes/root/include/TList.h \
   /home/grapes/root/include/TBuffer.h \
@@ -5098,11 +7495,41 @@ CMakeFiles/g4sim.dir/src/g4RunAction.cc.o: ../src/g4RunAction.cc \
   /home/grapes/root/include/TAttBBox2D.h \
   /home/grapes/root/include/TAttCanvas.h \
   /home/grapes/root/include/TSystem.h \
+=======
+  /home/dipti/root/include/TUUID.h \
+  /home/dipti/root/include/TList.h \
+  /home/dipti/root/include/TBuffer.h \
+  /home/dipti/root/include/TDataType.h \
+  /home/dipti/root/include/Bytes.h \
+  /home/dipti/root/include/Byteswap.h \
+  /home/dipti/root/include/TDatime.h \
+  /home/dipti/root/include/TUrl.h \
+  /home/dipti/root/include/ROOT/RConcurrentHashColl.hxx \
+  /home/dipti/root/include/Rtypes.h \
+  /home/dipti/root/include/ROOT/TRWSpinLock.hxx \
+  /home/dipti/root/include/ROOT/TSpinMutex.hxx \
+  /home/dipti/root/include/TCanvas.h \
+  /home/dipti/root/include/TPad.h \
+  /home/dipti/root/include/TVirtualPad.h \
+  /home/dipti/root/include/TAttLine.h \
+  /home/dipti/root/include/TAttFill.h \
+  /home/dipti/root/include/TAttPad.h \
+  /home/dipti/root/include/TQObject.h \
+  /home/dipti/root/include/TVirtualQConnection.h \
+  /home/dipti/root/include/TInterpreter.h \
+  /home/dipti/root/include/TInterpreterValue.h \
+  /home/dipti/root/include/GuiTypes.h \
+  /home/dipti/root/include/Buttons.h \
+  /home/dipti/root/include/TAttBBox2D.h \
+  /home/dipti/root/include/TAttCanvas.h \
+  /home/dipti/root/include/TSystem.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/fcntl.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
   /usr/include/linux/falloc.h \
+<<<<<<< HEAD
   /home/grapes/root/include/TInetAddress.h \
   /home/grapes/root/include/TTimer.h \
   /home/grapes/root/include/TSysEvtHandler.h \
@@ -5641,12 +8068,246 @@ CMakeFiles/g4sim.dir/src/g4RunAction.cc.o: ../src/g4RunAction.cc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4SPSEneDistribution.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4GeneralParticleSourceMessenger.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4GeneralParticleSourceData.hh
+=======
+  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
+  /home/dipti/root/include/TInetAddress.h \
+  /home/dipti/root/include/TTimer.h \
+  /home/dipti/root/include/TSysEvtHandler.h \
+  /home/dipti/root/include/TTime.h \
+  /home/dipti/root/include/TROOT.h \
+  /home/dipti/root/include/TStyle.h \
+  /home/dipti/root/include/TAttMarker.h \
+  /home/dipti/root/include/TAttText.h \
+  /home/dipti/root/include/TAttAxis.h \
+  /home/dipti/root/include/TColor.h \
+  /home/dipti/root/include/TArrayI.h \
+  /home/dipti/root/include/TArray.h \
+  /home/dipti/root/include/TPostScript.h \
+  /home/dipti/root/include/TVirtualPS.h \
+  /home/dipti/root/include/TH3.h \
+  /home/dipti/root/include/TH1.h \
+  /home/dipti/root/include/TAxis.h \
+  /home/dipti/root/include/TArrayD.h \
+  /home/dipti/root/include/TArrayC.h \
+  /home/dipti/root/include/TArrayS.h \
+  /home/dipti/root/include/TArrayF.h \
+  /home/dipti/root/include/Foption.h \
+  /home/dipti/root/include/ROOT/EExecutionPolicy.hxx \
+  /home/dipti/root/include/TVectorFfwd.h \
+  /home/dipti/root/include/TVectorDfwd.h \
+  /home/dipti/root/include/TFitResultPtr.h \
+  /home/dipti/root/include/TAtt3D.h \
+  /home/dipti/root/include/TH2.h \
+  /home/dipti/root/include/TMatrixFBasefwd.h \
+  /home/dipti/root/include/TMatrixDBasefwd.h \
+  /home/dipti/root/include/TH1.h \
+  /home/dipti/root/include/TF1.h \
+  /home/dipti/root/include/RConfigure.h \
+  /home/dipti/root/include/TFormula.h \
+  /home/dipti/root/include/TBits.h \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /home/dipti/root/include/Math/Types.h \
+  /home/dipti/root/include/RtypesCore.h \
+  /home/dipti/root/include/TMethodCall.h \
+  /home/dipti/root/include/TF1AbsComposition.h \
+  /home/dipti/root/include/TMath.h \
+  /home/dipti/root/include/TError.h \
+  /home/dipti/root/include/DllImport.h \
+  /home/dipti/root/include/Math/Types.h \
+  /home/dipti/root/include/Math/ParamFunctor.h \
+  /home/dipti/root/include/TProfile.h \
+  /home/dipti/root/include/TGraph.h \
+  /home/dipti/root/include/TMultiGraph.h \
+  /home/dipti/root/include/TTree.h \
+  /home/dipti/root/include/ROOT/TIOFeatures.hxx \
+  /home/dipti/root/include/TVirtualTreePlayer.h \
+  /home/dipti/root/include/TBranch.h \
+  /home/dipti/root/include/TBranchCacheInfo.h \
+  /home/dipti/root/include/TTreeIndex.h \
+  /home/dipti/root/include/TVirtualIndex.h \
+  /home/dipti/root/include/TTreePlayer.h \
+  /home/dipti/root/include/TSelectorDraw.h \
+  /home/dipti/root/include/TSelector.h \
+  /home/dipti/root/include/TSelectorList.h \
+  /home/dipti/root/include/THashList.h \
+  /home/dipti/root/include/TTree.h \
+  /home/dipti/root/include/TBranch.h \
+  /home/dipti/root/include/TLeafI.h \
+  /home/dipti/root/include/TLeaf.h \
+  /home/dipti/root/include/TLeafS.h \
+  /home/dipti/root/include/TLeafB.h \
+  /home/dipti/root/include/TLeafF.h \
+  /home/dipti/root/include/TLeafD.h \
+  /home/dipti/root/include/TLeafC.h \
+  /home/dipti/root/include/TLeafL.h \
+  /home/dipti/root/include/TLeafO.h \
+  /home/dipti/root/include/TStopwatch.h \
+  /home/dipti/root/include/TNtuple.h \
+  /home/dipti/root/include/TMath.h \
+  /home/dipti/root/include/TMathBase.h \
+  /home/dipti/root/include/TRandom.h \
+  /home/dipti/root/include/Math/TRandomEngine.h \
+  /home/dipti/root/include/TRandom1.h \
+  /home/dipti/root/include/TRandom.h \
+  /home/dipti/root/include/TRandom2.h \
+  /home/dipti/root/include/TRandom3.h \
+  /home/dipti/root/include/TMatrix.h \
+  /home/dipti/root/include/TMatrixF.h \
+  /home/dipti/root/include/TMatrixT.h \
+  /home/dipti/root/include/TMatrixTBase.h \
+  /home/dipti/root/include/TMatrixTUtils.h \
+  /home/dipti/root/include/TMatrixFfwd.h \
+  /home/dipti/root/include/TMatrixFUtils.h \
+  /home/dipti/root/include/TMatrixFUtilsfwd.h \
+  /home/dipti/root/include/TLegend.h \
+  /home/dipti/root/include/TPave.h \
+  /home/dipti/root/include/TBox.h \
+  /home/dipti/root/include/TGraphErrors.h \
+  /home/dipti/root/include/TGraph.h \
+  /home/dipti/root/include/TVirtualFFT.h \
+  /home/dipti/root/include/TLatex.h \
+  /home/dipti/root/include/TText.h \
+  /home/dipti/root/include/TPaletteAxis.h \
+  /home/dipti/root/include/TGaxis.h \
+  /home/dipti/root/include/TLine.h \
+  /home/dipti/root/include/TChain.h \
+  /home/dipti/root/include/TMinuit.h \
+  /home/dipti/root/include/TPaveText.h \
+  /home/dipti/root/include/TArrow.h \
+  /home/dipti/root/include/TTimeStamp.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeneralParticleSource.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Event.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/evtdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Allocator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AllocatorPool.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryVertex.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/pwdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryParticle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HCofThisEvent.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VHitsCollection.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DCofThisEvent.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VDigiCollection.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrajectoryContainer.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTrajectory.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserEventInformation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SingleParticleSource.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPrimaryGenerator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleMomentum.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleDefinition.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/PhysicalConstants.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/SystemOfUnits.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PDefManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleDefinition.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSPosDistribution.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Navigator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AffineTransform.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RotationMatrix.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ZMxpv.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Transform3D.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Transform3D.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Transform3D.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Point3D.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/BasicVector3D.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Vector3D.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Normal3D.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AffineTransform.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomSplitter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomwdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTouchable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTouchable.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSVolume.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSSolid.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHandle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ReferenceCountedHandle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHistoryHandle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHistory.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationHistory.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevel.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevelRep.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevelRep.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevel.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationHistoryPool.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationHistory.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHistory.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NormalNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSolid.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AuxiliaryNavServices.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AuxiliaryNavServices.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NormalNavigation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VoxelNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLogger.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BlockingList.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BlockingList.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelProxy.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelProxy.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelNode.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelNode.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelHeader.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelHeader.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VoxelNavigation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParameterisedNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPVParameterisation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VVolumeMaterialScanner.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParameterisedNavigation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ReplicaNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ReplicaNavigation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RegularNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VExternalNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Navigator.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSRandomGenerator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsFreeVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Log.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsVectorType.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DataInterpolation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Cache.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4CacheDetails.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSAngDistribution.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSEneDistribution.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeneralParticleSourceMessenger.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeneralParticleSourceData.hh
+>>>>>>> 671b135 (Minor update to the detector construction class)
 
 CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: ../src/g4SteppingAction.cc \
   /usr/include/stdc-predef.h \
   ../inc/g4SteppingAction.hh \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4UserSteppingAction.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Step.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserSteppingAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Step.hh \
+  /usr/include/c++/11/stdlib.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/cstdlib \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -5689,6 +8350,10 @@ CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: ../src/g4SteppingAction.cc \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+<<<<<<< HEAD
+=======
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -5696,7 +8361,13 @@ CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: ../src/g4SteppingAction.cc \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+<<<<<<< HEAD
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+=======
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cmath \
   /usr/include/c++/11/bits/cpp_type_traits.h \
@@ -5740,9 +8411,15 @@ CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: ../src/g4SteppingAction.cc \
   /usr/include/c++/11/tr1/poly_hermite.tcc \
   /usr/include/c++/11/tr1/poly_laguerre.tcc \
   /usr/include/c++/11/tr1/riemann_zeta.tcc \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ios.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Types.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4GlobalConfig.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ios.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GlobalConfig.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/complex \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/istream \
@@ -5760,6 +8437,10 @@ CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: ../src/g4SteppingAction.cc \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+<<<<<<< HEAD
+=======
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -5825,6 +8506,11 @@ CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: ../src/g4SteppingAction.cc \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+<<<<<<< HEAD
+=======
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -5855,7 +8541,11 @@ CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: ../src/g4SteppingAction.cc \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/bits/istream.tcc \
   /usr/include/c++/11/bits/sstream.tcc \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/tls.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tls.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/iomanip \
   /usr/include/c++/11/locale \
@@ -5875,7 +8565,11 @@ CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: ../src/g4SteppingAction.cc \
   /usr/include/c++/11/bits/uses_allocator.h \
   /usr/include/c++/11/bits/invoke.h \
   /usr/include/c++/11/bits/quoted_string.h \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/globals.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/globals.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
@@ -5900,12 +8594,23 @@ CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: ../src/g4SteppingAction.cc \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
   /usr/include/c++/11/pstl/execution_defs.h \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4String.hh \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4String.icc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/templates.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.hh \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/templates.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -5916,9 +8621,16 @@ CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: ../src/g4SteppingAction.cc \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Exception.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Exception.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VExceptionHandler.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/map \
   /usr/include/c++/11/bits/stl_tree.h \
   /usr/include/c++/11/bits/stl_map.h \
@@ -5929,6 +8641,7 @@ CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: ../src/g4SteppingAction.cc \
   /usr/include/c++/11/bits/parse_numbers.h \
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ThreeVector.hh \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Vector/ThreeVector.h \
   /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Vector/defs.h \
@@ -5958,6 +8671,37 @@ CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: ../src/g4SteppingAction.cc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/geomwdefs.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4AutoLock.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Threading.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ThreeVector.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RotationMatrix.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ZMxpv.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/PhysicalConstants.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/SystemOfUnits.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomSplitter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomwdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AutoLock.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Threading.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/condition_variable \
   /usr/include/c++/11/bits/shared_ptr.h \
   /usr/include/c++/11/bits/shared_ptr_base.h \
@@ -5971,6 +8715,7 @@ CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: ../src/g4SteppingAction.cc \
   /usr/include/c++/11/bits/std_thread.h \
   /usr/include/c++/11/thread \
   /usr/include/c++/11/bits/this_thread_sleep.h \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4StepPoint.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Allocator.hh \
@@ -6000,6 +8745,56 @@ CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: ../src/g4SteppingAction.cc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4NavigationHistoryPool.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4NavigationHistory.icc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4LogicalVolume.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StepPoint.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Allocator.hh \
+  /usr/include/c++/11/cstddef \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AllocatorPool.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SteppingControl.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StepStatus.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHandle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTouchable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTouchable.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ReferenceCountedHandle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Material.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Element.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Isotope.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IonisParamElm.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IsotopeVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ElementTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ElementVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialPropertiesTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialPropertiesIndex.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialPropertyVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsFreeVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsVector.hh \
+  /usr/include/c++/11/fstream \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/c++/11/bits/fstream.tcc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Log.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsVectorType.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IonisParamMat.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Exp.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SandiaTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OrderedTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DataVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DataVector.icc \
+  /usr/include/assert.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StepPoint.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Profiler.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Profiler.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/PTL/Globals.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/PTL/Types.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_raw_storage_iter.h \
   /usr/include/c++/11/bits/align.h \
@@ -6007,6 +8802,7 @@ CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: ../src/g4SteppingAction.cc \
   /usr/include/c++/11/bits/shared_ptr_atomic.h \
   /usr/include/c++/11/backward/auto_ptr.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Region.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Region.icc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4LogicalVolume.icc \
@@ -6427,6 +9223,410 @@ CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: ../src/g4SteppingAction.cc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4GenericFileManager.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4GenericFileManager.icc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Run.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/PTL/Utility.hh \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Step.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Track.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/trkdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DynamicParticle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleDefinition.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PDefManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/pwdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleDefinition.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LorentzVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleMomentum.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ElectronOccupancy.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DynamicParticle.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackStatus.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserTrackInformation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsModelCatalog.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Track.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Step.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RunManager.hh \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/rundefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Event.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/evtdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryVertex.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryParticle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HCofThisEvent.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VHitsCollection.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DCofThisEvent.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VDigiCollection.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrajectoryContainer.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTrajectory.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserEventInformation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EventManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StackManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserStackingAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ClassificationOfNewTrack.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StackedTrack.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackStack.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartTrackStack.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryTransformer.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleTableIterator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleTable.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackingManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SteppingManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/Randomize.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Randomize.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/DRand48Engine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandomEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandomEngine.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/noncopyable.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/DualRand.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Hurd160Engine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Hurd288Engine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/JamesRandom.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/MixMaxRng.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/MTwistEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RanecuEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RanluxEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Ranlux64Engine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RanluxppEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RanshiEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/TripleRand.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBinomial.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Random.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Random.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/memory.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBinomial.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBreitWigner.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandFlat.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/thread_local.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandFlat.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBreitWigner.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandChiSquare.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandChiSquare.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandExponential.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandExponential.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandExpZiggurat.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBit.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBit.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGamma.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGamma.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGauss.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGauss.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussQ.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussQ.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussT.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Stat.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussT.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussZiggurat.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGeneral.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGeneral.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandLandau.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandLandau.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoissonQ.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoisson.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoisson.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoissonQ.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoissonT.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoissonT.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandSkewNormal.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandSkewNormal.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandStudentT.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandStudentT.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Navigator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AffineTransform.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Transform3D.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Transform3D.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Transform3D.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Point3D.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/BasicVector3D.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Vector3D.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Normal3D.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AffineTransform.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSVolume.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSSolid.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHistoryHandle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHistory.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationHistory.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevel.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevelRep.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevelRep.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevel.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationHistoryPool.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationHistory.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHistory.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NormalNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSolid.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AuxiliaryNavServices.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AuxiliaryNavServices.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NormalNavigation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VoxelNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLogger.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BlockingList.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BlockingList.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelProxy.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelProxy.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelNode.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelNode.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelHeader.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelHeader.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VoxelNavigation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParameterisedNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPVParameterisation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VVolumeMaterialScanner.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParameterisedNavigation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ReplicaNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ReplicaNavigation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RegularNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VExternalNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Navigator.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VProcess.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsTable.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VParticleChange.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackFastVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4FastVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VParticleChange.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ForceCondition.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GPILSelection.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleChange.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleChange.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessType.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NoProcess.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserSteppingAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSteppingVerbose.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/trkgdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackingMessenger.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UImessenger.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIdirectory.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIcommand.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIparameter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UItokenNum.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ApplicationState.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserTrackingAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RunManagerKernel.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Scintillation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EmSaturation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalPhoton.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VRestDiscreteProcess.hh \
+  ../inc/g4DetectorConstruction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NistManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NistElementBuilder.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NistMaterialBuilder.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ICRU90StoppingData.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Pow.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Material.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PVPlacement.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SystemOfUnits.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Box.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomTypes.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomConfig.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4CSGSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Polyhedron.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/HepPolyhedron.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TwoVector.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/TwoVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/TwoVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Point3D.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Normal3D.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Visible.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Visible.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Box.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trap.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trap.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Tubs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Tubs.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Colour.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisAttributes.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/graphics_reps_defs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Colour.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Color.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisAttributes.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalSurface.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Physics2DVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Physics2DVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SurfaceProperty.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.icc \
+  ../inc/g4EventAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserEventAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Event.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/g4root_defs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/ntuple \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/tree \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/itree \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/typedefs \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/iobject \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/idir \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/seek \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/branch_element \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/branch \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/leaf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/base_leaf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/named \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/buffer \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/wbuf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/long_out \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/snpf \
+  /usr/include/c++/11/cstdarg \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/charp_out \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/stype \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/typedefs \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/ibo \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/realloc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/mnmx \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/forit \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vmanip \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/cids \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cid \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/scast \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/safe_cast \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cid \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rcmp \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cids \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vdata \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/basket \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/key \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/date \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/ifile \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/press_func \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/sout \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/imutex \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/branch_object \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/icol \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vfind \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/touplow \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/ntuple_booking \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cids \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/forit \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/mpi_create_basket \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/impi \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/columns.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/ntuple \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rntuple \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/scast \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/mnmx \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/tree \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/ifac \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/branch_element \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/branch \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/base_leaf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/named \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/object \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/buffer \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/rbuf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/stype \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/long_out \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/charp_out \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/iro \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cid \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/sout \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/mapmanip \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/scast \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vdata \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/cids \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/basket \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/key \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/seek \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/typedefs \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/date \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/ifile \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/press_func \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/obj_array \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vmanip \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/mnmx \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/forit \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/sprintf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/dummy \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/stl_vector \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cids \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/info \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/obj_list \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/iobject \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/leaf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vfind \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/ntuple_binding \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/get_lines \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cstr \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/g4hntools_defs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h1d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h1 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/b1 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/base_histo \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/histo_data \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/axes \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/axis \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/eqT \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h2d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h2 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/b2 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h3d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h3 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/b3 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p1d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p1 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/profile_data \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p2d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p2 \
+  ../inc/g4RunAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserRunAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericAnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ToolsAnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VAnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisManagerState.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisVerbose.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VAnalysisManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HnManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BaseAnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Fcn.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BinScheme.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HnInformation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisUtilities.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NtupleBookingManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/ntuple_booking \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NtupleBookingManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VH1Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VH2Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VH3Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VP1Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VP2Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VNtupleManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VFileManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BaseFileManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTHnFileManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ToolsAnalysisMessenger.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4THnManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4THnManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ToolsAnalysisManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4H1ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4H2ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4H3ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4P1ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4P2ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericAnalysisManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericFileManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericFileManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Run.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   ../inc/g4Structures.hh \
   ../inc/g4CPP_ROOT_Headers.hh \
   /usr/include/c++/11/math.h \
@@ -6454,6 +9654,7 @@ CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: ../src/g4SteppingAction.cc \
   /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
+<<<<<<< HEAD
   /home/grapes/root/include/TFile.h \
   /home/grapes/root/include/Compression.h \
   /home/grapes/root/include/RtypesCore.h \
@@ -6468,12 +9669,30 @@ CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: ../src/g4SteppingAction.cc \
   /home/grapes/root/include/Rtypes.h \
   /home/grapes/root/include/strtok.h \
   /home/grapes/root/include/strlcpy.h \
+=======
+  /home/dipti/root/include/TFile.h \
+  /home/dipti/root/include/Compression.h \
+  /home/dipti/root/include/RtypesCore.h \
+  /home/dipti/root/include/ROOT/RConfig.hxx \
+  /home/dipti/root/include/RVersion.h \
+  /home/dipti/root/include/ROOT/RVersion.hxx \
+  /home/dipti/root/include/RConfigure.h \
+  /home/dipti/root/include/DllImport.h \
+  /home/dipti/root/include/TDirectoryFile.h \
+  /home/dipti/root/include/TDirectory.h \
+  /home/dipti/root/include/TNamed.h \
+  /home/dipti/root/include/TObject.h \
+  /home/dipti/root/include/Rtypes.h \
+  /home/dipti/root/include/strtok.h \
+  /home/dipti/root/include/strlcpy.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+<<<<<<< HEAD
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /home/grapes/root/include/snprintf.h \
@@ -6500,11 +9719,41 @@ CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: ../src/g4SteppingAction.cc \
   /home/grapes/root/include/ROOT/RRangeCast.hxx \
   /home/grapes/root/include/ROOT/RSpan.hxx \
   /home/grapes/root/include/ROOT/span.hxx \
+=======
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
+  /home/dipti/root/include/snprintf.h \
+  /home/dipti/root/include/TGenericClassInfo.h \
+  /home/dipti/root/include/TSchemaHelper.h \
+  /home/dipti/root/include/TIsAProxy.h \
+  /home/dipti/root/include/TVirtualIsAProxy.h \
+  /home/dipti/root/include/TStorage.h \
+  /home/dipti/root/include/TVersionCheck.h \
+  /home/dipti/root/include/RVersion.h \
+  /home/dipti/root/include/TString.h \
+  /home/dipti/root/include/TMathBase.h \
+  /home/dipti/root/include/ROOT/RStringView.hxx \
+  /home/dipti/root/include/ROOT/TypeTraits.hxx \
+  /home/dipti/root/include/TClass.h \
+  /home/dipti/root/include/TDictionary.h \
+  /home/dipti/root/include/ESTLType.h \
+  /home/dipti/root/include/TObjArray.h \
+  /home/dipti/root/include/TSeqCollection.h \
+  /home/dipti/root/include/TCollection.h \
+  /home/dipti/root/include/TIterator.h \
+  /home/dipti/root/include/TVirtualRWMutex.h \
+  /home/dipti/root/include/TVirtualMutex.h \
+  /home/dipti/root/include/ROOT/RRangeCast.hxx \
+  /home/dipti/root/include/ROOT/RSpan.hxx \
+  /home/dipti/root/include/ROOT/span.hxx \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/iterator \
   /usr/include/c++/11/bits/stream_iterator.h \
   /usr/include/c++/11/cassert \
   /usr/include/c++/11/unordered_set \
   /usr/include/c++/11/bits/unordered_set.h \
+<<<<<<< HEAD
   /home/grapes/root/include/TUUID.h \
   /home/grapes/root/include/TList.h \
   /home/grapes/root/include/TBuffer.h \
@@ -6532,11 +9781,41 @@ CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: ../src/g4SteppingAction.cc \
   /home/grapes/root/include/TAttBBox2D.h \
   /home/grapes/root/include/TAttCanvas.h \
   /home/grapes/root/include/TSystem.h \
+=======
+  /home/dipti/root/include/TUUID.h \
+  /home/dipti/root/include/TList.h \
+  /home/dipti/root/include/TBuffer.h \
+  /home/dipti/root/include/TDataType.h \
+  /home/dipti/root/include/Bytes.h \
+  /home/dipti/root/include/Byteswap.h \
+  /home/dipti/root/include/TDatime.h \
+  /home/dipti/root/include/TUrl.h \
+  /home/dipti/root/include/ROOT/RConcurrentHashColl.hxx \
+  /home/dipti/root/include/Rtypes.h \
+  /home/dipti/root/include/ROOT/TRWSpinLock.hxx \
+  /home/dipti/root/include/ROOT/TSpinMutex.hxx \
+  /home/dipti/root/include/TCanvas.h \
+  /home/dipti/root/include/TPad.h \
+  /home/dipti/root/include/TVirtualPad.h \
+  /home/dipti/root/include/TAttLine.h \
+  /home/dipti/root/include/TAttFill.h \
+  /home/dipti/root/include/TAttPad.h \
+  /home/dipti/root/include/TQObject.h \
+  /home/dipti/root/include/TVirtualQConnection.h \
+  /home/dipti/root/include/TInterpreter.h \
+  /home/dipti/root/include/TInterpreterValue.h \
+  /home/dipti/root/include/GuiTypes.h \
+  /home/dipti/root/include/Buttons.h \
+  /home/dipti/root/include/TAttBBox2D.h \
+  /home/dipti/root/include/TAttCanvas.h \
+  /home/dipti/root/include/TSystem.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/fcntl.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
   /usr/include/linux/falloc.h \
+<<<<<<< HEAD
   /home/grapes/root/include/TInetAddress.h \
   /home/grapes/root/include/TTimer.h \
   /home/grapes/root/include/TSysEvtHandler.h \
@@ -6971,6 +10250,125 @@ CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: ../src/g4SteppingAction.cc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4SPSEneDistribution.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4GeneralParticleSourceMessenger.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4GeneralParticleSourceData.hh
+=======
+  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
+  /home/dipti/root/include/TInetAddress.h \
+  /home/dipti/root/include/TTimer.h \
+  /home/dipti/root/include/TSysEvtHandler.h \
+  /home/dipti/root/include/TTime.h \
+  /home/dipti/root/include/TROOT.h \
+  /home/dipti/root/include/TStyle.h \
+  /home/dipti/root/include/TAttMarker.h \
+  /home/dipti/root/include/TAttText.h \
+  /home/dipti/root/include/TAttAxis.h \
+  /home/dipti/root/include/TColor.h \
+  /home/dipti/root/include/TArrayI.h \
+  /home/dipti/root/include/TArray.h \
+  /home/dipti/root/include/TPostScript.h \
+  /home/dipti/root/include/TVirtualPS.h \
+  /home/dipti/root/include/TH3.h \
+  /home/dipti/root/include/TH1.h \
+  /home/dipti/root/include/TAxis.h \
+  /home/dipti/root/include/TArrayD.h \
+  /home/dipti/root/include/TArrayC.h \
+  /home/dipti/root/include/TArrayS.h \
+  /home/dipti/root/include/TArrayF.h \
+  /home/dipti/root/include/Foption.h \
+  /home/dipti/root/include/ROOT/EExecutionPolicy.hxx \
+  /home/dipti/root/include/TVectorFfwd.h \
+  /home/dipti/root/include/TVectorDfwd.h \
+  /home/dipti/root/include/TFitResultPtr.h \
+  /home/dipti/root/include/TAtt3D.h \
+  /home/dipti/root/include/TH2.h \
+  /home/dipti/root/include/TMatrixFBasefwd.h \
+  /home/dipti/root/include/TMatrixDBasefwd.h \
+  /home/dipti/root/include/TH1.h \
+  /home/dipti/root/include/TF1.h \
+  /home/dipti/root/include/RConfigure.h \
+  /home/dipti/root/include/TFormula.h \
+  /home/dipti/root/include/TBits.h \
+  /home/dipti/root/include/Math/Types.h \
+  /home/dipti/root/include/RtypesCore.h \
+  /home/dipti/root/include/TMethodCall.h \
+  /home/dipti/root/include/TF1AbsComposition.h \
+  /home/dipti/root/include/TMath.h \
+  /home/dipti/root/include/TError.h \
+  /home/dipti/root/include/DllImport.h \
+  /home/dipti/root/include/Math/Types.h \
+  /home/dipti/root/include/Math/ParamFunctor.h \
+  /home/dipti/root/include/TProfile.h \
+  /home/dipti/root/include/TGraph.h \
+  /home/dipti/root/include/TMultiGraph.h \
+  /home/dipti/root/include/TTree.h \
+  /home/dipti/root/include/ROOT/TIOFeatures.hxx \
+  /home/dipti/root/include/TVirtualTreePlayer.h \
+  /home/dipti/root/include/TBranch.h \
+  /home/dipti/root/include/TBranchCacheInfo.h \
+  /home/dipti/root/include/TTreeIndex.h \
+  /home/dipti/root/include/TVirtualIndex.h \
+  /home/dipti/root/include/TTreePlayer.h \
+  /home/dipti/root/include/TSelectorDraw.h \
+  /home/dipti/root/include/TSelector.h \
+  /home/dipti/root/include/TSelectorList.h \
+  /home/dipti/root/include/THashList.h \
+  /home/dipti/root/include/TTree.h \
+  /home/dipti/root/include/TBranch.h \
+  /home/dipti/root/include/TLeafI.h \
+  /home/dipti/root/include/TLeaf.h \
+  /home/dipti/root/include/TLeafS.h \
+  /home/dipti/root/include/TLeafB.h \
+  /home/dipti/root/include/TLeafF.h \
+  /home/dipti/root/include/TLeafD.h \
+  /home/dipti/root/include/TLeafC.h \
+  /home/dipti/root/include/TLeafL.h \
+  /home/dipti/root/include/TLeafO.h \
+  /home/dipti/root/include/TStopwatch.h \
+  /home/dipti/root/include/TNtuple.h \
+  /home/dipti/root/include/TMath.h \
+  /home/dipti/root/include/TMathBase.h \
+  /home/dipti/root/include/TRandom.h \
+  /home/dipti/root/include/Math/TRandomEngine.h \
+  /home/dipti/root/include/TRandom1.h \
+  /home/dipti/root/include/TRandom.h \
+  /home/dipti/root/include/TRandom2.h \
+  /home/dipti/root/include/TRandom3.h \
+  /home/dipti/root/include/TMatrix.h \
+  /home/dipti/root/include/TMatrixF.h \
+  /home/dipti/root/include/TMatrixT.h \
+  /home/dipti/root/include/TMatrixTBase.h \
+  /home/dipti/root/include/TMatrixTUtils.h \
+  /home/dipti/root/include/TMatrixFfwd.h \
+  /home/dipti/root/include/TMatrixFUtils.h \
+  /home/dipti/root/include/TMatrixFUtilsfwd.h \
+  /home/dipti/root/include/TLegend.h \
+  /home/dipti/root/include/TPave.h \
+  /home/dipti/root/include/TBox.h \
+  /home/dipti/root/include/TGraphErrors.h \
+  /home/dipti/root/include/TGraph.h \
+  /home/dipti/root/include/TVirtualFFT.h \
+  /home/dipti/root/include/TLatex.h \
+  /home/dipti/root/include/TText.h \
+  /home/dipti/root/include/TPaletteAxis.h \
+  /home/dipti/root/include/TGaxis.h \
+  /home/dipti/root/include/TLine.h \
+  /home/dipti/root/include/TChain.h \
+  /home/dipti/root/include/TMinuit.h \
+  /home/dipti/root/include/TPaveText.h \
+  /home/dipti/root/include/TArrow.h \
+  /home/dipti/root/include/TTimeStamp.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeneralParticleSource.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SingleParticleSource.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPrimaryGenerator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSPosDistribution.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSRandomGenerator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DataInterpolation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Cache.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4CacheDetails.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSAngDistribution.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSEneDistribution.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeneralParticleSourceMessenger.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeneralParticleSourceData.hh
+>>>>>>> 671b135 (Minor update to the detector construction class)
 
 CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /usr/include/stdc-predef.h \
@@ -7009,6 +10407,10 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+<<<<<<< HEAD
+=======
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -7114,8 +10516,16 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+<<<<<<< HEAD
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+=======
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -7124,6 +10534,11 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+<<<<<<< HEAD
+=======
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -7180,6 +10595,11 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+<<<<<<< HEAD
+=======
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/fstream \
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
@@ -7238,6 +10658,7 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
+<<<<<<< HEAD
   /home/grapes/root/include/TFile.h \
   /usr/include/c++/11/atomic \
   /usr/include/c++/11/bits/atomic_base.h \
@@ -7256,22 +10677,53 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /home/grapes/root/include/Rtypes.h \
   /home/grapes/root/include/strtok.h \
   /home/grapes/root/include/strlcpy.h \
+=======
+  /home/dipti/root/include/TFile.h \
+  /usr/include/c++/11/atomic \
+  /usr/include/c++/11/bits/atomic_base.h \
+  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+  /home/dipti/root/include/Compression.h \
+  /home/dipti/root/include/RtypesCore.h \
+  /home/dipti/root/include/ROOT/RConfig.hxx \
+  /home/dipti/root/include/RVersion.h \
+  /home/dipti/root/include/ROOT/RVersion.hxx \
+  /home/dipti/root/include/RConfigure.h \
+  /home/dipti/root/include/DllImport.h \
+  /usr/include/c++/11/cstddef \
+  /home/dipti/root/include/TDirectoryFile.h \
+  /home/dipti/root/include/TDirectory.h \
+  /home/dipti/root/include/TNamed.h \
+  /home/dipti/root/include/TObject.h \
+  /home/dipti/root/include/Rtypes.h \
+  /home/dipti/root/include/strtok.h \
+  /home/dipti/root/include/strlcpy.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+<<<<<<< HEAD
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /home/grapes/root/include/snprintf.h \
   /home/grapes/root/include/TGenericClassInfo.h \
   /home/grapes/root/include/TSchemaHelper.h \
+=======
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
+  /home/dipti/root/include/snprintf.h \
+  /home/dipti/root/include/TGenericClassInfo.h \
+  /home/dipti/root/include/TSchemaHelper.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/stl_uninitialized.h \
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
+<<<<<<< HEAD
   /home/grapes/root/include/TIsAProxy.h \
   /home/grapes/root/include/TVirtualIsAProxy.h \
   /home/grapes/root/include/TStorage.h \
@@ -7279,6 +10731,15 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /home/grapes/root/include/RVersion.h \
   /home/grapes/root/include/TString.h \
   /home/grapes/root/include/TMathBase.h \
+=======
+  /home/dipti/root/include/TIsAProxy.h \
+  /home/dipti/root/include/TVirtualIsAProxy.h \
+  /home/dipti/root/include/TStorage.h \
+  /home/dipti/root/include/TVersionCheck.h \
+  /home/dipti/root/include/RVersion.h \
+  /home/dipti/root/include/TString.h \
+  /home/dipti/root/include/TMathBase.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
@@ -7298,8 +10759,13 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /usr/include/c++/11/bits/unordered_map.h \
   /usr/include/c++/11/bits/erase_if.h \
   /usr/include/c++/11/pstl/execution_defs.h \
+<<<<<<< HEAD
   /home/grapes/root/include/ROOT/RStringView.hxx \
   /home/grapes/root/include/ROOT/TypeTraits.hxx \
+=======
+  /home/dipti/root/include/ROOT/RStringView.hxx \
+  /home/dipti/root/include/ROOT/TypeTraits.hxx \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_raw_storage_iter.h \
   /usr/include/c++/11/bits/align.h \
@@ -7312,6 +10778,7 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /usr/include/c++/11/backward/auto_ptr.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/cstdarg \
+<<<<<<< HEAD
   /home/grapes/root/include/TClass.h \
   /home/grapes/root/include/TDictionary.h \
   /home/grapes/root/include/ESTLType.h \
@@ -7324,6 +10791,20 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /home/grapes/root/include/ROOT/RRangeCast.hxx \
   /home/grapes/root/include/ROOT/RSpan.hxx \
   /home/grapes/root/include/ROOT/span.hxx \
+=======
+  /home/dipti/root/include/TClass.h \
+  /home/dipti/root/include/TDictionary.h \
+  /home/dipti/root/include/ESTLType.h \
+  /home/dipti/root/include/TObjArray.h \
+  /home/dipti/root/include/TSeqCollection.h \
+  /home/dipti/root/include/TCollection.h \
+  /home/dipti/root/include/TIterator.h \
+  /home/dipti/root/include/TVirtualRWMutex.h \
+  /home/dipti/root/include/TVirtualMutex.h \
+  /home/dipti/root/include/ROOT/RRangeCast.hxx \
+  /home/dipti/root/include/ROOT/RSpan.hxx \
+  /home/dipti/root/include/ROOT/span.hxx \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/iterator \
   /usr/include/c++/11/bits/stream_iterator.h \
   /usr/include/c++/11/cassert \
@@ -7334,6 +10815,7 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /usr/include/c++/11/bits/stl_multimap.h \
   /usr/include/c++/11/unordered_set \
   /usr/include/c++/11/bits/unordered_set.h \
+<<<<<<< HEAD
   /home/grapes/root/include/TUUID.h \
   /home/grapes/root/include/TList.h \
   /home/grapes/root/include/TBuffer.h \
@@ -7346,6 +10828,20 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /home/grapes/root/include/Rtypes.h \
   /home/grapes/root/include/ROOT/TRWSpinLock.hxx \
   /home/grapes/root/include/ROOT/TSpinMutex.hxx \
+=======
+  /home/dipti/root/include/TUUID.h \
+  /home/dipti/root/include/TList.h \
+  /home/dipti/root/include/TBuffer.h \
+  /home/dipti/root/include/TDataType.h \
+  /home/dipti/root/include/Bytes.h \
+  /home/dipti/root/include/Byteswap.h \
+  /home/dipti/root/include/TDatime.h \
+  /home/dipti/root/include/TUrl.h \
+  /home/dipti/root/include/ROOT/RConcurrentHashColl.hxx \
+  /home/dipti/root/include/Rtypes.h \
+  /home/dipti/root/include/ROOT/TRWSpinLock.hxx \
+  /home/dipti/root/include/ROOT/TSpinMutex.hxx \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/condition_variable \
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
@@ -7353,6 +10849,7 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h \
   /usr/include/c++/11/mutex \
+<<<<<<< HEAD
   /home/grapes/root/include/TCanvas.h \
   /home/grapes/root/include/TPad.h \
   /home/grapes/root/include/TVirtualPad.h \
@@ -7364,6 +10861,19 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /home/grapes/root/include/TInterpreter.h \
   /home/grapes/root/include/TInterpreterValue.h \
   /home/grapes/root/include/GuiTypes.h \
+=======
+  /home/dipti/root/include/TCanvas.h \
+  /home/dipti/root/include/TPad.h \
+  /home/dipti/root/include/TVirtualPad.h \
+  /home/dipti/root/include/TAttLine.h \
+  /home/dipti/root/include/TAttFill.h \
+  /home/dipti/root/include/TAttPad.h \
+  /home/dipti/root/include/TQObject.h \
+  /home/dipti/root/include/TVirtualQConnection.h \
+  /home/dipti/root/include/TInterpreter.h \
+  /home/dipti/root/include/TInterpreterValue.h \
+  /home/dipti/root/include/GuiTypes.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -7371,15 +10881,23 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+<<<<<<< HEAD
   /home/grapes/root/include/Buttons.h \
   /home/grapes/root/include/TAttBBox2D.h \
   /home/grapes/root/include/TAttCanvas.h \
   /home/grapes/root/include/TSystem.h \
+=======
+  /home/dipti/root/include/Buttons.h \
+  /home/dipti/root/include/TAttBBox2D.h \
+  /home/dipti/root/include/TAttCanvas.h \
+  /home/dipti/root/include/TSystem.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/fcntl.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
   /usr/include/linux/falloc.h \
+<<<<<<< HEAD
   /home/grapes/root/include/TInetAddress.h \
   /home/grapes/root/include/TTimer.h \
   /home/grapes/root/include/TSysEvtHandler.h \
@@ -7864,11 +11382,181 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/geomwdefs.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4AutoLock.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Threading.hh \
+=======
+  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
+  /home/dipti/root/include/TInetAddress.h \
+  /home/dipti/root/include/TTimer.h \
+  /home/dipti/root/include/TSysEvtHandler.h \
+  /home/dipti/root/include/TTime.h \
+  /home/dipti/root/include/TROOT.h \
+  /home/dipti/root/include/TStyle.h \
+  /home/dipti/root/include/TAttMarker.h \
+  /home/dipti/root/include/TAttText.h \
+  /home/dipti/root/include/TAttAxis.h \
+  /home/dipti/root/include/TColor.h \
+  /home/dipti/root/include/TArrayI.h \
+  /home/dipti/root/include/TArray.h \
+  /home/dipti/root/include/TPostScript.h \
+  /home/dipti/root/include/TVirtualPS.h \
+  /home/dipti/root/include/TH3.h \
+  /home/dipti/root/include/TH1.h \
+  /home/dipti/root/include/TAxis.h \
+  /home/dipti/root/include/TArrayD.h \
+  /home/dipti/root/include/TArrayC.h \
+  /home/dipti/root/include/TArrayS.h \
+  /home/dipti/root/include/TArrayF.h \
+  /home/dipti/root/include/Foption.h \
+  /home/dipti/root/include/ROOT/EExecutionPolicy.hxx \
+  /home/dipti/root/include/TVectorFfwd.h \
+  /home/dipti/root/include/TVectorDfwd.h \
+  /home/dipti/root/include/TFitResultPtr.h \
+  /home/dipti/root/include/TAtt3D.h \
+  /home/dipti/root/include/TH2.h \
+  /home/dipti/root/include/TMatrixFBasefwd.h \
+  /home/dipti/root/include/TMatrixDBasefwd.h \
+  /home/dipti/root/include/TH1.h \
+  /home/dipti/root/include/TF1.h \
+  /home/dipti/root/include/RConfigure.h \
+  /home/dipti/root/include/TFormula.h \
+  /home/dipti/root/include/TBits.h \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /home/dipti/root/include/Math/Types.h \
+  /home/dipti/root/include/RtypesCore.h \
+  /home/dipti/root/include/TMethodCall.h \
+  /home/dipti/root/include/TF1AbsComposition.h \
+  /home/dipti/root/include/TMath.h \
+  /home/dipti/root/include/TError.h \
+  /home/dipti/root/include/DllImport.h \
+  /home/dipti/root/include/Math/Types.h \
+  /home/dipti/root/include/Math/ParamFunctor.h \
+  /home/dipti/root/include/TProfile.h \
+  /home/dipti/root/include/TGraph.h \
+  /home/dipti/root/include/TMultiGraph.h \
+  /home/dipti/root/include/TTree.h \
+  /home/dipti/root/include/ROOT/TIOFeatures.hxx \
+  /home/dipti/root/include/TVirtualTreePlayer.h \
+  /home/dipti/root/include/TBranch.h \
+  /home/dipti/root/include/TBranchCacheInfo.h \
+  /home/dipti/root/include/TTreeIndex.h \
+  /home/dipti/root/include/TVirtualIndex.h \
+  /home/dipti/root/include/TTreePlayer.h \
+  /home/dipti/root/include/TSelectorDraw.h \
+  /home/dipti/root/include/TSelector.h \
+  /home/dipti/root/include/TSelectorList.h \
+  /home/dipti/root/include/THashList.h \
+  /home/dipti/root/include/TTree.h \
+  /home/dipti/root/include/TBranch.h \
+  /home/dipti/root/include/TLeafI.h \
+  /home/dipti/root/include/TLeaf.h \
+  /home/dipti/root/include/TLeafS.h \
+  /home/dipti/root/include/TLeafB.h \
+  /home/dipti/root/include/TLeafF.h \
+  /home/dipti/root/include/TLeafD.h \
+  /home/dipti/root/include/TLeafC.h \
+  /home/dipti/root/include/TLeafL.h \
+  /home/dipti/root/include/TLeafO.h \
+  /home/dipti/root/include/TStopwatch.h \
+  /home/dipti/root/include/TNtuple.h \
+  /home/dipti/root/include/TMath.h \
+  /home/dipti/root/include/TMathBase.h \
+  /home/dipti/root/include/TRandom.h \
+  /home/dipti/root/include/Math/TRandomEngine.h \
+  /home/dipti/root/include/TRandom1.h \
+  /home/dipti/root/include/TRandom.h \
+  /home/dipti/root/include/TRandom2.h \
+  /home/dipti/root/include/TRandom3.h \
+  /home/dipti/root/include/TMatrix.h \
+  /home/dipti/root/include/TMatrixF.h \
+  /home/dipti/root/include/TMatrixT.h \
+  /home/dipti/root/include/TMatrixTBase.h \
+  /home/dipti/root/include/TMatrixTUtils.h \
+  /home/dipti/root/include/TMatrixFfwd.h \
+  /home/dipti/root/include/TMatrixFUtils.h \
+  /home/dipti/root/include/TMatrixFUtilsfwd.h \
+  /home/dipti/root/include/TLegend.h \
+  /home/dipti/root/include/TPave.h \
+  /home/dipti/root/include/TBox.h \
+  /home/dipti/root/include/TGraphErrors.h \
+  /home/dipti/root/include/TGraph.h \
+  /home/dipti/root/include/TVirtualFFT.h \
+  /home/dipti/root/include/TLatex.h \
+  /home/dipti/root/include/TText.h \
+  /home/dipti/root/include/TPaletteAxis.h \
+  /home/dipti/root/include/TGaxis.h \
+  /home/dipti/root/include/TLine.h \
+  /home/dipti/root/include/TChain.h \
+  /home/dipti/root/include/TMinuit.h \
+  /home/dipti/root/include/TPaveText.h \
+  /home/dipti/root/include/TArrow.h \
+  /home/dipti/root/include/TTimeStamp.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RunManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/rundefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GlobalConfig.hh \
+  /usr/include/c++/11/complex \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tls.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/globals.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ios.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/templates.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Exception.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VExceptionHandler.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Event.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/evtdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Allocator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AllocatorPool.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryVertex.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/pwdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ThreeVector.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryParticle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HCofThisEvent.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VHitsCollection.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DCofThisEvent.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VDigiCollection.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrajectoryContainer.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTrajectory.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserEventInformation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Profiler.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Profiler.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/PTL/Globals.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/PTL/Types.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/PTL/Utility.hh \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EventManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StackManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserStackingAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ClassificationOfNewTrack.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StackedTrack.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackStack.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartTrackStack.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Track.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/PhysicalConstants.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/SystemOfUnits.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/trkdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomSplitter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomwdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AutoLock.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Threading.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/future \
   /usr/include/c++/11/bits/atomic_futex.h \
   /usr/include/c++/11/bits/std_thread.h \
   /usr/include/c++/11/thread \
   /usr/include/c++/11/bits/this_thread_sleep.h \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Region.icc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/geomdefs.hh \
@@ -8234,6 +11922,303 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Cache.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4CacheDetails.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Backtrace.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RotationMatrix.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ZMxpv.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DynamicParticle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleDefinition.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PDefManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleDefinition.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LorentzVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Log.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleMomentum.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ElectronOccupancy.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DynamicParticle.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackStatus.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHandle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTouchable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTouchable.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ReferenceCountedHandle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserTrackInformation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsModelCatalog.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Material.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Element.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Isotope.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IonisParamElm.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IsotopeVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ElementTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ElementVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialPropertiesTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialPropertiesIndex.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialPropertyVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsFreeVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsVectorType.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IonisParamMat.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Exp.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SandiaTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OrderedTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DataVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DataVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Track.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Step.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StepPoint.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SteppingControl.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StepStatus.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StepPoint.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Step.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryTransformer.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleTableIterator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleTable.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackingManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SteppingManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/Randomize.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Randomize.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/DRand48Engine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandomEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandomEngine.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/noncopyable.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/DualRand.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Hurd160Engine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Hurd288Engine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/JamesRandom.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/MixMaxRng.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/MTwistEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RanecuEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RanluxEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Ranlux64Engine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RanluxppEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RanshiEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/TripleRand.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBinomial.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Random.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Random.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/memory.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBinomial.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBreitWigner.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandFlat.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/thread_local.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandFlat.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBreitWigner.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandChiSquare.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandChiSquare.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandExponential.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandExponential.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandExpZiggurat.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBit.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBit.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGamma.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGamma.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGauss.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGauss.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussQ.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussQ.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussT.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Stat.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussT.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussZiggurat.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGeneral.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGeneral.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandLandau.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandLandau.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoissonQ.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoisson.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoisson.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoissonQ.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoissonT.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoissonT.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandSkewNormal.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandSkewNormal.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandStudentT.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandStudentT.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Navigator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AffineTransform.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Transform3D.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Transform3D.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Transform3D.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Point3D.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/BasicVector3D.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Vector3D.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Normal3D.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AffineTransform.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSVolume.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSSolid.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHistoryHandle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHistory.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationHistory.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevel.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevelRep.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevelRep.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevel.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationHistoryPool.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationHistory.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHistory.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NormalNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSolid.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AuxiliaryNavServices.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AuxiliaryNavServices.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NormalNavigation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VoxelNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLogger.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BlockingList.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BlockingList.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelProxy.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelProxy.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelNode.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelNode.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelHeader.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelHeader.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VoxelNavigation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParameterisedNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPVParameterisation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VVolumeMaterialScanner.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParameterisedNavigation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ReplicaNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ReplicaNavigation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RegularNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VExternalNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Navigator.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VProcess.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsTable.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VParticleChange.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackFastVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4FastVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VParticleChange.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ForceCondition.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GPILSelection.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleChange.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleChange.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessType.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NoProcess.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserSteppingAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSteppingVerbose.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/trkgdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackingMessenger.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UImessenger.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIdirectory.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIcommand.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIparameter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UItokenNum.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ApplicationState.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserTrackingAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RunManagerKernel.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIExecutive.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUIshell.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VVisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GraphicsSystemList.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VGraphicsSystem.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ModelingParameters.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisExtent.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Point3D.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisAttributes.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/graphics_reps_defs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Colour.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Color.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisAttributes.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ModelingParameters.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NullModel.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VModel.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VModel.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SceneHandlerList.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSceneHandler.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VGraphicsScene.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ViewerList.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VViewer.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ViewParameters.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Vector3D.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Plane3D.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Normal3D.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Plane3D.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VMarker.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Visible.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Visible.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VMarker.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ViewParameters.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicalVolumeModel.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VViewer.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4THitsMap.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4THitsCollection.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSceneHandler.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SceneList.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Scene.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Scene.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrajectoriesModel.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UImanager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/icomsdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VStateDependent.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIcommandStatus.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisExecutive.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisExecutive.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ASCIITree.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTree.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DAWNFILE.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HepRepFile.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HepRepFileXMLWriter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RayTracer.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HitFilterFactories.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VFilter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VModelFactory.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VHit.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DigiFilterFactories.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VDigi.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrajectoryFilterFactories.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrajectoryModelFactories.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTrajectoryModel.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VRML2File.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GMocrenFile.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpenGLImmediateX.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpenGLStoredX.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpenGLImmediateQt.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpenGLQt.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpenGLStoredQt.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RayTracerX.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VModularPhysicsList.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicsConstructor.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsListHelper.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsListOrderingParameter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ThreadLocalSingleton.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Cache.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4CacheDetails.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Backtrace.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/cxxabi.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
   /usr/include/execinfo.h \
@@ -8283,6 +12268,7 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /usr/include/c++/11/bits/regex.tcc \
   /usr/include/c++/11/bits/regex_executor.h \
   /usr/include/c++/11/bits/regex_executor.tcc \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VUPLSplitter.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VUserPhysicsList.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ProductionCutsTable.hh \
@@ -8521,6 +12507,254 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Step.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ProcessManager.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ProcessVector.hh
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUPLSplitter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserPhysicsList.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProductionCutsTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialCutsCouple.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProductionCuts.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MCCIndexConversionTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/QBBC.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VModularPhysicsList.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/FTFP_BERT.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalParameters.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EmStandardPhysics_option4.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalPhysics.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalParameters.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Scintillation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EmSaturation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalPhoton.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VRestDiscreteProcess.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalPhoton.hh \
+  ../inc/g4DetectorConstruction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NistManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NistElementBuilder.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NistMaterialBuilder.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ICRU90StoppingData.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Pow.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Material.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PVPlacement.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SystemOfUnits.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Box.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomTypes.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomConfig.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4CSGSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Polyhedron.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/HepPolyhedron.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TwoVector.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/TwoVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/TwoVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Box.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trap.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trap.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Tubs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Tubs.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Colour.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisAttributes.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalSurface.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Physics2DVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Physics2DVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SurfaceProperty.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.icc \
+  ../inc/g4PhysicsList.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EmStandardPhysics.hh \
+  ../inc/g4ActionInitialize.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserActionInitialization.hh \
+  ../inc/g4PrimaryGenerator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleGun.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPrimaryGenerator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/Randomize.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IonTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Ions.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Proton.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Alpha.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Electron.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Positron.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MuonPlus.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MuonMinus.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Gamma.hh \
+  ../inc/g4RunAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserRunAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericAnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ToolsAnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VAnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisManagerState.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisVerbose.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VAnalysisManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HnManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BaseAnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Fcn.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BinScheme.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HnInformation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisUtilities.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NtupleBookingManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/ntuple_booking \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cids \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cid \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/typedefs \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/forit \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NtupleBookingManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VH1Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VH2Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VH3Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VP1Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VP2Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VNtupleManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VFileManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BaseFileManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTHnFileManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ToolsAnalysisMessenger.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4THnManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4THnManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h1d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h1 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/b1 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/base_histo \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/histo_data \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/axes \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/axis \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/eqT \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h2d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h2 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/b2 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h3d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h3 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/b3 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p1d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p1 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/profile_data \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p2d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p2 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ToolsAnalysisManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4H1ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4H2ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4H3ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4P1ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4P2ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericAnalysisManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericFileManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericFileManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Run.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeneralParticleSource.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SingleParticleSource.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSPosDistribution.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSRandomGenerator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DataInterpolation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSAngDistribution.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSEneDistribution.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeneralParticleSourceMessenger.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeneralParticleSourceData.hh \
+  ../inc/g4EventAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserEventAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Event.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/g4root_defs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/ntuple \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/tree \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/itree \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/typedefs \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/iobject \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/idir \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/seek \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/branch_element \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/branch \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/leaf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/base_leaf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/named \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/buffer \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/wbuf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/long_out \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/snpf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/charp_out \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/stype \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/ibo \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/realloc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/mnmx \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/forit \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vmanip \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/cids \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cid \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/scast \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/safe_cast \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rcmp \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cids \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vdata \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/basket \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/key \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/date \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/ifile \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/press_func \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/sout \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/imutex \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/branch_object \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/icol \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vfind \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/touplow \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/ntuple_booking \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/mpi_create_basket \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/impi \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/columns.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/ntuple \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rntuple \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/scast \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/mnmx \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/tree \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/ifac \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/branch_element \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/branch \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/base_leaf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/named \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/object \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/buffer \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/rbuf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/stype \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/long_out \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/charp_out \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/iro \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cid \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/sout \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/mapmanip \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/scast \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vdata \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/cids \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/basket \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/key \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/seek \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/typedefs \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/date \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/ifile \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/press_func \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/obj_array \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vmanip \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/mnmx \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/forit \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/sprintf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/dummy \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/stl_vector \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cids \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/info \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/obj_list \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/iobject \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/leaf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vfind \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/ntuple_binding \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/get_lines \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cstr \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/g4hntools_defs.hh \
+  ../inc/g4SteppingAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserSteppingAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Step.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessVector.hh
+>>>>>>> 671b135 (Minor update to the detector construction class)
 
 CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /usr/include/stdc-predef.h \
@@ -8558,6 +12792,10 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+<<<<<<< HEAD
+=======
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -8663,8 +12901,16 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+<<<<<<< HEAD
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+=======
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -8673,6 +12919,11 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+<<<<<<< HEAD
+=======
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -8731,6 +12982,11 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+<<<<<<< HEAD
+=======
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/fstream \
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
@@ -8789,6 +13045,7 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
+<<<<<<< HEAD
   /home/grapes/root/include/TFile.h \
   /usr/include/c++/11/atomic \
   /usr/include/c++/11/bits/atomic_base.h \
@@ -8807,22 +13064,53 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /home/grapes/root/include/Rtypes.h \
   /home/grapes/root/include/strtok.h \
   /home/grapes/root/include/strlcpy.h \
+=======
+  /home/dipti/root/include/TFile.h \
+  /usr/include/c++/11/atomic \
+  /usr/include/c++/11/bits/atomic_base.h \
+  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+  /home/dipti/root/include/Compression.h \
+  /home/dipti/root/include/RtypesCore.h \
+  /home/dipti/root/include/ROOT/RConfig.hxx \
+  /home/dipti/root/include/RVersion.h \
+  /home/dipti/root/include/ROOT/RVersion.hxx \
+  /home/dipti/root/include/RConfigure.h \
+  /home/dipti/root/include/DllImport.h \
+  /usr/include/c++/11/cstddef \
+  /home/dipti/root/include/TDirectoryFile.h \
+  /home/dipti/root/include/TDirectory.h \
+  /home/dipti/root/include/TNamed.h \
+  /home/dipti/root/include/TObject.h \
+  /home/dipti/root/include/Rtypes.h \
+  /home/dipti/root/include/strtok.h \
+  /home/dipti/root/include/strlcpy.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+<<<<<<< HEAD
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /home/grapes/root/include/snprintf.h \
   /home/grapes/root/include/TGenericClassInfo.h \
   /home/grapes/root/include/TSchemaHelper.h \
+=======
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
+  /home/dipti/root/include/snprintf.h \
+  /home/dipti/root/include/TGenericClassInfo.h \
+  /home/dipti/root/include/TSchemaHelper.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/stl_uninitialized.h \
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
+<<<<<<< HEAD
   /home/grapes/root/include/TIsAProxy.h \
   /home/grapes/root/include/TVirtualIsAProxy.h \
   /home/grapes/root/include/TStorage.h \
@@ -8830,6 +13118,15 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /home/grapes/root/include/RVersion.h \
   /home/grapes/root/include/TString.h \
   /home/grapes/root/include/TMathBase.h \
+=======
+  /home/dipti/root/include/TIsAProxy.h \
+  /home/dipti/root/include/TVirtualIsAProxy.h \
+  /home/dipti/root/include/TStorage.h \
+  /home/dipti/root/include/TVersionCheck.h \
+  /home/dipti/root/include/RVersion.h \
+  /home/dipti/root/include/TString.h \
+  /home/dipti/root/include/TMathBase.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
@@ -8849,8 +13146,13 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /usr/include/c++/11/bits/unordered_map.h \
   /usr/include/c++/11/bits/erase_if.h \
   /usr/include/c++/11/pstl/execution_defs.h \
+<<<<<<< HEAD
   /home/grapes/root/include/ROOT/RStringView.hxx \
   /home/grapes/root/include/ROOT/TypeTraits.hxx \
+=======
+  /home/dipti/root/include/ROOT/RStringView.hxx \
+  /home/dipti/root/include/ROOT/TypeTraits.hxx \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_raw_storage_iter.h \
   /usr/include/c++/11/bits/align.h \
@@ -8863,6 +13165,7 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /usr/include/c++/11/backward/auto_ptr.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/cstdarg \
+<<<<<<< HEAD
   /home/grapes/root/include/TClass.h \
   /home/grapes/root/include/TDictionary.h \
   /home/grapes/root/include/ESTLType.h \
@@ -8875,6 +13178,20 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /home/grapes/root/include/ROOT/RRangeCast.hxx \
   /home/grapes/root/include/ROOT/RSpan.hxx \
   /home/grapes/root/include/ROOT/span.hxx \
+=======
+  /home/dipti/root/include/TClass.h \
+  /home/dipti/root/include/TDictionary.h \
+  /home/dipti/root/include/ESTLType.h \
+  /home/dipti/root/include/TObjArray.h \
+  /home/dipti/root/include/TSeqCollection.h \
+  /home/dipti/root/include/TCollection.h \
+  /home/dipti/root/include/TIterator.h \
+  /home/dipti/root/include/TVirtualRWMutex.h \
+  /home/dipti/root/include/TVirtualMutex.h \
+  /home/dipti/root/include/ROOT/RRangeCast.hxx \
+  /home/dipti/root/include/ROOT/RSpan.hxx \
+  /home/dipti/root/include/ROOT/span.hxx \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/iterator \
   /usr/include/c++/11/bits/stream_iterator.h \
   /usr/include/c++/11/cassert \
@@ -8885,6 +13202,7 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /usr/include/c++/11/bits/stl_multimap.h \
   /usr/include/c++/11/unordered_set \
   /usr/include/c++/11/bits/unordered_set.h \
+<<<<<<< HEAD
   /home/grapes/root/include/TUUID.h \
   /home/grapes/root/include/TList.h \
   /home/grapes/root/include/TBuffer.h \
@@ -8897,6 +13215,20 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /home/grapes/root/include/Rtypes.h \
   /home/grapes/root/include/ROOT/TRWSpinLock.hxx \
   /home/grapes/root/include/ROOT/TSpinMutex.hxx \
+=======
+  /home/dipti/root/include/TUUID.h \
+  /home/dipti/root/include/TList.h \
+  /home/dipti/root/include/TBuffer.h \
+  /home/dipti/root/include/TDataType.h \
+  /home/dipti/root/include/Bytes.h \
+  /home/dipti/root/include/Byteswap.h \
+  /home/dipti/root/include/TDatime.h \
+  /home/dipti/root/include/TUrl.h \
+  /home/dipti/root/include/ROOT/RConcurrentHashColl.hxx \
+  /home/dipti/root/include/Rtypes.h \
+  /home/dipti/root/include/ROOT/TRWSpinLock.hxx \
+  /home/dipti/root/include/ROOT/TSpinMutex.hxx \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/condition_variable \
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
@@ -8904,6 +13236,7 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h \
   /usr/include/c++/11/mutex \
+<<<<<<< HEAD
   /home/grapes/root/include/TCanvas.h \
   /home/grapes/root/include/TPad.h \
   /home/grapes/root/include/TVirtualPad.h \
@@ -8915,6 +13248,19 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /home/grapes/root/include/TInterpreter.h \
   /home/grapes/root/include/TInterpreterValue.h \
   /home/grapes/root/include/GuiTypes.h \
+=======
+  /home/dipti/root/include/TCanvas.h \
+  /home/dipti/root/include/TPad.h \
+  /home/dipti/root/include/TVirtualPad.h \
+  /home/dipti/root/include/TAttLine.h \
+  /home/dipti/root/include/TAttFill.h \
+  /home/dipti/root/include/TAttPad.h \
+  /home/dipti/root/include/TQObject.h \
+  /home/dipti/root/include/TVirtualQConnection.h \
+  /home/dipti/root/include/TInterpreter.h \
+  /home/dipti/root/include/TInterpreterValue.h \
+  /home/dipti/root/include/GuiTypes.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -8922,15 +13268,23 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+<<<<<<< HEAD
   /home/grapes/root/include/Buttons.h \
   /home/grapes/root/include/TAttBBox2D.h \
   /home/grapes/root/include/TAttCanvas.h \
   /home/grapes/root/include/TSystem.h \
+=======
+  /home/dipti/root/include/Buttons.h \
+  /home/dipti/root/include/TAttBBox2D.h \
+  /home/dipti/root/include/TAttCanvas.h \
+  /home/dipti/root/include/TSystem.h \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/fcntl.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
   /usr/include/linux/falloc.h \
+<<<<<<< HEAD
   /home/grapes/root/include/TInetAddress.h \
   /home/grapes/root/include/TTimer.h \
   /home/grapes/root/include/TSysEvtHandler.h \
@@ -9415,11 +13769,181 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/geomwdefs.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4AutoLock.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Threading.hh \
+=======
+  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
+  /home/dipti/root/include/TInetAddress.h \
+  /home/dipti/root/include/TTimer.h \
+  /home/dipti/root/include/TSysEvtHandler.h \
+  /home/dipti/root/include/TTime.h \
+  /home/dipti/root/include/TROOT.h \
+  /home/dipti/root/include/TStyle.h \
+  /home/dipti/root/include/TAttMarker.h \
+  /home/dipti/root/include/TAttText.h \
+  /home/dipti/root/include/TAttAxis.h \
+  /home/dipti/root/include/TColor.h \
+  /home/dipti/root/include/TArrayI.h \
+  /home/dipti/root/include/TArray.h \
+  /home/dipti/root/include/TPostScript.h \
+  /home/dipti/root/include/TVirtualPS.h \
+  /home/dipti/root/include/TH3.h \
+  /home/dipti/root/include/TH1.h \
+  /home/dipti/root/include/TAxis.h \
+  /home/dipti/root/include/TArrayD.h \
+  /home/dipti/root/include/TArrayC.h \
+  /home/dipti/root/include/TArrayS.h \
+  /home/dipti/root/include/TArrayF.h \
+  /home/dipti/root/include/Foption.h \
+  /home/dipti/root/include/ROOT/EExecutionPolicy.hxx \
+  /home/dipti/root/include/TVectorFfwd.h \
+  /home/dipti/root/include/TVectorDfwd.h \
+  /home/dipti/root/include/TFitResultPtr.h \
+  /home/dipti/root/include/TAtt3D.h \
+  /home/dipti/root/include/TH2.h \
+  /home/dipti/root/include/TMatrixFBasefwd.h \
+  /home/dipti/root/include/TMatrixDBasefwd.h \
+  /home/dipti/root/include/TH1.h \
+  /home/dipti/root/include/TF1.h \
+  /home/dipti/root/include/RConfigure.h \
+  /home/dipti/root/include/TFormula.h \
+  /home/dipti/root/include/TBits.h \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /home/dipti/root/include/Math/Types.h \
+  /home/dipti/root/include/RtypesCore.h \
+  /home/dipti/root/include/TMethodCall.h \
+  /home/dipti/root/include/TF1AbsComposition.h \
+  /home/dipti/root/include/TMath.h \
+  /home/dipti/root/include/TError.h \
+  /home/dipti/root/include/DllImport.h \
+  /home/dipti/root/include/Math/Types.h \
+  /home/dipti/root/include/Math/ParamFunctor.h \
+  /home/dipti/root/include/TProfile.h \
+  /home/dipti/root/include/TGraph.h \
+  /home/dipti/root/include/TMultiGraph.h \
+  /home/dipti/root/include/TTree.h \
+  /home/dipti/root/include/ROOT/TIOFeatures.hxx \
+  /home/dipti/root/include/TVirtualTreePlayer.h \
+  /home/dipti/root/include/TBranch.h \
+  /home/dipti/root/include/TBranchCacheInfo.h \
+  /home/dipti/root/include/TTreeIndex.h \
+  /home/dipti/root/include/TVirtualIndex.h \
+  /home/dipti/root/include/TTreePlayer.h \
+  /home/dipti/root/include/TSelectorDraw.h \
+  /home/dipti/root/include/TSelector.h \
+  /home/dipti/root/include/TSelectorList.h \
+  /home/dipti/root/include/THashList.h \
+  /home/dipti/root/include/TTree.h \
+  /home/dipti/root/include/TBranch.h \
+  /home/dipti/root/include/TLeafI.h \
+  /home/dipti/root/include/TLeaf.h \
+  /home/dipti/root/include/TLeafS.h \
+  /home/dipti/root/include/TLeafB.h \
+  /home/dipti/root/include/TLeafF.h \
+  /home/dipti/root/include/TLeafD.h \
+  /home/dipti/root/include/TLeafC.h \
+  /home/dipti/root/include/TLeafL.h \
+  /home/dipti/root/include/TLeafO.h \
+  /home/dipti/root/include/TStopwatch.h \
+  /home/dipti/root/include/TNtuple.h \
+  /home/dipti/root/include/TMath.h \
+  /home/dipti/root/include/TMathBase.h \
+  /home/dipti/root/include/TRandom.h \
+  /home/dipti/root/include/Math/TRandomEngine.h \
+  /home/dipti/root/include/TRandom1.h \
+  /home/dipti/root/include/TRandom.h \
+  /home/dipti/root/include/TRandom2.h \
+  /home/dipti/root/include/TRandom3.h \
+  /home/dipti/root/include/TMatrix.h \
+  /home/dipti/root/include/TMatrixF.h \
+  /home/dipti/root/include/TMatrixT.h \
+  /home/dipti/root/include/TMatrixTBase.h \
+  /home/dipti/root/include/TMatrixTUtils.h \
+  /home/dipti/root/include/TMatrixFfwd.h \
+  /home/dipti/root/include/TMatrixFUtils.h \
+  /home/dipti/root/include/TMatrixFUtilsfwd.h \
+  /home/dipti/root/include/TLegend.h \
+  /home/dipti/root/include/TPave.h \
+  /home/dipti/root/include/TBox.h \
+  /home/dipti/root/include/TGraphErrors.h \
+  /home/dipti/root/include/TGraph.h \
+  /home/dipti/root/include/TVirtualFFT.h \
+  /home/dipti/root/include/TLatex.h \
+  /home/dipti/root/include/TText.h \
+  /home/dipti/root/include/TPaletteAxis.h \
+  /home/dipti/root/include/TGaxis.h \
+  /home/dipti/root/include/TLine.h \
+  /home/dipti/root/include/TChain.h \
+  /home/dipti/root/include/TMinuit.h \
+  /home/dipti/root/include/TPaveText.h \
+  /home/dipti/root/include/TArrow.h \
+  /home/dipti/root/include/TTimeStamp.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RunManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/rundefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GlobalConfig.hh \
+  /usr/include/c++/11/complex \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tls.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/globals.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ios.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/templates.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Exception.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VExceptionHandler.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Event.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/evtdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Allocator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AllocatorPool.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryVertex.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/pwdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ThreeVector.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryParticle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HCofThisEvent.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VHitsCollection.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DCofThisEvent.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VDigiCollection.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrajectoryContainer.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTrajectory.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserEventInformation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Profiler.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Profiler.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/PTL/Globals.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/PTL/Types.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/PTL/Utility.hh \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EventManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StackManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserStackingAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ClassificationOfNewTrack.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StackedTrack.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackStack.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartTrackStack.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Track.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/PhysicalConstants.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/SystemOfUnits.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/trkdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomSplitter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomwdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AutoLock.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Threading.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/future \
   /usr/include/c++/11/bits/atomic_futex.h \
   /usr/include/c++/11/bits/std_thread.h \
   /usr/include/c++/11/thread \
   /usr/include/c++/11/bits/this_thread_sleep.h \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Region.icc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/geomdefs.hh \
@@ -9785,6 +14309,303 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Cache.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4CacheDetails.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Backtrace.hh \
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RotationMatrix.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ZMxpv.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DynamicParticle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleDefinition.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PDefManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleDefinition.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LorentzVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Log.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleMomentum.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ElectronOccupancy.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DynamicParticle.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackStatus.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHandle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTouchable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTouchable.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ReferenceCountedHandle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserTrackInformation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsModelCatalog.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Material.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Element.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Isotope.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IonisParamElm.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IsotopeVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ElementTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ElementVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialPropertiesTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialPropertiesIndex.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialPropertyVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsFreeVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsVectorType.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IonisParamMat.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Exp.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SandiaTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OrderedTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DataVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DataVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Track.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Step.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StepPoint.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SteppingControl.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StepStatus.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StepPoint.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Step.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryTransformer.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleTableIterator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleTable.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackingManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SteppingManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/Randomize.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Randomize.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/DRand48Engine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandomEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandomEngine.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/noncopyable.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/DualRand.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Hurd160Engine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Hurd288Engine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/JamesRandom.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/MixMaxRng.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/MTwistEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RanecuEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RanluxEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Ranlux64Engine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RanluxppEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RanshiEngine.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/TripleRand.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBinomial.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Random.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Random.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/memory.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBinomial.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBreitWigner.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandFlat.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/thread_local.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandFlat.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBreitWigner.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandChiSquare.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandChiSquare.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandExponential.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandExponential.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandExpZiggurat.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBit.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBit.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGamma.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGamma.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGauss.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGauss.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussQ.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussQ.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussT.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Stat.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussT.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussZiggurat.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGeneral.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGeneral.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandLandau.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandLandau.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoissonQ.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoisson.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoisson.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoissonQ.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoissonT.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoissonT.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandSkewNormal.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandSkewNormal.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandStudentT.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandStudentT.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Navigator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AffineTransform.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Transform3D.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Transform3D.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Transform3D.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Point3D.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/BasicVector3D.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Vector3D.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Normal3D.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AffineTransform.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSVolume.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSSolid.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHistoryHandle.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHistory.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationHistory.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevel.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevelRep.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevelRep.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevel.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationHistoryPool.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationHistory.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHistory.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NormalNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSolid.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AuxiliaryNavServices.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AuxiliaryNavServices.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NormalNavigation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VoxelNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLogger.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BlockingList.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BlockingList.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelProxy.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelProxy.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelNode.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelNode.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelHeader.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelHeader.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VoxelNavigation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParameterisedNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPVParameterisation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VVolumeMaterialScanner.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParameterisedNavigation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ReplicaNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ReplicaNavigation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RegularNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VExternalNavigation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Navigator.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VProcess.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsTable.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VParticleChange.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackFastVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4FastVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VParticleChange.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ForceCondition.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GPILSelection.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleChange.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleChange.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessType.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NoProcess.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserSteppingAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSteppingVerbose.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/trkgdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackingMessenger.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UImessenger.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIdirectory.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIcommand.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIparameter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UItokenNum.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ApplicationState.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserTrackingAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RunManagerKernel.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIExecutive.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUIshell.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VVisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GraphicsSystemList.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VGraphicsSystem.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ModelingParameters.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisExtent.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Point3D.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisAttributes.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/graphics_reps_defs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Colour.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Color.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisAttributes.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ModelingParameters.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NullModel.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VModel.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VModel.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SceneHandlerList.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSceneHandler.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VGraphicsScene.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ViewerList.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VViewer.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ViewParameters.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Vector3D.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Plane3D.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Normal3D.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Plane3D.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VMarker.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Visible.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Visible.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VMarker.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ViewParameters.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicalVolumeModel.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VViewer.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4THitsMap.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4THitsCollection.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSceneHandler.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SceneList.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Scene.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Scene.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrajectoriesModel.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UImanager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/icomsdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VStateDependent.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIcommandStatus.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisExecutive.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisExecutive.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ASCIITree.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTree.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DAWNFILE.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HepRepFile.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HepRepFileXMLWriter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RayTracer.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HitFilterFactories.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VFilter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VModelFactory.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VHit.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DigiFilterFactories.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VDigi.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrajectoryFilterFactories.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrajectoryModelFactories.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTrajectoryModel.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VRML2File.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GMocrenFile.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpenGLImmediateX.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpenGLStoredX.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpenGLImmediateQt.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpenGLQt.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpenGLStoredQt.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RayTracerX.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VModularPhysicsList.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicsConstructor.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsListHelper.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsListOrderingParameter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ThreadLocalSingleton.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Cache.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4CacheDetails.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Backtrace.hh \
+>>>>>>> 671b135 (Minor update to the detector construction class)
   /usr/include/c++/11/cxxabi.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
   /usr/include/execinfo.h \
@@ -9834,6 +14655,7 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /usr/include/c++/11/bits/regex.tcc \
   /usr/include/c++/11/bits/regex_executor.h \
   /usr/include/c++/11/bits/regex_executor.tcc \
+<<<<<<< HEAD
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VUPLSplitter.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VUserPhysicsList.hh \
   /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ProductionCutsTable.hh \
@@ -10889,11 +15711,691 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /usr/include/c++/11/condition_variable:
 
 /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4NavigationLevelRep.hh:
+=======
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUPLSplitter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserPhysicsList.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProductionCutsTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialCutsCouple.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProductionCuts.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MCCIndexConversionTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/QBBC.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VModularPhysicsList.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/FTFP_BERT.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalParameters.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EmStandardPhysics_option4.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalPhysics.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalParameters.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Scintillation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EmSaturation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalPhoton.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VRestDiscreteProcess.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalPhoton.hh \
+  ../inc/g4DetectorConstruction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NistManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NistElementBuilder.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NistMaterialBuilder.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ICRU90StoppingData.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Pow.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Material.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PVPlacement.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SystemOfUnits.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Box.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomTypes.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomConfig.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4CSGSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Polyhedron.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/HepPolyhedron.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TwoVector.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/TwoVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/TwoVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Box.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trap.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trap.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Tubs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Tubs.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Colour.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisAttributes.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalSurface.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Physics2DVector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Physics2DVector.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SurfaceProperty.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.icc \
+  ../inc/g4PhysicsList.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EmStandardPhysics.hh \
+  ../inc/g4ActionInitialize.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserActionInitialization.hh \
+  ../inc/g4PrimaryGenerator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleGun.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPrimaryGenerator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/Randomize.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IonTable.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Ions.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Proton.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Alpha.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Electron.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Positron.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MuonPlus.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MuonMinus.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Gamma.hh \
+  ../inc/g4RunAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserRunAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericAnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ToolsAnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VAnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisManagerState.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisVerbose.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VAnalysisManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HnManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BaseAnalysisManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Fcn.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BinScheme.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HnInformation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisUtilities.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NtupleBookingManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/ntuple_booking \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cids \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cid \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/typedefs \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/forit \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NtupleBookingManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VH1Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VH2Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VH3Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VP1Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VP2Manager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VNtupleManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VFileManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BaseFileManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTHnFileManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ToolsAnalysisMessenger.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4THnManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4THnManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h1d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h1 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/b1 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/base_histo \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/histo_data \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/axes \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/axis \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/eqT \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h2d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h2 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/b2 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h3d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h3 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/b3 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p1d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p1 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/profile_data \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p2d \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p2 \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ToolsAnalysisManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4H1ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4H2ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4H3ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4P1ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4P2ToolsManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericAnalysisManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericFileManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericFileManager.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Run.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeneralParticleSource.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SingleParticleSource.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSPosDistribution.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSRandomGenerator.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DataInterpolation.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSAngDistribution.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSEneDistribution.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeneralParticleSourceMessenger.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeneralParticleSourceData.hh \
+  ../inc/g4EventAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserEventAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Event.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/g4root_defs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/ntuple \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/tree \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/itree \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/typedefs \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/iobject \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/idir \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/seek \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/branch_element \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/branch \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/leaf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/base_leaf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/named \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/buffer \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/wbuf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/long_out \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/snpf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/charp_out \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/stype \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/ibo \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/realloc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/mnmx \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/forit \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vmanip \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/cids \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cid \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/scast \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/safe_cast \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rcmp \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cids \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vdata \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/basket \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/key \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/date \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/ifile \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/press_func \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/sout \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/imutex \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/branch_object \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/icol \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vfind \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/touplow \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/ntuple_booking \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/mpi_create_basket \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/impi \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/columns.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/ntuple \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rntuple \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/scast \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/mnmx \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/tree \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/ifac \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/branch_element \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/branch \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/base_leaf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/named \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/object \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/buffer \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/rbuf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/stype \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/long_out \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/charp_out \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/iro \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cid \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/sout \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/mapmanip \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/scast \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vdata \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/cids \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/basket \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/key \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/seek \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/typedefs \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/date \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/ifile \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/press_func \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/obj_array \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vmanip \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/mnmx \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/forit \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/sprintf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/dummy \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/stl_vector \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cids \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/info \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/obj_list \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/iobject \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/leaf \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vfind \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/ntuple_binding \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/get_lines \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cstr \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/g4hntools_defs.hh \
+  ../inc/g4SteppingAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserSteppingAction.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Step.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessManager.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessVector.hh
+
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/FTFP_BERT.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/QBBC.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RayTracerX.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpenGLQt.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpenGLImmediateQt.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpenGLImmediateX.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GMocrenFile.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTrajectoryModel.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrajectoryFilterFactories.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VDigi.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DigiFilterFactories.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VHit.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VModelFactory.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HitFilterFactories.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTree.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisExecutive.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisExecutive.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIcommandStatus.hh:
+
+/usr/include/x86_64-linux-gnu/bits/stat.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/x86_64-linux-gnu/sys/stat.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
+
+/usr/include/x86_64-linux-gnu/bits/dirent.h:
+
+/home/dipti/root/include/ROOT/RStringView.hxx:
+
+/usr/include/c++/11/math.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryParticle.hh:
+
+/usr/include/c++/11/set:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericFileManager.hh:
+
+/home/dipti/root/include/TDictionary.h:
+
+/usr/include/c++/11/tr1/bessel_function.tcc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UImanager.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/profile_data:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p1:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_statx.h:
+
+/home/dipti/root/include/TLeaf.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h3:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h2:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/eqT:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Exp.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIparameter.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIcommand.hh:
+
+/home/dipti/root/include/TNamed.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RanshiEngine.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VFileManager.hh:
+
+../inc/g4EventAction.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomConfig.hh:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VP1Manager.hh:
+
+/home/dipti/root/include/TVectorDfwd.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VH3Manager.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VH2Manager.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NtupleBookingManager.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/forit:
+
+/home/dipti/root/include/TMatrix.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/typedefs:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cid:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HnInformation.hh:
+
+/usr/include/c++/11/bits/basic_ios.tcc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisManagerState.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VAnalysisManager.hh:
+
+../src/g4EventAction.cc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ToolsAnalysisManager.hh:
+
+/usr/include/string.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisAttributes.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MuonPlus.hh:
+
+/home/dipti/root/include/TMatrixF.h:
+
+/home/dipti/root/include/TVersionCheck.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/basket:
+
+/home/dipti/root/include/TStorage.h:
+
+/home/dipti/root/include/TSchemaHelper.h:
+
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4H1ToolsManager.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DynamicParticle.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/realloc:
+
+/home/dipti/root/include/TGenericClassInfo.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/linux/falloc.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsVectorType.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VVisManager.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OrderedTable.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VParticleChange.hh:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/home/dipti/root/include/strlcpy.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Ions.hh:
+
+/home/dipti/root/include/RVersion.h:
+
+/usr/include/c++/11/csignal:
+
+/home/dipti/root/include/ROOT/RConfig.hxx:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoissonT.icc:
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+/home/dipti/root/include/ROOT/RVersion.hxx:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackVector.hh:
+
+/home/dipti/root/include/TObject.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p2d:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandStudentT.icc:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoissonT.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/touplow:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/rbuf:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoissonQ.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4THnManager.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserSteppingAction.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Visible.hh:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandLandau.icc:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGeneral.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HCofThisEvent.hh:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGamma.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandExponential.h:
+
+../inc/g4PrimaryGenerator.hh:
+
+/usr/include/c++/11/bits/hash_bytes.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBreitWigner.icc:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/BasicVector3D.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/thread_local.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandFlat.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UItokenNum.hh:
+
+/home/dipti/root/include/TPostScript.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBreitWigner.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DAWNFILE.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VP2Manager.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p1d:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VParticleChange.icc:
+
+/usr/include/c++/11/backward/auto_ptr.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleGun.hh:
+
+/usr/include/c++/11/bits/align.h:
+
+/usr/include/c++/11/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/11/bit:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Random.icc:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Random.h:
+
+/usr/include/c++/11/vector:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/TripleRand.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Ranlux64Engine.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ApplicationState.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Allocator.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericAnalysisManager.hh:
+
+/usr/include/c++/11/initializer_list:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/MTwistEngine.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsTable.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisManager.hh:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/JamesRandom.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisUtilities.hh:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Hurd288Engine.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/DualRand.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandomEngine.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleTable.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h1d:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BlockingList.icc:
+
+/usr/include/c++/11/bits/this_thread_sleep.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserRunAction.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsTable.hh:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
+
+/usr/include/asm-generic/errno.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/scast:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vfind:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandEngine.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Event.hh:
+
+/home/dipti/root/include/ROOT/TypeTraits.hxx:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/buffer:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/noncopyable.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Randomize.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/Randomize.hh:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Stat.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleTable.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/b1:
+
+/usr/include/c++/11/pstl/glue_memory_defs.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AllocatorPool.hh:
+
+/usr/include/c++/11/exception:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleDefinition.icc:
+
+/usr/include/c++/11/bits/atomic_base.h:
+
+/usr/include/c++/11/atomic:
+
+/usr/include/asm-generic/int-ll64.h:
+
+/usr/include/c++/11/bits/regex_error.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/axes:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Element.hh:
+
+/usr/include/assert.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Threading.hh:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/c++/11/bits/range_access.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/axis:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AutoLock.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4THitsCollection.hh:
+
+/usr/include/c++/11/stdlib.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomSplitter.hh:
+
+/home/dipti/root/include/TDirectoryFile.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_stat.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/signal.h:
+
+/usr/include/c++/11/bits/stl_set.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGauss.icc:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBinomial.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PDefManager.hh:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EmStandardPhysics_option4.hh:
+
+/usr/include/c++/11/bits/functexcept.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGeneral.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ThreeVector.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/branch_element:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPrimaryGenerator.hh:
+
+/home/dipti/root/include/RConfigure.h:
+
+/usr/include/features.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4P2ToolsManager.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h2d:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VProcess.hh:
+
+/usr/include/c++/11/thread:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/TwoVector.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigstksz.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandExponential.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ModelingParameters.icc:
+>>>>>>> 671b135 (Minor update to the detector construction class)
 
 /usr/include/c++/11/ratio:
 
 /usr/include/c++/11/mutex:
 
+<<<<<<< HEAD
 /home/grapes/root/include/TVersionCheck.h:
 
 /usr/include/c++/11/bits/stl_multimap.h:
@@ -10927,11 +16429,53 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /usr/include/c++/11/bits/stl_list.h:
 
 /home/grapes/root/include/TText.h:
+=======
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoisson.h:
+
+/usr/include/c++/11/bits/stl_map.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Alpha.hh:
+
+/usr/include/c++/11/bits/stl_tree.h:
+
+/usr/include/c++/11/map:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBinomial.icc:
+
+/usr/include/c++/11/bits/unique_ptr.h:
+
+/home/dipti/root/include/TRandom2.h:
+
+/usr/include/c++/11/bits/locale_conv.h:
+
+/home/dipti/root/include/TRandom.h:
+
+/usr/include/c++/11/bits/locale_facets_nonio.tcc:
+
+/home/dipti/root/include/TVirtualQConnection.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandLandau.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/defs.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/home/dipti/root/include/TF1.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ViewParameters.icc:
+
+../src/g4ControlFileHandler.cc:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/MixMaxRng.h:
+>>>>>>> 671b135 (Minor update to the detector construction class)
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
 
 /usr/include/c++/11/bits/basic_ios.h:
 
+<<<<<<< HEAD
 /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4RayTracerX.hh:
 
 /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VUserPhysicsList.hh:
@@ -10974,10 +16518,79 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /usr/include/wchar.h:
 
+=======
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandSkewNormal.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VModularPhysicsList.hh:
+
+/usr/include/c++/11/ctime:
+
+/home/dipti/root/include/snprintf.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RanecuEngine.h:
+
+/home/dipti/root/include/TRandom3.h:
+
+/usr/include/c++/11/bits/locale_facets_nonio.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrajectoryModelFactories.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EnvironmentUtils.hh:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoisson.icc:
+
+/home/dipti/root/include/ROOT/RRangeCast.hxx:
+
+/home/dipti/root/include/TStyle.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ViewerList.hh:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/home/dipti/root/include/TMatrixTUtils.h:
+
+/home/dipti/root/include/TFormula.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Scene.icc:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
+
+/home/dipti/root/include/TMethodCall.h:
+
+/usr/include/c++/11/memory:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandPoissonQ.h:
+
+/home/dipti/root/include/strtok.h:
+
+/home/dipti/root/include/Bytes.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vdata:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/branch:
+
+/usr/include/wchar.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/globals.hh:
+
+>>>>>>> 671b135 (Minor update to the detector construction class)
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/x86_64-linux-gnu/bits/statx-generic.h:
 
+<<<<<<< HEAD
 /usr/include/c++/11/exception:
 
 /usr/include/linux/falloc.h:
@@ -11041,6 +16654,53 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandomEngine.icc:
 
 /home/grapes/Packages/geant4/geant4-install/include/Geant4/tools/wroot/ibo:
+=======
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Vector3D.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ios.hh:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandChiSquare.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.hh:
+
+/usr/include/c++/11/tuple:
+
+/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
+
+/usr/include/c++/11/bits/stringfwd.h:
+
+/usr/include/c++/11/istream:
+
+/usr/include/c++/11/sstream:
+
+/usr/include/c++/11/bits/quoted_string.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VGraphicsSystem.hh:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/features-time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Scintillation.hh:
+
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/PTL/Types.hh:
+
+/home/dipti/root/include/TMathBase.h:
+
+/home/dipti/root/include/TSystem.h:
+
+/home/dipti/root/include/TH2.h:
+>>>>>>> 671b135 (Minor update to the detector construction class)
 
 /usr/include/c++/11/tr1/hypergeometric.tcc:
 
@@ -11048,6 +16708,7 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /usr/include/c++/11/bits/std_mutex.h:
 
+<<<<<<< HEAD
 /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VRML2File.hh:
 
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
@@ -11061,6 +16722,15 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VTouchable.hh:
 
 /home/grapes/root/include/TFitResultPtr.h:
+=======
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4P1ToolsManager.hh:
+
+/home/dipti/root/include/TLeafC.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Gamma.hh:
+>>>>>>> 671b135 (Minor update to the detector construction class)
 
 /usr/include/x86_64-linux-gnu/bits/ss_flags.h:
 
@@ -11070,6 +16740,7 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /usr/include/c++/11/debug/assertions.h:
 
+<<<<<<< HEAD
 /home/grapes/Packages/geant4/geant4-install/include/Geant4/tools/wroot/branch:
 
 /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4DAWNFILE.hh:
@@ -11221,17 +16892,113 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /home/grapes/root/include/TSelectorDraw.h:
+=======
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGauss.h:
+
+/usr/include/c++/11/bits/stl_pair.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4H3ToolsManager.hh:
+
+/usr/include/c++/11/climits:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/imutex:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GraphicsSystemList.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ASCIITree.hh:
+
+/usr/include/c++/11/new:
+
+/home/dipti/root/include/TVirtualFFT.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/obj_list:
+
+/usr/include/c++/11/ext/new_allocator.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RanluxEngine.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VH1Manager.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BaseAnalysisManager.hh:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandExpZiggurat.h:
+
+/home/dipti/root/include/TTimer.h:
+
+/usr/include/c++/11/bits/regex_automaton.tcc:
+
+/usr/include/c++/11/cwchar:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+../inc/g4CPP_ROOT_Headers.hh:
+
+/home/dipti/root/include/TUrl.h:
+
+/home/dipti/root/include/Byteswap.h:
+
+/usr/include/c++/11/algorithm:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTHnFileManager.hh:
+
+/usr/include/c++/11/cmath:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/c++/11/ext/type_traits.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/icomsdefs.hh:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandFlat.icc:
+
+/usr/include/c++/11/bits/exception_defines.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Profiler.icc:
+
+/usr/include/c++/11/tr1/modified_bessel_func.tcc:
+
+/usr/include/c++/11/bits/ostream.tcc:
+
+/usr/include/c++/11/pstl/pstl_config.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NoProcess.hh:
+
+/usr/include/c++/11/cstdarg:
+
+/home/dipti/root/include/TGraphErrors.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/defs.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGamma.icc:
+>>>>>>> 671b135 (Minor update to the detector construction class)
 
 /usr/include/c++/11/type_traits:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
+<<<<<<< HEAD
 /usr/lib/gcc/x86_64-linux-gnu/11/include/waitpkgintrin.h:
+=======
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSRandomGenerator.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHandle.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/ibo:
+>>>>>>> 671b135 (Minor update to the detector construction class)
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
+<<<<<<< HEAD
 /usr/include/c++/11/cfloat:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
@@ -11419,6 +17186,63 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /usr/include/c++/11/bits/node_handle.h:
 
 /home/grapes/Packages/geant4/geant4-install/include/Geant4/tools/rroot/stl_vector:
+=======
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/c++/11/bits/shared_ptr_base.h:
+
+/home/dipti/root/include/TMatrixFfwd.h:
+
+/usr/include/c++/11/bits/basic_string.h:
+
+/home/dipti/root/include/DllImport.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/c++/11/fstream:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SceneHandlerList.hh:
+
+/usr/include/c++/11/cfloat:
+
+/home/dipti/root/include/TDirectory.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussT.icc:
+
+/home/dipti/root/include/TMatrixFBasefwd.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/libintl.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/basket:
+
+/home/dipti/root/include/TIsAProxy.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Physics2DVector.hh:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PVPlacement.hh:
+
+/usr/include/stdlib.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/PhysicalConstants.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NormalNavigation.hh:
+
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/defs.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandomEngine.h:
+>>>>>>> 671b135 (Minor update to the detector construction class)
 
 /usr/include/c++/11/bits/stl_multiset.h:
 
@@ -11426,14 +17250,79 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
+<<<<<<< HEAD
 /usr/lib/gcc/x86_64-linux-gnu/11/include/xsavesintrin.h:
 
 /home/grapes/root/include/VecCore/Backend/Vc.h:
+=======
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/c++/11/iostream:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
+
+/usr/include/c++/11/bits/ios_base.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RanluxppEngine.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
+
+/usr/include/c++/11/debug/debug.h:
+
+/usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/fcntl.h:
+
+/usr/include/c++/11/ext/numeric_traits.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/pwdefs.hh:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/SystemOfUnits.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/c++/11/bits/std_function.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VRestDiscreteProcess.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Positron.hh:
+
+/usr/include/c++/11/bits/stl_tempbuf.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrajectoriesModel.hh:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.icc:
+
+/usr/include/c++/11/bits/fstream.tcc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ICRU90StoppingData.hh:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBit.h:
+
+/usr/include/c++/11/cwctype:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/include/c++/11/bits/node_handle.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericAnalysisManager.icc:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/memory.h:
+>>>>>>> 671b135 (Minor update to the detector construction class)
 
 /usr/include/c++/11/bits/cxxabi_init_exception.h:
 
 /usr/include/c++/11/bits/locale_classes.tcc:
 
+<<<<<<< HEAD
 /home/grapes/Packages/geant4/geant4-install/include/Geant4/tools/rroot/tree:
 
 /usr/include/linux/limits.h:
@@ -11473,11 +17362,33 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Utility/thread_local.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+=======
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandChiSquare.h:
+
+/usr/include/c++/11/ext/aligned_buffer.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/ifac:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
+
+/usr/include/c++/11/bits/exception_ptr.h:
+
+/usr/include/c++/11/bits/charconv.h:
+
+/usr/include/c++/11/typeinfo:
+
+/usr/include/c++/11/tr1/ell_integral.tcc:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+>>>>>>> 671b135 (Minor update to the detector construction class)
 
 /usr/include/c++/11/tr1/gamma.tcc:
 
 /usr/include/c++/11/bits/locale_classes.h:
 
+<<<<<<< HEAD
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
 /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandEngine.h:
@@ -11637,11 +17548,23 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /usr/lib/gcc/x86_64-linux-gnu/11/include/amxbf16intrin.h:
 
 /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4THitsMap.hh:
+=======
+/home/dipti/root/include/Rtypes.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/ntuple_booking:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserEventInformation.hh:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/c++/11/bits/postypes.h:
+>>>>>>> 671b135 (Minor update to the detector construction class)
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
 
 /usr/include/c++/11/limits:
 
+<<<<<<< HEAD
 /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4TouchableHistory.icc:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
@@ -12775,11 +18698,63 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4SmartVoxelHeader.icc:
 
 /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VPVParameterisation.hh:
+=======
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Plane3D.hh:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomTypes.hh:
+
+/usr/include/c++/11/tr1/exp_integral.tcc:
+
+/usr/include/c++/11/bits/shared_ptr.h:
+
+/usr/include/c++/11/bits/stl_construct.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/c++/11/bits/allocator.h:
+
+/usr/include/c++/11/cstring:
+
+/usr/include/c++/11/bits/atomic_futex.h:
+
+/usr/include/stdio.h:
+
+../src/g4DetectorConstruction.cc:
+
+/usr/include/c++/11/bits/predefined_ops.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Fcn.hh:
+
+../inc/g4RunAction.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelProxy.hh:
+
+/usr/include/c++/11/bits/std_thread.h:
+
+/usr/include/dirent.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ModelingParameters.hh:
+
+/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/11/bits/streambuf.tcc:
+
+/usr/include/pthread.h:
+>>>>>>> 671b135 (Minor update to the detector construction class)
 
 /usr/include/c++/11/bits/char_traits.h:
 
 /usr/include/c++/11/bits/concept_check.h:
 
+<<<<<<< HEAD
 /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ReplicaNavigation.hh:
 
 /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ReplicaNavigation.icc:
@@ -12917,3 +18892,1346 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /home/grapes/root/include/Vc/vector:
 
 ../inc/g4SteppingAction.hh:
+=======
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4H2ToolsManager.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIdirectory.hh:
+
+/usr/include/c++/11/streambuf:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationHistoryPool.hh:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/home/dipti/root/include/TAttPad.h:
+
+/home/dipti/root/include/TSelectorDraw.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BaseFileManager.hh:
+
+/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MuonMinus.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ViewParameters.hh:
+
+/usr/include/c++/11/bits/stl_algo.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/HepPolyhedron.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/c++/11/ext/atomicity.h:
+
+/usr/include/c++/11/bits/stl_iterator.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryVertex.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VoxelNavigation.hh:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.icc:
+
+/home/dipti/root/include/TLeafB.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HepRepFile.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Electron.hh:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/c++/11/ext/string_conversions.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4THitsMap.hh:
+
+/home/dipti/root/include/TString.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Colour.hh:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussQ.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+
+/home/dipti/root/include/TClass.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserActionInitialization.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/branch_object:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4THnManager.hh:
+
+/usr/include/c++/11/bits/locale_facets.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh:
+
+../src/g4ActionInitialize.cc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParameterisedNavigation.icc:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/locale.h:
+
+/usr/include/c++/11/future:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisVerbose.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericFileManager.icc:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussZiggurat.h:
+
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/usr/include/c++/11/bits/exception.h:
+
+/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StepPoint.icc:
+
+/usr/include/c++/11/bits/move.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Exception.hh:
+
+/usr/include/c++/11/bits/string_view.tcc:
+
+/usr/include/unistd.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/dummy:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandSkewNormal.icc:
+
+/usr/include/c++/11/bits/nested_exception.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/histo_data:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VExceptionHandler.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GlobalConfig.hh:
+
+/usr/include/asm-generic/errno-base.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Proton.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h3d:
+
+/usr/include/linux/errno.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/b2:
+
+/usr/include/linux/types.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/g4hntools_defs.hh:
+
+/usr/include/c++/11/cctype:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rcmp:
+
+/usr/include/c++/11/unordered_map:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Cache.hh:
+
+/usr/include/c++/11/locale:
+
+/usr/include/ctype.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussT.h:
+
+/home/dipti/root/include/TGaxis.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HnManager.hh:
+
+/usr/include/c++/11/bits/list.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tls.hh:
+
+/usr/include/c++/11/bits/unordered_map.h:
+
+/home/dipti/root/include/TAttLine.h:
+
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/ntuple:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisManager.icc:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleMomentum.hh:
+
+/usr/include/c++/11/bits/invoke.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/c++/11/tr1/legendre_function.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/c++/11/functional:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
+
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+
+/usr/include/c++/11/string:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IonisParamElm.hh:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBit.icc:
+
+/usr/include/c++/11/bits/ostream_insert.h:
+
+/home/dipti/root/include/TAttText.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/home/dipti/root/include/Compression.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleDefinition.hh:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussQ.icc:
+
+/usr/include/c++/11/tr1/poly_hermite.tcc:
+
+/usr/include/c++/11/bits/memoryfwd.h:
+
+/usr/include/c++/11/bits/stl_function.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisAttributes.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Backtrace.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RayTracer.hh:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/include/c++/11/iosfwd:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/c++/11/bits/alloc_traits.h:
+
+/usr/include/errno.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ToolsAnalysisManager.icc:
+
+/usr/include/c++/11/bits/functional_hash.h:
+
+/usr/include/c++/11/cstdio:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/c++/11/bits/locale_facets.tcc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHistory.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/info:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/PTL/Utility.hh:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/home/dipti/root/include/Math/TRandomEngine.h:
+
+/usr/include/c++/11/cerrno:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/wctype.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.icc:
+
+/usr/include/c++/11/cstddef:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trap.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Isotope.hh:
+
+/usr/include/c++/11/bits/stl_vector.h:
+
+/usr/include/c++/11/bits/unordered_set.h:
+
+/usr/include/c++/11/ios:
+
+/usr/include/c++/11/utility:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VAnalysisManager.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BinScheme.hh:
+
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Color.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IonTable.hh:
+
+/usr/include/c++/11/pstl/glue_algorithm_defs.h:
+
+/usr/include/c++/11/stdexcept:
+
+/usr/include/c++/11/bits/uniform_int_dist.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AuxiliaryNavServices.hh:
+
+/usr/include/c++/11/fenv.h:
+
+/usr/include/c++/11/bits/streambuf_iterator.h:
+
+/home/dipti/root/include/TBranchCacheInfo.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RunManagerKernel.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ToolsAnalysisMessenger.hh:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.icc:
+
+/usr/include/c++/11/bits/std_abs.h:
+
+/usr/include/c++/11/bits/stl_heap.h:
+
+/usr/include/c++/11/bits/shared_ptr_atomic.h:
+
+/usr/include/c++/11/iomanip:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserPhysicsList.hh:
+
+/usr/include/c++/11/pstl/execution_defs.h:
+
+/home/dipti/root/include/TError.h:
+
+/usr/include/c++/11/tr1/poly_laguerre.tcc:
+
+/usr/include/c++/11/array:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessType.hh:
+
+/usr/include/c++/11/bits/unique_lock.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VStateDependent.hh:
+
+/usr/include/c++/11/bits/uses_allocator.h:
+
+/usr/include/c++/11/bits/refwrap.h:
+
+/usr/include/c++/11/bits/hashtable.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/press_func:
+
+/usr/include/c++/11/bits/hashtable_policy.h:
+
+/usr/include/c++/11/bits/codecvt.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSVolume.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TwoVector.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleTableIterator.hh:
+
+/usr/include/c++/11/bits/enable_special_members.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SandiaTable.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Run.hh:
+
+/home/dipti/root/include/ROOT/TIOFeatures.hxx:
+
+/usr/include/c++/11/bits/ptr_traits.h:
+
+/usr/include/stdint.h:
+
+/usr/include/c++/11/bits/erase_if.h:
+
+/usr/include/c++/11/bits/stl_uninitialized.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.icc:
+
+/usr/include/c++/11/bits/stl_bvector.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/branch_element:
+
+/usr/include/c++/11/bits/vector.tcc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/base_leaf:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HepRepFileXMLWriter.hh:
+
+/usr/include/x86_64-linux-gnu/asm/types.h:
+
+/usr/include/asm-generic/types.h:
+
+/usr/include/asm-generic/bitsperlong.h:
+
+/usr/include/linux/stddef.h:
+
+/usr/include/x86_64-linux-gnu/asm/posix_types.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/charp_out:
+
+/usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
+
+/usr/include/asm-generic/posix_types.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StackManager.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/stl_vector:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
+
+/home/dipti/root/include/TAttAxis.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpenGLStoredX.hh:
+
+../inc/g4ActionInitialize.hh:
+
+/home/dipti/root/include/TFile.h:
+
+/home/dipti/root/include/ESTLType.h:
+
+/usr/include/c++/11/ostream:
+
+../inc/g4ControlFileHandler.hh:
+
+/home/dipti/root/include/TSeqCollection.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VExternalNavigation.hh:
+
+/home/dipti/root/include/TCollection.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/PTL/Globals.hh:
+
+/home/dipti/root/include/TFitResultPtr.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUIshell.hh:
+
+/home/dipti/root/include/TVirtualRWMutex.h:
+
+../src/g4TaskManager.cc:
+
+/home/dipti/root/include/TVirtualMutex.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cids:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ElementTable.hh:
+
+/home/dipti/root/include/ROOT/RSpan.hxx:
+
+/home/dipti/root/include/ROOT/span.hxx:
+
+/usr/include/c++/11/iterator:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Navigator.hh:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/defs.h:
+
+/usr/include/c++/11/bits/cpp_type_traits.h:
+
+/usr/include/c++/11/bits/stream_iterator.h:
+
+/usr/include/c++/11/bits/stl_algobase.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/templates.hh:
+
+/usr/include/c++/11/bits/regex_scanner.tcc:
+
+/usr/include/c++/11/cassert:
+
+/usr/include/c++/11/bits/stl_relops.h:
+
+/home/dipti/root/include/TSysEvtHandler.h:
+
+/usr/include/c++/11/unordered_set:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+/home/dipti/root/include/TColor.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIExecutive.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/geomdefs.hh:
+
+/usr/include/c++/11/bits/stl_multimap.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisManager.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpenGLStoredQt.hh:
+
+/usr/include/c++/11/backward/binders.h:
+
+/home/dipti/root/include/TList.h:
+
+/home/dipti/root/include/TBuffer.h:
+
+/usr/include/linux/stat.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/evtdefs.hh:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/home/dipti/root/include/TTree.h:
+
+/home/dipti/root/include/TDatime.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialPropertiesTable.hh:
+
+/home/dipti/root/include/ROOT/RConcurrentHashColl.hxx:
+
+/home/dipti/root/include/ROOT/TRWSpinLock.hxx:
+
+/home/dipti/root/include/TCanvas.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Profiler.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialPropertyVector.hh:
+
+/home/dipti/root/include/TBits.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DynamicParticle.icc:
+
+/home/dipti/root/include/TVirtualPad.h:
+
+/home/dipti/root/include/TAttFill.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SteppingManager.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/get_lines:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/tree:
+
+/home/dipti/root/include/TInterpreter.h:
+
+/home/dipti/root/include/TInterpreterValue.h:
+
+/home/dipti/root/include/GuiTypes.h:
+
+/home/dipti/root/include/Buttons.h:
+
+/home/dipti/root/include/TAttBBox2D.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/ifile:
+
+/usr/include/c++/11/bitset:
+
+/home/dipti/root/include/TAttCanvas.h:
+
+/usr/include/fcntl.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelHeader.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DataInterpolation.hh:
+
+/usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h:
+
+/usr/include/x86_64-linux-gnu/sys/ucontext.h:
+
+/usr/include/x86_64-linux-gnu/bits/dirent_ext.h:
+
+/usr/include/x86_64-linux-gnu/bits/fcntl2.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelNode.hh:
+
+/usr/include/c++/11/bits/cxxabi_forced.h:
+
+/home/dipti/root/include/TInetAddress.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Material.hh:
+
+/home/dipti/root/include/TTime.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/TwoVector.icc:
+
+/usr/include/c++/11/chrono:
+
+/home/dipti/root/include/TAttMarker.h:
+
+/home/dipti/root/include/TVirtualPS.h:
+
+/home/dipti/root/include/TArrayI.h:
+
+/home/dipti/root/include/TAxis.h:
+
+/home/dipti/root/include/TArray.h:
+
+/home/dipti/root/include/TH3.h:
+
+/home/dipti/root/include/TH1.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
+
+/home/dipti/root/include/TArrayD.h:
+
+/home/dipti/root/include/TArrayS.h:
+
+/usr/include/c++/11/bits/specfun.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/home/dipti/root/include/Foption.h:
+
+/home/dipti/root/include/ROOT/EExecutionPolicy.hxx:
+
+/usr/include/x86_64-linux-gnu/bits/sigstack.h:
+
+/home/dipti/root/include/TVectorFfwd.h:
+
+/home/dipti/root/include/TAtt3D.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Track.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisExtent.hh:
+
+/home/dipti/root/include/TMatrixDBasefwd.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/b3:
+
+/usr/include/c++/11/list:
+
+/usr/include/c++/11/bits/stl_list.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/cids:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ClassificationOfNewTrack.hh:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EmSaturation.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Log.hh:
+
+/home/dipti/root/include/Math/Types.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ForceCondition.hh:
+
+/home/dipti/root/include/TF1AbsComposition.h:
+
+/home/dipti/root/include/Math/ParamFunctor.h:
+
+/home/dipti/root/include/TProfile.h:
+
+/home/dipti/root/include/TGraph.h:
+
+/home/dipti/root/include/TMultiGraph.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/snpf:
+
+/home/dipti/root/include/TVirtualTreePlayer.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ExceptionSeverity.hh:
+
+/home/dipti/root/include/TBranch.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/DRand48Engine.h:
+
+/home/dipti/root/include/TTreeIndex.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VFilter.hh:
+
+/usr/include/x86_64-linux-gnu/bits/statx.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/trkdefs.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserTrackInformation.hh:
+
+/home/dipti/root/include/TArrayC.h:
+
+/home/dipti/root/include/TTreePlayer.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SteppingControl.hh:
+
+/usr/include/c++/11/tr1/beta_function.tcc:
+
+/home/dipti/root/include/TSelector.h:
+
+/home/dipti/root/include/TSelectorList.h:
+
+/home/dipti/root/include/THashList.h:
+
+/usr/include/c++/11/system_error:
+
+/home/dipti/root/include/TLeafI.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MCCIndexConversionTable.hh:
+
+/home/dipti/root/include/TLeafS.h:
+
+/home/dipti/root/include/TLeafD.h:
+
+/usr/include/c++/11/stack:
+
+../inc/g4Constants.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartTrackStack.hh:
+
+/home/dipti/root/include/TStopwatch.h:
+
+/home/dipti/root/include/TNtuple.h:
+
+/usr/include/limits.h:
+
+/usr/include/c++/11/tr1/riemann_zeta.tcc:
+
+/home/dipti/root/include/TRandom1.h:
+
+/home/dipti/root/include/TMatrixTBase.h:
+
+/home/dipti/root/include/TMatrixFUtils.h:
+
+/home/dipti/root/include/TMatrixFUtilsfwd.h:
+
+/home/dipti/root/include/TLegend.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UImessenger.hh:
+
+/home/dipti/root/include/TPave.h:
+
+/home/dipti/root/include/TBox.h:
+
+/home/dipti/root/include/TVirtualIsAProxy.h:
+
+/home/dipti/root/include/TLatex.h:
+
+/home/dipti/root/include/TText.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/defs.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSAngDistribution.hh:
+
+/home/dipti/root/include/TPaletteAxis.h:
+
+/home/dipti/root/include/TLine.h:
+
+/home/dipti/root/include/TChain.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTouchable.hh:
+
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
+
+/usr/include/c++/11/cstdint:
+
+/home/dipti/root/include/TMinuit.h:
+
+/home/dipti/root/include/TArrow.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Track.hh:
+
+/home/dipti/root/include/TTimeStamp.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeneralParticleSource.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VHitsCollection.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevelRep.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DCofThisEvent.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VDigiCollection.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrajectoryContainer.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/date:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTrajectory.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SingleParticleSource.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSPosDistribution.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AffineTransform.hh:
+
+/usr/include/c++/11/bits/sstream.tcc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParameterisedNavigation.hh:
+
+/usr/include/c++/11/bits/regex_executor.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RotationMatrix.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VVolumeMaterialScanner.hh:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DataVector.icc:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.h:
+
+../src/g4PhysicsList.cc:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.h:
+
+/usr/include/time.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.icc:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.icc:
+
+/usr/include/c++/11/bits/parse_numbers.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Transform3D.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSteppingVerbose.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Scene.hh:
+
+/usr/include/endian.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Transform3D.h:
+
+/usr/include/c++/11/tr1/special_function_util.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSEneDistribution.hh:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Transform3D.icc:
+
+/home/dipti/root/include/RtypesCore.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Normal3D.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AffineTransform.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/geomwdefs.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSVolume.icc:
+
+/usr/include/c++/11/bits/regex_constants.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSSolid.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NullModel.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSSolid.icc:
+
+/home/dipti/root/include/TIterator.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHistoryHandle.hh:
+
+/home/dipti/root/include/TPad.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHistory.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VMarker.hh:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationHistory.hh:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VMarker.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevel.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ElectronOccupancy.hh:
+
+/home/dipti/root/include/ROOT/TSpinMutex.hxx:
+
+/usr/include/c++/11/ext/alloc_traits.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevelRep.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/g4root_defs.hh:
+
+/usr/include/c++/11/bits/stl_stack.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalPhysics.hh:
+
+/home/dipti/root/include/TPaveText.h:
+
+/usr/include/c++/11/complex:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevel.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationHistory.icc:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSolid.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSolid.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AuxiliaryNavServices.icc:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ZMxpv.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Polyhedron.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLogger.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BlockingList.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/cids:
+
+/usr/include/strings.h:
+
+/home/dipti/root/include/TLeafO.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelProxy.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelHeader.hh:
+
+/usr/include/c++/11/clocale:
+
+/usr/include/c++/11/bits/istream.tcc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VoxelNavigation.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPVParameterisation.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ReplicaNavigation.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/sout:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ReplicaNavigation.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelNode.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RegularNavigation.hh:
+
+/home/dipti/root/include/TROOT.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Navigator.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsFreeVector.hh:
+
+/usr/include/c++/11/condition_variable:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsVector.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsVector.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4CacheDetails.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/named:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeneralParticleSourceMessenger.hh:
+
+/home/dipti/root/include/TObjArray.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Plane3D.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeneralParticleSourceData.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserEventAction.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/ntuple:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/itree:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/iobject:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/idir:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/seek:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/ifile:
+
+/usr/include/c++/11/bits/regex_compiler.tcc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/leaf:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ReferenceCountedHandle.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/buffer:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/wbuf:
+
+/usr/include/fenv.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/stype:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/mnmx:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/safe_cast:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vmanip:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
+
+/usr/include/linux/posix_types.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/key:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/icol:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Normal3D.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/mpi_create_basket:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.hh:
+
+/usr/include/c++/11/bits/regex_compiler.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/columns.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rntuple:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/tree:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/base_histo:
+
+/usr/include/math.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/base_leaf:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/object:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialCutsCouple.hh:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Point3D.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/iro:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/mapmanip:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/key:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/seek:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTouchable.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/obj_array:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/sprintf:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/iobject:
+
+/usr/include/c++/11/bits/algorithmfwd.h:
+
+/usr/include/c++/11/bits/basic_string.tcc:
+
+/home/dipti/root/include/TQObject.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/leaf:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSceneHandler.icc:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/ntuple_binding:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cstr:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ElementVector.hh:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/home/dipti/root/include/TLeafL.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessManager.hh:
+
+../inc/g4SteppingAction.hh:
+
+/usr/include/c++/11/bits/atomic_lockfree_defines.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StepPoint.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Step.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StepStatus.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IsotopeVector.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialPropertiesIndex.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IonisParamMat.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EventManager.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DataVector.hh:
+
+/usr/include/linux/close_range.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialTable.hh:
+
+/usr/include/c++/11/bits/stl_iterator_base_types.h:
+
+/home/dipti/root/include/TUUID.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Step.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h1:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LorentzVector.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackStatus.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p2:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsModelCatalog.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/rundefs.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VModel.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserStackingAction.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/impi:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryTransformer.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackingManager.hh:
+
+../inc/g4TaskManager.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackFastVector.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StackedTrack.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4FastVector.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/long_out:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GPILSelection.hh:
+
+/home/dipti/root/include/TMath.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleChange.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/trkgdefs.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleChange.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessVector.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessVector.icc:
+
+/usr/include/c++/11/bits/allocated_ptr.h:
+
+/home/dipti/root/include/TDataType.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessManager.icc:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandStudentT.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackingMessenger.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserTrackingAction.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalPhoton.hh:
+
+../inc/g4DetectorConstruction.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NistManager.hh:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NistElementBuilder.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NistMaterialBuilder.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Box.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalParameters.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/named:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4CSGSolid.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Point3D.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Visible.icc:
+
+/home/dipti/root/include/TArrayF.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Box.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Tubs.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Tubs.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SystemOfUnits.hh:
+
+/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/graphics_reps_defs.hh:
+
+/usr/include/c++/11/ext/concurrence.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalSurface.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Physics2DVector.icc:
+
+/home/dipti/root/include/TLeafF.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SurfaceProperty.hh:
+
+../inc/g4Structures.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProductionCutsTable.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RunManager.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.icc:
+
+../inc/g4PhysicsList.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicsConstructor.hh:
+
+/usr/include/c++/11/deque:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsListHelper.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsListOrderingParameter.hh:
+
+/home/dipti/root/include/TMatrixT.h:
+
+/usr/include/c++/11/cxxabi.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/branch:
+
+/usr/include/execinfo.h:
+
+/usr/include/c++/11/cfenv:
+
+/usr/include/x86_64-linux-gnu/bits/fenv.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VNtupleManager.hh:
+
+/usr/include/sched.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
+
+/usr/include/c++/11/cstdlib:
+
+/usr/include/c++/11/string_view:
+
+/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
+
+/usr/include/x86_64-linux-gnu/bits/signum-arch.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Hurd160Engine.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NtupleBookingManager.hh:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigaction.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
+
+../src/g4main.cc:
+
+/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trap.hh:
+
+/usr/include/c++/11/regex:
+
+/usr/include/c++/11/bits/stl_deque.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/date:
+
+/usr/include/c++/11/bits/deque.tcc:
+
+/usr/include/c++/11/bits/regex_automaton.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NormalNavigation.icc:
+
+/usr/include/c++/11/bits/regex_scanner.h:
+
+/usr/include/c++/11/bits/regex.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VRML2File.hh:
+
+/usr/include/c++/11/bits/regex.tcc:
+
+/usr/include/c++/11/bits/regex_executor.tcc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ThreadLocalSingleton.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUPLSplitter.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProductionCuts.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EmStandardPhysics.hh:
+
+../src/g4PrimaryGenerator.cc:
+
+../src/g4RunAction.cc:
+
+../src/g4SteppingAction.cc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Pow.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VModel.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSceneHandler.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackStack.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VGraphicsScene.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VViewer.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Vector3D.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicalVolumeModel.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VViewer.icc:
+
+/home/dipti/root/include/TVirtualIndex.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SceneList.hh:
+>>>>>>> 671b135 (Minor update to the detector construction class)

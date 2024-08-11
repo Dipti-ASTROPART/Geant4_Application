@@ -1,3 +1,8 @@
 # Hashes of file build rules.
+<<<<<<< HEAD
 a2ef726baf367cac6f7495e53dc8465c CMakeFiles/G4Sim
 afd205e3c64affe39be4c9b3fac334d9 CMakeFiles/success
+=======
+374165dbe8f80618f2319dd797b70507 CMakeFiles/G4Sim
+6f6df95a7e58b961824ed49f4668a403 CMakeFiles/success
+>>>>>>> 671b135 (Minor update to the detector construction class)
