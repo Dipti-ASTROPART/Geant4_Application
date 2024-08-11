@@ -1,0 +1,13 @@
+/run/initialize
+/vis/open OGL
+/vis/viewer/set/viewpointVector 1.9 0.3 0.5
+/vis/viewer/set/lightsVector -1 0 0
+/vis/drawVolume
+/vis/viewer/set/autoRefresh true
+/vis/scene/add/trajectories smooth
+#/vis/scene/add/scale 1 m
+#/vis/scene/add/axes
+/vis/scene/add/eventID
+#/vis/reviewKeptEvents
+/vis/scene/endOfEventAction accumulate
+/vis/viewer/flush

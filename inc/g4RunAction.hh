@@ -1,0 +1,30 @@
+#ifndef     g4RunAction_HH
+#define     g4RunAction_HH
+
+//////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+#include    "G4UserRunAction.hh"
+#include    "G4AnalysisManager.hh"
+#include    "G4Run.hh"
+#include    "g4Structures.hh"
+#include    "g4CPP_ROOT_Headers.hh"
+#include    "G4GeneralParticleSource.hh"
+
+//////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+class   MyRunAction : public G4UserRunAction
+{
+    public:
+                                    MyRunAction(ControlFile cnt);
+                                    ~MyRunAction();
+        virtual void                BeginOfRunAction(const G4Run *);
+        virtual void                EndOfRunAction(const G4Run *);
+    private:
+        char                        filename[400];
+        ControlFile                 Control;
+};
+
+
+//////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+#endif

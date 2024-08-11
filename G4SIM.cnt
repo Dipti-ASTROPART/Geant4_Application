@@ -1,0 +1,8 @@
+Task                    G4SIM                                           ///< Task
+InputPath               /home/grapes/Programs/InputData                 
+OutputPath              /home/grapes/Programs/InputData                 ///< Input Path
+PrimaryEnergy           0.662   0.662                                         ///< Primary energy range E1 and E2 in GeV
+PrimaryParticle         photon                                          ///< Primary particle used as beam
+MacroPath               /home/grapes/Programs/G4Sim/macrofiles          ///< Path containing `.mac' files
+NBeam                   100000                                            ///< Number of beams in one run
+GraphicalMode           1                                               ///< [ `1' for True | `0' for False]
