@@ -57,30 +57,18 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/grapes/Programs/G4Sim
+CMAKE_SOURCE_DIR = /home/dipti/Programs/G4SIM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/grapes/Programs/G4Sim/build
-=======
-CMAKE_SOURCE_DIR = /home/dipti/Programs/G4Sim
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dipti/Programs/G4Sim/build
->>>>>>> 671b135 (Minor update to the detector construction class)
+CMAKE_BINARY_DIR = /home/dipti/Programs/G4SIM/build
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-<<<<<<< HEAD
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-=======
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
 	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
->>>>>>> 671b135 (Minor update to the detector construction class)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -99,15 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/grapes/Programs/G4Sim/build/CMakeFiles /home/grapes/Programs/G4Sim/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dipti/Programs/G4SIM/build/CMakeFiles /home/dipti/Programs/G4SIM/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/grapes/Programs/G4Sim/build/CMakeFiles 0
-=======
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dipti/Programs/G4Sim/build/CMakeFiles /home/dipti/Programs/G4Sim/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dipti/Programs/G4Sim/build/CMakeFiles 0
->>>>>>> 671b135 (Minor update to the detector construction class)
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dipti/Programs/G4SIM/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

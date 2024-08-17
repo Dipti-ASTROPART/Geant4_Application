@@ -52,6 +52,12 @@ include(${Geant4_USE_FILE} ${ROOT_USE_FILE})
 include_directories(${PROJECT_SOURCE_DIR}/inc)
 include_directories(${ROOT_INCLUDE_DIRS})
 
+# Set the C++ standard
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+# Add the compiler flag to disable shadow warnings
+add_compile_options(-Wno-shadow)
 
 #--------------------------------------------------------------------------------
 # Locate sources and headers for this project

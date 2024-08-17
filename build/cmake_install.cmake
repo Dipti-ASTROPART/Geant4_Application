@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Install script for directory: /home/grapes/Programs/G4Sim
-=======
-# Install script for directory: /home/dipti/Programs/G4Sim
->>>>>>> 671b135 (Minor update to the detector construction class)
+# Install script for directory: /home/dipti/Programs/G4SIM
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -16,11 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-<<<<<<< HEAD
-    set(CMAKE_INSTALL_CONFIG_NAME "")
-=======
     set(CMAKE_INSTALL_CONFIG_NAME "Release")
->>>>>>> 671b135 (Minor update to the detector construction class)
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -58,9 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-<<<<<<< HEAD
-file(WRITE "/home/grapes/Programs/G4Sim/build/${CMAKE_INSTALL_MANIFEST}"
-=======
-file(WRITE "/home/dipti/Programs/G4Sim/build/${CMAKE_INSTALL_MANIFEST}"
->>>>>>> 671b135 (Minor update to the detector construction class)
+file(WRITE "/home/dipti/Programs/G4SIM/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -19,10 +19,6 @@
 #include    "G4VisAttributes.hh"
 #include    "G4OpticalSurface.hh"
 #include    "G4LogicalSkinSurface.hh"
-<<<<<<< HEAD
-#include    "G4LogicalBorderSurface.hh"
-=======
->>>>>>> 671b135 (Minor update to the detector construction class)
 
 
 /////////////////////////////////////////////////////////////////////////////////////////
@@ -38,17 +34,8 @@ class MyDetectorConstruction : public G4VUserDetectorConstruction
         virtual G4VPhysicalVolume           *Construct();
     private:                                
         G4Box                               *solidWorld;
-        G4Trap                              *solidDet;
-        G4Tubs                              *solidCyl;
-        G4LogicalVolume                     *logicWorld,
-                                            *logicDet;
-        G4VPhysicalVolume                   *physWorld,
-                                            *physDet;
-<<<<<<< HEAD
-        G4Material                          *detMat,
-                                            *worldMat;
-=======
->>>>>>> 671b135 (Minor update to the detector construction class)
+        G4LogicalVolume                     *logicWorld;
+        G4VPhysicalVolume                   *physWorld;
         G4LogicalVolume                     *fScoringVolume;
                                             
         G4Material                          *NaI_Material(),
@@ -63,22 +50,21 @@ class MyDetectorConstruction : public G4VUserDetectorConstruction
                                             *matWLSCladIn,
                                             *matWLSCladOut,
                                             *matTyvek;
+        G4OpticalSurface                    *tyvekSurface;
 
         G4VPhysicalVolume                   *ConstructTrapezoidalDetector(),
                                             *ConstructG3CylindricalDetector();
 
-<<<<<<< HEAD
-        G4LogicalSkinSurface                *tyvekSurface;
-
-=======
->>>>>>> 671b135 (Minor update to the detector construction class)
         void                                DefineMaterial(),
                                             BuildCylindricalDetector(),
+                                            BuildWLSFiber(),
                                             BuildCylindricalDetectorWithTyvek(),
                                             BuildCylindricalDetectorWithLead(),
                                             BuildOpticalSurface(),
                                             BuildMaterial(),
-                                            ConstructFiberMaterial();
+                                            DefineFiberCoordinates(G4double detRadius, G4double fiberRad, G4int *nFibers, G4double** xpos, G4double **ypos),
+                                            SetVisualAttributes(G4LogicalVolume *logicDet, G4String color, G4double transparency),
+                                            DefineWLSFiberMaterial();
 };
 
 

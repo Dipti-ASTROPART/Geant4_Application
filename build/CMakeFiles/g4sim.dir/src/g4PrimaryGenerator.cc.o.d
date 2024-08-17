@@ -1,21 +1,7 @@
 CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: \
-<<<<<<< HEAD
- /home/grapes/Programs/G4Sim/src/g4PrimaryGenerator.cc \
+ /home/dipti/Programs/G4SIM/src/g4PrimaryGenerator.cc \
  /usr/include/stdc-predef.h \
- /home/grapes/Programs/G4Sim/inc/g4PrimaryGenerator.hh \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4SystemOfUnits.hh \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Units/SystemOfUnits.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Units/defs.h \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ParticleGun.hh \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/globals.hh \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ios.hh \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Types.hh \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4GlobalConfig.hh \
-=======
- /home/dipti/Programs/G4Sim/src/g4PrimaryGenerator.cc \
- /usr/include/stdc-predef.h \
- /home/dipti/Programs/G4Sim/inc/g4PrimaryGenerator.hh \
+ /home/dipti/Programs/G4SIM/inc/g4PrimaryGenerator.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SystemOfUnits.hh \
  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/SystemOfUnits.h \
@@ -25,7 +11,6 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ios.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GlobalConfig.hh \
->>>>>>> 671b135 (Minor update to the detector construction class)
  /usr/include/c++/11/complex \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -78,23 +63,16 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-<<<<<<< HEAD
-=======
  /usr/include/x86_64-linux-gnu/bits/select2.h \
->>>>>>> 671b135 (Minor update to the detector construction class)
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
-<<<<<<< HEAD
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-=======
  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
->>>>>>> 671b135 (Minor update to the detector construction class)
  /usr/include/c++/11/bits/specfun.h \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/c++/11/bits/functexcept.h \
@@ -132,10 +110,7 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-<<<<<<< HEAD
-=======
  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
->>>>>>> 671b135 (Minor update to the detector construction class)
  /usr/include/c++/11/exception /usr/include/c++/11/bits/exception.h \
  /usr/include/c++/11/bits/exception_ptr.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
@@ -188,16 +163,10 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-<<<<<<< HEAD
- /usr/include/c++/11/cerrno /usr/include/errno.h \
- /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/x86_64-linux-gnu/asm/errno.h \
-=======
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/c++/11/cerrno \
  /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
  /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
->>>>>>> 671b135 (Minor update to the detector construction class)
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
@@ -218,11 +187,7 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: \
  /usr/include/c++/11/bits/ostream.tcc \
  /usr/include/c++/11/bits/istream.tcc \
  /usr/include/c++/11/bits/sstream.tcc \
-<<<<<<< HEAD
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/tls.hh \
-=======
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tls.hh \
->>>>>>> 671b135 (Minor update to the detector construction class)
  /usr/include/c++/11/iostream /usr/include/c++/11/algorithm \
  /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_algo.h \
@@ -248,19 +213,12 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
  /usr/include/c++/11/pstl/execution_defs.h \
-<<<<<<< HEAD
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4String.hh \
- /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4String.icc \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/templates.hh \
-=======
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.hh \
  /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.icc \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/templates.hh \
->>>>>>> 671b135 (Minor update to the detector construction class)
  /usr/include/c++/11/climits \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -270,16 +228,10 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-<<<<<<< HEAD
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Exception.hh \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
-=======
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Exception.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VExceptionHandler.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
->>>>>>> 671b135 (Minor update to the detector construction class)
  /usr/include/c++/11/iomanip /usr/include/c++/11/locale \
  /usr/include/c++/11/bits/locale_facets_nonio.h /usr/include/c++/11/ctime \
  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
@@ -295,17 +247,6 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: \
  /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
-<<<<<<< HEAD
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4VPrimaryGenerator.hh \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ThreeVector.hh \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Vector/ThreeVector.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Vector/defs.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Vector/ThreeVector.icc \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ParticleDefinition.hh \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4PDefManager.hh \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4AutoLock.hh \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Threading.hh \
-=======
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPrimaryGenerator.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ThreeVector.hh \
  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.h \
@@ -318,7 +259,6 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/pwdefs.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AutoLock.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Threading.hh \
->>>>>>> 671b135 (Minor update to the detector construction class)
  /usr/include/c++/11/condition_variable \
  /usr/include/c++/11/bits/shared_ptr.h \
  /usr/include/c++/11/bits/shared_ptr_base.h \
@@ -329,26 +269,6 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: \
  /usr/include/c++/11/bits/atomic_futex.h \
  /usr/include/c++/11/bits/std_thread.h /usr/include/c++/11/thread \
  /usr/include/c++/11/bits/this_thread_sleep.h \
-<<<<<<< HEAD
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/pwdefs.hh \
- /usr/include/c++/11/stdlib.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Units/PhysicalConstants.h \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ParticleDefinition.icc \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4PrimaryVertex.hh \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Allocator.hh \
- /usr/include/c++/11/cstddef \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4AllocatorPool.hh \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4PrimaryParticle.hh \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ParticleMomentum.hh \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ParticleTable.hh \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ParticleTableIterator.hh \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ParticleTable.icc \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/Randomize.hh \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/Randomize.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/defs.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/DRand48Engine.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandomEngine.h \
-=======
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleDefinition.icc \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryVertex.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Allocator.hh \
@@ -364,33 +284,10 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: \
  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/defs.h \
  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/DRand48Engine.h \
  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandomEngine.h \
->>>>>>> 671b135 (Minor update to the detector construction class)
  /usr/include/c++/11/fstream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
-<<<<<<< HEAD
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandomEngine.icc \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Utility/noncopyable.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Utility/defs.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/DualRand.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/Hurd160Engine.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/Hurd288Engine.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/JamesRandom.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/MixMaxRng.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/MTwistEngine.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandEngine.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RanecuEngine.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RanluxEngine.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/Ranlux64Engine.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RanluxppEngine.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RanshiEngine.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/TripleRand.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandBinomial.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/Random.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/Random.icc \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Utility/memory.h \
-=======
  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandomEngine.icc \
  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/noncopyable.h \
  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/defs.h \
@@ -411,62 +308,12 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: \
  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Random.h \
  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/Random.icc \
  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/memory.h \
->>>>>>> 671b135 (Minor update to the detector construction class)
  /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
  /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
  /usr/include/c++/11/bits/shared_ptr_atomic.h \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
-<<<<<<< HEAD
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandBinomial.icc \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandBreitWigner.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandFlat.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Utility/thread_local.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandFlat.icc \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandBreitWigner.icc \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandChiSquare.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandChiSquare.icc \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandExponential.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandExponential.icc \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandExpZiggurat.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandBit.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandBit.icc \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandGamma.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandGamma.icc \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandGauss.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandGauss.icc \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandGaussQ.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandGaussQ.icc \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandGaussT.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/Stat.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandGaussT.icc \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandGaussZiggurat.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandGeneral.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandGeneral.icc \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandLandau.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandLandau.icc \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandPoissonQ.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandPoisson.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandPoisson.icc \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandPoissonQ.icc \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandPoissonT.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandPoissonT.icc \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandSkewNormal.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandSkewNormal.icc \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandStudentT.h \
- /home/grapes/Packages/2.4.7.1/clhep_install/include/CLHEP/Random/RandStudentT.icc \
- /home/grapes/root/include/TRandom3.h /home/grapes/root/include/TRandom.h \
- /home/grapes/root/include/Math/TRandomEngine.h \
- /home/grapes/root/include/TNamed.h /home/grapes/root/include/TObject.h \
- /home/grapes/root/include/Rtypes.h \
- /home/grapes/root/include/RtypesCore.h \
- /home/grapes/root/include/ROOT/RConfig.hxx \
- /home/grapes/root/include/ROOT/../RVersion.h \
- /home/grapes/root/include/RConfigure.h \
- /home/grapes/root/include/DllImport.h /home/grapes/root/include/strtok.h \
- /home/grapes/root/include/strlcpy.h /usr/include/unistd.h \
-=======
  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBinomial.icc \
  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBreitWigner.h \
  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandFlat.h \
@@ -514,38 +361,11 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: \
  /home/dipti/root/include/RConfigure.h \
  /home/dipti/root/include/DllImport.h /home/dipti/root/include/strtok.h \
  /home/dipti/root/include/strlcpy.h /usr/include/unistd.h \
->>>>>>> 671b135 (Minor update to the detector construction class)
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-<<<<<<< HEAD
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /usr/include/linux/close_range.h /home/grapes/root/include/snprintf.h \
- /home/grapes/root/include/TGenericClassInfo.h \
- /home/grapes/root/include/TSchemaHelper.h \
- /home/grapes/root/include/TIsAProxy.h \
- /home/grapes/root/include/TVirtualIsAProxy.h \
- /home/grapes/root/include/TStorage.h \
- /home/grapes/root/include/TVersionCheck.h \
- /home/grapes/root/include/RVersion.h /home/grapes/root/include/TString.h \
- /home/grapes/root/include/TMathBase.h \
- /home/grapes/root/include/ROOT/RStringView.hxx \
- /home/grapes/root/include/ROOT/TypeTraits.hxx \
- /usr/include/c++/11/cstdarg \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4IonTable.hh \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Ions.hh \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4ParticleTable.hh \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Proton.hh \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Alpha.hh \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Electron.hh \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Positron.hh \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4MuonPlus.hh \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4MuonMinus.hh \
- /home/grapes/Packages/geant4/geant4-install/include/Geant4/G4Gamma.hh \
- /home/grapes/Programs/G4Sim/inc/g4Structures.hh
-=======
  /usr/include/x86_64-linux-gnu/bits/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h /home/dipti/root/include/snprintf.h \
@@ -569,5 +389,4 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MuonPlus.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MuonMinus.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Gamma.hh \
- /home/dipti/Programs/G4Sim/inc/g4Structures.hh
->>>>>>> 671b135 (Minor update to the detector construction class)
+ /home/dipti/Programs/G4SIM/inc/g4Structures.hh

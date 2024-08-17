@@ -53,17 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/grapes/Programs/G4Sim
+CMAKE_SOURCE_DIR = /home/dipti/Programs/G4SIM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/grapes/Programs/G4Sim/build
-=======
-CMAKE_SOURCE_DIR = /home/dipti/Programs/G4Sim
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dipti/Programs/G4Sim/build
->>>>>>> 671b135 (Minor update to the detector construction class)
+CMAKE_BINARY_DIR = /home/dipti/Programs/G4SIM/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/g4sim.dir/depend.make
@@ -79,272 +72,142 @@ include CMakeFiles/g4sim.dir/flags.make
 CMakeFiles/g4sim.dir/src/g4main.cc.o: CMakeFiles/g4sim.dir/flags.make
 CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc
 CMakeFiles/g4sim.dir/src/g4main.cc.o: CMakeFiles/g4sim.dir/compiler_depend.ts
-<<<<<<< HEAD
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grapes/Programs/G4Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/g4sim.dir/src/g4main.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4main.cc.o -MF CMakeFiles/g4sim.dir/src/g4main.cc.o.d -o CMakeFiles/g4sim.dir/src/g4main.cc.o -c /home/grapes/Programs/G4Sim/src/g4main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dipti/Programs/G4SIM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/g4sim.dir/src/g4main.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4main.cc.o -MF CMakeFiles/g4sim.dir/src/g4main.cc.o.d -o CMakeFiles/g4sim.dir/src/g4main.cc.o -c /home/dipti/Programs/G4SIM/src/g4main.cc
 
 CMakeFiles/g4sim.dir/src/g4main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g4sim.dir/src/g4main.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grapes/Programs/G4Sim/src/g4main.cc > CMakeFiles/g4sim.dir/src/g4main.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dipti/Programs/G4SIM/src/g4main.cc > CMakeFiles/g4sim.dir/src/g4main.cc.i
 
 CMakeFiles/g4sim.dir/src/g4main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g4sim.dir/src/g4main.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grapes/Programs/G4Sim/src/g4main.cc -o CMakeFiles/g4sim.dir/src/g4main.cc.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dipti/Programs/G4Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/g4sim.dir/src/g4main.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4main.cc.o -MF CMakeFiles/g4sim.dir/src/g4main.cc.o.d -o CMakeFiles/g4sim.dir/src/g4main.cc.o -c /home/dipti/Programs/G4Sim/src/g4main.cc
-
-CMakeFiles/g4sim.dir/src/g4main.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g4sim.dir/src/g4main.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dipti/Programs/G4Sim/src/g4main.cc > CMakeFiles/g4sim.dir/src/g4main.cc.i
-
-CMakeFiles/g4sim.dir/src/g4main.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g4sim.dir/src/g4main.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dipti/Programs/G4Sim/src/g4main.cc -o CMakeFiles/g4sim.dir/src/g4main.cc.s
->>>>>>> 671b135 (Minor update to the detector construction class)
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dipti/Programs/G4SIM/src/g4main.cc -o CMakeFiles/g4sim.dir/src/g4main.cc.s
 
 CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: CMakeFiles/g4sim.dir/flags.make
 CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: ../src/g4ActionInitialize.cc
 CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: CMakeFiles/g4sim.dir/compiler_depend.ts
-<<<<<<< HEAD
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grapes/Programs/G4Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o -MF CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o.d -o CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o -c /home/grapes/Programs/G4Sim/src/g4ActionInitialize.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dipti/Programs/G4SIM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o -MF CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o.d -o CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o -c /home/dipti/Programs/G4SIM/src/g4ActionInitialize.cc
 
 CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grapes/Programs/G4Sim/src/g4ActionInitialize.cc > CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dipti/Programs/G4SIM/src/g4ActionInitialize.cc > CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.i
 
 CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grapes/Programs/G4Sim/src/g4ActionInitialize.cc -o CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dipti/Programs/G4Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o -MF CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o.d -o CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o -c /home/dipti/Programs/G4Sim/src/g4ActionInitialize.cc
-
-CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dipti/Programs/G4Sim/src/g4ActionInitialize.cc > CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.i
-
-CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dipti/Programs/G4Sim/src/g4ActionInitialize.cc -o CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.s
->>>>>>> 671b135 (Minor update to the detector construction class)
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dipti/Programs/G4SIM/src/g4ActionInitialize.cc -o CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.s
 
 CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: CMakeFiles/g4sim.dir/flags.make
 CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: ../src/g4ControlFileHandler.cc
 CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: CMakeFiles/g4sim.dir/compiler_depend.ts
-<<<<<<< HEAD
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grapes/Programs/G4Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o -MF CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o.d -o CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o -c /home/grapes/Programs/G4Sim/src/g4ControlFileHandler.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dipti/Programs/G4SIM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o -MF CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o.d -o CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o -c /home/dipti/Programs/G4SIM/src/g4ControlFileHandler.cc
 
 CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grapes/Programs/G4Sim/src/g4ControlFileHandler.cc > CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dipti/Programs/G4SIM/src/g4ControlFileHandler.cc > CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.i
 
 CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grapes/Programs/G4Sim/src/g4ControlFileHandler.cc -o CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dipti/Programs/G4Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o -MF CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o.d -o CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o -c /home/dipti/Programs/G4Sim/src/g4ControlFileHandler.cc
-
-CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dipti/Programs/G4Sim/src/g4ControlFileHandler.cc > CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.i
-
-CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dipti/Programs/G4Sim/src/g4ControlFileHandler.cc -o CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.s
->>>>>>> 671b135 (Minor update to the detector construction class)
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dipti/Programs/G4SIM/src/g4ControlFileHandler.cc -o CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.s
 
 CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o: CMakeFiles/g4sim.dir/flags.make
 CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o: ../src/g4DetectorConstruction.cc
 CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o: CMakeFiles/g4sim.dir/compiler_depend.ts
-<<<<<<< HEAD
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grapes/Programs/G4Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o -MF CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o.d -o CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o -c /home/grapes/Programs/G4Sim/src/g4DetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dipti/Programs/G4SIM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o -MF CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o.d -o CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o -c /home/dipti/Programs/G4SIM/src/g4DetectorConstruction.cc
 
 CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grapes/Programs/G4Sim/src/g4DetectorConstruction.cc > CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dipti/Programs/G4SIM/src/g4DetectorConstruction.cc > CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.i
 
 CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grapes/Programs/G4Sim/src/g4DetectorConstruction.cc -o CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dipti/Programs/G4Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o -MF CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o.d -o CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o -c /home/dipti/Programs/G4Sim/src/g4DetectorConstruction.cc
-
-CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dipti/Programs/G4Sim/src/g4DetectorConstruction.cc > CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.i
-
-CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dipti/Programs/G4Sim/src/g4DetectorConstruction.cc -o CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.s
->>>>>>> 671b135 (Minor update to the detector construction class)
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dipti/Programs/G4SIM/src/g4DetectorConstruction.cc -o CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.s
 
 CMakeFiles/g4sim.dir/src/g4EventAction.cc.o: CMakeFiles/g4sim.dir/flags.make
 CMakeFiles/g4sim.dir/src/g4EventAction.cc.o: ../src/g4EventAction.cc
 CMakeFiles/g4sim.dir/src/g4EventAction.cc.o: CMakeFiles/g4sim.dir/compiler_depend.ts
-<<<<<<< HEAD
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grapes/Programs/G4Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/g4sim.dir/src/g4EventAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4EventAction.cc.o -MF CMakeFiles/g4sim.dir/src/g4EventAction.cc.o.d -o CMakeFiles/g4sim.dir/src/g4EventAction.cc.o -c /home/grapes/Programs/G4Sim/src/g4EventAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dipti/Programs/G4SIM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/g4sim.dir/src/g4EventAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4EventAction.cc.o -MF CMakeFiles/g4sim.dir/src/g4EventAction.cc.o.d -o CMakeFiles/g4sim.dir/src/g4EventAction.cc.o -c /home/dipti/Programs/G4SIM/src/g4EventAction.cc
 
 CMakeFiles/g4sim.dir/src/g4EventAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g4sim.dir/src/g4EventAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grapes/Programs/G4Sim/src/g4EventAction.cc > CMakeFiles/g4sim.dir/src/g4EventAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dipti/Programs/G4SIM/src/g4EventAction.cc > CMakeFiles/g4sim.dir/src/g4EventAction.cc.i
 
 CMakeFiles/g4sim.dir/src/g4EventAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g4sim.dir/src/g4EventAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grapes/Programs/G4Sim/src/g4EventAction.cc -o CMakeFiles/g4sim.dir/src/g4EventAction.cc.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dipti/Programs/G4Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/g4sim.dir/src/g4EventAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4EventAction.cc.o -MF CMakeFiles/g4sim.dir/src/g4EventAction.cc.o.d -o CMakeFiles/g4sim.dir/src/g4EventAction.cc.o -c /home/dipti/Programs/G4Sim/src/g4EventAction.cc
-
-CMakeFiles/g4sim.dir/src/g4EventAction.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g4sim.dir/src/g4EventAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dipti/Programs/G4Sim/src/g4EventAction.cc > CMakeFiles/g4sim.dir/src/g4EventAction.cc.i
-
-CMakeFiles/g4sim.dir/src/g4EventAction.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g4sim.dir/src/g4EventAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dipti/Programs/G4Sim/src/g4EventAction.cc -o CMakeFiles/g4sim.dir/src/g4EventAction.cc.s
->>>>>>> 671b135 (Minor update to the detector construction class)
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dipti/Programs/G4SIM/src/g4EventAction.cc -o CMakeFiles/g4sim.dir/src/g4EventAction.cc.s
 
 CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: CMakeFiles/g4sim.dir/flags.make
 CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: ../src/g4PhysicsList.cc
 CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o: CMakeFiles/g4sim.dir/compiler_depend.ts
-<<<<<<< HEAD
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grapes/Programs/G4Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o -MF CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o.d -o CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o -c /home/grapes/Programs/G4Sim/src/g4PhysicsList.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dipti/Programs/G4SIM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o -MF CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o.d -o CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o -c /home/dipti/Programs/G4SIM/src/g4PhysicsList.cc
 
 CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grapes/Programs/G4Sim/src/g4PhysicsList.cc > CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dipti/Programs/G4SIM/src/g4PhysicsList.cc > CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.i
 
 CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grapes/Programs/G4Sim/src/g4PhysicsList.cc -o CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dipti/Programs/G4Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o -MF CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o.d -o CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o -c /home/dipti/Programs/G4Sim/src/g4PhysicsList.cc
-
-CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dipti/Programs/G4Sim/src/g4PhysicsList.cc > CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.i
-
-CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dipti/Programs/G4Sim/src/g4PhysicsList.cc -o CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.s
->>>>>>> 671b135 (Minor update to the detector construction class)
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dipti/Programs/G4SIM/src/g4PhysicsList.cc -o CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.s
 
 CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: CMakeFiles/g4sim.dir/flags.make
 CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: ../src/g4PrimaryGenerator.cc
 CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: CMakeFiles/g4sim.dir/compiler_depend.ts
-<<<<<<< HEAD
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grapes/Programs/G4Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o -MF CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o.d -o CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o -c /home/grapes/Programs/G4Sim/src/g4PrimaryGenerator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dipti/Programs/G4SIM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o -MF CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o.d -o CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o -c /home/dipti/Programs/G4SIM/src/g4PrimaryGenerator.cc
 
 CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grapes/Programs/G4Sim/src/g4PrimaryGenerator.cc > CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dipti/Programs/G4SIM/src/g4PrimaryGenerator.cc > CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.i
 
 CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grapes/Programs/G4Sim/src/g4PrimaryGenerator.cc -o CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dipti/Programs/G4Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o -MF CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o.d -o CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o -c /home/dipti/Programs/G4Sim/src/g4PrimaryGenerator.cc
-
-CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dipti/Programs/G4Sim/src/g4PrimaryGenerator.cc > CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.i
-
-CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dipti/Programs/G4Sim/src/g4PrimaryGenerator.cc -o CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.s
->>>>>>> 671b135 (Minor update to the detector construction class)
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dipti/Programs/G4SIM/src/g4PrimaryGenerator.cc -o CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.s
 
 CMakeFiles/g4sim.dir/src/g4RunAction.cc.o: CMakeFiles/g4sim.dir/flags.make
 CMakeFiles/g4sim.dir/src/g4RunAction.cc.o: ../src/g4RunAction.cc
 CMakeFiles/g4sim.dir/src/g4RunAction.cc.o: CMakeFiles/g4sim.dir/compiler_depend.ts
-<<<<<<< HEAD
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grapes/Programs/G4Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/g4sim.dir/src/g4RunAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4RunAction.cc.o -MF CMakeFiles/g4sim.dir/src/g4RunAction.cc.o.d -o CMakeFiles/g4sim.dir/src/g4RunAction.cc.o -c /home/grapes/Programs/G4Sim/src/g4RunAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dipti/Programs/G4SIM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/g4sim.dir/src/g4RunAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4RunAction.cc.o -MF CMakeFiles/g4sim.dir/src/g4RunAction.cc.o.d -o CMakeFiles/g4sim.dir/src/g4RunAction.cc.o -c /home/dipti/Programs/G4SIM/src/g4RunAction.cc
 
 CMakeFiles/g4sim.dir/src/g4RunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g4sim.dir/src/g4RunAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grapes/Programs/G4Sim/src/g4RunAction.cc > CMakeFiles/g4sim.dir/src/g4RunAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dipti/Programs/G4SIM/src/g4RunAction.cc > CMakeFiles/g4sim.dir/src/g4RunAction.cc.i
 
 CMakeFiles/g4sim.dir/src/g4RunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g4sim.dir/src/g4RunAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grapes/Programs/G4Sim/src/g4RunAction.cc -o CMakeFiles/g4sim.dir/src/g4RunAction.cc.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dipti/Programs/G4Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/g4sim.dir/src/g4RunAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4RunAction.cc.o -MF CMakeFiles/g4sim.dir/src/g4RunAction.cc.o.d -o CMakeFiles/g4sim.dir/src/g4RunAction.cc.o -c /home/dipti/Programs/G4Sim/src/g4RunAction.cc
-
-CMakeFiles/g4sim.dir/src/g4RunAction.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g4sim.dir/src/g4RunAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dipti/Programs/G4Sim/src/g4RunAction.cc > CMakeFiles/g4sim.dir/src/g4RunAction.cc.i
-
-CMakeFiles/g4sim.dir/src/g4RunAction.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g4sim.dir/src/g4RunAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dipti/Programs/G4Sim/src/g4RunAction.cc -o CMakeFiles/g4sim.dir/src/g4RunAction.cc.s
->>>>>>> 671b135 (Minor update to the detector construction class)
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dipti/Programs/G4SIM/src/g4RunAction.cc -o CMakeFiles/g4sim.dir/src/g4RunAction.cc.s
 
 CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: CMakeFiles/g4sim.dir/flags.make
 CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: ../src/g4SteppingAction.cc
 CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: CMakeFiles/g4sim.dir/compiler_depend.ts
-<<<<<<< HEAD
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grapes/Programs/G4Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o -MF CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o.d -o CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o -c /home/grapes/Programs/G4Sim/src/g4SteppingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dipti/Programs/G4SIM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o -MF CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o.d -o CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o -c /home/dipti/Programs/G4SIM/src/g4SteppingAction.cc
 
 CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grapes/Programs/G4Sim/src/g4SteppingAction.cc > CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dipti/Programs/G4SIM/src/g4SteppingAction.cc > CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.i
 
 CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grapes/Programs/G4Sim/src/g4SteppingAction.cc -o CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dipti/Programs/G4Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o -MF CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o.d -o CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o -c /home/dipti/Programs/G4Sim/src/g4SteppingAction.cc
-
-CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dipti/Programs/G4Sim/src/g4SteppingAction.cc > CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.i
-
-CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dipti/Programs/G4Sim/src/g4SteppingAction.cc -o CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.s
->>>>>>> 671b135 (Minor update to the detector construction class)
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dipti/Programs/G4SIM/src/g4SteppingAction.cc -o CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.s
 
 CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: CMakeFiles/g4sim.dir/flags.make
 CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc
 CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: CMakeFiles/g4sim.dir/compiler_depend.ts
-<<<<<<< HEAD
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grapes/Programs/G4Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o -MF CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o.d -o CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o -c /home/grapes/Programs/G4Sim/src/g4TaskManager.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dipti/Programs/G4SIM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o -MF CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o.d -o CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o -c /home/dipti/Programs/G4SIM/src/g4TaskManager.cc
 
 CMakeFiles/g4sim.dir/src/g4TaskManager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g4sim.dir/src/g4TaskManager.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grapes/Programs/G4Sim/src/g4TaskManager.cc > CMakeFiles/g4sim.dir/src/g4TaskManager.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dipti/Programs/G4SIM/src/g4TaskManager.cc > CMakeFiles/g4sim.dir/src/g4TaskManager.cc.i
 
 CMakeFiles/g4sim.dir/src/g4TaskManager.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g4sim.dir/src/g4TaskManager.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grapes/Programs/G4Sim/src/g4TaskManager.cc -o CMakeFiles/g4sim.dir/src/g4TaskManager.cc.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dipti/Programs/G4Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o -MF CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o.d -o CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o -c /home/dipti/Programs/G4Sim/src/g4TaskManager.cc
-
-CMakeFiles/g4sim.dir/src/g4TaskManager.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g4sim.dir/src/g4TaskManager.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dipti/Programs/G4Sim/src/g4TaskManager.cc > CMakeFiles/g4sim.dir/src/g4TaskManager.cc.i
-
-CMakeFiles/g4sim.dir/src/g4TaskManager.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g4sim.dir/src/g4TaskManager.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dipti/Programs/G4Sim/src/g4TaskManager.cc -o CMakeFiles/g4sim.dir/src/g4TaskManager.cc.s
->>>>>>> 671b135 (Minor update to the detector construction class)
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dipti/Programs/G4SIM/src/g4TaskManager.cc -o CMakeFiles/g4sim.dir/src/g4TaskManager.cc.s
 
 # Object files for target g4sim
 g4sim_OBJECTS = \
@@ -373,60 +236,6 @@ g4sim: CMakeFiles/g4sim.dir/src/g4RunAction.cc.o
 g4sim: CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o
 g4sim: CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o
 g4sim: CMakeFiles/g4sim.dir/build.make
-<<<<<<< HEAD
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4Tree.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4FR.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4GMocren.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4visHepRep.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4RayTracer.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4VRML.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4ToolsSG.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4OpenGL.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4vis_management.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4modeling.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4interfaces.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4mctruth.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4geomtext.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4gdml.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4error_propagation.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4readout.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4physicslists.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4run.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4event.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4tracking.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4parmodels.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4processes.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4digits_hits.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4track.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4particles.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4geometry.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4materials.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4graphics_reps.so
-g4sim: /home/grapes/root/lib/libCore.so
-g4sim: /home/grapes/root/lib/libImt.so
-g4sim: /home/grapes/root/lib/libRIO.so
-g4sim: /home/grapes/root/lib/libNet.so
-g4sim: /home/grapes/root/lib/libHist.so
-g4sim: /home/grapes/root/lib/libGraf.so
-g4sim: /home/grapes/root/lib/libGraf3d.so
-g4sim: /home/grapes/root/lib/libGpad.so
-g4sim: /home/grapes/root/lib/libROOTDataFrame.so
-g4sim: /home/grapes/root/lib/libTree.so
-g4sim: /home/grapes/root/lib/libTreePlayer.so
-g4sim: /home/grapes/root/lib/libRint.so
-g4sim: /home/grapes/root/lib/libPostscript.so
-g4sim: /home/grapes/root/lib/libMatrix.so
-g4sim: /home/grapes/root/lib/libPhysics.so
-g4sim: /home/grapes/root/lib/libMathCore.so
-g4sim: /home/grapes/root/lib/libThread.so
-g4sim: /home/grapes/root/lib/libMultiProc.so
-g4sim: /home/grapes/root/lib/libROOTVecOps.so
-g4sim: /usr/lib/x86_64-linux-gnu/libGL.so
-g4sim: /usr/lib/x86_64-linux-gnu/libQt5OpenGL.so.5.15.3
-g4sim: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
-g4sim: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
-g4sim: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
-=======
 g4sim: /gamma/dipti/GEANT4/geant4-install/lib/libG4Tree.so
 g4sim: /gamma/dipti/GEANT4/geant4-install/lib/libG4FR.so
 g4sim: /gamma/dipti/GEANT4/geant4-install/lib/libG4GMocren.so
@@ -463,25 +272,12 @@ g4sim: /home/dipti/root/lib/libMathCore.so
 g4sim: /home/dipti/root/lib/libThread.so
 g4sim: /home/dipti/root/lib/libMultiProc.so
 g4sim: /home/dipti/root/lib/libROOTVecOps.so
->>>>>>> 671b135 (Minor update to the detector construction class)
 g4sim: /usr/lib/x86_64-linux-gnu/libXmu.so
 g4sim: /usr/lib/x86_64-linux-gnu/libXext.so
 g4sim: /usr/lib/x86_64-linux-gnu/libXt.so
 g4sim: /usr/lib/x86_64-linux-gnu/libICE.so
 g4sim: /usr/lib/x86_64-linux-gnu/libSM.so
 g4sim: /usr/lib/x86_64-linux-gnu/libX11.so
-<<<<<<< HEAD
-g4sim: /usr/lib/x86_64-linux-gnu/libxerces-c.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4analysis.so
-g4sim: /usr/lib/x86_64-linux-gnu/libexpat.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4zlib.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4intercoms.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4global.so
-g4sim: /home/grapes/Packages/geant4/geant4-install/lib/libG4ptl.so.2.3.3
-g4sim: /home/grapes/Packages/2.4.7.1/clhep_install/lib/libCLHEP-2.4.7.1.so
-g4sim: CMakeFiles/g4sim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/grapes/Programs/G4Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable g4sim"
-=======
 g4sim: /usr/lib/x86_64-linux-gnu/libGL.so
 g4sim: /usr/lib/x86_64-linux-gnu/libQt5OpenGL.so.5.15.3
 g4sim: /usr/lib/x86_64-linux-gnu/libQt5PrintSupport.so.5.15.3
@@ -508,8 +304,7 @@ g4sim: /gamma/dipti/GEANT4/geant4-install/lib/libG4global.so
 g4sim: /gamma/dipti/GEANT4/geant4-install/lib/libG4ptl.so.0.0.2
 g4sim: /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/lib/libCLHEP-2.4.5.2.so
 g4sim: CMakeFiles/g4sim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dipti/Programs/G4Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable g4sim"
->>>>>>> 671b135 (Minor update to the detector construction class)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dipti/Programs/G4SIM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable g4sim"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/g4sim.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -521,10 +316,6 @@ CMakeFiles/g4sim.dir/clean:
 .PHONY : CMakeFiles/g4sim.dir/clean
 
 CMakeFiles/g4sim.dir/depend:
-<<<<<<< HEAD
-	cd /home/grapes/Programs/G4Sim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/grapes/Programs/G4Sim /home/grapes/Programs/G4Sim /home/grapes/Programs/G4Sim/build /home/grapes/Programs/G4Sim/build /home/grapes/Programs/G4Sim/build/CMakeFiles/g4sim.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /home/dipti/Programs/G4Sim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dipti/Programs/G4Sim /home/dipti/Programs/G4Sim /home/dipti/Programs/G4Sim/build /home/dipti/Programs/G4Sim/build /home/dipti/Programs/G4Sim/build/CMakeFiles/g4sim.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> 671b135 (Minor update to the detector construction class)
+	cd /home/dipti/Programs/G4SIM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dipti/Programs/G4SIM /home/dipti/Programs/G4SIM /home/dipti/Programs/G4SIM/build /home/dipti/Programs/G4SIM/build /home/dipti/Programs/G4SIM/build/CMakeFiles/g4sim.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/g4sim.dir/depend
 

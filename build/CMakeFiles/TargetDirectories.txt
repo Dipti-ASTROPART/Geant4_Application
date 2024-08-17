@@ -1,13 +1,5 @@
-<<<<<<< HEAD
-/home/grapes/Programs/G4Sim/build/CMakeFiles/g4sim.dir
-/home/grapes/Programs/G4Sim/build/CMakeFiles/G4Sim.dir
-/home/grapes/Programs/G4Sim/build/CMakeFiles/success.dir
-/home/grapes/Programs/G4Sim/build/CMakeFiles/edit_cache.dir
-/home/grapes/Programs/G4Sim/build/CMakeFiles/rebuild_cache.dir
-=======
-/home/dipti/Programs/G4Sim/build/CMakeFiles/g4sim.dir
-/home/dipti/Programs/G4Sim/build/CMakeFiles/G4Sim.dir
-/home/dipti/Programs/G4Sim/build/CMakeFiles/success.dir
-/home/dipti/Programs/G4Sim/build/CMakeFiles/edit_cache.dir
-/home/dipti/Programs/G4Sim/build/CMakeFiles/rebuild_cache.dir
->>>>>>> 671b135 (Minor update to the detector construction class)
+/home/dipti/Programs/G4SIM/build/CMakeFiles/g4sim.dir
+/home/dipti/Programs/G4SIM/build/CMakeFiles/G4Sim.dir
+/home/dipti/Programs/G4SIM/build/CMakeFiles/success.dir
+/home/dipti/Programs/G4SIM/build/CMakeFiles/edit_cache.dir
+/home/dipti/Programs/G4SIM/build/CMakeFiles/rebuild_cache.dir

@@ -39,7 +39,7 @@ void    MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
     G4double partEne  = GenerateRandomEnergy();
     
     // Define position and momentum of the primary particle
-    G4ThreeVector pos(0., 0., -1.*cm);
+    G4ThreeVector pos(0., 0., 0.5*cm);
     G4ThreeVector mom(0., 0., 1.);
 
     fParticleDef = GetUserParticle(Control.ParticleName);

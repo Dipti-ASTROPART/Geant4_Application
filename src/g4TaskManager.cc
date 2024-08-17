@@ -43,6 +43,10 @@ void    MyTaskManager::AssignTask()
 
     // Initialize Geant4 run manager
     G4RunManager    *runManager = new G4RunManager();
+        // Set a different seed based on the current time
+    G4Random::setTheSeed(static_cast<unsigned long>(time(nullptr)));
+    //G4MTRunManager    *runManager = new G4MTRunManager();
+    //runManager->SetNumberOfThreads(6);
 
     // Geant4 run manager needs three user initialization classes
     runManager->SetUserInitialization(new MyDetectorConstruction());                    ///< 1. Detector construction class
@@ -55,6 +59,7 @@ void    MyTaskManager::AssignTask()
 
     auto opticalParams  = G4OpticalParameters::Instance();
     opticalParams->SetWLSTimeProfile("delta");
+    opticalParams->SetBoundaryInvokeSD(true);
 
     physicsList->RegisterPhysics(optPhysics);
     runManager->SetUserInitialization(physicsList);                                     ///< 2. Physics list class

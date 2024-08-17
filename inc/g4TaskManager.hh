@@ -8,6 +8,7 @@
 #include        <iostream>
 #include        "g4ControlFileHandler.hh"
 #include        "G4RunManager.hh"
+#include        "G4MTRunManager.hh"
 #include        "G4UIExecutive.hh"
 #include        "G4VisManager.hh"
 #include        "G4UImanager.hh"

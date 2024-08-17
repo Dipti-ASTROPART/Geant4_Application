@@ -53,21 +53,22 @@ void    MySteppingAction::UserSteppingAction(const G4Step *step)
     // Get particle definition
     G4ParticleDefinition *partDef = track->GetDefinition();
 
-    /*  
-    auto proc_man = track->GetDynamicParticle()->GetParticleDefinition()->GetProcessManager();
-    G4ProcessVector *proc_vec = proc_man->GetPostStepProcessVector(typeDoIt);
 
-    G4int    n_proc = proc_vec->entries();
-    for(G4int i  = 0; i < n_proc; i++)
-    {
+    /*  
+        auto proc_man = track->GetDynamicParticle()->GetParticleDefinition()->GetProcessManager();
+        G4ProcessVector *proc_vec = proc_man->GetPostStepProcessVector(typeDoIt);
+
+        G4int    n_proc = proc_vec->entries();
+        for(G4int i  = 0; i < n_proc; i++)
+        {
         G4cout << (*proc_vec)[i]->GetProcessName() << G4endl;
         if((*proc_vec)[i]->GetProcessName() == "Scintillation")
         {
-            auto scint = (G4Scintillation*) (*proc_vec)[i];
-            G4cout <<"Scint. photons: "<< scint->GetNumPhotons() <<G4endl;
+        auto scint = (G4Scintillation*) (*proc_vec)[i];
+        G4cout <<"Scint. photons: "<< scint->GetNumPhotons() <<G4endl;
         }
-    }
-    */
+        }
+        */
 
     G4AnalysisManager *man = G4AnalysisManager::Instance();
 
