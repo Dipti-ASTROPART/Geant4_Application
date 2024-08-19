@@ -1,6 +1,8 @@
 #ifndef     g4Structures_HH
 #define     g4Structures_HH
 
+#include    "G4LogicalVolume.hh"
+
 typedef struct  ControlFile
 {
     char            Path[20][300],
@@ -15,5 +17,14 @@ typedef struct  ControlFile
                     PrimaryEnergy2;
     
 } ControlFile;
+
+typedef struct  ScoringVolumes_Struct
+{
+    G4LogicalVolume* primaryDetector;
+    G4LogicalVolume* fiberCore;
+    G4LogicalVolume* fiberCladIn;
+    G4LogicalVolume* fiberCladOut;
+
+}   ScoringVolumes_Struct;
 
 #endif

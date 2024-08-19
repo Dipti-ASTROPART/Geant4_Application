@@ -16,6 +16,7 @@ MyEventAction::MyEventAction(MyRunAction *run)
     fEdep = 0;              ///< Initialize the energy deposit values
     fOptPhotonE = 0;
     nOpticalPhotons = 0;
+    nWLSPhotons = 0;
 }   //  ::MyEventAction
 
 
@@ -37,6 +38,7 @@ void    MyEventAction::BeginOfEventAction(const G4Event *)
     fEdep = 0;              ///< Reset the values
     fOptPhotonE = 0;
     nOpticalPhotons = 0;
+    nWLSPhotons = 0;
 
 }   //  ::BeginOfEventAction()
 
@@ -58,7 +60,8 @@ void    MyEventAction::EndOfEventAction(const G4Event *event)
     G4cout << "Total K.E (MeV) : " << primaryParticle->GetKineticEnergy()/MeV << G4endl;
     G4cout << "Particle Mass (MeV/C^2): " << primaryParticle->GetMass()/MeV << G4endl;
     G4cout << "Energy Deposition (MeV) : " << fEdep/MeV << G4endl;
-    G4cout << "Total number of optical photons : " << nOpticalPhotons << G4endl;
+    G4cout << "Total number of optical photons in Detector: " << nOpticalPhotons << G4endl;
+    G4cout << "Total number of optical photons in Fiber : " << nWLSPhotons << G4endl;
     G4cout << "Total E for optical photons (MeV) : " << fOptPhotonE/MeV <<"  |  " << fOptPhotonE/eV << "eV" << G4endl;
 
     // Fill the parameter

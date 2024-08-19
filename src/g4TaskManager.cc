@@ -54,7 +54,7 @@ void    MyTaskManager::AssignTask()
     // Add physics lists
     //G4VModularPhysicsList *physicsList = new QBBC();
     G4VModularPhysicsList *physicsList = new FTFP_BERT();
-    physicsList->ReplacePhysics(new G4EmStandardPhysics_option4());
+    //physicsList->ReplacePhysics(new G4EmStandardPhysics_option4());
     G4OpticalPhysics      *optPhysics = new G4OpticalPhysics();
 
     auto opticalParams  = G4OpticalParameters::Instance();

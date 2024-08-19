@@ -364,4 +364,19 @@ CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o: \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.icc \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.icc
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalBorderSurface.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalBorderSurface.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Cons.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Cons.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trd.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trd.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SubtractionSolid.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BooleanSolid.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DisplacedSolid.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AffineTransform.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AffineTransform.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BooleanSolid.icc \
+ /home/dipti/Programs/G4SIM/inc/g4Structures.hh \
+ /home/dipti/Programs/G4SIM/inc/g4ConfigDetector.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh

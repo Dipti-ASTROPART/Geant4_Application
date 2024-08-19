@@ -12,6 +12,7 @@
 
 #include    "g4DetectorConstruction.hh"
 #include    "g4EventAction.hh"
+#include    "g4Structures.hh"
 
 class   MySteppingAction : public G4UserSteppingAction
 {
@@ -22,6 +23,7 @@ class   MySteppingAction : public G4UserSteppingAction
 
     private:
         MyEventAction               *fEventAction;
+        ScoringVolumes_Struct       sVolumes;
 };
 //////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////

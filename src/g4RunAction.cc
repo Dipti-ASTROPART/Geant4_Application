@@ -54,6 +54,7 @@ void    MyRunAction::BeginOfRunAction(const G4Run *run)
 
     G4int id1 = man->CreateH1("hPhotonEn", "Optical photon energy", 150, 0, 15);
     G4int id2 = man->CreateH1("hPhotonWL", "Optical photon wavelength", 500, 200, 700);
+    G4int id3 = man->CreateH1("hPhotonWLinWLS", "Optical photon wavelength in WLS", 500, 200, 700);
     // Finish the TUPLE (branch)
     man->FinishNtuple();
 

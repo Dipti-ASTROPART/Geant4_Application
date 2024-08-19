@@ -392,6 +392,31 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MuonMinus.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Gamma.hh \
  /home/dipti/Programs/G4SIM/inc/g4Structures.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomSplitter.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomwdefs.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomdefs.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RotationMatrix.hh \
+ /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.h \
+ /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.h \
+ /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.h \
+ /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.icc \
+ /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ZMxpv.h \
+ /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.h \
+ /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.icc \
+ /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.icc \
+ /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.h \
+ /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.icc \
+ /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.h \
+ /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.icc \
+ /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.h \
+ /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.icc \
+ /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.icc \
  /home/dipti/Programs/G4SIM/inc/g4RunAction.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserRunAction.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisManager.hh \
@@ -609,24 +634,7 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SingleParticleSource.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSPosDistribution.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Navigator.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomdefs.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AffineTransform.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RotationMatrix.hh \
- /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.h \
- /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.h \
- /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.h \
- /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.icc \
- /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ZMxpv.h \
- /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.h \
- /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.icc \
- /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.icc \
- /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.h \
- /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.icc \
- /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.h \
- /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.icc \
- /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.h \
- /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.icc \
- /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.icc \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Transform3D.hh \
  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Transform3D.h \
  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/defs.h \
@@ -637,13 +645,6 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: \
  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Normal3D.h \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AffineTransform.icc \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomSplitter.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomwdefs.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.icc \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.icc \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSVolume.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTouchable.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTouchable.icc \
@@ -885,7 +886,6 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ICRU90StoppingData.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Pow.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Material.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PVPlacement.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Box.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomTypes.hh \
@@ -918,4 +918,16 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.icc \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.icc
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalBorderSurface.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalBorderSurface.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Cons.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Cons.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trd.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trd.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SubtractionSolid.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BooleanSolid.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DisplacedSolid.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BooleanSolid.icc \
+ /home/dipti/Programs/G4SIM/inc/g4ConfigDetector.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh

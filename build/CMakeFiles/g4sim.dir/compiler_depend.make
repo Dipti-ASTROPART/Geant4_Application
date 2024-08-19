@@ -457,6 +457,31 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: ../src/g4ActionInitialize.cc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MuonMinus.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Gamma.hh \
   ../inc/g4Structures.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomSplitter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomwdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RotationMatrix.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ZMxpv.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.icc \
   ../inc/g4RunAction.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserRunAction.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisManager.hh \
@@ -732,24 +757,7 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: ../src/g4ActionInitialize.cc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SingleParticleSource.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSPosDistribution.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Navigator.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomdefs.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AffineTransform.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RotationMatrix.hh \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ZMxpv.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.icc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Transform3D.hh \
   /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Transform3D.h \
   /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/defs.h \
@@ -760,13 +768,6 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: ../src/g4ActionInitialize.cc \
   /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Normal3D.h \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AffineTransform.icc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomSplitter.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomwdefs.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.icc \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.icc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSVolume.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTouchable.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTouchable.icc \
@@ -1008,7 +1009,6 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: ../src/g4ActionInitialize.cc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ICRU90StoppingData.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Pow.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Material.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PVPlacement.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Box.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomTypes.hh \
@@ -1041,7 +1041,19 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: ../src/g4ActionInitialize.cc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.icc \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.icc
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalBorderSurface.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalBorderSurface.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Cons.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Cons.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trd.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trd.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SubtractionSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BooleanSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DisplacedSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BooleanSolid.icc \
+  ../inc/g4ConfigDetector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh
 
 CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: ../src/g4ControlFileHandler.cc \
   /usr/include/stdc-predef.h \
@@ -1231,39 +1243,15 @@ CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: ../src/g4ControlFileHandler.
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
   ../inc/g4Structures.hh \
-  ../inc/g4Constants.hh \
-  ../inc/g4CPP_ROOT_Headers.hh \
-  /usr/include/c++/11/iomanip \
-  /usr/include/c++/11/locale \
-  /usr/include/c++/11/bits/locale_facets_nonio.h \
-  /usr/include/c++/11/ctime \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
-  /usr/include/libintl.h \
-  /usr/include/c++/11/bits/codecvt.h \
-  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
-  /usr/include/c++/11/bits/locale_conv.h \
-  /usr/include/c++/11/bits/unique_ptr.h \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/tuple \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/bits/uses_allocator.h \
-  /usr/include/c++/11/bits/invoke.h \
-  /usr/include/c++/11/bits/quoted_string.h \
-  /usr/include/c++/11/sstream \
-  /usr/include/c++/11/bits/sstream.tcc \
-  /usr/include/c++/11/cstring \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
-  /usr/include/c++/11/fstream \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
-  /usr/include/c++/11/bits/fstream.tcc \
-  /usr/include/c++/11/stdlib.h \
-  /usr/include/c++/11/math.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GlobalConfig.hh \
+  /usr/include/c++/11/complex \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -1289,11 +1277,136 @@ CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: ../src/g4ControlFileHandler.
   /usr/include/c++/11/tr1/poly_hermite.tcc \
   /usr/include/c++/11/tr1/poly_laguerre.tcc \
   /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  /usr/include/dirent.h \
-  /usr/include/x86_64-linux-gnu/bits/dirent.h \
+  /usr/include/c++/11/sstream \
+  /usr/include/c++/11/bits/sstream.tcc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tls.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.hh \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/stl_tempbuf.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/pstl/execution_defs.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.hh \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomSplitter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/globals.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ios.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/templates.hh \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \
   /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Exception.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VExceptionHandler.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
+  /usr/include/c++/11/iomanip \
+  /usr/include/c++/11/locale \
+  /usr/include/c++/11/bits/locale_facets_nonio.h \
+  /usr/include/c++/11/ctime \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/11/bits/locale_conv.h \
+  /usr/include/c++/11/bits/unique_ptr.h \
+  /usr/include/c++/11/bits/quoted_string.h \
+  /usr/include/c++/11/mutex \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/c++/11/bits/std_mutex.h \
+  /usr/include/c++/11/bits/unique_lock.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomwdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AutoLock.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Threading.hh \
+  /usr/include/c++/11/condition_variable \
+  /usr/include/c++/11/bits/shared_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr_base.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/ext/concurrence.h \
+  /usr/include/c++/11/future \
+  /usr/include/c++/11/atomic \
+  /usr/include/c++/11/bits/atomic_base.h \
+  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/11/bits/atomic_futex.h \
+  /usr/include/c++/11/bits/std_thread.h \
+  /usr/include/c++/11/thread \
+  /usr/include/c++/11/bits/this_thread_sleep.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RotationMatrix.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ThreeVector.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ZMxpv.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/PhysicalConstants.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/SystemOfUnits.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.icc \
+  ../inc/g4Constants.hh \
+  ../inc/g4CPP_ROOT_Headers.hh \
+  /usr/include/c++/11/fstream \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/c++/11/bits/fstream.tcc \
+  /usr/include/c++/11/stdlib.h \
+  /usr/include/c++/11/math.h \
+  /usr/include/dirent.h \
+  /usr/include/x86_64-linux-gnu/bits/dirent.h \
   /usr/include/x86_64-linux-gnu/bits/dirent_ext.h \
   /usr/include/c++/11/cfloat \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
@@ -1317,9 +1430,6 @@ CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: ../src/g4ControlFileHandler.
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
   /home/dipti/root/include/TFile.h \
-  /usr/include/c++/11/atomic \
-  /usr/include/c++/11/bits/atomic_base.h \
-  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
   /home/dipti/root/include/Compression.h \
   /home/dipti/root/include/RtypesCore.h \
   /home/dipti/root/include/ROOT/RConfig.hxx \
@@ -1347,11 +1457,6 @@ CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: ../src/g4ControlFileHandler.
   /home/dipti/root/include/snprintf.h \
   /home/dipti/root/include/TGenericClassInfo.h \
   /home/dipti/root/include/TSchemaHelper.h \
-  /usr/include/c++/11/vector \
-  /usr/include/c++/11/bits/stl_uninitialized.h \
-  /usr/include/c++/11/bits/stl_vector.h \
-  /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/vector.tcc \
   /home/dipti/root/include/TIsAProxy.h \
   /home/dipti/root/include/TVirtualIsAProxy.h \
   /home/dipti/root/include/TStorage.h \
@@ -1359,35 +1464,12 @@ CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: ../src/g4ControlFileHandler.
   /home/dipti/root/include/RVersion.h \
   /home/dipti/root/include/TString.h \
   /home/dipti/root/include/TMathBase.h \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_tempbuf.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
-  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/11/functional \
-  /usr/include/c++/11/bits/refwrap.h \
-  /usr/include/c++/11/bits/std_function.h \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/node_handle.h \
-  /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/erase_if.h \
-  /usr/include/c++/11/pstl/execution_defs.h \
   /home/dipti/root/include/ROOT/RStringView.hxx \
   /home/dipti/root/include/ROOT/TypeTraits.hxx \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_raw_storage_iter.h \
   /usr/include/c++/11/bits/align.h \
   /usr/include/c++/11/bit \
-  /usr/include/c++/11/bits/shared_ptr.h \
-  /usr/include/c++/11/bits/shared_ptr_base.h \
-  /usr/include/c++/11/bits/allocated_ptr.h \
-  /usr/include/c++/11/ext/concurrence.h \
   /usr/include/c++/11/bits/shared_ptr_atomic.h \
   /usr/include/c++/11/backward/auto_ptr.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
@@ -1408,10 +1490,6 @@ CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: ../src/g4ControlFileHandler.
   /usr/include/c++/11/bits/stream_iterator.h \
   /usr/include/c++/11/cassert \
   /usr/include/assert.h \
-  /usr/include/c++/11/map \
-  /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/bits/stl_map.h \
-  /usr/include/c++/11/bits/stl_multimap.h \
   /usr/include/c++/11/unordered_set \
   /usr/include/c++/11/bits/unordered_set.h \
   /home/dipti/root/include/TUUID.h \
@@ -1426,13 +1504,6 @@ CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: ../src/g4ControlFileHandler.
   /home/dipti/root/include/Rtypes.h \
   /home/dipti/root/include/ROOT/TRWSpinLock.hxx \
   /home/dipti/root/include/ROOT/TSpinMutex.hxx \
-  /usr/include/c++/11/condition_variable \
-  /usr/include/c++/11/chrono \
-  /usr/include/c++/11/ratio \
-  /usr/include/c++/11/bits/parse_numbers.h \
-  /usr/include/c++/11/bits/std_mutex.h \
-  /usr/include/c++/11/bits/unique_lock.h \
-  /usr/include/c++/11/mutex \
   /home/dipti/root/include/TCanvas.h \
   /home/dipti/root/include/TPad.h \
   /home/dipti/root/include/TVirtualPad.h \
@@ -1444,13 +1515,6 @@ CMakeFiles/g4sim.dir/src/g4ControlFileHandler.cc.o: ../src/g4ControlFileHandler.
   /home/dipti/root/include/TInterpreter.h \
   /home/dipti/root/include/TInterpreterValue.h \
   /home/dipti/root/include/GuiTypes.h \
-  /usr/include/c++/11/climits \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /home/dipti/root/include/Buttons.h \
   /home/dipti/root/include/TAttBBox2D.h \
   /home/dipti/root/include/TAttCanvas.h \
@@ -1988,7 +2052,22 @@ CMakeFiles/g4sim.dir/src/g4DetectorConstruction.cc.o: ../src/g4DetectorConstruct
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.icc \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.icc
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalBorderSurface.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalBorderSurface.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Cons.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Cons.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trd.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trd.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SubtractionSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BooleanSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DisplacedSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AffineTransform.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AffineTransform.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BooleanSolid.icc \
+  ../inc/g4Structures.hh \
+  ../inc/g4ConfigDetector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh
 
 CMakeFiles/g4sim.dir/src/g4EventAction.cc.o: ../src/g4EventAction.cc \
   /usr/include/stdc-predef.h \
@@ -2502,6 +2581,34 @@ CMakeFiles/g4sim.dir/src/g4EventAction.cc.o: ../src/g4EventAction.cc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericFileManager.icc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Run.hh \
   ../inc/g4Structures.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomSplitter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomwdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RotationMatrix.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ZMxpv.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/PhysicalConstants.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/SystemOfUnits.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.icc \
   ../inc/g4CPP_ROOT_Headers.hh \
   /usr/include/c++/11/stdlib.h \
   /usr/include/c++/11/math.h \
@@ -2729,31 +2836,11 @@ CMakeFiles/g4sim.dir/src/g4EventAction.cc.o: ../src/g4EventAction.cc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPrimaryGenerator.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleMomentum.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleDefinition.hh \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/PhysicalConstants.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/defs.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/SystemOfUnits.h \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PDefManager.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleDefinition.icc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSPosDistribution.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Navigator.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomdefs.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AffineTransform.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RotationMatrix.hh \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ZMxpv.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.icc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Transform3D.hh \
   /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Transform3D.h \
   /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/defs.h \
@@ -2764,13 +2851,6 @@ CMakeFiles/g4sim.dir/src/g4EventAction.cc.o: ../src/g4EventAction.cc \
   /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Normal3D.h \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AffineTransform.icc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomSplitter.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomwdefs.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.icc \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.icc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSVolume.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTouchable.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTouchable.icc \
@@ -3704,7 +3784,32 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: ../src/g4PrimaryGenerator.cc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MuonPlus.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MuonMinus.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Gamma.hh \
-  ../inc/g4Structures.hh
+  ../inc/g4Structures.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomSplitter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomwdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RotationMatrix.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ZMxpv.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.icc
 
 CMakeFiles/g4sim.dir/src/g4RunAction.cc.o: ../src/g4RunAction.cc \
   /usr/include/stdc-predef.h \
@@ -4108,6 +4213,34 @@ CMakeFiles/g4sim.dir/src/g4RunAction.cc.o: ../src/g4RunAction.cc \
   /usr/include/c++/11/bits/stl_multiset.h \
   /usr/include/c++/11/cstddef \
   ../inc/g4Structures.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomSplitter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomwdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RotationMatrix.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ZMxpv.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/PhysicalConstants.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/SystemOfUnits.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.icc \
   ../inc/g4CPP_ROOT_Headers.hh \
   /usr/include/c++/11/stdlib.h \
   /usr/include/c++/11/math.h \
@@ -4349,31 +4482,11 @@ CMakeFiles/g4sim.dir/src/g4RunAction.cc.o: ../src/g4RunAction.cc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPrimaryGenerator.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleMomentum.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleDefinition.hh \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/PhysicalConstants.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/defs.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/SystemOfUnits.h \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PDefManager.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleDefinition.icc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSPosDistribution.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Navigator.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomdefs.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AffineTransform.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RotationMatrix.hh \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ZMxpv.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.icc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Transform3D.hh \
   /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Transform3D.h \
   /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/defs.h \
@@ -4384,13 +4497,6 @@ CMakeFiles/g4sim.dir/src/g4RunAction.cc.o: ../src/g4RunAction.cc \
   /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Normal3D.h \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AffineTransform.icc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomSplitter.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomwdefs.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.icc \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.icc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSVolume.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTouchable.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTouchable.icc \
@@ -5085,6 +5191,19 @@ CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: ../src/g4SteppingAction.cc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.icc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalBorderSurface.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalBorderSurface.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Cons.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Cons.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trd.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trd.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SubtractionSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BooleanSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DisplacedSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BooleanSolid.icc \
+  ../inc/g4Structures.hh \
+  ../inc/g4ConfigDetector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh \
   ../inc/g4EventAction.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserEventAction.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Event.hh \
@@ -5245,7 +5364,6 @@ CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: ../src/g4SteppingAction.cc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericFileManager.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericFileManager.icc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Run.hh \
-  ../inc/g4Structures.hh \
   ../inc/g4CPP_ROOT_Headers.hh \
   /usr/include/c++/11/math.h \
   /usr/include/dirent.h \
@@ -5664,39 +5782,15 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /usr/include/c++/11/bits/istream.tcc \
   ../inc/g4ControlFileHandler.hh \
   ../inc/g4Structures.hh \
-  ../inc/g4Constants.hh \
-  ../inc/g4CPP_ROOT_Headers.hh \
-  /usr/include/c++/11/iomanip \
-  /usr/include/c++/11/locale \
-  /usr/include/c++/11/bits/locale_facets_nonio.h \
-  /usr/include/c++/11/ctime \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
-  /usr/include/libintl.h \
-  /usr/include/c++/11/bits/codecvt.h \
-  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
-  /usr/include/c++/11/bits/locale_conv.h \
-  /usr/include/c++/11/bits/unique_ptr.h \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/tuple \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/bits/uses_allocator.h \
-  /usr/include/c++/11/bits/invoke.h \
-  /usr/include/c++/11/bits/quoted_string.h \
-  /usr/include/c++/11/sstream \
-  /usr/include/c++/11/bits/sstream.tcc \
-  /usr/include/c++/11/cstring \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
-  /usr/include/c++/11/fstream \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
-  /usr/include/c++/11/bits/fstream.tcc \
-  /usr/include/c++/11/stdlib.h \
-  /usr/include/c++/11/math.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GlobalConfig.hh \
+  /usr/include/c++/11/complex \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -5722,11 +5816,136 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /usr/include/c++/11/tr1/poly_hermite.tcc \
   /usr/include/c++/11/tr1/poly_laguerre.tcc \
   /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  /usr/include/dirent.h \
-  /usr/include/x86_64-linux-gnu/bits/dirent.h \
+  /usr/include/c++/11/sstream \
+  /usr/include/c++/11/bits/sstream.tcc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tls.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.hh \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/stl_tempbuf.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/pstl/execution_defs.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.hh \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomSplitter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/globals.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ios.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/templates.hh \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \
   /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Exception.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VExceptionHandler.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
+  /usr/include/c++/11/iomanip \
+  /usr/include/c++/11/locale \
+  /usr/include/c++/11/bits/locale_facets_nonio.h \
+  /usr/include/c++/11/ctime \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/11/bits/locale_conv.h \
+  /usr/include/c++/11/bits/unique_ptr.h \
+  /usr/include/c++/11/bits/quoted_string.h \
+  /usr/include/c++/11/mutex \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/c++/11/bits/std_mutex.h \
+  /usr/include/c++/11/bits/unique_lock.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomwdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AutoLock.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Threading.hh \
+  /usr/include/c++/11/condition_variable \
+  /usr/include/c++/11/bits/shared_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr_base.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/ext/concurrence.h \
+  /usr/include/c++/11/future \
+  /usr/include/c++/11/atomic \
+  /usr/include/c++/11/bits/atomic_base.h \
+  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/11/bits/atomic_futex.h \
+  /usr/include/c++/11/bits/std_thread.h \
+  /usr/include/c++/11/thread \
+  /usr/include/c++/11/bits/this_thread_sleep.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RotationMatrix.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ThreeVector.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ZMxpv.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/PhysicalConstants.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/SystemOfUnits.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.icc \
+  ../inc/g4Constants.hh \
+  ../inc/g4CPP_ROOT_Headers.hh \
+  /usr/include/c++/11/fstream \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/c++/11/bits/fstream.tcc \
+  /usr/include/c++/11/stdlib.h \
+  /usr/include/c++/11/math.h \
+  /usr/include/dirent.h \
+  /usr/include/x86_64-linux-gnu/bits/dirent.h \
   /usr/include/x86_64-linux-gnu/bits/dirent_ext.h \
   /usr/include/c++/11/cfloat \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
@@ -5750,9 +5969,6 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
   /home/dipti/root/include/TFile.h \
-  /usr/include/c++/11/atomic \
-  /usr/include/c++/11/bits/atomic_base.h \
-  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
   /home/dipti/root/include/Compression.h \
   /home/dipti/root/include/RtypesCore.h \
   /home/dipti/root/include/ROOT/RConfig.hxx \
@@ -5780,11 +5996,6 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /home/dipti/root/include/snprintf.h \
   /home/dipti/root/include/TGenericClassInfo.h \
   /home/dipti/root/include/TSchemaHelper.h \
-  /usr/include/c++/11/vector \
-  /usr/include/c++/11/bits/stl_uninitialized.h \
-  /usr/include/c++/11/bits/stl_vector.h \
-  /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/vector.tcc \
   /home/dipti/root/include/TIsAProxy.h \
   /home/dipti/root/include/TVirtualIsAProxy.h \
   /home/dipti/root/include/TStorage.h \
@@ -5792,35 +6003,12 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /home/dipti/root/include/RVersion.h \
   /home/dipti/root/include/TString.h \
   /home/dipti/root/include/TMathBase.h \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_tempbuf.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
-  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/11/functional \
-  /usr/include/c++/11/bits/refwrap.h \
-  /usr/include/c++/11/bits/std_function.h \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/node_handle.h \
-  /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/erase_if.h \
-  /usr/include/c++/11/pstl/execution_defs.h \
   /home/dipti/root/include/ROOT/RStringView.hxx \
   /home/dipti/root/include/ROOT/TypeTraits.hxx \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_raw_storage_iter.h \
   /usr/include/c++/11/bits/align.h \
   /usr/include/c++/11/bit \
-  /usr/include/c++/11/bits/shared_ptr.h \
-  /usr/include/c++/11/bits/shared_ptr_base.h \
-  /usr/include/c++/11/bits/allocated_ptr.h \
-  /usr/include/c++/11/ext/concurrence.h \
   /usr/include/c++/11/bits/shared_ptr_atomic.h \
   /usr/include/c++/11/backward/auto_ptr.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
@@ -5841,10 +6029,6 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /usr/include/c++/11/bits/stream_iterator.h \
   /usr/include/c++/11/cassert \
   /usr/include/assert.h \
-  /usr/include/c++/11/map \
-  /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/bits/stl_map.h \
-  /usr/include/c++/11/bits/stl_multimap.h \
   /usr/include/c++/11/unordered_set \
   /usr/include/c++/11/bits/unordered_set.h \
   /home/dipti/root/include/TUUID.h \
@@ -5859,13 +6043,6 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /home/dipti/root/include/Rtypes.h \
   /home/dipti/root/include/ROOT/TRWSpinLock.hxx \
   /home/dipti/root/include/ROOT/TSpinMutex.hxx \
-  /usr/include/c++/11/condition_variable \
-  /usr/include/c++/11/chrono \
-  /usr/include/c++/11/ratio \
-  /usr/include/c++/11/bits/parse_numbers.h \
-  /usr/include/c++/11/bits/std_mutex.h \
-  /usr/include/c++/11/bits/unique_lock.h \
-  /usr/include/c++/11/mutex \
   /home/dipti/root/include/TCanvas.h \
   /home/dipti/root/include/TPad.h \
   /home/dipti/root/include/TVirtualPad.h \
@@ -5877,13 +6054,6 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /home/dipti/root/include/TInterpreter.h \
   /home/dipti/root/include/TInterpreterValue.h \
   /home/dipti/root/include/GuiTypes.h \
-  /usr/include/c++/11/climits \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /home/dipti/root/include/Buttons.h \
   /home/dipti/root/include/TAttBBox2D.h \
   /home/dipti/root/include/TAttCanvas.h \
@@ -6003,29 +6173,12 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /home/dipti/root/include/TTimeStamp.h \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RunManager.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/rundefs.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GlobalConfig.hh \
-  /usr/include/c++/11/complex \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tls.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/globals.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ios.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.icc \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/templates.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Exception.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VExceptionHandler.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Event.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/evtdefs.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Allocator.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AllocatorPool.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryVertex.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/pwdefs.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ThreeVector.hh \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/defs.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.icc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryParticle.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HCofThisEvent.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VHitsCollection.hh \
@@ -6050,42 +6203,8 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackStack.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartTrackStack.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Track.hh \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/PhysicalConstants.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/defs.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/SystemOfUnits.h \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/trkdefs.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomSplitter.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomwdefs.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AutoLock.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Threading.hh \
-  /usr/include/c++/11/future \
-  /usr/include/c++/11/bits/atomic_futex.h \
-  /usr/include/c++/11/bits/std_thread.h \
-  /usr/include/c++/11/thread \
-  /usr/include/c++/11/bits/this_thread_sleep.h \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.icc \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomdefs.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RotationMatrix.hh \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ZMxpv.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.icc \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.icc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DynamicParticle.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleDefinition.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PDefManager.hh \
@@ -6442,7 +6561,6 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ICRU90StoppingData.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Pow.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Material.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PVPlacement.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SystemOfUnits.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Box.hh \
@@ -6469,6 +6587,18 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.icc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalBorderSurface.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalBorderSurface.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Cons.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Cons.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trd.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trd.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SubtractionSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BooleanSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DisplacedSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BooleanSolid.icc \
+  ../inc/g4ConfigDetector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh \
   ../inc/g4PhysicsList.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EmStandardPhysics.hh \
   ../inc/g4ActionInitialize.hh \
@@ -6852,39 +6982,15 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   ../inc/g4TaskManager.hh \
   ../inc/g4ControlFileHandler.hh \
   ../inc/g4Structures.hh \
-  ../inc/g4Constants.hh \
-  ../inc/g4CPP_ROOT_Headers.hh \
-  /usr/include/c++/11/iomanip \
-  /usr/include/c++/11/locale \
-  /usr/include/c++/11/bits/locale_facets_nonio.h \
-  /usr/include/c++/11/ctime \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
-  /usr/include/libintl.h \
-  /usr/include/c++/11/bits/codecvt.h \
-  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
-  /usr/include/c++/11/bits/locale_conv.h \
-  /usr/include/c++/11/bits/unique_ptr.h \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/tuple \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/bits/uses_allocator.h \
-  /usr/include/c++/11/bits/invoke.h \
-  /usr/include/c++/11/bits/quoted_string.h \
-  /usr/include/c++/11/sstream \
-  /usr/include/c++/11/bits/sstream.tcc \
-  /usr/include/c++/11/cstring \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
-  /usr/include/c++/11/fstream \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
-  /usr/include/c++/11/bits/fstream.tcc \
-  /usr/include/c++/11/stdlib.h \
-  /usr/include/c++/11/math.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GlobalConfig.hh \
+  /usr/include/c++/11/complex \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -6910,11 +7016,136 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /usr/include/c++/11/tr1/poly_hermite.tcc \
   /usr/include/c++/11/tr1/poly_laguerre.tcc \
   /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  /usr/include/dirent.h \
-  /usr/include/x86_64-linux-gnu/bits/dirent.h \
+  /usr/include/c++/11/sstream \
+  /usr/include/c++/11/bits/sstream.tcc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tls.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.hh \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/stl_tempbuf.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/pstl/execution_defs.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.hh \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomSplitter.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/globals.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ios.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/templates.hh \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \
   /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Exception.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VExceptionHandler.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
+  /usr/include/c++/11/iomanip \
+  /usr/include/c++/11/locale \
+  /usr/include/c++/11/bits/locale_facets_nonio.h \
+  /usr/include/c++/11/ctime \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/11/bits/locale_conv.h \
+  /usr/include/c++/11/bits/unique_ptr.h \
+  /usr/include/c++/11/bits/quoted_string.h \
+  /usr/include/c++/11/mutex \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/c++/11/bits/std_mutex.h \
+  /usr/include/c++/11/bits/unique_lock.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomwdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AutoLock.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Threading.hh \
+  /usr/include/c++/11/condition_variable \
+  /usr/include/c++/11/bits/shared_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr_base.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/ext/concurrence.h \
+  /usr/include/c++/11/future \
+  /usr/include/c++/11/atomic \
+  /usr/include/c++/11/bits/atomic_base.h \
+  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/11/bits/atomic_futex.h \
+  /usr/include/c++/11/bits/std_thread.h \
+  /usr/include/c++/11/thread \
+  /usr/include/c++/11/bits/this_thread_sleep.h \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomdefs.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RotationMatrix.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ThreeVector.hh \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ZMxpv.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/PhysicalConstants.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/defs.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/SystemOfUnits.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.h \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.icc \
+  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.icc \
+  ../inc/g4Constants.hh \
+  ../inc/g4CPP_ROOT_Headers.hh \
+  /usr/include/c++/11/fstream \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/c++/11/bits/fstream.tcc \
+  /usr/include/c++/11/stdlib.h \
+  /usr/include/c++/11/math.h \
+  /usr/include/dirent.h \
+  /usr/include/x86_64-linux-gnu/bits/dirent.h \
   /usr/include/x86_64-linux-gnu/bits/dirent_ext.h \
   /usr/include/c++/11/cfloat \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
@@ -6938,9 +7169,6 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
   /home/dipti/root/include/TFile.h \
-  /usr/include/c++/11/atomic \
-  /usr/include/c++/11/bits/atomic_base.h \
-  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
   /home/dipti/root/include/Compression.h \
   /home/dipti/root/include/RtypesCore.h \
   /home/dipti/root/include/ROOT/RConfig.hxx \
@@ -6968,11 +7196,6 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /home/dipti/root/include/snprintf.h \
   /home/dipti/root/include/TGenericClassInfo.h \
   /home/dipti/root/include/TSchemaHelper.h \
-  /usr/include/c++/11/vector \
-  /usr/include/c++/11/bits/stl_uninitialized.h \
-  /usr/include/c++/11/bits/stl_vector.h \
-  /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/vector.tcc \
   /home/dipti/root/include/TIsAProxy.h \
   /home/dipti/root/include/TVirtualIsAProxy.h \
   /home/dipti/root/include/TStorage.h \
@@ -6980,35 +7203,12 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /home/dipti/root/include/RVersion.h \
   /home/dipti/root/include/TString.h \
   /home/dipti/root/include/TMathBase.h \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_tempbuf.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
-  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/11/functional \
-  /usr/include/c++/11/bits/refwrap.h \
-  /usr/include/c++/11/bits/std_function.h \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/node_handle.h \
-  /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/erase_if.h \
-  /usr/include/c++/11/pstl/execution_defs.h \
   /home/dipti/root/include/ROOT/RStringView.hxx \
   /home/dipti/root/include/ROOT/TypeTraits.hxx \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_raw_storage_iter.h \
   /usr/include/c++/11/bits/align.h \
   /usr/include/c++/11/bit \
-  /usr/include/c++/11/bits/shared_ptr.h \
-  /usr/include/c++/11/bits/shared_ptr_base.h \
-  /usr/include/c++/11/bits/allocated_ptr.h \
-  /usr/include/c++/11/ext/concurrence.h \
   /usr/include/c++/11/bits/shared_ptr_atomic.h \
   /usr/include/c++/11/backward/auto_ptr.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
@@ -7029,10 +7229,6 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /usr/include/c++/11/bits/stream_iterator.h \
   /usr/include/c++/11/cassert \
   /usr/include/assert.h \
-  /usr/include/c++/11/map \
-  /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/bits/stl_map.h \
-  /usr/include/c++/11/bits/stl_multimap.h \
   /usr/include/c++/11/unordered_set \
   /usr/include/c++/11/bits/unordered_set.h \
   /home/dipti/root/include/TUUID.h \
@@ -7047,13 +7243,6 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /home/dipti/root/include/Rtypes.h \
   /home/dipti/root/include/ROOT/TRWSpinLock.hxx \
   /home/dipti/root/include/ROOT/TSpinMutex.hxx \
-  /usr/include/c++/11/condition_variable \
-  /usr/include/c++/11/chrono \
-  /usr/include/c++/11/ratio \
-  /usr/include/c++/11/bits/parse_numbers.h \
-  /usr/include/c++/11/bits/std_mutex.h \
-  /usr/include/c++/11/bits/unique_lock.h \
-  /usr/include/c++/11/mutex \
   /home/dipti/root/include/TCanvas.h \
   /home/dipti/root/include/TPad.h \
   /home/dipti/root/include/TVirtualPad.h \
@@ -7065,13 +7254,6 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /home/dipti/root/include/TInterpreter.h \
   /home/dipti/root/include/TInterpreterValue.h \
   /home/dipti/root/include/GuiTypes.h \
-  /usr/include/c++/11/climits \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /home/dipti/root/include/Buttons.h \
   /home/dipti/root/include/TAttBBox2D.h \
   /home/dipti/root/include/TAttCanvas.h \
@@ -7191,29 +7373,12 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /home/dipti/root/include/TTimeStamp.h \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RunManager.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/rundefs.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GlobalConfig.hh \
-  /usr/include/c++/11/complex \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tls.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/globals.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ios.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4String.icc \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/templates.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Exception.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VExceptionHandler.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Event.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/evtdefs.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Allocator.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AllocatorPool.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryVertex.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/pwdefs.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ThreeVector.hh \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/defs.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.icc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryParticle.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HCofThisEvent.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VHitsCollection.hh \
@@ -7238,42 +7403,8 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackStack.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartTrackStack.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Track.hh \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/PhysicalConstants.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/defs.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/SystemOfUnits.h \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/trkdefs.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomSplitter.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomwdefs.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AutoLock.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Threading.hh \
-  /usr/include/c++/11/future \
-  /usr/include/c++/11/bits/atomic_futex.h \
-  /usr/include/c++/11/bits/std_thread.h \
-  /usr/include/c++/11/thread \
-  /usr/include/c++/11/bits/this_thread_sleep.h \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.icc \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/geomdefs.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RotationMatrix.hh \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ZMxpv.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.h \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.icc \
-  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.icc \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.icc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DynamicParticle.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleDefinition.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PDefManager.hh \
@@ -7630,7 +7761,6 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ICRU90StoppingData.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Pow.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Material.hh \
-  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PVPlacement.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SystemOfUnits.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Box.hh \
@@ -7657,6 +7787,18 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.icc \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalBorderSurface.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalBorderSurface.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Cons.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Cons.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trd.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trd.icc \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SubtractionSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BooleanSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DisplacedSolid.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BooleanSolid.icc \
+  ../inc/g4ConfigDetector.hh \
+  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh \
   ../inc/g4PhysicsList.hh \
   /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EmStandardPhysics.hh \
   ../inc/g4ActionInitialize.hh \
@@ -7855,8 +7997,6 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/QBBC.hh:
 
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RayTracerX.hh:
-
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpenGLQt.hh:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpenGLImmediateQt.hh:
@@ -7887,35 +8027,23 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIcommandStatus.hh:
 
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VStateDependent.hh:
-
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UImanager.hh:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisManager.icc:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrajectoriesModel.hh:
 
-/usr/include/x86_64-linux-gnu/bits/stat.h:
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Scene.icc:
 
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4THitsCollection.hh:
 
-/usr/include/x86_64-linux-gnu/sys/stat.h:
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4THitsMap.hh:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VViewer.icc:
 
-/usr/include/x86_64-linux-gnu/bits/dirent.h:
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicalVolumeModel.hh:
 
-/home/dipti/root/include/ROOT/RStringView.hxx:
-
-/usr/include/c++/11/math.h:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryParticle.hh:
-
-/usr/include/c++/11/set:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericFileManager.hh:
-
-/home/dipti/root/include/TDictionary.h:
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VMarker.hh:
 
 /usr/include/c++/11/tr1/bessel_function.tcc:
 
@@ -7987,9 +8115,53 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisAttributes.hh:
 
+/usr/include/c++/11/bits/std_thread.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ModelingParameters.hh:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.h:
+
+/usr/include/wchar.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/globals.hh:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/statx-generic.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Vector3D.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.h:
+
+../src/g4PhysicsList.cc:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.h:
+
+/usr/include/c++/11/unordered_set:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/geomwdefs.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomSplitter.hh:
+
+/usr/include/c++/11/stdlib.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.hh:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/c++/11/bits/predefined_ops.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Fcn.hh:
+
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MuonPlus.hh:
 
 /home/dipti/root/include/TMatrixF.h:
+
+/home/dipti/root/include/ROOT/RStringView.hxx:
+
+/usr/include/x86_64-linux-gnu/bits/dirent.h:
 
 /home/dipti/root/include/TVersionCheck.h:
 
@@ -8005,10 +8177,6 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DynamicParticle.hh:
 
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/realloc:
-
-/home/dipti/root/include/TGenericClassInfo.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
 /usr/include/linux/falloc.h:
@@ -8020,6 +8188,10 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OrderedTable.hh:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VParticleChange.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VMarker.icc:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
@@ -8048,6 +8220,10 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/ThreeVector.h:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/p2d:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DataVector.icc:
 
 /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandStudentT.icc:
 
@@ -8081,6 +8257,10 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /usr/include/c++/11/bits/hash_bytes.h:
 
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.icc:
+
+/home/dipti/root/include/TLeafC.h:
+
 /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBreitWigner.icc:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
@@ -8109,6 +8289,10 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleGun.hh:
 
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.icc:
+
 /usr/include/c++/11/bits/align.h:
 
 /usr/include/c++/11/bits/stl_raw_storage_iter.h:
@@ -8131,7 +8315,13 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericAnalysisManager.hh:
 
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trd.hh:
+
 /usr/include/c++/11/initializer_list:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/geomdefs.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIExecutive.hh:
 
 /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/MTwistEngine.h:
 
@@ -8153,10 +8343,6 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h1d:
 
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BlockingList.icc:
-
-/usr/include/c++/11/bits/this_thread_sleep.h:
-
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserRunAction.hh:
@@ -8165,10 +8351,6 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
 
-/usr/include/asm-generic/errno.h:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Region.hh:
-
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/scast:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/vfind:
@@ -8176,6 +8358,10 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandEngine.h:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Event.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ViewParameters.icc:
+
+/home/dipti/root/include/TF1.h:
 
 /home/dipti/root/include/ROOT/TypeTraits.hxx:
 
@@ -8198,6 +8384,10 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/b1:
 
 /usr/include/c++/11/pstl/glue_memory_defs.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryParticle.hh:
+
+/usr/include/c++/11/math.h:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AllocatorPool.hh:
 
@@ -8229,22 +8419,6 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AutoLock.hh:
 
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4THitsCollection.hh:
-
-/usr/include/c++/11/stdlib.h:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeomSplitter.hh:
-
-/home/dipti/root/include/TDirectoryFile.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_stat.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/signal.h:
-
-/usr/include/c++/11/bits/stl_set.h:
-
 /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGauss.icc:
 
 /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandBinomial.h:
@@ -8271,13 +8445,13 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /usr/include/features.h:
 
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4P2ToolsManager.hh:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h2d:
-
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VProcess.hh:
 
 /usr/include/c++/11/thread:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.icc:
+
+/usr/include/dirent.h:
 
 /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/TwoVector.h:
 
@@ -8321,12 +8495,6 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/home/dipti/root/include/TF1.h:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ViewParameters.icc:
-
 ../src/g4ControlFileHandler.cc:
 
 /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/MixMaxRng.h:
@@ -8363,10 +8531,6 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ViewerList.hh:
-
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
 /home/dipti/root/include/TMatrixTUtils.h:
@@ -8376,8 +8540,6 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Scene.icc:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
 
@@ -8397,27 +8559,13 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/branch:
 
-/usr/include/wchar.h:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/globals.hh:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/x86_64-linux-gnu/bits/statx-generic.h:
-
-/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.h:
-
-/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Vector3D.h:
-
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ios.hh:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.icc:
 
 /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandChiSquare.icc:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.hh:
-
-/usr/include/c++/11/tuple:
-
-/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
@@ -8441,27 +8589,15 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Scintillation.hh:
 
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/PTL/Types.hh:
-
-/home/dipti/root/include/TMathBase.h:
-
-/home/dipti/root/include/TSystem.h:
-
-/home/dipti/root/include/TH2.h:
-
 /usr/include/c++/11/tr1/hypergeometric.tcc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrajectoryContainer.hh:
 
 /usr/include/c++/11/bits/localefwd.h:
 
 /usr/include/c++/11/bits/std_mutex.h:
 
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4P1ToolsManager.hh:
-
-/home/dipti/root/include/TLeafC.h:
-
-/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.icc:
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalBorderSurface.icc:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Gamma.hh:
 
@@ -8475,9 +8611,15 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGauss.h:
 
+/usr/include/c++/11/tuple:
+
+/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
+
 /usr/include/c++/11/bits/stl_pair.h:
 
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4H3ToolsManager.hh:
+/usr/include/c++/11/bits/stl_iterator.h:
+
+/usr/include/c++/11/ext/atomicity.h:
 
 /usr/include/c++/11/climits:
 
@@ -8494,6 +8636,14 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/obj_list:
 
 /usr/include/c++/11/ext/new_allocator.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/home/dipti/root/include/TDirectoryFile.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_stat.h:
+
+/usr/include/signal.h:
 
 /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RanluxEngine.h:
 
@@ -8514,8 +8664,6 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
-
-../inc/g4CPP_ROOT_Headers.hh:
 
 /home/dipti/root/include/TUrl.h:
 
@@ -8540,8 +8688,6 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /usr/include/c++/11/bits/exception_defines.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Profiler.icc:
 
 /usr/include/c++/11/tr1/modified_bessel_func.tcc:
 
@@ -8573,6 +8719,8 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
+/usr/include/c++/11/set:
+
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
@@ -8592,10 +8740,6 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /usr/include/c++/11/fstream:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SceneHandlerList.hh:
-
-/usr/include/c++/11/cfloat:
-
-/home/dipti/root/include/TDirectory.h:
 
 /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandGaussT.icc:
 
@@ -8619,6 +8763,10 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /usr/include/stdlib.h:
 
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Scene.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSteppingVerbose.hh:
+
 /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Units/PhysicalConstants.h:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NormalNavigation.hh:
@@ -8628,12 +8776,6 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/defs.h:
 
 /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Random/RandomEngine.h:
-
-/usr/include/c++/11/bits/stl_multiset.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
@@ -8650,6 +8792,10 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /usr/include/c++/11/debug/debug.h:
 
 /usr/include/alloca.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RotationMatrix.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VVolumeMaterialScanner.hh:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
@@ -8693,8 +8839,6 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /usr/include/c++/11/bits/node_handle.h:
 
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericAnalysisManager.icc:
-
 /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Utility/memory.h:
 
 /usr/include/c++/11/bits/cxxabi_init_exception.h:
@@ -8731,15 +8875,13 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserEventInformation.hh:
 
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ViewerList.hh:
+
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/c++/11/bits/postypes.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
-
-/usr/include/c++/11/limits:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Plane3D.hh:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
@@ -8767,21 +8909,9 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 ../src/g4DetectorConstruction.cc:
 
-/usr/include/c++/11/bits/predefined_ops.h:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Fcn.hh:
-
 ../inc/g4RunAction.hh:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartVoxelProxy.hh:
-
-/usr/include/c++/11/bits/std_thread.h:
-
-/usr/include/dirent.h:
-
-/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationY.icc:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ModelingParameters.hh:
 
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
 
@@ -8805,6 +8935,10 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ToolsAnalysisMessenger.hh:
+
 /home/dipti/root/include/TAttPad.h:
 
 /home/dipti/root/include/TSelectorDraw.h:
@@ -8819,23 +8953,11 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /usr/include/c++/11/bits/stl_algo.h:
 
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BooleanSolid.icc:
+
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/HepPolyhedron.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/c++/11/ext/atomicity.h:
-
-/usr/include/c++/11/bits/stl_iterator.h:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryVertex.hh:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VoxelNavigation.hh:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.icc:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.icc:
 
 /home/dipti/root/include/TLeafB.h:
 
@@ -8848,8 +8970,6 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
 /usr/include/c++/11/ext/string_conversions.h:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4THitsMap.hh:
 
 /home/dipti/root/include/TString.h:
 
@@ -8945,6 +9065,8 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Cache.hh:
 
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SubtractionSolid.hh:
+
 /usr/include/c++/11/locale:
 
 /usr/include/ctype.h:
@@ -8982,6 +9104,14 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /usr/include/c++/11/bits/invoke.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.icc:
+
+/usr/include/time.h:
+
+/home/dipti/root/include/TColor.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
@@ -9041,6 +9171,8 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /usr/include/c++/11/bits/functional_hash.h:
 
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.h:
+
 /usr/include/c++/11/cstdio:
 
 /usr/include/x86_64-linux-gnu/bits/stdio.h:
@@ -9054,6 +9186,8 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/PTL/Utility.hh:
 
 /usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
@@ -9111,9 +9245,9 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RunManagerKernel.hh:
 
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ToolsAnalysisMessenger.hh:
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
-/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.icc:
+/usr/include/x86_64-linux-gnu/bits/stat.h:
 
 /usr/include/c++/11/bits/std_abs.h:
 
@@ -9157,19 +9291,31 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /usr/include/c++/11/bits/enable_special_members.h:
 
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SandiaTable.hh:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Run.hh:
-
-/home/dipti/root/include/ROOT/TIOFeatures.hxx:
-
 /usr/include/c++/11/bits/ptr_traits.h:
 
 /usr/include/stdint.h:
 
 /usr/include/c++/11/bits/erase_if.h:
 
+/home/dipti/root/include/TMathBase.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/PTL/Types.hh:
+
+/home/dipti/root/include/TSystem.h:
+
+/home/dipti/root/include/TH2.h:
+
 /usr/include/c++/11/bits/stl_uninitialized.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SandiaTable.hh:
+
+/home/dipti/root/include/ROOT/TIOFeatures.hxx:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Run.hh:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
@@ -9180,6 +9326,56 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/branch_element:
 
 /usr/include/c++/11/bits/vector.tcc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4H3ToolsManager.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4P1ToolsManager.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/histo/h2d:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4P2ToolsManager.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericAnalysisManager.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericFileManager.hh:
+
+/home/dipti/root/include/TDictionary.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Profiler.icc:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryVertex.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VoxelNavigation.hh:
+
+/usr/include/c++/11/limits:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Plane3D.hh:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
+
+/usr/include/c++/11/bits/stl_set.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/c++/11/bits/stl_multiset.h:
+
+../inc/g4CPP_ROOT_Headers.hh:
+
+/usr/include/c++/11/cfloat:
+
+/home/dipti/root/include/TDirectory.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
+
+/usr/include/c++/11/bits/this_thread_sleep.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BlockingList.icc:
+
+/usr/include/x86_64-linux-gnu/sys/stat.h:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/base_leaf:
 
@@ -9269,16 +9465,6 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /home/dipti/root/include/TSysEvtHandler.h:
 
-/usr/include/c++/11/unordered_set:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
-
-/home/dipti/root/include/TColor.h:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UIExecutive.hh:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/geomdefs.hh:
-
 /usr/include/c++/11/bits/stl_multimap.h:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VisManager.hh:
@@ -9323,11 +9509,11 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /home/dipti/root/include/TAttFill.h:
 
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.hh:
-
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SteppingManager.hh:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/get_lines:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.hh:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/tree:
 
@@ -9451,6 +9637,10 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /home/dipti/root/include/TVirtualTreePlayer.h:
 
+/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/date:
+
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ExceptionSeverity.hh:
 
 /home/dipti/root/include/TBranch.h:
@@ -9464,6 +9654,10 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /usr/include/x86_64-linux-gnu/bits/statx.h:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/trkdefs.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SceneList.hh:
+
+/home/dipti/root/include/TVirtualIndex.h:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserTrackInformation.hh:
 
@@ -9561,12 +9755,6 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VDigiCollection.hh:
 
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrajectoryContainer.hh:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/date:
-
-/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationInterfaces.h:
-
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VTrajectory.hh:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SingleParticleSource.hh:
@@ -9581,37 +9769,9 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /usr/include/c++/11/bits/regex_executor.h:
 
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RotationMatrix.hh:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VVolumeMaterialScanner.hh:
-
-/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.h:
-
-/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/LorentzVector.h:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DataVector.icc:
-
-/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/AxisAngle.h:
-
-../src/g4PhysicsList.cc:
-
-/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationX.h:
-
-/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.h:
-
-/usr/include/time.h:
-
-/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.icc:
-
-/gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.icc:
-
 /usr/include/c++/11/bits/parse_numbers.h:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Transform3D.hh:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSteppingVerbose.hh:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Scene.hh:
 
 /usr/include/endian.h:
 
@@ -9628,10 +9788,6 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Geometry/Normal3D.h:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AffineTransform.icc:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/geomwdefs.hh:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GRSVolume.icc:
 
@@ -9653,15 +9809,9 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHistory.hh:
 
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VMarker.hh:
-
 /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationHistory.hh:
-
-/usr/include/x86_64-linux-gnu/bits/confname.h:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VMarker.icc:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NavigationLevel.hh:
 
@@ -9863,9 +10013,9 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ElementVector.hh:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
 /home/dipti/root/include/TLeafL.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessManager.hh:
 
@@ -10013,6 +10163,30 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.icc:
 
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RayTracerX.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalBorderSurface.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Cons.hh:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VStateDependent.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Cons.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/realloc:
+
+/home/dipti/root/include/TGenericClassInfo.h:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trd.icc:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BooleanSolid.hh:
+
+/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DisplacedSolid.hh:
+
+../inc/g4ConfigDetector.hh:
+
 ../inc/g4PhysicsList.hh:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicsConstructor.hh:
@@ -10026,8 +10200,6 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /home/dipti/root/include/TMatrixT.h:
 
 /usr/include/c++/11/cxxabi.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/rroot/branch:
 
@@ -10130,11 +10302,3 @@ CMakeFiles/g4sim.dir/src/g4main.cc.o: ../src/g4main.cc \
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VViewer.hh:
 
 /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Vector3D.hh:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicalVolumeModel.hh:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VViewer.icc:
-
-/home/dipti/root/include/TVirtualIndex.h:
-
-/gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SceneList.hh:

@@ -577,6 +577,19 @@ CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSurface.icc \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalSkinSurface.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalBorderSurface.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalBorderSurface.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Cons.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Cons.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trd.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Trd.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SubtractionSolid.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BooleanSolid.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DisplacedSolid.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BooleanSolid.icc \
+ /home/dipti/Programs/G4SIM/inc/g4Structures.hh \
+ /home/dipti/Programs/G4SIM/inc/g4ConfigDetector.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh \
  /home/dipti/Programs/G4SIM/inc/g4EventAction.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserEventAction.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Event.hh \
@@ -737,7 +750,6 @@ CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericFileManager.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GenericFileManager.icc \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Run.hh \
- /home/dipti/Programs/G4SIM/inc/g4Structures.hh \
  /home/dipti/Programs/G4SIM/inc/g4CPP_ROOT_Headers.hh \
  /usr/include/c++/11/math.h /usr/include/dirent.h \
  /usr/include/x86_64-linux-gnu/bits/dirent.h \

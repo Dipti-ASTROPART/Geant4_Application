@@ -23,11 +23,13 @@ class MyEventAction : public G4UserEventAction
         virtual void                EndOfEventAction(const G4Event *);
         void                        AddEdep(G4double edep) {fEdep += edep;}
         void                        AddOpticalPhotonEnergy(G4double edep){fOptPhotonE += edep; nOpticalPhotons ++;}
+        void                        CountPhotonsInWLS(){nWLSPhotons++;}
 
     private:
         G4double                    fEdep;
         G4double                    fOptPhotonE;
         G4int                       nOpticalPhotons;
+        G4int                       nWLSPhotons;
 };
 
 

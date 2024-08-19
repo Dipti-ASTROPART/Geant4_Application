@@ -34,12 +34,12 @@ MyPrimaryGenerator::~MyPrimaryGenerator()
 void    MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
 {
     // Access the Geant4 particle table 
-    G4ParticleTable *partTable = G4ParticleTable::GetParticleTable();
+    //G4ParticleTable *partTable = G4ParticleTable::GetParticleTable();
 
     G4double partEne  = GenerateRandomEnergy();
     
     // Define position and momentum of the primary particle
-    G4ThreeVector pos(0., 0., 0.5*cm);
+    G4ThreeVector pos(0., 0., -2.5*cm);
     G4ThreeVector mom(0., 0., 1.);
 
     fParticleDef = GetUserParticle(Control.ParticleName);
