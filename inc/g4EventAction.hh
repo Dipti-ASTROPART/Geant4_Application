@@ -11,6 +11,9 @@
 #include    "g4RunAction.hh"
 #include    "G4SystemOfUnits.hh"
 #include    "G4GeneralParticleSource.hh"
+#include    "G4SDManager.hh"
+#include    "g4SensitiveDetector.hh"
+#include    "g4Constants.hh"
 
 //////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////
@@ -30,6 +33,9 @@ class MyEventAction : public G4UserEventAction
         G4double                    fOptPhotonE;
         G4int                       nOpticalPhotons;
         G4int                       nWLSPhotons;
+        G4int fPhotonHitsSD1;
+        G4int fPhotonHitsSD2;
+        G4int fPhotonHitsSCSD;
 };
 
 

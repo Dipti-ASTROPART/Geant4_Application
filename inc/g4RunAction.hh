@@ -20,7 +20,7 @@ class   MyRunAction : public G4UserRunAction
         virtual void                BeginOfRunAction(const G4Run *);
         virtual void                EndOfRunAction(const G4Run *);
     private:
-        char                        filename[400];
+        char                        pFileName[400];
         ControlFile                 Control;
 };
 

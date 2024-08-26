@@ -3,6 +3,8 @@
 
 #include "G4Types.hh"
 
+constexpr G4double hc_ = CLHEP::h_Planck * CLHEP::c_light;
+
 // Configure box shaped world volume
 const G4double  fWorldXY = 30.0 *cm;
 const G4double  fWorldZ  = 60.0 *cm;
@@ -18,9 +20,9 @@ const   G4double fBoxDetZ = 10.0 *cm;
 
 // Define parameters for a cylindrical scintillator detector
 const G4bool    checkOverlaps       = true;
-const G4int     fNCylinders         = 5;
+const G4int     fNCylinders         = 1;
 const G4double  fCylRadius          = 2.5  * cm;
-const G4double  fCylHeight          = 3.0  * cm;
+const G4double  fCylHeight          = 15.0  * cm;
 const G4double  fCylStartAngle      = 0.0  * deg;
 const G4double  fCylStopAngle       = 360.0* deg;
 
@@ -33,7 +35,8 @@ const G4double  fWLSFiberCladRadiusIn   = fWLSFiberCoreRadius + 0.02 * fWLSFiber
 const G4double  fWLSFiberCladRadiusOut  = fWLSFiberCladRadiusIn + 0.02 * fWLSFiberRadius;
 
 // configure tyvek
-const G4double  fTyvekThickness     = 2.0  * mm;
+const G4double  fTyvekThickness     = 0.1  * mm;
+const G4double  fTyvekCoatLength    = fWLSFiberLength + 1 *cm;
 const G4double  fAir_Tyvek_Gap      = 0.1  * mm;
 
 // Configure the box shaped environment
@@ -44,5 +47,13 @@ const   G4double fBoxEnvZ = 1.50 * fBoxEnvZ;
 // Configure cylinder shaped environment volume
 const G4double  fCylEnvRadius = 2 * fCylRadius;
 const G4double  fCylEnvHeight = fWorldZ;
+
+// Configure particle gun
+const G4double  fParticlePosX = 0;
+const G4double  fParticlePosY = 0;
+const G4double  fParticlePosZ = -(fNCylinders*fCylHeight)/2.0 + 10*mm;
+
+const G4double  fOpticalPhotonMinEnergy = 1.5 *eV;
+const G4double  fOpticalPhotonMaxEnergy = 3.6 *eV;
 
 #endif

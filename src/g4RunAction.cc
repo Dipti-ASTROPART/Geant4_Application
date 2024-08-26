@@ -7,6 +7,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////
 #include    "g4RunAction.hh"
+#include    <filesystem>
 
 //////////////////////////////////////////////////////////////////////////////////
 /// Constructor
@@ -43,8 +44,8 @@ void    MyRunAction::BeginOfRunAction(const G4Run *run)
     G4int runID = run->GetRunID();
 
     //  Create a ROOT file
-    sprintf(filename, "%s/G4OUT_%s_%03d.root", Control.Output, Control.ParticleName, runID);
-    man->OpenFile((G4String) filename);
+    sprintf(pFileName, "%s/G4OUT_%s_%03d.root", Control.Output, Control.ParticleName, runID);
+    man->OpenFile((G4String) pFileName);
 
     // Create TUPLE (equivalent to branch)
     man->CreateNtuple("Scoring", "Scoring");
@@ -52,9 +53,15 @@ void    MyRunAction::BeginOfRunAction(const G4Run *run)
     man->CreateNtupleDColumn("ParticleMass");
     man->CreateNtupleDColumn("fEdep");
 
-    G4int id1 = man->CreateH1("hPhotonEn", "Optical photon energy", 150, 0, 15);
-    G4int id2 = man->CreateH1("hPhotonWL", "Optical photon wavelength", 500, 200, 700);
-    G4int id3 = man->CreateH1("hPhotonWLinWLS", "Optical photon wavelength in WLS", 500, 200, 700);
+    G4int id0 = man->CreateH1("hPhotonEn", "Optical photon energy", 150, 0, 15);
+    G4int id1 = man->CreateH1("hPhotonWL", "Optical photon wavelength", 500, 200, 700);
+    G4int id2 = man->CreateH1("hPhotonWLinWLS", "Optical photon wavelength in WLS", 500, 200, 700);
+    G4int id3 = man->CreateH1("hNPhotonsSD1", "#Photons at WLS fiber end-1;#Photons; ", 1000, 0, 1000);
+    G4int id4 = man->CreateH1("hNPhotonsSD2", "#Photons at WLS fiber end-2;#Photons; ", 1000, 0, 1000);
+    G4int id5 = man->CreateH1("hTotalPhotons", "#Photons at WLS fiber;#Photons; ", 1000, 0, 1000);
+    G4int id6 = man->CreateH1("hEnergyLoss", "Energy loss in detector; Energy(keV);", 1000, 0, 1000);
+    G4int id7 = man->CreateH1("hPMTPhotons", "#Photons at WLS fiber;#Photons; ", 1000, 0, 1000);
+
     // Finish the TUPLE (branch)
     man->FinishNtuple();
 
@@ -72,6 +79,18 @@ void    MyRunAction::EndOfRunAction(const G4Run *)
     // Write and close the ROOT files
     man->Write();
     man->CloseFile();
+
+    //   Delete the file if its in graphical mode
+    if(Control.GraphicalMode)
+    {
+        if (std::filesystem::exists(pFileName)) {
+            if (std::filesystem::remove(pFileName)) 
+                G4cout << "... delete file: " << pFileName<<" - done" << G4endl;
+            else 
+                G4cerr << "Failed to delete " << pFileName << G4endl;
+
+        }   // if output file exists
+    } // if graphical mode is enables
 
 }   //  ::BeginRunAction()
 

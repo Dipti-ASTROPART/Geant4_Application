@@ -23,13 +23,11 @@
 #include    "G4Cons.hh"
 #include    "G4Trd.hh"
 #include    "G4SubtractionSolid.hh"
+#include    "G4SDManager.hh"
 #include    "g4Structures.hh"
 #include    "g4ConfigDetector.hh"
-
-/////////////////////////////////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////////////////////////////////
-
-constexpr G4double hc_ = CLHEP::h_Planck * CLHEP::c_light;
+#include    "g4SensitiveDetector.hh"
+#include    "g4UserMaterial.hh"
 
 /////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////
@@ -45,6 +43,7 @@ class MyDetectorConstruction : public G4VUserDetectorConstruction
 
         virtual ScoringVolumes_Struct       GetScoringVolume() const { return sScoringVolumes; } ///< Return the scoring volume
         virtual G4VPhysicalVolume           *Construct();
+        virtual void                        ConstructSDandField() override;
 
     private:                                
         G4Box                               *solidWorld;
@@ -53,32 +52,12 @@ class MyDetectorConstruction : public G4VUserDetectorConstruction
                                             *logicEnv;
         G4VPhysicalVolume                   *physWorld,
                                             *physEnv;
-        G4Material                          *NaI_Material(),
-                                            *G3ScintillatorMaterial(),
-                                            *PSD_BC404_Material();
-        G4Material                          *matNaI,
-                                            *matAir,
-                                            *matVaccuum,
-                                            *matG3SC,
-                                            *matBC404,
-                                            *matPb,
-                                            *matWLSCore,
-                                            *matWLSCladIn,
-                                            *matWLSCladOut,
-                                            *matTyvek;
-
-        G4OpticalSurface                    *tyvekSurface;
-
+        MyMaterials                         cMaterial;
         G4VPhysicalVolume                   *ConstructG3CylindricalDetector();
-
-        void                                DefineMaterial(),
-                                            BuildCylindricalDetectorWithTyvek(),
-                                            BuildOpticalSurface(),
-                                            BuildMaterial(),
+        void                                BuildCylindricalDetectorWithTyvek(),
+                                            BuildSolidCylindricalDetector(),
                                             DefineFiberCoordinates(G4double detRadius, G4double fiberRad, G4int *nFibers, G4double** xpos, G4double **ypos),
-                                            ConstructWLSFiber(G4int nFiber, G4double fiberRad, G4double *xpos, G4double *ypos),
-                                            SetVisualAttributes(G4LogicalVolume *logicDet, G4String color, G4double transparency),
-                                            DefineWLSFiberMaterial();
+                                            SetVisualAttributes(G4LogicalVolume *logicDet, G4String color, G4double transparency);
 };
 
 

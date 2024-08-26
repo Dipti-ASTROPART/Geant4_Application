@@ -32,6 +32,7 @@
 #include    "G4MuonMinus.hh"
 #include    "G4Gamma.hh"
 #include    "g4Structures.hh"
+#include    "g4ConfigDetector.hh"
 
 #define     E_SLOPE 2.5
 

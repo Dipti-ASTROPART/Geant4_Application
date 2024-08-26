@@ -39,7 +39,7 @@ void    MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
     G4double partEne  = GenerateRandomEnergy();
     
     // Define position and momentum of the primary particle
-    G4ThreeVector pos(0., 0., -2.5*cm);
+    G4ThreeVector pos(fParticlePosX, fParticlePosY, fParticlePosZ);
     G4ThreeVector mom(0., 0., 1.);
 
     fParticleDef = GetUserParticle(Control.ParticleName);
@@ -47,7 +47,8 @@ void    MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
     // Initiate the particle gun
     fParticleGun->SetParticlePosition(pos);
     fParticleGun->SetParticleMomentumDirection(mom);
-    fParticleGun->SetParticleMomentum(partEne * MeV);
+    //fParticleGun->SetParticleMomentum(partEne * MeV);
+    fParticleGun->SetParticleEnergy(partEne * MeV);
     fParticleGun->SetParticleDefinition(fParticleDef);
 
     // Shoot the particle from the assigned position and designated momentum direction

@@ -71,8 +71,8 @@ void    MySteppingAction::UserSteppingAction(const G4Step *step)
         }
         else if(volume == sVolumes.fiberCore)
         {
-            fEventAction->CountPhotonsInWLS();
-            man->FillH1(2, 1240.0/(track->GetKineticEnergy()/CLHEP::eV));
+            //fEventAction->CountPhotonsInWLS();
+            //man->FillH1(2, 1240.0/(track->GetKineticEnergy()/CLHEP::eV));
         }
     }
 
