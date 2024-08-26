@@ -417,6 +417,8 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: \
  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.icc \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.icc \
+ /home/dipti/Programs/G4SIM/inc/g4ConfigDetector.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh \
  /home/dipti/Programs/G4SIM/inc/g4RunAction.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserRunAction.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisManager.hh \
@@ -798,8 +800,10 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/get_lines \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cstr \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/g4hntools_defs.hh \
- /home/dipti/Programs/G4SIM/inc/g4SteppingAction.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserSteppingAction.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SDManager.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SDStructure.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSensitiveDetector.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VHit.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Step.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StepPoint.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SteppingControl.hh \
@@ -834,7 +838,25 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserTrackInformation.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsModelCatalog.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Track.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VReadOutGeometry.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SensitiveVolumeList.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4CollectionNameVector.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSDFilter.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HCtable.hh \
+ /home/dipti/Programs/G4SIM/inc/g4SensitiveDetector.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSensitiveDetector.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Step.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HCofThisEvent.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHistory.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Track.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalPhoton.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StepPoint.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHandle.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ios.hh \
+ /home/dipti/Programs/G4SIM/inc/g4Constants.hh \
+ /home/dipti/Programs/G4SIM/inc/g4SteppingAction.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserSteppingAction.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RunManager.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/rundefs.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EventManager.hh \
@@ -879,7 +901,6 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VRestDiscreteProcess.hh \
  /home/dipti/Programs/G4SIM/inc/g4DetectorConstruction.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NistManager.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NistElementBuilder.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NistMaterialBuilder.hh \
@@ -929,5 +950,5 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BooleanSolid.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DisplacedSolid.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BooleanSolid.icc \
- /home/dipti/Programs/G4SIM/inc/g4ConfigDetector.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh
+ /home/dipti/Programs/G4SIM/inc/g4UserMaterial.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialPropertiesTable.hh

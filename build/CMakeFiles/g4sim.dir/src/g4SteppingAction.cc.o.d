@@ -587,9 +587,29 @@ CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BooleanSolid.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DisplacedSolid.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4BooleanSolid.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SDManager.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SDStructure.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSensitiveDetector.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VHit.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VReadOutGeometry.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SensitiveVolumeList.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4CollectionNameVector.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSDFilter.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HCtable.hh \
  /home/dipti/Programs/G4SIM/inc/g4Structures.hh \
  /home/dipti/Programs/G4SIM/inc/g4ConfigDetector.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh \
+ /home/dipti/Programs/G4SIM/inc/g4SensitiveDetector.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSensitiveDetector.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HCofThisEvent.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHistory.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Track.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalPhoton.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StepPoint.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHandle.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ios.hh \
+ /home/dipti/Programs/G4SIM/inc/g4UserMaterial.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialPropertiesTable.hh \
  /home/dipti/Programs/G4SIM/inc/g4EventAction.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserEventAction.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Event.hh \
@@ -917,4 +937,5 @@ CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSAngDistribution.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SPSEneDistribution.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeneralParticleSourceMessenger.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeneralParticleSourceData.hh
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GeneralParticleSourceData.hh \
+ /home/dipti/Programs/G4SIM/inc/g4Constants.hh

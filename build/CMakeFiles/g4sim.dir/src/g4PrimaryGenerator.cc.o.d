@@ -414,4 +414,6 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: \
  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/RotationZ.icc \
  /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/include/CLHEP/Vector/Rotation.icc \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.icc
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.icc \
+ /home/dipti/Programs/G4SIM/inc/g4ConfigDetector.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh

@@ -323,6 +323,30 @@ src/g4RunAction.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/g4sim.dir/build.make CMakeFiles/g4sim.dir/src/g4RunAction.cc.s
 .PHONY : src/g4RunAction.cc.s
 
+src/g4SensitiveDetector.o: src/g4SensitiveDetector.cc.o
+.PHONY : src/g4SensitiveDetector.o
+
+# target to build an object file
+src/g4SensitiveDetector.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/g4sim.dir/build.make CMakeFiles/g4sim.dir/src/g4SensitiveDetector.cc.o
+.PHONY : src/g4SensitiveDetector.cc.o
+
+src/g4SensitiveDetector.i: src/g4SensitiveDetector.cc.i
+.PHONY : src/g4SensitiveDetector.i
+
+# target to preprocess a source file
+src/g4SensitiveDetector.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/g4sim.dir/build.make CMakeFiles/g4sim.dir/src/g4SensitiveDetector.cc.i
+.PHONY : src/g4SensitiveDetector.cc.i
+
+src/g4SensitiveDetector.s: src/g4SensitiveDetector.cc.s
+.PHONY : src/g4SensitiveDetector.s
+
+# target to generate assembly for a file
+src/g4SensitiveDetector.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/g4sim.dir/build.make CMakeFiles/g4sim.dir/src/g4SensitiveDetector.cc.s
+.PHONY : src/g4SensitiveDetector.cc.s
+
 src/g4SteppingAction.o: src/g4SteppingAction.cc.o
 .PHONY : src/g4SteppingAction.o
 
@@ -370,6 +394,30 @@ src/g4TaskManager.s: src/g4TaskManager.cc.s
 src/g4TaskManager.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/g4sim.dir/build.make CMakeFiles/g4sim.dir/src/g4TaskManager.cc.s
 .PHONY : src/g4TaskManager.cc.s
+
+src/g4UserMaterial.o: src/g4UserMaterial.cc.o
+.PHONY : src/g4UserMaterial.o
+
+# target to build an object file
+src/g4UserMaterial.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/g4sim.dir/build.make CMakeFiles/g4sim.dir/src/g4UserMaterial.cc.o
+.PHONY : src/g4UserMaterial.cc.o
+
+src/g4UserMaterial.i: src/g4UserMaterial.cc.i
+.PHONY : src/g4UserMaterial.i
+
+# target to preprocess a source file
+src/g4UserMaterial.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/g4sim.dir/build.make CMakeFiles/g4sim.dir/src/g4UserMaterial.cc.i
+.PHONY : src/g4UserMaterial.cc.i
+
+src/g4UserMaterial.s: src/g4UserMaterial.cc.s
+.PHONY : src/g4UserMaterial.s
+
+# target to generate assembly for a file
+src/g4UserMaterial.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/g4sim.dir/build.make CMakeFiles/g4sim.dir/src/g4UserMaterial.cc.s
+.PHONY : src/g4UserMaterial.cc.s
 
 src/g4main.o: src/g4main.cc.o
 .PHONY : src/g4main.o
@@ -427,12 +475,18 @@ help:
 	@echo "... src/g4RunAction.o"
 	@echo "... src/g4RunAction.i"
 	@echo "... src/g4RunAction.s"
+	@echo "... src/g4SensitiveDetector.o"
+	@echo "... src/g4SensitiveDetector.i"
+	@echo "... src/g4SensitiveDetector.s"
 	@echo "... src/g4SteppingAction.o"
 	@echo "... src/g4SteppingAction.i"
 	@echo "... src/g4SteppingAction.s"
 	@echo "... src/g4TaskManager.o"
 	@echo "... src/g4TaskManager.i"
 	@echo "... src/g4TaskManager.s"
+	@echo "... src/g4UserMaterial.o"
+	@echo "... src/g4UserMaterial.i"
+	@echo "... src/g4UserMaterial.s"
 	@echo "... src/g4main.o"
 	@echo "... src/g4main.i"
 	@echo "... src/g4main.s"

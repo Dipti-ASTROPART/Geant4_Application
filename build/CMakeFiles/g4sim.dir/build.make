@@ -181,10 +181,24 @@ CMakeFiles/g4sim.dir/src/g4RunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g4sim.dir/src/g4RunAction.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dipti/Programs/G4SIM/src/g4RunAction.cc -o CMakeFiles/g4sim.dir/src/g4RunAction.cc.s
 
+CMakeFiles/g4sim.dir/src/g4SensitiveDetector.cc.o: CMakeFiles/g4sim.dir/flags.make
+CMakeFiles/g4sim.dir/src/g4SensitiveDetector.cc.o: ../src/g4SensitiveDetector.cc
+CMakeFiles/g4sim.dir/src/g4SensitiveDetector.cc.o: CMakeFiles/g4sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dipti/Programs/G4SIM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/g4sim.dir/src/g4SensitiveDetector.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4SensitiveDetector.cc.o -MF CMakeFiles/g4sim.dir/src/g4SensitiveDetector.cc.o.d -o CMakeFiles/g4sim.dir/src/g4SensitiveDetector.cc.o -c /home/dipti/Programs/G4SIM/src/g4SensitiveDetector.cc
+
+CMakeFiles/g4sim.dir/src/g4SensitiveDetector.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g4sim.dir/src/g4SensitiveDetector.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dipti/Programs/G4SIM/src/g4SensitiveDetector.cc > CMakeFiles/g4sim.dir/src/g4SensitiveDetector.cc.i
+
+CMakeFiles/g4sim.dir/src/g4SensitiveDetector.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g4sim.dir/src/g4SensitiveDetector.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dipti/Programs/G4SIM/src/g4SensitiveDetector.cc -o CMakeFiles/g4sim.dir/src/g4SensitiveDetector.cc.s
+
 CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: CMakeFiles/g4sim.dir/flags.make
 CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: ../src/g4SteppingAction.cc
 CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o: CMakeFiles/g4sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dipti/Programs/G4SIM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dipti/Programs/G4SIM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o -MF CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o.d -o CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o -c /home/dipti/Programs/G4SIM/src/g4SteppingAction.cc
 
 CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.i: cmake_force
@@ -198,7 +212,7 @@ CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.s: cmake_force
 CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: CMakeFiles/g4sim.dir/flags.make
 CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: ../src/g4TaskManager.cc
 CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: CMakeFiles/g4sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dipti/Programs/G4SIM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dipti/Programs/G4SIM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o -MF CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o.d -o CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o -c /home/dipti/Programs/G4SIM/src/g4TaskManager.cc
 
 CMakeFiles/g4sim.dir/src/g4TaskManager.cc.i: cmake_force
@@ -208,6 +222,20 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.i: cmake_force
 CMakeFiles/g4sim.dir/src/g4TaskManager.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g4sim.dir/src/g4TaskManager.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dipti/Programs/G4SIM/src/g4TaskManager.cc -o CMakeFiles/g4sim.dir/src/g4TaskManager.cc.s
+
+CMakeFiles/g4sim.dir/src/g4UserMaterial.cc.o: CMakeFiles/g4sim.dir/flags.make
+CMakeFiles/g4sim.dir/src/g4UserMaterial.cc.o: ../src/g4UserMaterial.cc
+CMakeFiles/g4sim.dir/src/g4UserMaterial.cc.o: CMakeFiles/g4sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dipti/Programs/G4SIM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/g4sim.dir/src/g4UserMaterial.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g4sim.dir/src/g4UserMaterial.cc.o -MF CMakeFiles/g4sim.dir/src/g4UserMaterial.cc.o.d -o CMakeFiles/g4sim.dir/src/g4UserMaterial.cc.o -c /home/dipti/Programs/G4SIM/src/g4UserMaterial.cc
+
+CMakeFiles/g4sim.dir/src/g4UserMaterial.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g4sim.dir/src/g4UserMaterial.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dipti/Programs/G4SIM/src/g4UserMaterial.cc > CMakeFiles/g4sim.dir/src/g4UserMaterial.cc.i
+
+CMakeFiles/g4sim.dir/src/g4UserMaterial.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g4sim.dir/src/g4UserMaterial.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dipti/Programs/G4SIM/src/g4UserMaterial.cc -o CMakeFiles/g4sim.dir/src/g4UserMaterial.cc.s
 
 # Object files for target g4sim
 g4sim_OBJECTS = \
@@ -219,8 +247,10 @@ g4sim_OBJECTS = \
 "CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o" \
 "CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o" \
 "CMakeFiles/g4sim.dir/src/g4RunAction.cc.o" \
+"CMakeFiles/g4sim.dir/src/g4SensitiveDetector.cc.o" \
 "CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o" \
-"CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o"
+"CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o" \
+"CMakeFiles/g4sim.dir/src/g4UserMaterial.cc.o"
 
 # External object files for target g4sim
 g4sim_EXTERNAL_OBJECTS =
@@ -233,8 +263,10 @@ g4sim: CMakeFiles/g4sim.dir/src/g4EventAction.cc.o
 g4sim: CMakeFiles/g4sim.dir/src/g4PhysicsList.cc.o
 g4sim: CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o
 g4sim: CMakeFiles/g4sim.dir/src/g4RunAction.cc.o
+g4sim: CMakeFiles/g4sim.dir/src/g4SensitiveDetector.cc.o
 g4sim: CMakeFiles/g4sim.dir/src/g4SteppingAction.cc.o
 g4sim: CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o
+g4sim: CMakeFiles/g4sim.dir/src/g4UserMaterial.cc.o
 g4sim: CMakeFiles/g4sim.dir/build.make
 g4sim: /gamma/dipti/GEANT4/geant4-install/lib/libG4Tree.so
 g4sim: /gamma/dipti/GEANT4/geant4-install/lib/libG4FR.so
@@ -304,7 +336,7 @@ g4sim: /gamma/dipti/GEANT4/geant4-install/lib/libG4global.so
 g4sim: /gamma/dipti/GEANT4/geant4-install/lib/libG4ptl.so.0.0.2
 g4sim: /gamma/dipti/GEANT4/clhep-2.4.5.2/clhep-install/lib/libCLHEP-2.4.5.2.so
 g4sim: CMakeFiles/g4sim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dipti/Programs/G4SIM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable g4sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dipti/Programs/G4SIM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable g4sim"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/g4sim.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
