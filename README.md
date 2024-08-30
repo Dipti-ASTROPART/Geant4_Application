@@ -34,7 +34,6 @@ Please follow the follwoing steps to start the Geant4 Application
    ```bash
    ./g4sim ../G4SIM.cnt
 
-
 ## 🤹‍♂️ **Controlling the program flow**
 ### **1. Visualization**
 The visualization is controlled by the **vis.mac** macro file located inside the macrofiles directory. The basis set up consists of:
@@ -57,7 +56,7 @@ The visualization is controlled by the **vis.mac** macro file located inside the
 ### **2. Run in batch mode**
 The application can be run in batch mode while the run is controlled by the **G4SIM.cnt** file. The basic control flow of the **.cnt** file includes:
 <pre>
- Task                    G4SIM                                           # Task
+ Task                    G4SIM                                           # Task name
  InputPath               /path/to/inputfile/dir/                         # Input path
  OutputPath              /path/to/outputfile/dir/                        # Output Path
  PrimaryEnergy           0.100   0.100                                   # Energy range (MeV) of primary beam
@@ -71,5 +70,52 @@ The application can be run in batch mode while the run is controlled by the **G4
 
 **Note 2:** The primary particle definitions are added in the `g4PrimaryGenerator.cc` class. The available primary particles are: 
 
-`electron/e-`, `positron/e+`, `muon+/mu+`, `muon-/mu-`, `photon/gamma`, `proton`, `alpha`, `Li6`, `Li7`, `Be9`, `B10`, `B11`, `C12`, `C13`, `N14`, `N15`, `O16`, `O17`, `O18`, `F19`, `Ne20`, `Ne21`, `Ne22`, `Na23`, `Mg24`, `Mg25`, `Mg26`, `Al27`, `Si28`, `Si29`, `Si30`.
+**`electron/e-`, `positron/e+`, `muon+/mu+`, `muon-/mu-`, `photon/gamma`, `proton`, `alpha`, `Li6`, `Li7`, `Be9`, `B10`, `B11`, `C12`, `C13`, `N14`, `N15`, `O16`, `O17`, `O18`, `F19`, `Ne20`, `Ne21`, `Ne22`, `Na23`, `Mg24`, `Mg25`, `Mg26`, `Al27`, `Si28`, `Si29`, `Si30`.**
+
+
+
+## Class Descriptions
+
+### Initialization and Main Classes
+
+- **`g4main.cc`**
+  - The entry point of the Geant4 application. It configures the main simulation loop, initializes the detector, physics, and user interfaces, and starts the event loop.
+   
+- **`g4ActionInitialize.cc`**
+  - Handles the initialization of user actions within the Geant4 simulation. This class is responsible for setting up the sequence of actions like event handling, run management, and stepping actions.
+
+### Control and Task Management
+- **`g4ControlFileHandler.cc`**
+  - Manages control files that configure the simulation. This class is used to parse and apply settings from external files, making it easier to modify simulation parameters.
+
+- **`g4TaskManager.cc`**
+  - Handles the distribution and management of computational tasks. This class is crucial for optimizing the simulation's performance, particularly in parallel computing environments.
+  
+### Detector and Material Management
+- **`g4DetectorConstruction.cc`**
+  - Defines the geometry and materials of the detector setup. This class is crucial for specifying the physical world in which particles interact.
+
+- **`g4UserMaterial.cc`**
+  - Manages custom user-defined materials. This class allows for the creation and management of materials that are not predefined in Geant4 or adding specific properties.
+
+### Physics and Primary Generator
+- **`g4PhysicsList.cc`**
+  - Specifies the physics processes and models used in the simulation. This class is responsible for defining how particles interact with materials and fields.
+
+- **`g4PrimaryGenerator.cc`**
+  - Handles the generation of primary particles at the start of each event. This class defines the type, energy, and initial position of the particles to be simulated.
+
+### Event and Run Management
+- **`g4EventAction.cc`**
+  - Manages actions to be taken at the beginning and end of each event. This class is essential for gathering event-level data and performing event-specific tasks.
+
+- **`g4RunAction.cc`**
+  - Defines actions to be taken at the beginning and end of each simulation run. This class is used for setting up run-specific parameters and collecting overall statistics.
+
+### Stepping and Sensitive Detectors
+- **`g4SteppingAction.cc`**
+  - Handles actions to be taken at each simulation step. This class is where detailed particle tracking and interaction logging occur.
+
+- **`g4SensitiveDetector.cc`**
+  - Manages sensitive detectors, which record the interactions of particles as they pass through detector components. This class is key to data collection during the simulation.
 
