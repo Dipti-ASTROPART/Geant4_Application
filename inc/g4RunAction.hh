@@ -19,9 +19,13 @@ class   MyRunAction : public G4UserRunAction
                                     ~MyRunAction();
         virtual void                BeginOfRunAction(const G4Run *);
         virtual void                EndOfRunAction(const G4Run *);
+        G4int                       GetTotalSimulatedEvents() const {return fTotalEvents;}
+        G4bool                      IsVisualModeEnabled() const {return fVisStatus;}
     private:
         char                        pFileName[400];
         ControlFile                 Control;
+        G4bool                      fVisStatus;
+        G4int                       fTotalEvents;
 };
 
 

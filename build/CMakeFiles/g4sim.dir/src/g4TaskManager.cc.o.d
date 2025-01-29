@@ -825,6 +825,11 @@ CMakeFiles/g4sim.dir/src/g4TaskManager.cc.o: \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalPhoton.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VRestDiscreteProcess.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalPhoton.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DecayPhysics.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Decay.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleChangeForDecay.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DecayProcessType.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RadioactiveDecayPhysics.hh \
  /home/dipti/Programs/G4SIM/inc/g4DetectorConstruction.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \

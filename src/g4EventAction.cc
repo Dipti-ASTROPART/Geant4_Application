@@ -45,6 +45,11 @@ void    MyEventAction::BeginOfEventAction(const G4Event *)
     fPhotonHitsSD1  = 0;
     fPhotonHitsSD2  = 0;
     fPhotonHitsSCSD = 0;
+
+    nParentPartEl   = 0;
+    nParentPartGa   = 0;
+    gammaDetected = FALSE;
+    electronDetected = FALSE;
 }   //  ::BeginOfEventAction()
 
 
@@ -53,20 +58,31 @@ void    MyEventAction::BeginOfEventAction(const G4Event *)
 //////////////////////////////////////////////////////////////////////////////////
 void    MyEventAction::EndOfEventAction(const G4Event *event)
 {
+    // Get photon hits
+    G4int photonsSCSD= 0;
+    G4int photonsSD1 = 0;
+    G4int photonsSD2 = 0;
+    G4int inpartID   = -1;
+
+    const   MyRunAction* runAction = static_cast<const MyRunAction*>(G4RunManager::GetRunManager()->GetUserRunAction());
+    static  G4int eventCount = 0;
+    eventCount++;
 
     G4PrimaryVertex     *primaryVertex   = event->GetPrimaryVertex();
     G4PrimaryParticle   *primaryParticle = primaryVertex->GetPrimary();
     G4SDManager         *sdManager       = G4SDManager::GetSDMpointer();
 
-    // Invoke the sensitive detectors
-    MySensitiveDetector* sd1 = static_cast<MySensitiveDetector*>(sdManager->FindSensitiveDetector("mySD1"));
-    MySensitiveDetector* sd2 = static_cast<MySensitiveDetector*>(sdManager->FindSensitiveDetector("mySD2"));
-    MySensitiveDetector* sd0 = static_cast<MySensitiveDetector*>(sdManager->FindSensitiveDetector("mySCSD"));
+    if(fSETSENSITIVEDETECTOR)
+    {
+        // Invoke the sensitive detectors
+        MySensitiveDetector* sd0 = static_cast<MySensitiveDetector*>(sdManager->FindSensitiveDetector("mySCSD"));
+        //MySensitiveDetector* sd1 = static_cast<MySensitiveDetector*>(sdManager->FindSensitiveDetector("mySD1"));
+        //MySensitiveDetector* sd2 = static_cast<MySensitiveDetector*>(sdManager->FindSensitiveDetector("mySD2"));
 
-    // Get photon hits
-    G4int photonsSCSD= sd0->GetPhotonHits();
-    G4int photonsSD1 = sd1->GetPhotonHits();
-    G4int photonsSD2 = sd2->GetPhotonHits();
+        photonsSCSD= sd0->GetPhotonHits();
+        //photonsSD1 = sd1->GetPhotonHits();
+        //photonsSD2 = sd2->GetPhotonHits();
+    }
 
     G4int totalphotons = photonsSD1 + photonsSD2;
 
@@ -77,29 +93,67 @@ void    MyEventAction::EndOfEventAction(const G4Event *event)
     man->FillNtupleDColumn(0, primaryParticle->GetTotalEnergy()/MeV);
     man->FillNtupleDColumn(1, primaryParticle->GetMass()/MeV);
     man->FillNtupleDColumn(2, fEdep);
+    man->FillNtupleDColumn(3, photonsSCSD);
+ 
+    if(gammaDetected == TRUE && electronDetected == TRUE) inpartID = 2;         ///< Both e and gamma detected
+    else if(gammaDetected == TRUE  && electronDetected == FALSE) inpartID = 0;  ///< Gamma detected
+    else if(gammaDetected == FALSE && electronDetected == TRUE)  inpartID = 1;  ///< Electron detected
+    else inpartID = -1;
 
+    man->FillNtupleDColumn(4, inpartID);
+
+    man->FillH1(0, fEdep);
     man->FillH1(3, photonsSD1);
     man->FillH1(4, photonsSD2);
     man->FillH1(5, totalphotons);
     man->FillH1(6, fEdep/keV);
-    man->FillH1(7, photonsSCSD);
+    if(photonsSCSD!=0)
+        man->FillH1(7, photonsSCSD);
 
     //  Write the branch
+    if(inpartID > -1)
     man->AddNtupleRow();
 
-    G4cout << COLOR_GREEN << "\n............................................................................" << COLOR_RESET <<G4endl;
-    G4cout << COLOR_CYAN << "Energy Deposition (keV) .......................: " << COLOR_YELLOW << fEdep/keV << G4endl;
-    G4cout << COLOR_CYAN << "Total number of optical photons in Detector ...: " << COLOR_YELLOW << nOpticalPhotons << G4endl;
-    G4cout << COLOR_CYAN << "Total number of optical photons in Fiber ......: " << COLOR_YELLOW << nWLSPhotons << G4endl;
-    G4cout << COLOR_CYAN << "Total Energy for optical photons (keV) ........: " << COLOR_YELLOW << fOptPhotonE/keV << G4endl;
-    G4cout << COLOR_CYAN << "Total photons collected by WLS Fiber (end 1) ..: " << COLOR_YELLOW << photonsSD1<< G4endl;
-    G4cout << COLOR_CYAN << "Total photons collected by WLS Fiber (end 2) ..: " << COLOR_YELLOW << photonsSD2<< G4endl;
-    G4cout << COLOR_CYAN << "Total number of photons collected at the SCSD .: " << COLOR_YELLOW << photonsSCSD << G4endl;
-    G4cout << COLOR_GREEN << "............................................................................\n" << COLOR_RESET <<G4endl;
-    G4cout<<G4endl;
+    if(runAction->IsVisualModeEnabled() == true)
+    {
+        G4cout << COLOR_GREEN << "\n............................................................................" << COLOR_RESET <<G4endl;
+        G4cout << COLOR_CYAN <<"Primary particle in the detector...............: " << COLOR_YELLOW << "Gamma : " << gammaDetected << "   e- : " << electronDetected <<"   " << inpartID << G4endl;
+        G4cout << COLOR_CYAN << "Energy Deposition .............................: " << COLOR_YELLOW << fEdep/keV <<" keV" << G4endl;
+        G4cout << COLOR_CYAN << "Total number of optical photons in Detector ...: " << COLOR_YELLOW << nOpticalPhotons << G4endl;
+        //G4cout << COLOR_CYAN << "Total number of optical photons in Fiber ......: " << COLOR_YELLOW << nWLSPhotons << G4endl;
+        G4cout << COLOR_CYAN << "Total Energy for optical photons ..............: " << COLOR_YELLOW << fOptPhotonE/keV <<" keV" << G4endl;
+        //G4cout << COLOR_CYAN << "Total photons collected by WLS Fiber (end 1) ..: " << COLOR_YELLOW << photonsSD1<< G4endl;
+        ///G4cout << COLOR_CYAN << "Total photons collected by WLS Fiber (end 2) ..: " << COLOR_YELLOW << photonsSD2<< G4endl;
+        G4cout << COLOR_CYAN << "Total number of Collected photons by the PMT   : " << COLOR_YELLOW << photonsSCSD << G4endl;
+        G4cout << COLOR_GREEN << "............................................................................" << COLOR_RESET <<G4endl;
+        G4cout<<G4endl;
+
+    }
+    else
+        PrintProgressBar(eventCount, runAction->GetTotalSimulatedEvents());
 
 }   //  ::BeginOfEventAction()
 
+
+//////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+void    MyEventAction::PrintProgressBar(G4int currentEvent, G4int totalEvents) {
+    G4int       barWidth = 70; // Width of the progress bar
+    G4double    progress = (G4double)currentEvent / totalEvents;
+
+    G4cout << COLOR_MAGENTA << "[";
+    int pos = barWidth * progress;
+    for (G4int i = 0; i < barWidth; ++i) {
+        if (i < pos) G4cout<< COLOR_GREEN << "=";
+        else if (i == pos) G4cout << ">";
+        else G4cout << " ";
+    }
+    G4cout << COLOR_MAGENTA <<"]" << int(progress * 100.0) << " %\r"<<COLOR_RESET;
+    G4cout.flush();
+
+    if(currentEvent == totalEvents)
+        G4cout <<COLOR_RESET <<"\n\n";
+}
 
 //////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////

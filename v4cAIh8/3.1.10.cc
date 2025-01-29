@@ -43,6 +43,9 @@ void    MySteppingAction::UserSteppingAction(const G4Step *step)
 
     // Compare if the scoring volume and detector logical volumes are same
 
+    // Extract the energy deposited at each step 
+    G4double edep = step->GetTotalEnergyDeposit();
+
     // Extract each track
     G4Track *track = step->GetTrack();
 
@@ -51,56 +54,27 @@ void    MySteppingAction::UserSteppingAction(const G4Step *step)
 
     G4AnalysisManager *man = G4AnalysisManager::Instance();
 
-    if(track->GetParentID() == 1 && partDef->GetParticleName() == "e-") fEventAction->nParentPartEl ++;
-    if(track->GetParentID() == 2 && partDef->GetParticleName() == "gamma") fEventAction->nParentPartGa ++;
-
-    //G4double eleEnergy = 0;
-    //G4double gaEnergy  = 0;
-
-    //if(fEventAction->nParentPartEl == 1) man->FillH1(8, track->GetKineticEnergy()/keV);
-    //if(fEventAction->nParentPartGa == 1) man->FillH1(9, track->GetKineticEnergy()/keV);
-    //if(fEventAction->nParentPartEl > 0 || fEventAction->nParentPartGa > 0)
-    //if(track->GetParentID() < 4)
-    //{
-        //G4cout <<  fEventAction->nParentPartEl <<"    " << fEventAction->nParentPartGa  <<"   " << track->GetTrackID() <<"    |     " <<track->GetParentID() <<"    |     " << partDef->GetParticleName()  <<"   |   "<< track->GetKineticEnergy()<< G4endl;
-        //getchar();
-    //}
-
-    if(volume == sVolumes.primaryDetector)
+    if(partDef->GetParticleName() == "opticalphoton")
     {
-        // Extract the energy deposited at each step 
-        if(track->GetParentID() < 3)
+        if(volume == sVolumes.primaryDetector)
         {
-            //G4cout << track->GetTrackID() <<"    |     " <<track->GetParentID() <<"    |     " << partDef->GetParticleName()  <<"   |   "<< track->GetKineticEnergy()<< G4endl;
-            if(partDef->GetParticleName() == "e-") fEventAction->electronDetected = TRUE;
-            else if (partDef->GetParticleName() == "gamma") fEventAction->gammaDetected = TRUE;
-        }
-
-        //if(step->GetTrack()->GetTrackID() == 1)
-        {
-            G4double edep = step->GetTotalEnergyDeposit();
-
-            // Accumulate the energy
-            fEventAction->AddEdep(edep);
-        }
-
-        if(partDef->GetParticleName() == "opticalphoton")
-        {
-            man->FillH1(0, track->GetKineticEnergy()/CLHEP::eV);
             fEventAction->AddOpticalPhotonEnergy(track->GetKineticEnergy());
+            man->FillH1(0, track->GetKineticEnergy()/CLHEP::eV);
             man->FillH1(1, 1240.0/(track->GetKineticEnergy()/CLHEP::eV));
 
             //printf("Secondary particle : %s    %.14f (eV) \n", partDef->GetParticleName().c_str(), track->GetKineticEnergy()/CLHEP::eV);
             //printf("Energy in step : %f\n", edep/CLHEP::MeV);
 
         }
-    }
-    else if(volume == sVolumes.fiberCore)
-    {
-        //fEventAction->CountPhotonsInWLS();
-        //man->FillH1(2, 1240.0/(track->GetKineticEnergy()/CLHEP::eV));
+        else if(volume == sVolumes.fiberCore)
+        {
+            //fEventAction->CountPhotonsInWLS();
+            //man->FillH1(2, 1240.0/(track->GetKineticEnergy()/CLHEP::eV));
+        }
     }
 
+    // Accumulate the energy
+    fEventAction->AddEdep(edep);
 }   //  ::UserSteppingAction()
 
 

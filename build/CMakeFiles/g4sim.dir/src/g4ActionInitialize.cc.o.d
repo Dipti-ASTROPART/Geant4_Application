@@ -419,6 +419,7 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.icc \
  /home/dipti/Programs/G4SIM/inc/g4ConfigDetector.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh \
+ /home/dipti/Programs/G4SIM/inc/g4Constants.hh \
  /home/dipti/Programs/G4SIM/inc/g4RunAction.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserRunAction.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4AnalysisManager.hh \
@@ -707,6 +708,96 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: \
  /home/dipti/Programs/G4SIM/inc/g4EventAction.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserEventAction.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Event.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SDManager.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SDStructure.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSensitiveDetector.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VHit.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Step.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StepPoint.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SteppingControl.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StepStatus.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Material.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Element.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Isotope.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IonisParamElm.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IsotopeVector.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ElementTable.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ElementVector.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialPropertiesTable.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialPropertiesIndex.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialPropertyVector.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IonisParamMat.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Exp.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SandiaTable.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OrderedTable.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DataVector.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DataVector.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialTable.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StepPoint.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackVector.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Step.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Track.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/trkdefs.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DynamicParticle.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LorentzVector.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ElectronOccupancy.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DynamicParticle.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackStatus.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserTrackInformation.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsModelCatalog.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Track.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VReadOutGeometry.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SensitiveVolumeList.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4CollectionNameVector.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSDFilter.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HCtable.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RunManager.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/rundefs.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EventManager.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StackManager.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserStackingAction.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ClassificationOfNewTrack.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StackedTrack.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackStack.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartTrackStack.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryTransformer.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackingManager.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SteppingManager.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/Randomize.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessManager.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VProcess.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsTable.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsTable.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VParticleChange.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackFastVector.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4FastVector.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VParticleChange.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ForceCondition.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GPILSelection.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleChange.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleChange.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessType.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessVector.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessVector.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessManager.icc \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NoProcess.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserSteppingAction.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSteppingVerbose.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/trkgdefs.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackingMessenger.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserTrackingAction.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RunManagerKernel.hh \
+ /home/dipti/Programs/G4SIM/inc/g4SensitiveDetector.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSensitiveDetector.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Step.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HCofThisEvent.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHistory.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Track.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalPhoton.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StepPoint.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHandle.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ios.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/g4root_defs.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/ntuple \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/wroot/tree \
@@ -800,99 +891,8 @@ CMakeFiles/g4sim.dir/src/g4ActionInitialize.cc.o: \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/get_lines \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/tools/cstr \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/g4hntools_defs.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SDManager.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SDStructure.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSensitiveDetector.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VHit.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Step.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StepPoint.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SteppingControl.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StepStatus.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Material.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Element.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Isotope.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IonisParamElm.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IsotopeVector.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ElementTable.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ElementVector.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialPropertiesTable.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialPropertiesIndex.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialPropertyVector.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4IonisParamMat.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Exp.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SandiaTable.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OrderedTable.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DataVector.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DataVector.icc \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4MaterialTable.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StepPoint.icc \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackVector.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Step.icc \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Track.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/trkdefs.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DynamicParticle.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LorentzVector.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ElectronOccupancy.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4DynamicParticle.icc \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackStatus.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VUserTrackInformation.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsModelCatalog.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Track.icc \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VReadOutGeometry.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SensitiveVolumeList.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4CollectionNameVector.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSDFilter.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HCtable.hh \
- /home/dipti/Programs/G4SIM/inc/g4SensitiveDetector.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSensitiveDetector.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Step.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4HCofThisEvent.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHistory.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Track.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4OpticalPhoton.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StepPoint.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TouchableHandle.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ios.hh \
- /home/dipti/Programs/G4SIM/inc/g4Constants.hh \
  /home/dipti/Programs/G4SIM/inc/g4SteppingAction.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserSteppingAction.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RunManager.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/rundefs.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4EventManager.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StackManager.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserStackingAction.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ClassificationOfNewTrack.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4StackedTrack.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackStack.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SmartTrackStack.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PrimaryTransformer.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackingManager.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4SteppingManager.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/Randomize.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessManager.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VProcess.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsTable.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4PhysicsTable.icc \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VParticleChange.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackFastVector.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4FastVector.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VParticleChange.icc \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ForceCondition.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4GPILSelection.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleChange.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ParticleChange.icc \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessType.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessVector.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessVector.icc \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessManager.icc \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4NoProcess.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserSteppingAction.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VSteppingVerbose.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/trkgdefs.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4TrackingMessenger.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4UserTrackingAction.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4RunManagerKernel.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessManager.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4ProcessVector.hh \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Scintillation.hh \

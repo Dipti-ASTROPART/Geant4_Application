@@ -70,9 +70,9 @@ G4VPhysicalVolume   *MyDetectorConstruction::ConstructG3CylindricalDetector()
             );
     SetVisualAttributes(logicEnv, "white", 0.001);
 
-    BuildSolidCylindricalDetector();
-    //BuildCylindricalDetectorWithTyvek();
-
+    BuildTestingModel();
+    //BuildSolidCylindricalDetector();
+    //BuildRectangularDetector();
     return physWorld;
 }   //  :: ConstructG3CylindricalDetector()
 
@@ -94,12 +94,10 @@ void    MyDetectorConstruction::BuildSolidCylindricalDetector()
     G4Tubs* solidCyl          = new G4Tubs("solidCylinderSC", 0.0, fCylRadius, fCylHeight/2.0, fCylStartAngle, fCylStopAngle);
     G4LogicalVolume* logicDet = new G4LogicalVolume(solidCyl, cMaterial.G3SC, "logicDet");
     sScoringVolumes.primaryDetector = logicDet;                 ///< Assign scoring volumes
-    SetVisualAttributes(logicDet, "blue", 1.00);    ///< Set visualization attributes (optional)
 
     // Build tyvek sheet in between detectors
     G4Tubs* solidTyvekSheet          = new G4Tubs("solidTyvekSheet", 0.0, fCylRadius, fTyvekThickness/2.0, fCylStartAngle, fCylStopAngle);
     G4LogicalVolume* logicTyvekSheet = new G4LogicalVolume(solidTyvekSheet, cMaterial.TYVEK, "logicTyvekSheet");
-    SetVisualAttributes(logicTyvekSheet, "red", 0.6);
 
     G4ThreeVector positionDetector = G4ThreeVector(0, 0, 0);
     new G4PVPlacement(0,                      // no rotation
@@ -131,10 +129,6 @@ void    MyDetectorConstruction::BuildSolidCylindricalDetector()
     sScoringVolumes.fiberCladIn  = logicFiberCladIn;
     sScoringVolumes.fiberCladOut = logicFiberCladOut;
 
-    // Set visual attributes for the WLS fibers
-    SetVisualAttributes(logicFiberCore,    "lightgreen", 0.15);
-    SetVisualAttributes(logicFiberCladIn,  "lightgreen", 0.10);
-    SetVisualAttributes(logicFiberCladOut, "lightgreen", 0.05);
 
     G4VPhysicalVolume *physWLSCore    = nullptr;
     G4VPhysicalVolume *physWLSCladIn  = nullptr;
@@ -202,7 +196,6 @@ void    MyDetectorConstruction::BuildSolidCylindricalDetector()
     G4LogicalVolume* logicTyvekCoat = new G4LogicalVolume(solidTyvekCoat, cMaterial.TYVEK, "logicTyvekCoat");
     new G4PVPlacement(0, tyvekCoatPosVector, logicTyvekCoat, "physTyvekCoat", logicEnv, false, 0, checkOverlaps);             
     new G4LogicalSkinSurface("tyvekSkinSurface", logicTyvekCoat, cMaterial.TYVEK_SURFACE);
-    SetVisualAttributes(logicTyvekCoat, "white", 0.05);
 
     // Set the tyvel refector cap at one end
 
@@ -210,7 +203,6 @@ void    MyDetectorConstruction::BuildSolidCylindricalDetector()
     G4LogicalVolume* logicTyvekCap  = new G4LogicalVolume(solidTyvekCap, cMaterial.TYVEK, "logicTyvekCap");
     new G4PVPlacement(0, G4ThreeVector(0, 0, -fCylHeight/2-2*mm), logicTyvekCap, "TyvekCap", logicEnv, false, 0, checkOverlaps);
     new G4LogicalSkinSurface("tyvekCapSurface", logicTyvekCap, cMaterial.TYVEK_SURFACE);
-    SetVisualAttributes(logicTyvekCap, "white", 0.05);
 
     //----------------------------------------------------------------------// 
     //--------- Attach sensitive detectors at the end of WLS fiber----------// 
@@ -239,14 +231,79 @@ void    MyDetectorConstruction::BuildSolidCylindricalDetector()
     G4double fSCSDThickness = 0.5 * mm;
     G4Tubs* solidSCSD           = new G4Tubs("solidSCSD", 0, fCylRadius, fSCSDThickness, fCylStartAngle, fCylStopAngle);
     G4LogicalVolume* logicSCSD  = new G4LogicalVolume(solidSCSD, cMaterial.ALUMINUM, "logicSCSD");
-    new G4PVPlacement(0, G4ThreeVector(0, 0, (fNCylinders*fCylHeight)/2.0 + fSCSDThickness+0.005*mm), logicSCSD, "physSCSD", logicEnv, false, 0, checkOverlaps);
+    new G4PVPlacement(0, G4ThreeVector(0, 0, (fNCylinders*fCylHeight)/2.0 + fSCSDThickness), logicSCSD, "physSCSD", logicEnv, false, 0, checkOverlaps);
     new G4LogicalSkinSurface("PhotonDetSurface0", logicSCSD, cMaterial.PHOTON_DET_SURFACE);
 
-    SetVisualAttributes(logicSCSD,     "magenta", 1.0);
-    SetVisualAttributes(logicFiberSD1, "magenta", 1.0);
-    SetVisualAttributes(logicFiberSD2, "magenta", 1.0);
+
+    // Set visual attributes for the WLS fibers
+    SetVisualAttributes(logicDet,           "blue",         1.00);    ///< Set visualization attributes (optional)
+    SetVisualAttributes(logicTyvekSheet,    "red",          0.6);
+    SetVisualAttributes(logicFiberCore,     "lightgreen",   0.05);
+    SetVisualAttributes(logicFiberCladIn,   "lightgreen",   0.05);
+    SetVisualAttributes(logicFiberCladOut,  "lightgreen",   0.05);
+    SetVisualAttributes(logicTyvekCoat,     "white",        0.05);
+    SetVisualAttributes(logicTyvekCap,      "white",        0.05);
+    SetVisualAttributes(logicSCSD,          "magenta",      1.0);
+    SetVisualAttributes(logicFiberSD1,      "magenta",      1.0);
+    SetVisualAttributes(logicFiberSD2,      "magenta",      1.0);
 
 }   //  ::BuildCylindricalDetectorWithTyvek()
+
+
+//////////////////////////////////////////////////////////////////////////////////
+/// Build a model detector for testing purpose
+//////////////////////////////////////////////////////////////////////////////////
+void    MyDetectorConstruction::BuildTestingModel()
+{
+    G4bool      checkOverlaps    = true;
+
+    // Define the solid volume
+    G4Box *solidSC = new G4Box("solidSC", fBoxDetX/2.0, fBoxDetY/2.0, fBoxDetZ/2.0);
+    G4LogicalVolume* logicSC = new G4LogicalVolume(solidSC, cMaterial.G3SC, "logicDet");
+
+    // Set the scoring volume as well as the sensitive detector
+    sScoringVolumes.primaryDetector = logicSC;                 ///< Assign scoring volumes
+
+    G4ThreeVector positionDetector = G4ThreeVector(0, 0, 0);
+    new G4PVPlacement(0,                      // no rotation
+            positionDetector,       // shifted position for detector
+            logicSC,                // logical volume for detector
+            "physSC",     // name
+            logicEnv,               // mother volume
+            false,                  // no boolean operations
+            0,                      // copy number
+            checkOverlaps);         // checking overlaps
+
+    // This can add a simple skin that reflects 90% photons 
+    //new G4LogicalSkinSurface("SC_TYVEK_SKIN", logicSC, cMaterial.SC_TYVEK_SKIN_SURFACE);
+
+    //----- Add the tyvek coating surrounding the detector  -----//
+    G4double tyvekSide   = fBoxDetX + 2 * fTyvekThickness;
+    G4double tyvekLength = fBoxDetZ + 2*fTyvekThickness;
+
+    // Create solid tyvek box
+    G4Box *solidTyvekCoat = new G4Box("solidTyvekCoat", tyvekSide / 2, tyvekSide / 2, tyvekLength / 2);
+
+    // Subtract the detector volume to create the layer
+    G4SubtractionSolid* solidTyvekLayer = new G4SubtractionSolid("solidTyvekLayer", solidTyvekCoat, solidSC);
+    G4LogicalVolume*    logicTyvekLayer = new G4LogicalVolume(solidTyvekLayer, cMaterial.TYVEK, "logicTyvekLayer");
+    G4VPhysicalVolume* physTyvekLayer = new G4PVPlacement (0, positionDetector, logicTyvekLayer, "physTyvekLayer", logicSC, false, 0, checkOverlaps);
+    new G4LogicalSkinSurface("tyvekSkinSurface", logicSC, cMaterial.SC_TYVEK_SKIN_SURFACE);
+
+
+    // Attach a sensitive detector just below the scintillator detector
+    G4double fSCSDThickness = 0.5 * mm;
+    G4Tubs* solidSCSD           = new G4Tubs("solidSCSD", 0, fCylRadius, fSCSDThickness, fCylStartAngle, fCylStopAngle);
+    G4LogicalVolume* logicSCSD  = new G4LogicalVolume(solidSCSD, cMaterial.ALUMINUM, "logicSCSD");
+    new G4PVPlacement(0, G4ThreeVector(0, 0, fBoxDetZ/2.0 + fSCSDThickness), logicSCSD, "physSCSD", logicEnv, false, 0, checkOverlaps);
+    new G4LogicalSkinSurface("PhotonDetSurface0", logicSCSD, cMaterial.PHOTON_DET_SURFACE);
+
+    //SetVisualAttributes(logicLead, "red", 0.8);
+    SetVisualAttributes(logicSC, "blue", 0.9);
+    SetVisualAttributes(logicSCSD, "magenta", 0.9);
+    SetVisualAttributes(logicTyvekLayer, "grey", 0.3);
+
+}   //  ::BuildTestingModel()
 
 
 //////////////////////////////////////////////////////////////////////////////////
@@ -255,7 +312,7 @@ void    MyDetectorConstruction::BuildSolidCylindricalDetector()
 void    MyDetectorConstruction::BuildCylindricalDetectorWithTyvek()
 {
     /*  
-    G4bool      checkOverlaps    = true;
+        G4bool      checkOverlaps    = true;
 
     //  Determine the number of fibers required to lay on the surface and the coorinate
     G4int       nFibers(1);
@@ -277,34 +334,34 @@ void    MyDetectorConstruction::BuildCylindricalDetectorWithTyvek()
     // Physical placement of the volumes
     for (int i = 0; i < 5; ++i) 
     {
-        // Calculate z position for each detector
-        G4double zPositionDetector = i * (fCylHeight + fTyvekThickness) + fCylHeight/2.0;
-        G4ThreeVector positionDetector = G4ThreeVector(0, 0, zPositionDetector);
-        new G4PVPlacement(0,                      // no rotation
-                positionDetector,       // shifted position for detector
-                logicDet,               // logical volume for detector
-                "CylindricalSolid",     // name
-                logicEnv,               // mother volume
-                false,                  // no boolean operations
-                i,                      // copy number
-                checkOverlaps);         // checking overlaps
+    // Calculate z position for each detector
+    G4double zPositionDetector = i * (fCylHeight + fTyvekThickness) + fCylHeight/2.0;
+    G4ThreeVector positionDetector = G4ThreeVector(0, 0, zPositionDetector);
+    new G4PVPlacement(0,                      // no rotation
+    positionDetector,       // shifted position for detector
+    logicDet,               // logical volume for detector
+    "CylindricalSolid",     // name
+    logicEnv,               // mother volume
+    false,                  // no boolean operations
+    i,                      // copy number
+    checkOverlaps);         // checking overlaps
 
-        // Set the reflecting coat
-        G4double zPositionLead = (i+1) * fCylHeight + (i+0.5) * fTyvekThickness;
-        G4ThreeVector positionLead = G4ThreeVector(0, 0, zPositionLead);
+    // Set the reflecting coat
+    G4double zPositionLead = (i+1) * fCylHeight + (i+0.5) * fTyvekThickness;
+    G4ThreeVector positionLead = G4ThreeVector(0, 0, zPositionLead);
 
-        new G4PVPlacement(0,                  // no rotation
-                positionLead,       // shifted position for lead sheet
-                logicTyvekSheet,          // logical volume for lead sheet
-                "LeadSheet",        // name
-                logicEnv,           // mother volume
-                false,              // no boolean operations
-                i,                  // copy number
-                checkOverlaps);     // checking overlaps
+    new G4PVPlacement(0,                  // no rotation
+    positionLead,       // shifted position for lead sheet
+    logicTyvekSheet,          // logical volume for lead sheet
+    "LeadSheet",        // name
+    logicEnv,           // mother volume
+    false,              // no boolean operations
+    i,                  // copy number
+    checkOverlaps);     // checking overlaps
     }
 
     //---------- Build WLS fibers ----------------//
-    
+
     // Fiber core
     G4Tubs* solidFiberCore = new G4Tubs("solidFiberCore", 0.0 , fWLSFiberCoreRadius, fWLSFiberLength/2.0, fCylStartAngle, fCylStopAngle);
     G4LogicalVolume* logicFiberCore = new G4LogicalVolume(solidFiberCore, matWLSCore, "logicFiberCore");
@@ -406,9 +463,9 @@ void    MyDetectorConstruction::BuildCylindricalDetectorWithTyvek()
     SetVisualAttributes(logicFiberSD1, "red", 1.0);
     SetVisualAttributes(logicFiberSD2, "red", 1.0);
 
-    
+
     //new G4LogicalSkinSurface("TyvekSurface", logicTyvek, tyvekSurface);
-*/
+    */
 }   //  ::BuildCylindricalDetectorWithTyvek()
 
 
@@ -472,7 +529,7 @@ void    MyDetectorConstruction::SetVisualAttributes(G4LogicalVolume *volume, G4S
 
 
     G4VisAttributes* visAttr = new G4VisAttributes(visColor);
-    visAttr->SetVisibility(true);
+    //visAttr->SetVisibility(true);
     visAttr->SetForceSolid(true);
     volume->SetVisAttributes(visAttr);
 
@@ -484,21 +541,25 @@ void    MyDetectorConstruction::SetVisualAttributes(G4LogicalVolume *volume, G4S
 //////////////////////////////////////////////////////////////////////////////////
 void    MyDetectorConstruction::ConstructSDandField()
 {
-    G4SDManager* sdManager = G4SDManager::GetSDMpointer();
+    if(fSETSENSITIVEDETECTOR)
+    {
+        G4SDManager* sdManager = G4SDManager::GetSDMpointer();
 
-    // Create and register the sensitive detector
-    MySensitiveDetector *mySD1= new MySensitiveDetector("mySD1");
-    sdManager->AddNewDetector(mySD1);
-    // Attach sensitive detectors
-    SetSensitiveDetector("logicFiberSD1", mySD1);
+        // Create and register the sensitive detector
+        //MySensitiveDetector *mySD1= new MySensitiveDetector("mySD1");
+        //sdManager->AddNewDetector(mySD1);
+        // Attach sensitive detectors
+        //SetSensitiveDetector("logicFiberSD1", mySD1);
 
-    MySensitiveDetector *mySD2= new MySensitiveDetector("mySD2");
-    sdManager->AddNewDetector(mySD2);
-    SetSensitiveDetector("logicFiberSD2", mySD2);
+        //MySensitiveDetector *mySD2= new MySensitiveDetector("mySD2");
+        //sdManager->AddNewDetector(mySD2);
+        //SetSensitiveDetector("logicFiberSD2", mySD2);
 
-    MySensitiveDetector *mySCSD = new MySensitiveDetector("mySCSD");
-    sdManager->AddNewDetector(mySCSD);
-    SetSensitiveDetector("logicSCSD", mySCSD);
+        MySensitiveDetector *mySCSD = new MySensitiveDetector("mySCSD");
+        sdManager->AddNewDetector(mySCSD);
+        SetSensitiveDetector("logicSCSD", mySCSD);
+
+    }
 
 }   //  ::ConstructSDandField
 

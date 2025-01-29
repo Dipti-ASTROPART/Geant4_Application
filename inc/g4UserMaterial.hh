@@ -35,13 +35,16 @@ class   MyMaterials
                             *WLSCORE,
                             *WLSCLADIN,
                             *WLSCLADOUT,
-                            *ALUMINUM;
+                            *ALUMINUM,
+                            *NAI_TL,
+                            *LEAD;
         G4OpticalSurface    *TYVEK_SURFACE,
                             *CORE_CLAD_SURFACE,
                             *CLAD_CLAD_SURFACE,
                             *CLAD_ENV_SURFACE,
                             *CORE_ENV_SURFACE,
                             *MIRROR_SURFACE,
+                            *SC_TYVEK_SKIN_SURFACE,
                             *PHOTON_DET_SURFACE;
 
 };

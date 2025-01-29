@@ -28,6 +28,7 @@
 #include    "g4ConfigDetector.hh"
 #include    "g4SensitiveDetector.hh"
 #include    "g4UserMaterial.hh"
+#include    "G4SubtractionSolid.hh"
 
 /////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////
@@ -55,6 +56,8 @@ class MyDetectorConstruction : public G4VUserDetectorConstruction
         MyMaterials                         cMaterial;
         G4VPhysicalVolume                   *ConstructG3CylindricalDetector();
         void                                BuildCylindricalDetectorWithTyvek(),
+                                            BuildRectangularDetector(),
+                                            BuildTestingModel(),
                                             BuildSolidCylindricalDetector(),
                                             DefineFiberCoordinates(G4double detRadius, G4double fiberRad, G4int *nFibers, G4double** xpos, G4double **ypos),
                                             SetVisualAttributes(G4LogicalVolume *logicDet, G4String color, G4double transparency);

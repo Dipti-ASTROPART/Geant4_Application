@@ -13,9 +13,11 @@
 /// Constructor
 //////////////////////////////////////////////////////////////////////////////////
 MyRunAction::MyRunAction(ControlFile cnt)
+    :G4UserRunAction(), fTotalEvents(0)
 {
 
     Control = cnt;
+    fVisStatus = true;
 
 }   //  ::MyRunAction
 
@@ -52,6 +54,8 @@ void    MyRunAction::BeginOfRunAction(const G4Run *run)
     man->CreateNtupleDColumn("PrimaryE");
     man->CreateNtupleDColumn("ParticleMass");
     man->CreateNtupleDColumn("fEdep");
+    man->CreateNtupleDColumn("nPMTPhotons");
+    man->CreateNtupleDColumn("InPartID");
 
     G4int id0 = man->CreateH1("hPhotonEn", "Optical photon energy", 150, 0, 15);
     G4int id1 = man->CreateH1("hPhotonWL", "Optical photon wavelength", 500, 200, 700);
@@ -59,11 +63,21 @@ void    MyRunAction::BeginOfRunAction(const G4Run *run)
     G4int id3 = man->CreateH1("hNPhotonsSD1", "#Photons at WLS fiber end-1;#Photons; ", 1000, 0, 1000);
     G4int id4 = man->CreateH1("hNPhotonsSD2", "#Photons at WLS fiber end-2;#Photons; ", 1000, 0, 1000);
     G4int id5 = man->CreateH1("hTotalPhotons", "#Photons at WLS fiber;#Photons; ", 1000, 0, 1000);
-    G4int id6 = man->CreateH1("hEnergyLoss", "Energy loss in detector; Energy(keV);", 1000, 0, 1000);
-    G4int id7 = man->CreateH1("hPMTPhotons", "#Photons at WLS fiber;#Photons; ", 1000, 0, 1000);
+    G4int id6 = man->CreateH1("hEnergyLoss", "Energy loss in detector; Energy(keV);", 2000, 0, 2000);
+    G4int id7 = man->CreateH1("hPMTPhotons", "#Photons at WLS fiber;#Photons; ", 50000, 0, 50000);
+    G4int id8 = man->CreateH1("hPrimaryEleEnergy", "Energy (keV);; ", 2000, 0, 2000);
+    G4int id9 = man->CreateH1("hPrimaryGaEnergy", "Energy (keV);; ", 2000, 0, 2000);
 
     // Finish the TUPLE (branch)
     man->FinishNtuple();
+
+    fTotalEvents = 0;
+    fTotalEvents = run->GetNumberOfEventToBeProcessed();
+
+    if(Control.GraphicalMode)
+        fVisStatus = true;
+    else
+        fVisStatus = false;
 
 }   //  ::BeginRunAction()
 
@@ -73,6 +87,7 @@ void    MyRunAction::BeginOfRunAction(const G4Run *run)
 //////////////////////////////////////////////////////////////////////////////////
 void    MyRunAction::EndOfRunAction(const G4Run *)
 {
+    G4cout<<"\n";
     // Instantiate the G4AnalysisManager
     G4AnalysisManager *man = G4AnalysisManager::Instance();
 
@@ -85,7 +100,7 @@ void    MyRunAction::EndOfRunAction(const G4Run *)
     {
         if (std::filesystem::exists(pFileName)) {
             if (std::filesystem::remove(pFileName)) 
-                G4cout << "... delete file: " << pFileName<<" - done" << G4endl;
+                G4cout << "... delete file: " << pFileName<<" - done \n" << G4endl;
             else 
                 G4cerr << "Failed to delete " << pFileName << G4endl;
 

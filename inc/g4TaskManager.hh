@@ -21,6 +21,8 @@
 #include        "G4OpticalPhysics.hh"
 #include        "G4Scintillation.hh"
 #include        "G4OpticalPhoton.hh"
+#include        "G4DecayPhysics.hh"
+#include        "G4RadioactiveDecayPhysics.hh"
 
 #include        "g4DetectorConstruction.hh"
 #include        "g4PhysicsList.hh"

@@ -33,6 +33,7 @@
 #include    "G4Gamma.hh"
 #include    "g4Structures.hh"
 #include    "g4ConfigDetector.hh"
+#include    "g4Constants.hh"
 
 #define     E_SLOPE 2.5
 

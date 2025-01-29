@@ -54,14 +54,17 @@ void    MyTaskManager::AssignTask()
     // Add physics lists
     //G4VModularPhysicsList *physicsList = new QBBC();
     G4VModularPhysicsList *physicsList = new FTFP_BERT();
-    //physicsList->ReplacePhysics(new G4EmStandardPhysics_option4());
+    physicsList->ReplacePhysics(new G4EmStandardPhysics());
+    
     G4OpticalPhysics      *optPhysics = new G4OpticalPhysics();
-
     auto opticalParams  = G4OpticalParameters::Instance();
     opticalParams->SetWLSTimeProfile("delta");
     opticalParams->SetBoundaryInvokeSD(true);
 
     physicsList->RegisterPhysics(optPhysics);
+    physicsList->RegisterPhysics(new G4DecayPhysics());
+    physicsList->RegisterPhysics(new G4RadioactiveDecayPhysics());
+    
     runManager->SetUserInitialization(physicsList);                                     ///< 2. Physics list class
 
     // Action initialization 

@@ -31,6 +31,8 @@ void    MyMaterials::ResetMaterialPointers()
     WLSCLADIN   = nullptr;
     WLSCLADOUT  = nullptr;
     ALUMINUM    = nullptr;
+    NAI_TL      = nullptr;
+    LEAD        = nullptr;
 
     TYVEK_SURFACE       = nullptr;
     CORE_CLAD_SURFACE   = nullptr;
@@ -74,17 +76,18 @@ void    MyMaterials::MiscellaneousMaterials()
     TYVEK->AddElement(nist->FindOrBuildElement("H"), 4);
 
     TYVEK_SURFACE = new G4OpticalSurface("TYVEK_SURFACE");
-    TYVEK_SURFACE->SetType(dielectric_metal);       //  Dielectric
-    TYVEK_SURFACE->SetModel(glisur);
+    TYVEK_SURFACE->SetType(dielectric_dielectric);       //  Dielectric
+    TYVEK_SURFACE->SetModel(unified);
     TYVEK_SURFACE->SetFinish(polished);                  //  Surface finishing type
 
     // Initiate material properties table
     G4MaterialPropertiesTable *tyvekMPT = new G4MaterialPropertiesTable();
 
     std::vector<G4double> tyvekReflectivity = {0.90, 0.90};      //  Reflectiity of the tyvek surface
-    //std::vector<G4double> tyvekEfficiency   = {1.00, 1.00};      //  Reflectiity of the tyvek surface
+    std::vector<G4double> tyvekEfficiency   = {1.00, 1.00};      //  Reflectiity of the tyvek surface
 
     tyvekMPT->AddProperty("REFLECTIVITY", photonEnergy, tyvekReflectivity);
+    tyvekMPT->AddProperty("EFFICIENCY",   photonEnergy, tyvekEfficiency);
 
     TYVEK->SetMaterialPropertiesTable(tyvekMPT);
     TYVEK_SURFACE->SetMaterialPropertiesTable(tyvekMPT);
@@ -94,7 +97,24 @@ void    MyMaterials::MiscellaneousMaterials()
     ALUMINUM = nist->FindOrBuildMaterial("G4_Al");
     //----------------------------------------------------------//
 
+    //---------------------- ALUMINUM --------------------------//
+    LEAD = nist->FindOrBuildMaterial("G4_Pb");
+    //----------------------------------------------------------//
 
+    //-------------------------NaI(Tl)-------------------------//
+    // Define Sodium Iodide (NaI) as the base material
+    NAI_TL= nist->FindOrBuildMaterial("G4_SODIUM_IODIDE");
+/*  
+    // Create a new material for NaI(Tl) with doping
+    G4double density = 3.67 * g/cm3;  // Density of NaI(Tl)
+    NAI_TL = new G4Material("NAI_TL", density, NaI, kStateSolid);
+
+    // Optionally, define the doping percentage of Thallium (typically around 0.01%)
+    G4double Tl_doping_concentration = 0.01 * perCent;
+    G4Element* Tl = nist->FindOrBuildElement("Tl");
+
+    NAI_TL->AddElement(Tl, Tl_doping_concentration);
+*/
 }   //   ::MiscellaneousMaterials()
 
 
@@ -263,7 +283,7 @@ G4Material *MyMaterials::GRAPES_Scintillator_Material()
     cds->AddElement(S, 1);
 
     // Define the scintillator material
-    G4Material* scintillator = new G4Material("Scintillator", 1.032 * g / cm3, 3);
+    G4Material* scintillator = new G4Material("Scintillator", 1.052 * g / cm3, 3);
     scintillator->AddMaterial(polystyrene, 0.987); // 99.4% Polystyrene
     scintillator->AddMaterial(ppo, 0.010);       // 0.4% PPO
     scintillator->AddMaterial(popop, 0.0030);     // 0.01% POPOP
@@ -406,6 +426,20 @@ void    MyMaterials::SetOpticalSurfaces()
     
     MIRROR_SURFACE->SetMaterialPropertiesTable(mirrorSurfaceProperty);
     //------------------------------------------------------------//
+
+    //-------------------- DETECTOR_TYVEK_SKIN SURFACE ------------------//
+    SC_TYVEK_SKIN_SURFACE = new G4OpticalSurface("SC_TYVEK_SKIN_SURFACE");
+    SC_TYVEK_SKIN_SURFACE->SetType(dielectric_metal);
+    SC_TYVEK_SKIN_SURFACE->SetFinish(polished);
+    SC_TYVEK_SKIN_SURFACE->SetModel(glisur);
+
+    G4MaterialPropertiesTable* mpt_SC_TYVEK = new G4MaterialPropertiesTable();
+    std::vector<G4double> refl_Tyvek = {0.9, 0.9};
+    std::vector<G4double> effi_Tyvek = {0.0, 0.0};
+    mpt_SC_TYVEK->AddProperty("REFLECTIVITY", photonEnergies, refl_Tyvek);
+    //mpt_SC_TYVEK->AddProperty("EFFICIENCY", photonEnergies, effi_Tyvek);
+
+    SC_TYVEK_SKIN_SURFACE->SetMaterialPropertiesTable(mpt_SC_TYVEK);
 
 }   //  ::SetOpticalSurfaces()
 

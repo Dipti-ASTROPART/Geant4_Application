@@ -416,4 +416,5 @@ CMakeFiles/g4sim.dir/src/g4PrimaryGenerator.cc.o: \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
  /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4LogicalVolume.icc \
  /home/dipti/Programs/G4SIM/inc/g4ConfigDetector.hh \
- /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh
+ /gamma/dipti/GEANT4/geant4-install/include/Geant4/G4Types.hh \
+ /home/dipti/Programs/G4SIM/inc/g4Constants.hh

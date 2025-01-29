@@ -37,19 +37,40 @@ void    MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
     //G4ParticleTable *partTable = G4ParticleTable::GetParticleTable();
 
     G4double partEne  = GenerateRandomEnergy();
-    
+
+    G4double theta = CLHEP::pi / 3.0 * G4UniformRand();       // θ between 0 and π
+    G4double phi   = 2 * CLHEP::pi * G4UniformRand();   // φ between 0 and 2π
+
+    // Convert to Cartesian coordinates
+    G4double px = std::sin(theta) * std::cos(phi);
+    G4double py = std::sin(theta) * std::sin(phi);
+    G4double pz = std::cos(theta);
+
     // Define position and momentum of the primary particle
     G4ThreeVector pos(fParticlePosX, fParticlePosY, fParticlePosZ);
-    G4ThreeVector mom(0., 0., 1.);
+    G4ThreeVector mom(px, py, pz);
 
     fParticleDef = GetUserParticle(Control.ParticleName);
+    if(fParticleDef == nullptr) exit(-1);
 
     // Initiate the particle gun
     fParticleGun->SetParticlePosition(pos);
     fParticleGun->SetParticleMomentumDirection(mom);
-    //fParticleGun->SetParticleMomentum(partEne * MeV);
     fParticleGun->SetParticleEnergy(partEne * MeV);
     fParticleGun->SetParticleDefinition(fParticleDef);
+
+    if(G4String(Control.ParticleName) == "Co-60" ||
+       G4String(Control.ParticleName) == "Cs-137" )
+    {
+        //G4cout << Control.ParticleName << G4endl; getchar();
+        fParticleGun->SetParticleCharge(0. * eplus);
+        fParticleGun->SetParticleEnergy(0. * MeV);
+
+    }
+    else
+    {
+        fParticleGun->SetParticleEnergy(partEne * MeV);
+    }
 
     // Shoot the particle from the assigned position and designated momentum direction
     fParticleGun->GeneratePrimaryVertex(anEvent);
@@ -177,22 +198,32 @@ G4ParticleDefinition    *MyPrimaryGenerator::GetUserParticle(G4String particleNa
     if (particleName == "Si30") {
         return G4IonTable::GetIonTable()->GetIon(14, 30, 0.0);
     }
+    if(particleName == "Co-60") //  Radioactive cobalt
+    {
+        return G4IonTable::GetIonTable()->GetIon(27, 60, 0.*keV);
+    }
+    if(particleName == "Cs-137") //  Radioactive cobalt
+    {
+        return G4IonTable::GetIonTable()->GetIon(55, 137, 0.*keV);
+    }
 
     // List of available particle names
     std::vector<std::string> availableParticles = {
+        "electron/e-", "positron/e+", "muon+/mu+", "muon-/mu-", "photon/gamma",
         "proton", "alpha", "Li6", "Li7", "Be9", "B10", "B11",
         "C12", "C13", "N14", "N15", "O16", "O17", "O18",
         "F19", "Ne20", "Ne21", "Ne22", "Na23", "Mg24",
-        "Mg25", "Mg26", "Al27", "Si28", "Si29", "Si30"
+        "Mg25", "Mg26", "Al27", "Si28", "Si29", "Si30", 
+        "Co-60 (Radioactive source), Cs-137 (Radioactive sourve)"
     };
 
     // Print error message with available particle names
-    std::cerr << "Error: Unknown particle name '" << particleName << "'." << std::endl;
-    std::cerr << "Available particles are: ";
+    std::cerr << "\n" << COLOR_ERROR << "*** Error: Unknown particle name '" << particleName << "'***" << std::endl;
+    std::cerr << COLOR_YELLOW << "Available particles are:";
     for (const auto& name : availableParticles) {
-        std::cerr << name << " ";
+        std::cerr<< "\n.... " << name ;
     }
-    std::cerr << std::endl;
+    std::cerr << COLOR_RESET<< std::endl;
 
     return nullptr;
 
