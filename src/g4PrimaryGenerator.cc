@@ -38,17 +38,27 @@ void    MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
 
     G4double partEne  = GenerateRandomEnergy();
 
-    G4double theta = CLHEP::pi / 3.0 * G4UniformRand();       // θ between 0 and π
-    G4double phi   = 2 * CLHEP::pi * G4UniformRand();   // φ between 0 and 2π
-
+    G4double PX, PY, PZ;
     // Convert to Cartesian coordinates
-    G4double px = std::sin(theta) * std::cos(phi);
-    G4double py = std::sin(theta) * std::sin(phi);
-    G4double pz = std::cos(theta);
+    if(fRANDOM_MOMENTUM_DIRECTION)
+    {
+        G4double theta = CLHEP::pi / 3.0 * G4UniformRand();       // θ between 0 and π
+        G4double phi   = 2 * CLHEP::pi * G4UniformRand();   // φ between 0 and 2π
+
+        PX = std::sin(theta) * std::cos(phi);
+        PY = std::sin(theta) * std::sin(phi);
+        PZ = std::cos(theta);
+    }
+    else
+    {
+        PX = fParticleMomX;
+        PY = fParticleMomY;
+        PZ = fParticleMomZ;
+    }
 
     // Define position and momentum of the primary particle
     G4ThreeVector pos(fParticlePosX, fParticlePosY, fParticlePosZ);
-    G4ThreeVector mom(px, py, pz);
+    G4ThreeVector mom(PX, PY, PZ);
 
     fParticleDef = GetUserParticle(Control.ParticleName);
     if(fParticleDef == nullptr) exit(-1);

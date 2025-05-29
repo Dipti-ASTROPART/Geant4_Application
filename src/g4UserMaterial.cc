@@ -31,6 +31,7 @@ void    MyMaterials::ResetMaterialPointers()
     WLSCLADIN   = nullptr;
     WLSCLADOUT  = nullptr;
     ALUMINUM    = nullptr;
+    SILICON     = nullptr;
     NAI_TL      = nullptr;
     LEAD        = nullptr;
 
@@ -95,6 +96,10 @@ void    MyMaterials::MiscellaneousMaterials()
 
     //---------------------- ALUMINUM --------------------------//
     ALUMINUM = nist->FindOrBuildMaterial("G4_Al");
+    //----------------------------------------------------------//
+
+    //---------------------- SILICON --------------------------//
+    SILICON = nist->FindOrBuildMaterial("G4_Si");
     //----------------------------------------------------------//
 
     //---------------------- ALUMINUM --------------------------//
@@ -440,6 +445,21 @@ void    MyMaterials::SetOpticalSurfaces()
     //mpt_SC_TYVEK->AddProperty("EFFICIENCY", photonEnergies, effi_Tyvek);
 
     SC_TYVEK_SKIN_SURFACE->SetMaterialPropertiesTable(mpt_SC_TYVEK);
+
+    //-------------------- DETECTOR_ALUMINIUM_SKIN SURFACE ------------------//
+    AL_COATING_SURFACE = new G4OpticalSurface("AL_COATING_SURFACE");
+    AL_COATING_SURFACE ->SetType(dielectric_metal);
+    AL_COATING_SURFACE ->SetFinish(ground);
+    AL_COATING_SURFACE ->SetModel(unified);
+
+    G4MaterialPropertiesTable* mpt_AL_COATING = new G4MaterialPropertiesTable();
+    std::vector<G4double> refl_AL = {0.99, 0.99};
+    std::vector<G4double> effi_AL = {0.0, 0.0};
+    mpt_AL_COATING->AddProperty("REFLECTIVITY", photonEnergies, refl_AL);
+    //mpt_AL_COATING->AddProperty("EFFICIENCY", photonEnergies, effi_AL);
+
+    AL_COATING_SURFACE->SetMaterialPropertiesTable(mpt_AL_COATING);
+
 
 }   //  ::SetOpticalSurfaces()
 

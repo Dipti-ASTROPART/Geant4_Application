@@ -37,6 +37,7 @@ class   MyMaterials
                             *WLSCLADOUT,
                             *ALUMINUM,
                             *NAI_TL,
+                            *SILICON,
                             *LEAD;
         G4OpticalSurface    *TYVEK_SURFACE,
                             *CORE_CLAD_SURFACE,
@@ -44,6 +45,7 @@ class   MyMaterials
                             *CLAD_ENV_SURFACE,
                             *CORE_ENV_SURFACE,
                             *MIRROR_SURFACE,
+                            *AL_COATING_SURFACE,
                             *SC_TYVEK_SKIN_SURFACE,
                             *PHOTON_DET_SURFACE;
 

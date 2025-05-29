@@ -60,8 +60,8 @@ void    MyEventAction::EndOfEventAction(const G4Event *event)
 {
     // Get photon hits
     G4int photonsSCSD= 0;
-    G4int photonsSD1 = 0;
-    G4int photonsSD2 = 0;
+    G4int photonsSiPM1x1 = 0;
+    G4int photonsSiPM3x3 = 0;
     G4int inpartID   = -1;
 
     const   MyRunAction* runAction = static_cast<const MyRunAction*>(G4RunManager::GetRunManager()->GetUserRunAction());
@@ -75,16 +75,13 @@ void    MyEventAction::EndOfEventAction(const G4Event *event)
     if(fSETSENSITIVEDETECTOR)
     {
         // Invoke the sensitive detectors
-        MySensitiveDetector* sd0 = static_cast<MySensitiveDetector*>(sdManager->FindSensitiveDetector("mySCSD"));
-        //MySensitiveDetector* sd1 = static_cast<MySensitiveDetector*>(sdManager->FindSensitiveDetector("mySD1"));
-        //MySensitiveDetector* sd2 = static_cast<MySensitiveDetector*>(sdManager->FindSensitiveDetector("mySD2"));
+        MySensitiveDetector* sd3x3 = static_cast<MySensitiveDetector*>(sdManager->FindSensitiveDetector("SiPM3SD"));
+        MySensitiveDetector* sd1x1 = static_cast<MySensitiveDetector*>(sdManager->FindSensitiveDetector("SiPM1SD"));
 
-        photonsSCSD= sd0->GetPhotonHits();
-        //photonsSD1 = sd1->GetPhotonHits();
-        //photonsSD2 = sd2->GetPhotonHits();
+        photonsSiPM1x1= sd1x1->GetPhotonHits();
+        photonsSiPM3x3= sd3x3->GetPhotonHits();
     }
-
-    G4int totalphotons = photonsSD1 + photonsSD2;
+    G4int totalphotons = photonsSiPM1x1 + photonsSiPM3x3;
 
     // Invoke the G4AnalysisManager
     G4AnalysisManager *man = G4AnalysisManager::Instance();
@@ -93,25 +90,25 @@ void    MyEventAction::EndOfEventAction(const G4Event *event)
     man->FillNtupleDColumn(0, primaryParticle->GetTotalEnergy()/MeV);
     man->FillNtupleDColumn(1, primaryParticle->GetMass()/MeV);
     man->FillNtupleDColumn(2, fEdep);
-    man->FillNtupleDColumn(3, photonsSCSD);
+    man->FillNtupleDColumn(3, photonsSiPM1x1);
+    man->FillNtupleDColumn(4, photonsSiPM3x3);
  
     if(gammaDetected == TRUE && electronDetected == TRUE) inpartID = 2;         ///< Both e and gamma detected
     else if(gammaDetected == TRUE  && electronDetected == FALSE) inpartID = 0;  ///< Gamma detected
     else if(gammaDetected == FALSE && electronDetected == TRUE)  inpartID = 1;  ///< Electron detected
     else inpartID = -1;
 
-    man->FillNtupleDColumn(4, inpartID);
 
     man->FillH1(0, fEdep);
-    man->FillH1(3, photonsSD1);
-    man->FillH1(4, photonsSD2);
+    man->FillH1(3, photonsSiPM1x1);
+    man->FillH1(4, photonsSiPM3x3);
     man->FillH1(5, totalphotons);
     man->FillH1(6, fEdep/keV);
     if(photonsSCSD!=0)
         man->FillH1(7, photonsSCSD);
 
     //  Write the branch
-    if(inpartID > -1)
+    //if(inpartID > -1)
     man->AddNtupleRow();
 
     if(runAction->IsVisualModeEnabled() == true)
@@ -122,8 +119,8 @@ void    MyEventAction::EndOfEventAction(const G4Event *event)
         G4cout << COLOR_CYAN << "Total number of optical photons in Detector ...: " << COLOR_YELLOW << nOpticalPhotons << G4endl;
         //G4cout << COLOR_CYAN << "Total number of optical photons in Fiber ......: " << COLOR_YELLOW << nWLSPhotons << G4endl;
         G4cout << COLOR_CYAN << "Total Energy for optical photons ..............: " << COLOR_YELLOW << fOptPhotonE/keV <<" keV" << G4endl;
-        //G4cout << COLOR_CYAN << "Total photons collected by WLS Fiber (end 1) ..: " << COLOR_YELLOW << photonsSD1<< G4endl;
-        ///G4cout << COLOR_CYAN << "Total photons collected by WLS Fiber (end 2) ..: " << COLOR_YELLOW << photonsSD2<< G4endl;
+        G4cout << COLOR_CYAN << "Total photons collected by 1x1 SiPM ..: " << COLOR_YELLOW << photonsSiPM1x1<< G4endl;
+        G4cout << COLOR_CYAN << "Total photons collected by 3x3 SiPM ..: " << COLOR_YELLOW << photonsSiPM3x3<< G4endl;
         G4cout << COLOR_CYAN << "Total number of Collected photons by the PMT   : " << COLOR_YELLOW << photonsSCSD << G4endl;
         G4cout << COLOR_GREEN << "............................................................................" << COLOR_RESET <<G4endl;
         G4cout<<G4endl;

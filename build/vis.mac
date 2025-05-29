@@ -6,7 +6,7 @@
 /vis/viewer/set/autoRefresh true
 /vis/scene/add/trajectories smooth
 /vis/scene/add/scale 1 m
-/vis/scene/add/axes
+/vis/scene/add/axes 0 0 0 50 cm
 /vis/scene/add/eventID
 #/vis/reviewKeptEvents
 /vis/scene/endOfEventAction accumulate

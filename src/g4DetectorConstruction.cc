@@ -265,7 +265,7 @@ void    MyDetectorConstruction::BuildTestingModel()
     sScoringVolumes.primaryDetector = logicSC;                 ///< Assign scoring volumes
 
     G4ThreeVector positionDetector = G4ThreeVector(0, 0, 0);
-    new G4PVPlacement(0,                      // no rotation
+    G4VPhysicalVolume* physSC = new G4PVPlacement(0,                      // no rotation
             positionDetector,       // shifted position for detector
             logicSC,                // logical volume for detector
             "physSC",     // name
@@ -274,34 +274,82 @@ void    MyDetectorConstruction::BuildTestingModel()
             0,                      // copy number
             checkOverlaps);         // checking overlaps
 
-    // This can add a simple skin that reflects 90% photons 
-    //new G4LogicalSkinSurface("SC_TYVEK_SKIN", logicSC, cMaterial.SC_TYVEK_SKIN_SURFACE);
+    //new G4LogicalSkinSurface("ReflectiveCoating", logicSC, cMaterial.AL_COATING_SURFACE);
 
-    //----- Add the tyvek coating surrounding the detector  -----//
-    G4double tyvekSide   = fBoxDetX + 2 * fTyvekThickness;
-    G4double tyvekLength = fBoxDetZ + 2*fTyvekThickness;
+    G4double coatingThickness = 0.1 * mm;
 
-    // Create solid tyvek box
-    G4Box *solidTyvekCoat = new G4Box("solidTyvekCoat", tyvekSide / 2, tyvekSide / 2, tyvekLength / 2);
+    G4double xSize = fBoxDetX / 2.0;
+    G4double ySize = fBoxDetY / 2.0;
+    G4double zSize = fBoxDetZ / 2.0;
 
-    // Subtract the detector volume to create the layer
-    G4SubtractionSolid* solidTyvekLayer = new G4SubtractionSolid("solidTyvekLayer", solidTyvekCoat, solidSC);
-    G4LogicalVolume*    logicTyvekLayer = new G4LogicalVolume(solidTyvekLayer, cMaterial.TYVEK, "logicTyvekLayer");
-    G4VPhysicalVolume* physTyvekLayer = new G4PVPlacement (0, positionDetector, logicTyvekLayer, "physTyvekLayer", logicSC, false, 0, checkOverlaps);
-    new G4LogicalSkinSurface("tyvekSkinSurface", logicSC, cMaterial.SC_TYVEK_SKIN_SURFACE);
+    // Side in +X and -X
+    G4Box* solidCoatingX = new G4Box("solidCoatingX", coatingThickness / 2, ySize, zSize);
+    G4Box* solidCoatingY = new G4Box("solidCoatingY", xSize, coatingThickness / 2, zSize);
+
+    G4Material* tyvek = G4Material::GetMaterial("G4_Al");  // or define custom
+    G4LogicalVolume* logicCoatingX = new G4LogicalVolume(solidCoatingX, tyvek, "logicCoatingX");
+    G4LogicalVolume* logicCoatingY = new G4LogicalVolume(solidCoatingY, tyvek, "logicCoatingY");
+
+    // +X
+    G4VPhysicalVolume* physCoatingPX = new G4PVPlacement(0, G4ThreeVector(xSize + coatingThickness / 2, 0, 0),
+            logicCoatingX, "physCoatingPX", logicEnv, false, 0, checkOverlaps);
+
+    // -X
+    G4VPhysicalVolume* physCoatingMX = new G4PVPlacement(0, G4ThreeVector(-xSize - coatingThickness / 2, 0, 0),
+            logicCoatingX, "physCoatingMX", logicEnv, false, 1, checkOverlaps);
+
+    // +Y
+    G4VPhysicalVolume* physCoatingPY = new G4PVPlacement(0, G4ThreeVector(0, ySize + coatingThickness / 2, 0),
+            logicCoatingY, "physCoatingPY", logicEnv, false, 2, checkOverlaps);
+
+    // -Y
+    G4VPhysicalVolume* physCoatingMY = new G4PVPlacement(0, G4ThreeVector(0, -ySize - coatingThickness / 2, 0),
+            logicCoatingY, "physCoatingMY", logicEnv, false, 3, checkOverlaps);
+
+    new G4LogicalBorderSurface("PX_Surface", physSC, physCoatingPX, cMaterial.AL_COATING_SURFACE);
+    new G4LogicalBorderSurface("MX_Surface", physSC, physCoatingMX, cMaterial.AL_COATING_SURFACE);
+    new G4LogicalBorderSurface("PY_Surface", physSC, physCoatingPY, cMaterial.AL_COATING_SURFACE);
+    new G4LogicalBorderSurface("MY_Surface", physSC, physCoatingMY, cMaterial.AL_COATING_SURFACE);
 
 
-    // Attach a sensitive detector just below the scintillator detector
-    G4double fSCSDThickness = 0.5 * mm;
-    G4Tubs* solidSCSD           = new G4Tubs("solidSCSD", 0, fCylRadius, fSCSDThickness, fCylStartAngle, fCylStopAngle);
-    G4LogicalVolume* logicSCSD  = new G4LogicalVolume(solidSCSD, cMaterial.ALUMINUM, "logicSCSD");
-    new G4PVPlacement(0, G4ThreeVector(0, 0, fBoxDetZ/2.0 + fSCSDThickness), logicSCSD, "physSCSD", logicEnv, false, 0, checkOverlaps);
-    new G4LogicalSkinSurface("PhotonDetSurface0", logicSCSD, cMaterial.PHOTON_DET_SURFACE);
 
-    //SetVisualAttributes(logicLead, "red", 0.8);
+
+    G4double sipmSizeXY3 = 3.0 * mm;  // Half-lengths → 3 mm full size
+    G4double sipmSizeXY1 = 1.0 * mm;  // Half-lengths → 3 mm full size
+    G4double sipmThickness = 1.0 * mm;  // Thickness of the SiPM (adjust if needed)
+
+    G4Box* solidSiPM3x3 = new G4Box("solidSiPM3x3", sipmSizeXY3/2, sipmSizeXY3/2, sipmThickness/2);
+    G4Box* solidSiPM1x1 = new G4Box("solidSiPM1x1", sipmSizeXY1/2, sipmSizeXY1/2, sipmThickness/2);
+
+    G4LogicalVolume* logicSiPM3x3 = new G4LogicalVolume(solidSiPM3x3, cMaterial.SILICON, "logicSiPM3x3");
+    G4LogicalVolume* logicSiPM1x1 = new G4LogicalVolume(solidSiPM1x1, cMaterial.SILICON, "logicSiPM1x1");
+    new G4PVPlacement(
+            0,
+            G4ThreeVector(0, 0, fBoxDetZ / 2.0 + sipmThickness/2.0),
+            logicSiPM3x3,
+            "physSiPM3x3",
+            logicEnv,
+            false,
+            0,
+            checkOverlaps
+            );
+    new G4PVPlacement(
+            0,
+            G4ThreeVector(0, 0, -fBoxDetZ / 2.0 - sipmThickness/2.0),
+            logicSiPM1x1,
+            "physSiPM1x1",
+            logicEnv,
+            false,
+            0,
+            checkOverlaps
+            );
+    new G4LogicalSkinSurface("SiPMSurface1", logicSiPM3x3, cMaterial.PHOTON_DET_SURFACE);
+    new G4LogicalSkinSurface("SiPMSurface2", logicSiPM1x1, cMaterial.PHOTON_DET_SURFACE);
+
     SetVisualAttributes(logicSC, "blue", 0.9);
-    SetVisualAttributes(logicSCSD, "magenta", 0.9);
-    SetVisualAttributes(logicTyvekLayer, "grey", 0.3);
+    SetVisualAttributes(logicSiPM3x3, "magenta", 0.9);
+    SetVisualAttributes(logicSiPM1x1, "magenta", 0.9);
+    //SetVisualAttributes(logicTyvekLayer, "grey", 0.3);
 
 }   //  ::BuildTestingModel()
 
@@ -545,19 +593,13 @@ void    MyDetectorConstruction::ConstructSDandField()
     {
         G4SDManager* sdManager = G4SDManager::GetSDMpointer();
 
-        // Create and register the sensitive detector
-        //MySensitiveDetector *mySD1= new MySensitiveDetector("mySD1");
-        //sdManager->AddNewDetector(mySD1);
-        // Attach sensitive detectors
-        //SetSensitiveDetector("logicFiberSD1", mySD1);
+        MySensitiveDetector *SiPM3SD = new MySensitiveDetector("SiPM3SD");
+        MySensitiveDetector *SiPM1SD = new MySensitiveDetector("SiPM1SD");
 
-        //MySensitiveDetector *mySD2= new MySensitiveDetector("mySD2");
-        //sdManager->AddNewDetector(mySD2);
-        //SetSensitiveDetector("logicFiberSD2", mySD2);
-
-        MySensitiveDetector *mySCSD = new MySensitiveDetector("mySCSD");
-        sdManager->AddNewDetector(mySCSD);
-        SetSensitiveDetector("logicSCSD", mySCSD);
+        sdManager->AddNewDetector(SiPM1SD);
+        sdManager->AddNewDetector(SiPM3SD);
+        SetSensitiveDetector("logicSiPM3x3", SiPM3SD);
+        SetSensitiveDetector("logicSiPM1x1", SiPM1SD);
 
     }
 

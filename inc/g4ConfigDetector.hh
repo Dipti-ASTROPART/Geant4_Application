@@ -10,16 +10,16 @@ const   G4double inchToCentiMeter = 0.0254*100;
 
 // Configure box shaped world volume
 const   G4double  fWorldXY = 15.0 *cm;
-const   G4double  fWorldZ  = 40.0 *cm;
+const   G4double  fWorldZ  = 20.0 *cm;
 
 // Configure cylinder shaped world volume
 const   G4double fCylWorldRadius = 20.0 *cm;
 const   G4double fCylWorldHeight = 60.0 *cm;
 
 // Configure Box shaped detector
-const   G4double fBoxDetX = 5.0 *cm;
-const   G4double fBoxDetY = 5.0 *cm;
-const   G4double fBoxDetZ = 15.0 *cm;
+const   G4double fBoxDetX = 1.0 *cm;
+const   G4double fBoxDetY = 4.0 *cm;
+const   G4double fBoxDetZ = 12.0 *cm;
 
 // Define parameters for a cylindrical scintillator detector
 const   G4bool    checkOverlaps       = true;
@@ -53,11 +53,14 @@ const   G4double  fCylEnvRadius = 2 * fCylRadius;
 const   G4double  fCylEnvHeight = fWorldZ;
 
 // Configure particle gun
-const   G4double  fParticlePosX = 0;
-const   G4double  fParticlePosY = 0;
-//const   G4double  fParticlePosZ = -(fNCylinders*fCylHeight)/2.0;
-const   G4double  fParticlePosZ = -fBoxDetZ/2.0 - 0.10*cm;
-const   G4bool    fRANDOM_MOMENTUM_DIRECTION = true;
+const   G4double  fParticlePosX = -fBoxDetX - 0.00*cm;
+const   G4double  fParticlePosY = -fBoxDetY/2.0 + 3.9*cm;
+const   G4double  fParticlePosZ = 0 * cm;
+
+const   G4bool    fRANDOM_MOMENTUM_DIRECTION = false;
+const   G4double  fParticleMomX = 1;
+const   G4double  fParticleMomY = 0;
+const   G4double  fParticleMomZ = 0;
 
 const   G4double  fOpticalPhotonMinEnergy = 1.5 *eV;
 const   G4double  fOpticalPhotonMaxEnergy = 3.6 *eV;

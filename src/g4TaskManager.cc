@@ -42,11 +42,11 @@ void    MyTaskManager::AssignTask()
     }
 
     // Initialize Geant4 run manager
-    G4RunManager    *runManager = new G4RunManager();
+    //G4RunManager    *runManager = new G4RunManager();
         // Set a different seed based on the current time
     G4Random::setTheSeed(static_cast<unsigned long>(time(nullptr)));
-    //G4MTRunManager    *runManager = new G4MTRunManager();
-    //runManager->SetNumberOfThreads(6);
+    G4MTRunManager    *runManager = new G4MTRunManager();
+    runManager->SetNumberOfThreads(8);
 
     // Geant4 run manager needs three user initialization classes
     runManager->SetUserInitialization(new MyDetectorConstruction());                    ///< 1. Detector construction class

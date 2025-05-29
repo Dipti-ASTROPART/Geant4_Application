@@ -81,7 +81,7 @@ ADD_EXECUTABLE(g4sim src/g4main.cc ${sources} ${headers})
 TARGET_LINK_LIBRARIES(g4sim ${Geant4_LIBRARIES})
 TARGET_LINK_LIBRARIES(g4sim ${ROOT_LIBRARIES})
 
-ADD_CUSTOM_TARGET(G4Sim DEPENDS g4sim)
+#ADD_CUSTOM_TARGET(G4Sim DEPENDS g4sim)
 #--------------------------------------------------------------------------------
 # Create the top and bottom borders of the box
 STRING(REPEAT "-" ${BOX_WIDTH} BORDER)
@@ -97,10 +97,10 @@ MESSAGE(STATUS "${MAGENTA}+${BORDER}+${RESET}")
 #--------------------------------------------------------------------------------
 
 # Add a custom target to print the author name
-ADD_CUSTOM_TARGET(success ALL
-    COMMAND ${CMAKE_COMMAND} -E env bash ${CMAKE_SOURCE_DIR}/print_author_info.sh
-)
+#ADD_CUSTOM_TARGET(success ALL
+#    COMMAND ${CMAKE_COMMAND} -E env bash ${CMAKE_SOURCE_DIR}/print_author_info.sh
+#)
 
 # Make sure the author name is printed when building the main target
-ADD_DEPENDENCIES(G4Sim success)
+#ADD_DEPENDENCIES(G4Sim success)
 #--------------------------------------------------------------------------------

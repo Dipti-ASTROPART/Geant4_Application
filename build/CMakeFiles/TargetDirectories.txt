@@ -1,5 +1,3 @@
-/home/dipti/Programs/G4SIM/build/CMakeFiles/g4sim.dir
-/home/dipti/Programs/G4SIM/build/CMakeFiles/G4Sim.dir
-/home/dipti/Programs/G4SIM/build/CMakeFiles/success.dir
-/home/dipti/Programs/G4SIM/build/CMakeFiles/edit_cache.dir
-/home/dipti/Programs/G4SIM/build/CMakeFiles/rebuild_cache.dir
+/Users/dipti/Work/Programs/G4ZireBar/build/CMakeFiles/g4sim.dir
+/Users/dipti/Work/Programs/G4ZireBar/build/CMakeFiles/edit_cache.dir
+/Users/dipti/Work/Programs/G4ZireBar/build/CMakeFiles/rebuild_cache.dir
