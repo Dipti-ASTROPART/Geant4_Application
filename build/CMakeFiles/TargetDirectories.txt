@@ -1,3 +1,0 @@
-/Users/dipti/Work/Programs/G4ZireBar/build/CMakeFiles/g4sim.dir
-/Users/dipti/Work/Programs/G4ZireBar/build/CMakeFiles/edit_cache.dir
-/Users/dipti/Work/Programs/G4ZireBar/build/CMakeFiles/rebuild_cache.dir
